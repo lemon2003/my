@@ -1,0 +1,22 @@
+const words = [
+    { english: "experiment", chinese: "iks'perimənt n.实验试验尝试vi.做实验尝试" },
+    { english: "goal", chinese: "gəul n.球门得分目的终点" },
+    { english: "decline", chinese: "di’klain vt.下倾；偏斜；衰退" },
+    { english: "kettle", chinese: "'ketl n.水壶水锅坑穴" },
+    { english: "corrode", chinese: "kә’rәud vt.vi 腐蚀,侵蚀,破坏" },
+    { english: "data", chinese: "'deitə n.(datum的复数)数据资料" },
+    { english: "stocking", chinese: "stɔkiŋ n.长(统)袜" },
+    { english: "china", chinese: "'tʃainə n.瓷器瓷料" },
+    { english: "pedal", chinese: "‘pedl n.踏脚，踏板，脚蹬" },
+    { english: "pretend", chinese: "pri'tend vt.假托借口vi.假装伪称adj.假装的赝品的模拟的" },
+    { english: "evident", chinese: "'evidənt adj.明显的明白的" },
+    { english: "warn", chinese: "wɔ:n vt.警告告诫预先通知vi.发生警告" },
+    { english: "summary", chinese: "'sʌməri n.摘要概要一览adj.概要的简略的" },
+    { english: "vertical", chinese: "'və:tikəl a.垂直的竖式的顶点的纵向的n.垂直物垂直的位置" },
+    { english: "extraordinary", chinese: "iks'trɔ:dnri adj.非同寻常的特别的非凡的特派的" },
+    { english: "decade", chinese: "'dekeid n.十年十年期" },
+    { english: "gasoline", chinese: "'gæsəli:n n.(美)汽油" },
+    { english: "seemingly", chinese: "‘si:miŋli ad.表面上，外表上" },
+    { english: "underline", chinese: ".ʌndə'lain vt.划线于...之下在...下面划线" },
+    { english: "radium", chinese: "'reidiəm n.镭" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "alongside", chinese: "ә’lɔŋ’said prep.在…旁边" },
+    { english: "sparrow", chinese: "'spærəu n.麻雀" },
+    { english: "suppress", chinese: "sә’pres vt.镇压；抑制；隐瞒" },
+    { english: "raise", chinese: "reiz vt.举起引起提高升起饲养提出n.上升增高高地" },
+    { english: "servant", chinese: "'sə:vənt n.仆人佣人雇工" },
+    { english: "rude", chinese: "ru:d adj.加工粗糙的粗野的无礼的" },
+    { english: "deficiency", chinese: "di’fiʃәnsi n.缺乏；不足之数" },
+    { english: "prayer", chinese: "prɛə n.祈祷祈求祷告祷文v.祷告祷文" },
+    { english: "sandwich", chinese: "'sændwitʃ n.三明治vt.夹入插入夹在中间" },
+    { english: "immigrant", chinese: "'imigrənt n.移民侨民adj.移民的" },
+    { english: "setting", chinese: "setiŋ n.安装调整环境放置周围(为诗等谱写的)乐曲" },
+    { english: "poster", chinese: "‘pәustә n. 海报,招贴,脚夫" },
+    { english: "manufacture", chinese: ".mænju'fæktʃə vt.制造加工vi.参与制造n.制造产品制造业" },
+    { english: "illusion", chinese: "i’lju:ʒәn n.幻想；错觉；假象" },
+    { english: "rate", chinese: "reitn.比率速度价格等级vt.估价认为定等级责骂vi.受欢迎受推崇责" },
+    { english: "sweat", chinese: "swetn.汗汗水(凝结在物体表面的)水珠焦急繁重工作vi.出汗渗出焦" },
+    { english: "shampoo", chinese: "ʃæm'pu: vt.用洗发剂洗洗(头发地毯等)n.洗头洗发剂洗涤剂" },
+    { english: "lie", chinese: "lai vi.躺平放位于说谎欺骗n.谎言" },
+    { english: "textbook", chinese: "'tekstbuk n.课本教科书" },
+    { english: "onto", chinese: "'ɔntu: prep.到...上" }
+];

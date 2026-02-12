@@ -1,0 +1,22 @@
+const words = [
+    { english: "amateur", chinese: "‘æmәtә: a.业余的n.业余爱好者" },
+    { english: "greedy", chinese: "'gri:di adj.贪吃的贪婪的" },
+    { english: "conversion", chinese: "kən'və:ʃən n.转变转化改变改变信仰换位" },
+    { english: "situated", chinese: "‘sitjueitid a.位于…的" },
+    { english: "task", chinese: "tɑ:sk n.任务工作作业vt.交给某人(任务)" },
+    { english: "pump", chinese: "pʌmpn.泵抽水机打气筒心脏抽水轻软舞鞋vt.用抽机抽抽水打气用泵" },
+    { english: "trace", chinese: "treis n.痕迹踪迹微量丝毫vt.跟踪追踪找出根源描绘vi.追踪" },
+    { english: "crazy", chinese: "'kreizi adj.疯狂的荒唐的" },
+    { english: "cat", chinese: "kætn.猫猫科猫皮邪恶的女人吊锚机单帆小船vt.吊锚vi.寻找性交伴" },
+    { english: "negotiate", chinese: "ni’gәuʃieit vi.谈判，交涉，议定" },
+    { english: "crane", chinese: "krein n.起重机摄影升降机鹤v.引颈伸长(脖子)vt.伸长(脖子等)" },
+    { english: "tune", chinese: "tju:n n.调子和谐曲调协调调整vt.调整为...调音vi.和谐调音" },
+    { english: "twelve", chinese: "twelv num.十二十二个" },
+    { english: "Plausible", chinese: "‘plɔ: zәbl a. 似乎真实的, 似乎合理的" },
+    { english: "compute", chinese: "kəm'pju:t vt.计算估计估算" },
+    { english: "theatre", chinese: "'θiətə n.戏院戏剧教室=theater" },
+    { english: "exit", chinese: "'eksit n.出口退场离去vi.退出死亡vt.离开" },
+    { english: "punctual", chinese: "pʌŋktjuəl adj.严守时刻的准时的正点的" },
+    { english: "punch", chinese: "pʌntʃvt.冲出以拳重击开洞剪票按(键)n.冲压机打洞器钻孔机殴打酒" },
+    { english: "type", chinese: "taip n.型类型种类典型铅字vi.打字" }
+];

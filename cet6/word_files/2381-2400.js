@@ -1,0 +1,22 @@
+const words = [
+    { english: "extent", chinese: "iks'tent n.广度范围程度宽度长度大小[律]<英>扣押<美>临时所有权令" },
+    { english: "gamble", chinese: "‘gæmbl n.赌博 vt.冒…的险" },
+    { english: "recovery", chinese: "ri'kʌvəri n.重获痊愈恢复复原" },
+    { english: "frequency", chinese: "'fri:kwənsi n.屡次次数频率频繁" },
+    { english: "natural", chinese: "'nætʃərəl adj.自然界的天然的正常的天生的n.有天赋的人" },
+    { english: "composition", chinese: ".kɔmpə'ziʃən n.构成作品写作作文著作组织合成物成份" },
+    { english: "though", chinese: "ðəu conj.虽然尽管adv.可是然而不过" },
+    { english: "poisonous", chinese: "'pɔizənəs adj.有毒的有害的恶意的" },
+    { english: "mouse", chinese: "mausn.老鼠耗子鼠标胆小如鼠的人乌青色的肿块vi.捕鼠蹑手蹑脚行" },
+    { english: "Canada", chinese: "'kænədə n.加拿大" },
+    { english: "pocket", chinese: "'pɔkitn.衣袋口袋钱袋袖珍的vt.装...在口袋里隐藏私吞adj.小型的钱" },
+    { english: "luminous", chinese: "‘lju:minәs a.发光的；光明的" },
+    { english: "way", chinese: "wein.路路线道路方法方式方向adv.非常远远地adj.与路线的中间点" },
+    { english: "age", chinese: "eidʒ n.年龄时代时期很长时间vt.(使)变老vi.变老(使）变成熟" },
+    { english: "language", chinese: "læŋgwidʒ n.语言语言课程" },
+    { english: "partition", chinese: "pa:’tiʃәn n.分开，分割；融墙" },
+    { english: "disturbance", chinese: "dis’tә:bәns n.动乱；干扰；侵犯" },
+    { english: "tobacco", chinese: "tə'bækəu n.烟草烟叶" },
+    { english: "centigrade", chinese: "'sentigreid adj.百分度的摄氏的" },
+    { english: "reform", chinese: "ri'fɔ:rm n.改革改正感化vt.改革改正使悔改vi.改良悔改" }
+];

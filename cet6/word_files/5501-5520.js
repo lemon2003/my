@@ -1,0 +1,22 @@
+const words = [
+    { english: "everywhere", chinese: "'evriwɛə adv.到处处处无论何处" },
+    { english: "deadly", chinese: "'dedli adj.致命的致死的死一般的adv.非常地如死一般地" },
+    { english: "husband", chinese: "'hʌzbənd n.丈夫vt.节俭" },
+    { english: "ponder", chinese: "‘pɔndә vt.考虑 vi.沉思" },
+    { english: "polish", chinese: "'pɔliʃ vt.磨光擦亮使优美推敲完善vi.变光亮n.光泽上光剂优雅精良" },
+    { english: "current", chinese: "'kʌrənt adj.当前的现在的最近的通用的流通的n.(水、气、电)流趋势" },
+    { english: "alive", chinese: "ə'laiv adj.活着的有活力活跃的" },
+    { english: "crawl", chinese: "krɔ:l vi.爬爬行n.爬行匍匐而行" },
+    { english: "slowly", chinese: "'sləuli adv.慢慢地" },
+    { english: "appropriate", chinese: "ə'prəupri:ət adj.适当的恰当的相称的vt.拨出(款项)占用" },
+    { english: "these", chinese: "ði:z adj. &pron.这些" },
+    { english: "plastic", chinese: "'plæstik adj.可塑料的可塑的体态好的n.塑料(外科)整形的信用卡" },
+    { english: "major", chinese: "'meidʒəadj.较大的主要的较多的大部份的n.专业主修成年人陆军少校巨" },
+    { english: "navy", chinese: "'neivi n.海军船队深蓝色" },
+    { english: "terrific", chinese: "tə'rifik adj.可怕的极大的极好的非常的" },
+    { english: "anniversary", chinese: ",æni’vә:sәri n.周年纪念日" },
+    { english: "remnant", chinese: "‘remnәnt n.残留部分，遗迹a.剩余,残余的" },
+    { english: "shady", chinese: "'ʃeidi adj.成荫的阴凉的可疑的" },
+    { english: "relation", chinese: "ri'leiʃən n.关系联系家属亲戚参考陈述故事" },
+    { english: "shelter", chinese: "'ʃeltə n.隐蔽处掩蔽庇护庇护所避难所v.庇护保护隐匿" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "wish", chinese: "wiʃ vt.祝想要希望n.希望渴望愿望(复数)祝颂命令" },
+    { english: "rapidly", chinese: "'ræpidli adv.迅速地" },
+    { english: "philosopher", chinese: "fi'lɔsəfə n.哲学家思想家达观者" },
+    { english: "inhabit", chinese: "in’hæbit vt.居住于，栖息于" },
+    { english: "small", chinese: "smɔ:l adj.小的少的小型的adv.些许地n.狭小部分" },
+    { english: "obvious", chinese: "'ɔbviəs adj.明显的显而易见的" },
+    { english: "dwell", chinese: "dwel n.居住 vi.凝思，细想" },
+    { english: "loose", chinese: "lu:sadj.松的宽松的不牢固的不精确的n.解放放任放纵v.释放放枪开" },
+    { english: "hamper", chinese: "‘hæmpә vt.妨碍，阻碍，牵制" },
+    { english: "explosion", chinese: "iks'pləuʒən n.爆炸爆发炸裂激增" },
+    { english: "minus", chinese: "'mainəs adj.负的减的prep.减(去)n.减号负数缺点" },
+    { english: "mode", chinese: "məud n.方式样式模式风格时兴" },
+    { english: "remote", chinese: "ri'məutadj.相隔很远的遥远的冷淡的偏僻的远程的(感情等)距离很大n." },
+    { english: "longitude", chinese: "‘lɔndʒitju:d n.经线，经度" },
+    { english: "glass", chinese: "glɑ:sn. 玻璃玻璃杯玻璃器皿窗户(复)眼镜透镜vt. 用玻璃把…盖(或" },
+    { english: "steamer", chinese: "'sti:mə n.轮船汽船蒸笼" },
+    { english: "react", chinese: "ri'ækt vi.起反应起作用有影响反攻vt.作出反应" },
+    { english: "wreath", chinese: "ri:θ n.花环花圈花冠" },
+    { english: "easter", chinese: "‘i:stә n. 复活节" },
+    { english: "glad", chinese: "glæd adj.高兴的乐意的v.<古>使高兴n.剑兰" }
+];

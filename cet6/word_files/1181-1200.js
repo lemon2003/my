@@ -1,0 +1,22 @@
+const words = [
+    { english: "identity", chinese: "ai’dentiti n. 相同,身分,恒等式,特性,一致" },
+    { english: "edge", chinese: "edʒ n.边缘边刀口vt.给...加上边缓慢横过使逐渐丧失vi.徐徐前进" },
+    { english: "AI", chinese: "ai abbr.人工智能=(Artificial Intelligence)" },
+    { english: "inventory", chinese: "‘invәn’tәuri n. 详细目录,存货清单" },
+    { english: "characteristic", chinese: ".kæriktə'ristik adj.特有的典型的n.特性特征特色" },
+    { english: "betray", chinese: "bi’trei vt.背叛；辜负；泄漏" },
+    { english: "separation", chinese: ".sepə'reiʃən n.分离分开分居缺口" },
+    { english: "consideration", chinese: "kənsidə'reiʃən n.考虑思考体贴考虑因素敬重意见" },
+    { english: "presume", chinese: "pri’zju:m vt.假定，假设，揣测" },
+    { english: "criminal", chinese: "'kriminəl n.犯人罪犯刑事犯adj.犯罪的刑事的无耻的" },
+    { english: "behind", chinese: "bi'haindadv.在后面落后迟地adj.后面的落后的迟的慢的prep.在...后面" },
+    { english: "statesman", chinese: "'steitsmən n.政治家国务活动家" },
+    { english: "dread", chinese: "dred n.畏惧恐怖可怕的人可怕的事vt.惧怕恐惧adj.可怕的可怖的" },
+    { english: "wedge", chinese: "wedʒ n.楔 vt.楔入；挤入" },
+    { english: "wrong", chinese: "rɔŋadj.错误的有毛病的不正常的adv.错不对n.错误不公正坏事vt." },
+    { english: "nurse", chinese: "nə:s n.保姆护士奶妈vt.看护哺乳vi.看护照顾栽培当看护" },
+    { english: "lumber", chinese: "'lʌmbə n.木材木料制材v.伐木vi.缓慢地移动vt.拖累" },
+    { english: "Nominal", chinese: "‘nɔminl a. 名义上的,名字的 n. 名词性词" },
+    { english: "industry", chinese: "'indəstri n.工业产业勤劳" },
+    { english: "transmit", chinese: "trænz'mitvt.传送传达发射传输代代相传vi.(以无线电或有线电的方式)发" }
+];

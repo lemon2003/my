@@ -1,0 +1,22 @@
+const words = [
+    { english: "charity", chinese: "'tʃæriti n.施舍慈善事业慈善慈善机关(团体)仁慈宽厚" },
+    { english: "family", chinese: "'fæmili n.家家庭家族adj.家庭的" },
+    { english: "streamline", chinese: "stri:mlain n.流线；流线型" },
+    { english: "opera", chinese: "'ɔpərə n.歌剧挪威Opera软件公司的浏览器软件" },
+    { english: "rebellion", chinese: "ri’beljәn n.造反；叛乱；反抗" },
+    { english: "disastrous", chinese: "di’za:str әs a.灾难性的；悲惨的" },
+    { english: "shopping", chinese: "ʃɔpiŋ n.买东西购物动词shop的现在分词形式" },
+    { english: "flag", chinese: "flæg n.旗旗帜旗标信号旗旗舰旗vt.打旗号vi.无力地下垂减退" },
+    { english: "primitive", chinese: "'primitiv adj.原始的粗糙的n.原始人文艺复兴前的艺术家" },
+    { english: "exempt", chinese: "ig’zempt a. 免除的 vt. 使免除,豁免" },
+    { english: "hillside", chinese: "'hil'said n.(小山)山腰山坡" },
+    { english: "bowl", chinese: "bəuln.碗钵碗状物物体的碗状部分季后赛圆形露天剧场vi.打保龄球" },
+    { english: "compare", chinese: "kəm'pɛə vt. &vi.比较对照比作比喻n.比较对照" },
+    { english: "dam", chinese: "dæm n.水坝水堤障碍物vt.筑坝抑制(情感）等" },
+    { english: "aim", chinese: "eim n.目标对准枪法vt.瞄准针对vi.瞄准针对致力旨在打算" },
+    { english: "ear", chinese: "iə n.耳朵听力听觉倾听麦穗vi.长出麦穗" },
+    { english: "tend", chinese: "tend vt.照管照料护理趋向易于走向倾向" },
+    { english: "intelligible", chinese: "in’tælidʒ әbl a.可理解,易理解的,明了的" },
+    { english: "storm", chinese: "stɔ:m n.风暴暴(风)雨v.猛攻捣毁起风暴暴怒" },
+    { english: "leg", chinese: "leg n.腿腿部支柱裤脚管vi.用脚走路" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "aid", chinese: "eidn.帮助救护助手辅助物v.援助帮助救护abbr.=Agency for" },
+    { english: "district", chinese: "'distrikt n.区地区区域行政区vt.划分区域划分地区" },
+    { english: "tense", chinese: "tens n.(动词)时态时adj.拉紧的绷紧的紧张的v.使紧绷拉紧" },
+    { english: "accompany", chinese: "ə'kʌmpəni vt.陪伴陪同伴随给...伴奏vi.伴奏" },
+    { english: "freeze", chinese: "fri:z vi.冻结冻冷动僵硬vt.使结冰" },
+    { english: "anonymous", chinese: "ә’nɔnim әs a. 匿名的" },
+    { english: "recognize", chinese: "'rekəgnaiz vt.认识认出承认认可承认意识到表示感激" },
+    { english: "those", chinese: "ðəuz pron.那些adj.那些" },
+    { english: "accustom", chinese: "ə'kʌstəm vt.使...习惯" },
+    { english: "smog", chinese: "smɔg n.烟雾" },
+    { english: "voice", chinese: "vɔis n.说话声声音嗓音意见,语态意见发言权vt.表达发音调整声音" },
+    { english: "wash", chinese: "wɔʃ vt.洗冲出vi.洗涤洗清n.洗洗濯(美国西部)干河床" },
+    { english: "jeopardize", chinese: "‘dʒepәdaiz vt. 危害,使受危困,使陷危地" },
+    { english: "breadth", chinese: "bredθ n.宽度幅度幅面" },
+    { english: "protective", chinese: "prə'tektiv adj.保护的防护的" },
+    { english: "superiority", chinese: "sju:pәri’ɔriti n.优越(性)，优势" },
+    { english: "favour", chinese: "'feivən.好感赞同恩惠好意喜爱偏爱特权vt.给予关心偏爱支持利于长" },
+    { english: "linger", chinese: "‘liŋgә vi.逗留，徘徊；拖延" },
+    { english: "tolerant", chinese: "‘tɔlәrәnt a.容忍的；有耐力的" },
+    { english: "it", chinese: "it pron.这那它" }
+];

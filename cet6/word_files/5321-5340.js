@@ -1,0 +1,22 @@
+const words = [
+    { english: "fetch", chinese: "fetʃ vt.拿来请来接去航行到达vi.取回兜圈子n.取得" },
+    { english: "Wednesday", chinese: "wenzdei n.星期三" },
+    { english: "edible", chinese: "‘edibl a. 可食用的 n. 食品,食物" },
+    { english: "toward", chinese: "tə'wɔ:d prep.向对于接近关于将近朝adj.有希望的有利的逼近的" },
+    { english: "jet", chinese: "dʒetn.喷气式飞机喷嘴喷射喷出黑玉大理石vt.射出喷射vi.气流中喷" },
+    { english: "sphere", chinese: "sfiə n.球圆体范围领域天体vt.形成球体包围围绕" },
+    { english: "depth", chinese: "depθ n.深度深厚深处强度诚挚" },
+    { english: "ambiguous", chinese: "æm’bigju әsa.模棱两可的；分歧的" },
+    { english: "gap", chinese: "gæpn. 缺口间隔差距(意见、个性等的)差异缝隙漏洞vt. 制造缺口" },
+    { english: "get", chinese: "getvi.变得成为到达致富能够离开vt.得到准备抓住克服激怒使得记" },
+    { english: "supper", chinese: "'sʌpə n.晚饭晚餐晚餐会" },
+    { english: "question", chinese: "'kwestʃən n.发问问题疑问询问争论点vt.询问怀疑vi.问问题" },
+    { english: "perfection", chinese: "pә’fekʃәn n.尽善尽美；无比精确" },
+    { english: "overwhelm", chinese: "әuvә’hwelm vt.压倒，使不知所措" },
+    { english: "another", chinese: "ə'nʌðə adj.再一个的别的另一的不同的pron.另一个" },
+    { english: "adjective", chinese: "'ædʒiktiv n.形容词adj.形容词的不独立的" },
+    { english: "department", chinese: "di'pɑ:tmənt n.部司局处系部门省" },
+    { english: "punishment", chinese: "'pʌniʃmənt n.罚惩罚处罚" },
+    { english: "indignation", chinese: "indig’neiʃәn n.愤怒，愤慨，义愤" },
+    { english: "bitterly", chinese: "'bitəli adv.苦苦地悲痛地怨恨地残酷地" }
+];

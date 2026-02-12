@@ -1,0 +1,22 @@
+const words = [
+    { english: "screw", chinese: "skru:n.螺旋螺旋状物螺丝螺丝钉吝啬鬼压迫转动监狱看守vt.拧紧扭" },
+    { english: "harsh", chinese: "hɑ:ʃ adj.严厉的刺耳的粗糙的使人不舒服的大约的" },
+    { english: "tire", chinese: "'taiə vi.疲劳累厌倦vt.使疲倦厌烦n.轮胎金属圈" },
+    { english: "appraisal", chinese: "ә’preizl n. 评价,估价,鉴定" },
+    { english: "unpleasant", chinese: "ʌn'pleznt adj.令人不快的讨厌的" },
+    { english: "invent", chinese: "in'vent vt.发明创造捏造" },
+    { english: "spit", chinese: "spitvi.吐吐唾沫吐出降小雨vt.用炙叉叉住n.唾液口水小雨烤肉叉海" },
+    { english: "space", chinese: "speis n.空间场地空地空白太空间隔v.留间隔分隔" },
+    { english: "discourage", chinese: "dis'kʌridʒ vt.使泄气使灰心阻碍" },
+    { english: "rich", chinese: "ritʃ adj.富的丰富的浓厚的贵重的富饶的" },
+    { english: "emotional", chinese: "i'məuʃənl adj.感情的情绪的" },
+    { english: "study", chinese: "'stʌdin.学习研究学科沉思书房vt.学读书计划研究记忆调查vi.学习研" },
+    { english: "rose", chinese: "rəuzn.蔷薇花蔷薇科植物玫瑰v.(rise的过去式)起立上升升起adj.玫" },
+    { english: "law", chinese: "lɔ: n.法律法令起诉法则规律vi.起诉" },
+    { english: "sunlight", chinese: "'sʌnlait n.日光阳光" },
+    { english: "line", chinese: "lainn.线排路线线条行航线场界皱纹家族v.用做衬里排成一行顺..." },
+    { english: "dialect", chinese: "'daiəlekt n.方言土语地方话" },
+    { english: "lime", chinese: "laimn.石灰酸橙酸橙树粘鸟胶钙vt.施石灰涂上粘性物质沾上粘鸟胶" },
+    { english: "fascinate", chinese: "‘fæsineit vt.迷住 vi.迷人" },
+    { english: "integrity", chinese: "in’tegriti n.诚实，正直" }
+];

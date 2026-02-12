@@ -1,0 +1,22 @@
+const words = [
+    { english: "economical", chinese: ".i:kə'nɔmikəl adj.节约的节俭的经济的合算的经济学的" },
+    { english: "subtle", chinese: "‘sΛbtl a.微妙的；精巧的" },
+    { english: "little", chinese: "'litl adj.小的少幼小的adv.毫不少量地n.几乎没有(指数量或程度等)" },
+    { english: "drastic", chinese: "‘dræstik a.激烈的；严厉的" },
+    { english: "length", chinese: "leŋθ n.长长度一段篇幅" },
+    { english: "alert", chinese: "ә’lә:t a.警惕的；活跃的" },
+    { english: "enclosure", chinese: "in’klәuʒә n.围绕；围场，围栏" },
+    { english: "visible", chinese: "'vizəbl adj.可见的看得见的n.可见物" },
+    { english: "puppet", chinese: "'pʌpit n.木偶玩偶傀儡" },
+    { english: "cinema", chinese: "'sinimə n.电影院电影影片" },
+    { english: "perpetual", chinese: "pә’petʃuәl a.永久的；四季开花的" },
+    { english: "phone", chinese: "fəunn.电话电话机耳机,音素v.打电话suf.表示“声音说...语言的人" },
+    { english: "utmost", chinese: "'ʌtməust adj.最远的极度的n.极限最大可能" },
+    { english: "lightning", chinese: "laitniŋ n.闪电闪电放电adj.闪电般的快速的vi.打闪" },
+    { english: "election", chinese: "i'lekʃən n.选举选择权当选" },
+    { english: "government", chinese: "'gʌvənmənt n.政府政体统治治理政治" },
+    { english: "elephant", chinese: "'elifənt n.象庞大笨拙难处理的事物" },
+    { english: "winter", chinese: "'wintən.冬天冬季adj.冬天的冬季生长的vi.过冬vt.对...进行过冬保" },
+    { english: "brutal", chinese: "‘bru:tl a. 残忍的,野蛮的,不讲理的" },
+    { english: "tuck", chinese: "tʌkvt.折短卷起塞打摺挤进畅饮vi.缝褶裥缩拢畅饮n.缝摺船尾突出" }
+];

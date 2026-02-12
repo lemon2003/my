@@ -1,0 +1,22 @@
+const words = [
+    { english: "radiate", chinese: "‘reidieit vi.发射光线；辐射" },
+    { english: "employee", chinese: ".emplɔi'i: n.受雇者雇员雇工" },
+    { english: "everybody", chinese: "'evribɔdi pron.每人人人各人" },
+    { english: "August", chinese: "'ɔ:gʌst n.八月(大写时）adj.威严的尊严的(小写时）" },
+    { english: "rectify", chinese: "‘rektifai vt.纠正；调整；精馏" },
+    { english: "shout", chinese: "ʃaut n.呼喊突发的大叫vt.高声呼喊呼叫vi.呼叫突然喊叫" },
+    { english: "depict", chinese: "di’pikt vt. 描述,描写" },
+    { english: "jewel", chinese: "'dʒu:əl n.宝石宝石饰物v.镶以宝石" },
+    { english: "unfortunate", chinese: "ʌn'fɔ:tʃənit adj.不幸的可取的令人遗憾的不成功的n.不幸的人" },
+    { english: "which", chinese: "(h)witʃ pron.哪一个哪些adj.哪一个哪一些" },
+    { english: "virtue", chinese: "'və:tju: n.善美德优点德行贞操" },
+    { english: "novel", chinese: "'nɔvəl n.小说adj.新的新奇的" },
+    { english: "pierce", chinese: "piəs vt.剌穿穿透洞悉vi.穿入n. 皮尔斯" },
+    { english: "expedition", chinese: "ekspi’diʃәn n.探险；探险队" },
+    { english: "weep", chinese: "wi:p vi.哭泣流泪悲叹渗出n.哭泣<俚>眼泪" },
+    { english: "ornament", chinese: "‘ɔ:nәmәnt n.装饰物 vt. 装修" },
+    { english: "consecutive", chinese: "kәn’sekjutiv a.连续,联贯的,始的" },
+    { english: "offspring", chinese: "‘ɔ(:)fspriŋ n.儿女，子孙，后代" },
+    { english: "swing", chinese: "swiŋ vi.摇摆回转旋转动摇n.摇摆改变冲力" },
+    { english: "disk", chinese: "disk n.圆盘唱片磁盘光盘花盘盘形物磁盘vt.用圆盘耙耙地" }
+];

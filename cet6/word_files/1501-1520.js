@@ -1,0 +1,22 @@
+const words = [
+    { english: "fundamental", chinese: ".fʌndə'mentl adj.基础的基本的根本的重要的n.基本原理基础" },
+    { english: "midst", chinese: "midst n.中部中间当中prep.(=amidst)在...当中" },
+    { english: "lab", chinese: "læb n.实验室研究室" },
+    { english: "landlady", chinese: "'lænd.leidi n.女房东女地主" },
+    { english: "favourable", chinese: "'feivərəbl adj.有利的有用的良好的赞成的" },
+    { english: "exclaim", chinese: "iks'kleim vi.呼喊惊叫大声叫" },
+    { english: "obedient", chinese: "ә’bi:djәnt n.服从的，顺从的" },
+    { english: "due", chinese: "dju: adj.预期的应给的到期的应有的预定的n.应得物" },
+    { english: "speculate", chinese: "‘spekjuleit vi.思索，沉思；投机" },
+    { english: "horror", chinese: "'hɔrə n.恐怖战栗憎恶厌恶adj.恐怖的令人毛骨悚然的" },
+    { english: "bucket", chinese: "'bʌkit n.水桶吊桶铲斗vt.装在桶里vi.急急忙忙" },
+    { english: "daylight", chinese: "'deilait n.白昼日光黎明" },
+    { english: "scrutiny", chinese: "‘skrutni n. 细看,仔细检查,监视" },
+    { english: "slit", chinese: "slit n.裂缝投币口vt.切开纵切撕开扯裂" },
+    { english: "ticket", chinese: "'tikit n.票券标签罚款单纲领传票vt.加标签于售票" },
+    { english: "fort", chinese: "fɔ:t n.要塞，堡垒" },
+    { english: "rip", chinese: "rip vi.撕啐，扯破，划破" },
+    { english: "become", chinese: "bi'kʌm vt.变得vi.存在变成成为变得经历改变或发展" },
+    { english: "table", chinese: "'teibln.桌子台子餐桌表格项目表vt.将...放于桌上提交讨论搁置列入" },
+    { english: "friendship", chinese: "'frendʃip n.友谊友好" }
+];

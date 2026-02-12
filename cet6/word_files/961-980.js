@@ -1,0 +1,22 @@
+const words = [
+    { english: "cave", chinese: "keiv n.山洞洞穴窑洞vt.挖空塌落屈服vi.塌落" },
+    { english: "Pope", chinese: "pәup n.(罗马天主教的)教皇" },
+    { english: "pity", chinese: "'piti n.怜悯遗憾遗憾的事vt.同情怜悯" },
+    { english: "remember", chinese: "ri'membə vt.记得想起记住" },
+    { english: "gay", chinese: "gei adj.快乐的欢快的鲜明的色彩鲜艳的同性恋的n.同性恋" },
+    { english: "repair", chinese: "ri'pɛəvi.去集合vt.修理补救修补补偿n.修理修补补救n.维修工作维修" },
+    { english: "hearing", chinese: "‘hiәriŋ n. 听,听觉" },
+    { english: "Saturday", chinese: "'sætədi n.星期六" },
+    { english: "surpass", chinese: "sә:’pa:s vt.超过，超越，胜过" },
+    { english: "compel", chinese: "kəm'pel vt.强迫迫使屈服" },
+    { english: "liner", chinese: "‘lainә n.班船，班机" },
+    { english: "convention", chinese: "kən'venʃən n.习俗惯例公约大会协定" },
+    { english: "lavatory", chinese: "'lævətəri n.盥洗室厕所" },
+    { english: "fairly", chinese: "'fɛəli adv.相当公平地公正地合法地适当地" },
+    { english: "brow", chinese: "brau n.额眉眉毛" },
+    { english: "eye", chinese: "ai n.眼睛眼力鉴赏力v.看注视" },
+    { english: "border", chinese: "'bɔ:də n.边边缘边界vt.作...之疆界加边" },
+    { english: "diffuse", chinese: "di’fju:z vt.vi. 散播,传播 a. 散开的,弥漫的" },
+    { english: "exhibition", chinese: ".eksi'biʃən n.展览陈列展示展览会" },
+    { english: "consist", chinese: "kən'sist vi.由...组成存在一致在于n.组成" }
+];

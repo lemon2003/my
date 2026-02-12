@@ -1,0 +1,22 @@
+const words = [
+    { english: "zoo", chinese: "zu: n.动物园拥挤杂乱的地方" },
+    { english: "Christmas", chinese: "'krisməs n.圣诞节" },
+    { english: "familiar", chinese: "fə'miljə adj.熟悉的熟知的不拘礼节的冒昧的n.熟人熟悉某种事物的人" },
+    { english: "litter", chinese: "‘litә n.废物，杂乱 vi.乱扔" },
+    { english: "you", chinese: "ju: pron.你你们" },
+    { english: "water", chinese: "'wɔ:tən.水雨水海水海域vt.使湿灌溉给...浇水给...供水加水稀释形" },
+    { english: "how", chinese: "hau adv.如何怎么怎样多少conj.如何怎样以...方式n.方式" },
+    { english: "China", chinese: "'tʃainə n.中国" },
+    { english: "footstep", chinese: "'futstep n.脚步脚步声足迹" },
+    { english: "bottle", chinese: "'bɔtl n.瓶酒瓶一瓶vt.装瓶抑制" },
+    { english: "hemisphere", chinese: "‘hemisfi ә n.半球；半球地图" },
+    { english: "policeman", chinese: "pə'li:smən n.警察" },
+    { english: "blush", chinese: "blΛʃ vi.脸红，害臊 n.脸红" },
+    { english: "slack", chinese: "slæk a.松弛的; 萧条的;懈怠的；vt.使松弛" },
+    { english: "outdoor", chinese: "'autdɔ: adj.户外的室外的野外的露天的" },
+    { english: "twentieth", chinese: "'twentiiθ num.第二十n.二十分之一adj.第二十的" },
+    { english: "Japanese", chinese: "dʒæpə'ni:z adj.日本的日本人的日语的n.日本人日语" },
+    { english: "citizen", chinese: "'sitizn n.公民市民居民" },
+    { english: "French", chinese: "frentʃ adj.法国(人)的法语的n.法国人法语vt.剁肉蔬菜切成长条" },
+    { english: "basement", chinese: "‘beismәnt n.地下室；地窖；底层" }
+];

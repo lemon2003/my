@@ -1,0 +1,22 @@
+const words = [
+    { english: "block", chinese: "blɔk n.街区木块石块阻塞(物)障碍(物) vt.堵塞拦阻" },
+    { english: "verse", chinese: "vә:s n.诗，韵文；诗行" },
+    { english: "work", chinese: "wə:kn.工作作品职业vi.工作创造实现做工作起作用操作正常运转成" },
+    { english: "prompt", chinese: "prɔmptadj. 及时的迅速的敏捷的立刻的vt. 敦促激起促进推动提示vi." },
+    { english: "interfere", chinese: ".intə'fiə vi.干涉干预妨碍冲突" },
+    { english: "fee", chinese: "fi: n.费酬金赏金封地" },
+    { english: "everything", chinese: "evriθiŋ pron.每件事事事一切" },
+    { english: "goods", chinese: "gudz n.货物商品" },
+    { english: "fragment", chinese: "'frægmənt n.碎片破片碎块vt. &vi.变成碎片" },
+    { english: "eastern", chinese: "'i:stən adj.东部的东方的朝东的" },
+    { english: "fatal", chinese: "'feitl adj.致命的毁灭性的决定性的命运的" },
+    { english: "dawn", chinese: "dɔ:n n.黎明破晓开端vi.破晓逐渐明白" },
+    { english: "catholic", chinese: "‘kæθәlik a.天主教的n.天主教徒" },
+    { english: "jolly", chinese: "'dʒɔliadj.快活的愉快的高兴的宜人的令人高兴的v.恭维哄开玩笑戏虐" },
+    { english: "flee", chinese: "fli: vi.逃走 vt.逃避" },
+    { english: "blunder", chinese: "‘blΛndә vi.犯大错 n.大错" },
+    { english: "fellowship", chinese: "‘felәuʃip n.伙伴关系；联谊会" },
+    { english: "extension", chinese: "iks'tenʃən n.延长部分伸展扩充范围分机号码" },
+    { english: "farm", chinese: "fɑ:m n.农场农庄农田饲养场vt.收费务农vi.务农" },
+    { english: "out", chinese: "autadv. 出在外向外出现现出来离岸外出出去出局用尽完成结束" }
+];

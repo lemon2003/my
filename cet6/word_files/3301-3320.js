@@ -1,0 +1,22 @@
+const words = [
+    { english: "vague", chinese: "veig adj.模糊的含糊的不明确的犹豫不决的茫然的" },
+    { english: "crisis", chinese: "'kraisis n.危机存亡之际" },
+    { english: "top", chinese: "tɔp n.顶顶部首位adj.顶的最高的顶端的v.高过加顶高耸" },
+    { english: "nine", chinese: "nain num.九九个" },
+    { english: "furnace", chinese: "'fə:nis n.炉子熔炉鼓风炉闷热地带严峻考验" },
+    { english: "aero", chinese: "'ɛərəu adj.飞机的航空的飞行的" },
+    { english: "festival", chinese: "'festəvəl n.节日音乐节庆祝及祭祀欢宴adj.节日的喜庆的" },
+    { english: "software", chinese: "‘sɔftwɛә n.(计算机的)软件" },
+    { english: "shadow", chinese: "'ʃædəu n.阴影阴影子阴暗预兆跟踪盯梢的人" },
+    { english: "organ", chinese: "'ɔ:gən n.器官机构管风琴机关报刊" },
+    { english: "spend", chinese: "spend vt.用钱花费浪费度过" },
+    { english: "nature", chinese: "'neitʃə n.大自然自然界自然状态本性性质类型" },
+    { english: "technology", chinese: "tek'nɔlədʒi n.工艺学工艺技术" },
+    { english: "march", chinese: "mɑ:tʃ n.(March)三月示威游行vt.使前进使行军vi.行军进军游行示威" },
+    { english: "preserve", chinese: "pri'zə:vvt.保护保存保持腌渍vi.保存n.蜜饯专供私人行猎或捕鱼的保留" },
+    { english: "grocery", chinese: "'grəusəri n.食品杂货店" },
+    { english: "realm", chinese: "relm n.王国国土领域" },
+    { english: "air", chinese: "ɛə n.空气空中外观旋律气氛态度v.晾干使通风广播" },
+    { english: "yearly", chinese: "'jə:li adj.每年的adv.一年一度地每年地" },
+    { english: "transport", chinese: "træns'pɔ:tvt.运输流放为强烈的情绪所激动n.运输、运输工具(常用复数)" }
+];

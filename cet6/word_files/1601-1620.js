@@ -1,0 +1,22 @@
+const words = [
+    { english: "decision", chinese: "di'siʒən n.决定决心果断决策" },
+    { english: "canoe", chinese: "kə'nu: n.独木舟皮艇划子轻舟v.乘独木舟" },
+    { english: "rain", chinese: "rein n.雨雨水(复数)雨季vi.下雨vt.使大量落下" },
+    { english: "population", chinese: ".pɔpju'leiʃən n.人口全体居民" },
+    { english: "authority", chinese: "ə'θɔriti n.当局官方权力权威专家权威人士依据" },
+    { english: "cost", chinese: "kɔst n.价格代价成本费用vt.花费使付出vi.值付出" },
+    { english: "themselves", chinese: "ðəm'selvz pron.他(她、它)们自己" },
+    { english: "appetite", chinese: "'æpitait n.食欲胃口欲望嗜好" },
+    { english: "carbon", chinese: "'kɑ:bən n.碳灯芯复写纸" },
+    { english: "chest", chinese: "tʃest n.胸腔胸膛(大)箱子金库资金一箱密封室：衣橱" },
+    { english: "upset", chinese: "ʌp'setvt.弄翻打翻倾覆推翻扰乱使心烦adj.心烦的苦恼的不安的n.推" },
+    { english: "bug", chinese: "bΛg n.虫子；臭虫" },
+    { english: "equality", chinese: "i:'kwɔliti n.等同平等相等" },
+    { english: "reproduce", chinese: ".ri:prə'dju:s vt. &vi.繁殖生殖再生复制" },
+    { english: "injection", chinese: "in'dʒekʃən n.注射注入注射物数学函数充满" },
+    { english: "physics", chinese: "'fiziks n.物理学" },
+    { english: "sixth", chinese: "siksθ num.第六六分之一n.六分之一六度音adj.第六的" },
+    { english: "delivery", chinese: "di'livəri n.投递交付分娩" },
+    { english: "adhere", chinese: "әd’hiә vi. (fml)粘附;追随;坚持(~ to sth)" },
+    { english: "nose", chinese: "nəuz n.鼻子突出部分嗅觉v.嗅嗅到" }
+];

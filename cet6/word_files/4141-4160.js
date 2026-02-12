@@ -1,0 +1,22 @@
+const words = [
+    { english: "soluble", chinese: "'sɔljubl adj.可溶的可以解决的" },
+    { english: "reliance", chinese: "ri’laiәns n.信任，信赖，信心" },
+    { english: "waist", chinese: "weist n.腰腰部" },
+    { english: "laughter", chinese: "'lɑ:ftə n.笑笑声" },
+    { english: "gesture", chinese: "'dʒestʃə n.姿势手势姿态vt. &vi.作手势表达" },
+    { english: "concrete", chinese: "'kɔnkri:t n.水泥混凝土具体物adj.具体的实在的水泥的vt. &vi.凝结结合" },
+    { english: "restriction", chinese: "ri'strikʃən n.限制限定约束" },
+    { english: "mainly", chinese: "'meinli adv.主要地大体上" },
+    { english: "mouthful", chinese: "'mauθful n.满口一口少量" },
+    { english: "hasty", chinese: "‘heisti a.急速的；仓促的" },
+    { english: "insurance", chinese: "in'ʃuərəns n.保险保险费" },
+    { english: "declaration", chinese: "deklә’reiʃәnn.宣布，宣言；申诉" },
+    { english: "import", chinese: "'impɔ:t,im'pɔ:t vt. &vi. &n.输入进口" },
+    { english: "throughout", chinese: "θru:'aut prep.遍及贯穿adv.到处自始至终" },
+    { english: "sheet", chinese: "ʃi:tn.被单床单纸张薄板张片vt.盖上被单遍布使成片状vi.成片落下" },
+    { english: "away", chinese: "ə'wei adv.离开远离出去连续的遥远地...去adj.远离" },
+    { english: "furthermore", chinese: "'fə:ðə'mɔ: adv.而且此外" },
+    { english: "write", chinese: "rait vt.书写写vi.写" },
+    { english: "nearly", chinese: "'niəli adv.差不多几乎密切地" },
+    { english: "minute", chinese: "'minit n.分分钟一会儿会议记录adj.微小的不重要的详细的vt.记录" }
+];

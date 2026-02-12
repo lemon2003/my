@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语单词学习系统</title>
+    <style>
+        /* 样式保持不变 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .header {
+            color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .stats {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            color: white;
+            display: inline-block;
+        }
+
+        .group-selection {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .group-btn {
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 10px;
+            padding: 15px 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .group-btn:hover {
+            background: white;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .group-btn:active {
+            transform: translateY(0);
+        }
+
+        .group-btn.completed {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .group-btn.current {
+            background: #2196F3;
+            color: white;
+        }
+
+        .navigation {
+            margin-top: 30px;
+        }
+
+        .nav-btn {
+            background: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: #f5f5f5;
+            transform: translateY(-1px);
+        }
+
+        .page-info {
+            color: white;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .group-selection {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+                gap: 10px;
+            }
+
+            .group-btn {
+                padding: 12px 5px;
+                font-size: 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>英语单词学习系统</h1>
+            <p>选择单词组开始学习</p>
+        </div>
+
+        <div class="stats">
+            总单词数: 5493 | 每组: 50个单词 | 总组数: <span id="totalGroups">110</span>
+        </div>
+
+        <div class="page-info">
+            第 <span id="currentPage">1</span> 页 / 共 <span id="totalPages">11</span> 页
+        </div>
+
+        <div class="group-selection" id="groupContainer">
+            <!-- 单词组按钮将通过JavaScript动态生成 -->
+        </div>
+
+        <div class="navigation">
+            <button id="prevPage" class="nav-btn">上一页</button>
+            <button id="nextPage" class="nav-btn">下一页</button>
+        </div>
+    </div>
+
+    <script>
+        // 配置信息
+        const TOTAL_WORDS = 5493;
+        const WORDS_PER_GROUP = 50;
+        const GROUPS_PER_PAGE = 18;
+
+        // 计算总组数和总页数
+        const totalGroups = Math.ceil(TOTAL_WORDS / WORDS_PER_GROUP);
+        const totalPages = Math.ceil(totalGroups / GROUPS_PER_PAGE);
+
+        // 当前页面
+        let currentPage = 1;
+
+        // 从localStorage获取学习进度
+        function getLearningProgress() {
+            const progress = localStorage.getItem('wordLearningProgress');
+            return progress ? JSON.parse(progress) : {};
+        }
+
+        // 保存学习进度
+        function saveLearningProgress(groupId, completed) {
+            const progress = getLearningProgress();
+            progress[groupId] = completed;
+            localStorage.setItem('wordLearningProgress', JSON.stringify(progress));
+        }
+
+        // 生成单词组按钮
+        function generateGroupButtons() {
+            const container = document.getElementById('groupContainer');
+            container.innerHTML = '';
+
+            const startGroup = (currentPage - 1) * GROUPS_PER_PAGE + 1;
+            const endGroup = Math.min(currentPage * GROUPS_PER_PAGE, totalGroups);
+
+            const progress = getLearningProgress();
+
+            for (let groupId = startGroup; groupId <= endGroup; groupId++) {
+                const startWord = (groupId - 1) * WORDS_PER_GROUP + 1;
+                const endWord = Math.min(groupId * WORDS_PER_GROUP, TOTAL_WORDS);
+                const wordCount = endWord - startWord + 1;
+
+                const button = document.createElement('button');
+                button.className = 'group-btn';
+                button.textContent = `第${groupId}组`;
+                button.title = `单词 ${startWord}-${endWord}`;
+
+                // 检查学习进度
+                if (progress[groupId] === true) {
+                    button.classList.add('completed');
+                }
+
+                button.addEventListener('click', function() {
+                    // 保存当前选择的组信息到localStorage
+                    const groupInfo = {
+                        groupId: groupId,
+                        startIndex: startWord - 1, // 数组索引从0开始
+                        endIndex: endWord - 1,
+                        wordCount: wordCount
+                    };
+                    localStorage.setItem('currentGroupInfo', JSON.stringify(groupInfo));
+                    // 跳转到单词学习页面
+                    window.location.href = 'words1.html';
+                });
+
+                container.appendChild(button);
+            }
+        }
+
+        // 更新页面信息
+        function updatePageInfo() {
+            document.getElementById('currentPage').textContent = currentPage;
+            document.getElementById('totalPages').textContent = totalPages;
+            document.getElementById('totalGroups').textContent = totalGroups;
+        }
+
+        // 初始化页面
+        function initPage() {
+            updatePageInfo();
+            generateGroupButtons();
+
+            // 上一页按钮事件
+            document.getElementById('prevPage').addEventListener('click', function() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    generateGroupButtons();
+                    updatePageInfo();
+                }
+            });
+
+            // 下一页按钮事件
+            document.getElementById('nextPage').addEventListener('click', function() {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    generateGroupButtons();
+                    updatePageInfo();
+                }
+            });
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', initPage);
+    </script>
+</body>
+</html>

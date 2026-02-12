@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简约Markdown编辑器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f8fafc;
+            color: #334155;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .header {
+            padding: 20px 30px;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+        }
+        
+        .header h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1e293b;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .btn:hover {
+            background: #2563eb;
+        }
+        
+        .btn.copied {
+            background: #10b981;
+        }
+        
+        .editor-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 70vh;
+        }
+        
+        .preview-panel, .editor-panel {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .preview-panel {
+            border-right: 1px solid #f1f5f9;
+        }
+        
+        .panel-header {
+            padding: 12px 20px;
+            background: #f8fafc;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 14px;
+            font-weight: 600;
+            color: #475569;
+            flex-shrink: 0;
+        }
+        
+        .preview {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: white;
+            height: 100%;
+        }
+        
+        .editor {
+            flex: 1;
+            padding: 20px;
+            border: none;
+            resize: none;
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            background: white;
+            color: #334155;
+            overflow-y: auto;
+            height: 100%;
+        }
+        
+        .editor:focus {
+            outline: none;
+        }
+        
+        .footer {
+            padding: 15px 30px;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 13px;
+            border-top: 1px solid #f1f5f9;
+            background: #f8fafc;
+        }
+        
+        /* Markdown样式 */
+        .preview h1 {
+            font-size: 2em;
+            margin: 20px 0 15px 0;
+            color: #1e293b;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        
+        .preview h2 {
+            font-size: 1.5em;
+            margin: 18px 0 12px 0;
+            color: #334155;
+        }
+        
+        .preview h3 {
+            font-size: 1.3em;
+            margin: 15px 0 10px 0;
+            color: #475569;
+        }
+        
+        .preview p {
+            margin: 12px 0;
+        }
+        
+        .preview strong {
+            font-weight: bold;
+            color: #1e293b;
+        }
+        
+        .preview em {
+            font-style: italic;
+            color: #475569;
+        }
+        
+        .preview del {
+            text-decoration: line-through;
+            color: #94a3b8;
+        }
+        
+        .preview code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            color: #dc2626;
+        }
+        
+        .preview pre {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 16px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        .preview blockquote {
+            border-left: 4px solid #e2e8f0;
+            background: #f8fafc;
+            margin: 15px 0;
+            padding: 12px 20px;
+            color: #64748b;
+        }
+        
+        .preview ul, .preview ol {
+            margin: 10px 0 10px 20px;
+        }
+        
+        .preview li {
+            margin: 6px 0;
+        }
+        
+        .empty-state {
+            color: #94a3b8;
+            text-align: center;
+            padding: 40px 20px;
+            font-style: italic;
+        }
+        
+        /* 滚动条样式 */
+        .preview::-webkit-scrollbar, .editor::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        .preview::-webkit-scrollbar-track, .editor::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 4px;
+        }
+        
+        .preview::-webkit-scrollbar-thumb, .editor::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        
+        .preview::-webkit-scrollbar-thumb:hover, .editor::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Markdown 编辑器</h1>
+            <button class="btn" id="copyAllBtn">复制 Markdown</button>
+        </div>
+        
+        <div class="editor-container">
+            <!-- 左侧：实时预览 -->
+            <div class="preview-panel">
+                <div class="panel-header">预览</div>
+                <div id="preview" class="preview">
+                    <div class="empty-state">输入Markdown代码后，预览将显示在这里...</div>
+                </div>
+            </div>
+            
+            <!-- 右侧：代码编辑 -->
+            <div class="editor-panel">
+                <div class="panel-header">编辑</div>
+                <textarea id="markdownInput" class="editor" placeholder="在这里输入 Markdown 代码..." autofocus># Markdown 编辑器
+
+简洁优雅的 Markdown 编辑器，支持实时预览和一键复制。
+
+## 功能特性
+
+- **实时预览**：左侧实时显示渲染效果
+- **一键复制**：点击顶部按钮复制所有内容
+- **简洁界面**：无干扰的写作环境
+- **响应式设计**：适配各种屏幕尺寸
+
+## 基本语法
+
+**粗体文本**、*斜体文本*、~~删除线~~
+
+### 代码示例
+
+\`\`\`javascript
+// 简单的函数示例
+function greet(name) {
+    return \`Hello, \${name}!\`;
+}
+
+console.log(greet("World"));
+\`\`\`
+
+### 引用
+
+> 简洁是可靠的先决条件。
+> — Edsger W. Dijkstra
+
+### 表格
+
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| 实时预览 | ✅ 支持 | 即时显示渲染效果 |
+| 代码复制 | ✅ 支持 | 一键复制所有内容 |
+| 语法高亮 | ✅ 支持 | 代码块自动高亮 |
+
+---
+
+*开始您的写作之旅吧！*</textarea>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>简约设计 · 专注写作</p>
+        </div>
+    </div>
+
+    <script>
+        // 获取DOM元素
+        const markdownInput = document.getElementById('markdownInput');
+        const preview = document.getElementById('preview');
+        const copyAllBtn = document.getElementById('copyAllBtn');
+
+        // 简单的Markdown解析器
+        function parseMarkdown(text) {
+            if (!text.trim()) {
+                return '<div class="empty-state">输入Markdown代码后，预览将显示在这里...</div>';
+            }
+            
+            return text
+                // 标题
+                .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+                .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                // 粗体
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/__(.*?)__/g, '<strong>$1</strong>')
+                // 斜体
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/_(.*?)_/g, '<em>$1</em>')
+                // 删除线
+                .replace(/~~(.*?)~~/g, '<del>$1</del>')
+                // 代码块
+                .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
+                .replace(/`(.*?)`/g, '<code>$1</code>')
+                // 引用
+                .replace(/^> (.*$)/gim, '<blockquote>$1</blockquote>')
+                // 无序列表
+                .replace(/^\s*[-*] (.*$)/gim, '<ul><li>$1</li></ul>')
+                .replace(/<\/ul>\s*<ul>/g, '')
+                // 有序列表
+                .replace(/^\s*\d+\. (.*$)/gim, '<ol><li>$1</li></ol>')
+                .replace(/<\/ol>\s*<ol>/g, '')
+                // 水平线
+                .replace(/^\s*---\s*$/gim, '<hr>')
+                // 段落
+                .replace(/\n\n/g, '</p><p>')
+                .replace(/\n/g, '<br>')
+                // 最终包装
+                .replace(/^(?!<)(.*$)/gim, '<p>$1</p>')
+                .replace(/<p><\/p>/g, '')
+                .replace(/<p><(h[1-6]|blockquote|ul|ol|pre)/g, '<$1')
+                .replace(/<\/(h[1-6]|blockquote|ul|ol|pre)><\/p>/g, '</$1>');
+        }
+
+        // 实时渲染Markdown
+        function renderMarkdown() {
+            const markdownText = markdownInput.value;
+            const html = parseMarkdown(markdownText);
+            preview.innerHTML = html;
+        }
+
+        // 初始化渲染
+        renderMarkdown();
+
+        // 监听输入事件
+        markdownInput.addEventListener('input', renderMarkdown);
+
+        // 复制全部Markdown代码
+        function copyAllMarkdown() {
+            const markdownText = markdownInput.value;
+            
+            navigator.clipboard.writeText(markdownText).then(() => {
+                // 按钮状态反馈
+                copyAllBtn.textContent = '已复制!';
+                copyAllBtn.classList.add('copied');
+                
+                // 2秒后恢复按钮状态
+                setTimeout(() => {
+                    copyAllBtn.textContent = '复制 Markdown';
+                    copyAllBtn.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('复制失败:', err);
+                // 降级方案
+                markdownInput.select();
+                document.execCommand('copy');
+                copyAllBtn.textContent = '已复制!';
+                setTimeout(() => {
+                    copyAllBtn.textContent = '复制 Markdown';
+                }, 2000);
+            });
+        }
+
+        // 绑定复制按钮事件
+        copyAllBtn.addEventListener('click', copyAllMarkdown);
+
+        // 页面加载完成后初始化
+        window.addEventListener('load', function() {
+            renderMarkdown();
+        });
+
+        // 阻止编辑器滚动事件冒泡，确保各自独立滚动
+        markdownInput.addEventListener('wheel', function(e) {
+            e.stopPropagation();
+        });
+
+        preview.addEventListener('wheel', function(e) {
+            e.stopPropagation();
+        });
+    </script>
+</body>
+</html>

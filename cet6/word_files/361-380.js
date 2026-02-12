@@ -1,0 +1,22 @@
+const words = [
+    { english: "comb", chinese: "kəum n.梳子梳状物鸡冠蜂巢vt.梳理清理搜查用梳子vi.搜寻" },
+    { english: "grain", chinese: "grein n.谷物谷粒颗粒细粒纹理vt.用谷物喂养形成颗粒" },
+    { english: "expectation", chinese: ".ekspek'teiʃən n.期待期望预期" },
+    { english: "satisfy", chinese: "'sætisfai vt.满足使满意使...信服vi.足够取悦" },
+    { english: "river", chinese: "'rivə n.江河水道" },
+    { english: "crime", chinese: "kraim n.罪罪行犯罪羞耻" },
+    { english: "abrupt", chinese: "ә’brΛpt a. 突然的，意外的，唐突的" },
+    { english: "do", chinese: "du: aux.v.vt. &vi.做干办" },
+    { english: "erosion", chinese: "i’rәuʒәn n.腐蚀，侵蚀；糜烂" },
+    { english: "poem", chinese: "'pəuim n.诗韵文诗体文" },
+    { english: "favourite", chinese: "'feivərit adj.特别受喜爱的特别喜爱的n.特别喜爱的人(或物)" },
+    { english: "vitamin", chinese: "'vaitəmin n.维生素维他命" },
+    { english: "addition", chinese: "ə'diʃən n.加加法附加物增加" },
+    { english: "commerce", chinese: "'kɔmə:s n.商业贸易社交" },
+    { english: "model", chinese: "'mɔdl n.模型模式模特儿模范" },
+    { english: "whichever", chinese: "witʃ'evə adj.无论哪个无论哪些pron.无论哪个" },
+    { english: "strain", chinese: "strein vt.拉紧劳累过份使用vi.尽力n.紧张拉紧血统" },
+    { english: "potato", chinese: "pə'teitəu n.马铃薯土豆" },
+    { english: "plaster", chinese: "'plɑ:stə n.灰泥硬膏熟石膏膏药v.涂以灰泥敷以膏药使...平" },
+    { english: "feeble", chinese: "‘fi:bl a.虚弱的；微弱的" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "animal", chinese: "'æniməl n.动物兽兽性与众不同的人adj.动物的野兽的动物性的" },
+    { english: "dubious", chinese: "‘dju:bjәs a. 可疑的,不确定的" },
+    { english: "preference", chinese: "'prefərəns n.偏爱喜爱物优先优先权" },
+    { english: "mutton", chinese: "'mʌtn n.羊肉" },
+    { english: "traffic", chinese: "'træfikn.交通通行(人或车等)交通流量不正当生意(走私)v.做生意(多" },
+    { english: "welcome", chinese: "'welkəmvt.欢迎adj.受欢迎的n.欢迎int.欢迎(客人来访或新成员的加" },
+    { english: "suggestion", chinese: "sə'dʒestʃən n.建议意见暗示迹象联想" },
+    { english: "dual", chinese: "‘dju:әl a. 双重的,双的 n. 双数" },
+    { english: "best", chinese: "best adj.最好的最大的adv.最最好地n.最好的人(或物)vt.胜于" },
+    { english: "eventually", chinese: "i'ventjuəli adv.终于最后" },
+    { english: "location", chinese: "ləu'keiʃən n.位置场所地点定位外景拍摄地" },
+    { english: "mosquito", chinese: "məs'ki:təu n.蚊子" },
+    { english: "catalog", chinese: "'kætəlɔ:gn. 目录目录册大学概况手册商品型录vt. 做目录分类说明名入" },
+    { english: "mechanically", chinese: "mi'kænikəli adv.机械地" },
+    { english: "subtract", chinese: "səb'trækt vt.减减去去掉扣掉vi.减少" },
+    { english: "sparkle", chinese: "'spɑ:kl vi.发火花闪耀冒火花vt.使闪耀n.闪耀火花" },
+    { english: "acid", chinese: "'æsid n.酸酸味物质adj.酸的酸性的" },
+    { english: "should", chinese: "ʃud aux.v.将万一就应该竟然可能" },
+    { english: "conduct", chinese: "kən'dʌkt n.举止行为品行指导vi.引导指挥管理vt.导电传热" },
+    { english: "claw", chinese: "klɔ: n.爪钳脚爪螯爪状物vt. &vi.抓撕" }
+];

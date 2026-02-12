@@ -1,0 +1,22 @@
+const words = [
+    { english: "exclusively", chinese: "iks'klu:sivli adv.专门地排他地(独占地专门地仅仅只)" },
+    { english: "feminine", chinese: "‘feminin a.女性的；女子气的" },
+    { english: "if", chinese: "if conj.假如如果是否即使n.条件设想" },
+    { english: "transistor", chinese: "træn'zistə n.晶体管晶体管收音机" },
+    { english: "approximately", chinese: "ə'prɔksimətli adv.近似地大约" },
+    { english: "installation", chinese: ".instə'leiʃən n.安装装置设施军事驻地" },
+    { english: "circle", chinese: "'sə:kl n.圆圆周圈子社交圈循环vt. &vi.包围盘旋环绕" },
+    { english: "rating", chinese: "‘reitiŋ n. 等级,评定结果，收视(听)率" },
+    { english: "ritual", chinese: "‘ritjuәl n. 仪式 a. 仪式的,例行公事的" },
+    { english: "probability", chinese: ".prɔbə'biliti n.可能性概率机率" },
+    { english: "audience", chinese: "'ɔ:diəns n.听众观众读者拥护者倾听正式会见" },
+    { english: "dog", chinese: "dɔg n.狗犬犬科动物卑鄙的人vt.尾随跟踪" },
+    { english: "excellent", chinese: "'eksələnt adj.优秀的杰出的" },
+    { english: "design", chinese: "di'zain vt.设计想像计划vi.计划设计n.设计 图样" },
+    { english: "uncomfortable", chinese: "ʌn'kʌmftəbl adj.不舒服的不自在的" },
+    { english: "jazz", chinese: "dʒæzn.爵士音乐爵士舞(曲)空扯的话以及类似的东西vt.使...活泼" },
+    { english: "intellect", chinese: "‘intilekt n.理智，智力，才智" },
+    { english: "disguise", chinese: "dis'gaiz vi.隐瞒掩埋vt.假装假扮掩饰n.假装假面目伪装物" },
+    { english: "confidential", chinese: "kɔnfi’denʃәl a.秘密的；亲信的" },
+    { english: "abolish", chinese: "ә’bɔliʃ vt.废除，取消" }
+];

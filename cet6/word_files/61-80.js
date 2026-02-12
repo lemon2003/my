@@ -1,0 +1,22 @@
+const words = [
+    { english: "aware", chinese: "ə'weə adj.知道的意识到的" },
+    { english: "dust", chinese: "dʌstn.尘土灰尘无价值之物屈辱状态vt.拂去灰尘撒上粉状物体大胜" },
+    { english: "super", chinese: "'sju:pə adj.极好的超级的n.主管人负责人警务长adv.特别格外" },
+    { english: "letter", chinese: "'letə n.信证书字母v.写下印刷n.租赁人" },
+    { english: "faith", chinese: "feiθ n.信任信心信仰" },
+    { english: "fog", chinese: "fɔg n.雾烟雾尘雾朦胧喷雾迷惑vt. &vi.以雾笼罩使模糊迷惑" },
+    { english: "revise", chinese: "ri'vaiz vt.修订校订校正修改n.校订修正再校稿" },
+    { english: "mistake", chinese: "mi'steik n.错误误会vi.误解弄错犯错vt.弄错误认" },
+    { english: "promote", chinese: "prə'məut vt.促进发扬提升升迁发起促销" },
+    { english: "pie", chinese: "pai n.(西点)馅饼派杂乱喜鹊爱说话的人饼图vt.弄乱" },
+    { english: "sit", chinese: "sit vi.坐就坐孵vt.使坐担任开会孵n.坐" },
+    { english: "meter", chinese: "'mi:tə n.计量器计表公尺韵律vt.用表测量" },
+    { english: "flow", chinese: "fləuvi.流动飘垂涨潮顺利进行来vt.使流动淹没n.流水流循环顺畅涨" },
+    { english: "throng", chinese: "θrɔ:ŋ n.群人群群众一大群大量vt.挤满群集挤压adj.拥挤的忙的" },
+    { english: "what", chinese: "wɔt pron.什么adj.什么任何adv.什么怎么" },
+    { english: "menace", chinese: "‘menәs vt.&vi.&n.(进行)威胁" },
+    { english: "demand", chinese: "di'mɑ:nd vt.要求需要询问n.要求需求" },
+    { english: "safely", chinese: "'seifli adv.安全地可靠地" },
+    { english: "least", chinese: "li:st adj.最少的最小的n. &adv.最少最小" },
+    { english: "traverse", chinese: "‘trævә:s vt.横越，横切，横断" }
+];

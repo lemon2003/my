@@ -1,0 +1,22 @@
+const words = [
+    { english: "food", chinese: "fu:d n.食物食品养料" },
+    { english: "meaning", chinese: "mi:niŋ n.意义意思含义意图adj.意味深长的" },
+    { english: "massive", chinese: "‘mæsiv a.粗大的；大而重的" },
+    { english: "venture", chinese: "'ventʃə n. &vi.冒险风险投机vt.敢于尝试谨慎地做冒险一试" },
+    { english: "game", chinese: "geimn.游戏比赛猎物行业非法手段策略野味戏弄vi.赌博vt.欺骗adj." },
+    { english: "dictate", chinese: "'dikteit,dik'teit vt. &vi.口授命令听写n.命令指挥指令" },
+    { english: "compliment", chinese: "‘kɔmplim әnt n.问候 vt.赞美，祝贺" },
+    { english: "reinforce", chinese: ".ri:in'fɔ:s vt.增援支援加强vi.得到加强" },
+    { english: "platform", chinese: "'plætfɔ:m n.平台站台讲台月台坛计划" },
+    { english: "purple", chinese: "'pə:pl n.紫色皇室皇权adj.紫的帝王的辞藻华丽的v.变紫" },
+    { english: "barrel", chinese: "'bærəln.桶圆筒枪管炮管笔管一桶的量大量汽油桶vi.快速移动vt." },
+    { english: "canvas", chinese: "‘kænvәs n.粗帆布；一块油画布" },
+    { english: "detection", chinese: "di'tekʃən n.察觉发觉侦察探测" },
+    { english: "reception", chinese: "ri'sepʃən n.接待招待会接受接收欢迎" },
+    { english: "hardware", chinese: "'hɑ:dwɛə n.五金器具(计算机)硬件" },
+    { english: "unit", chinese: "'ju:nit n.单位单元部件组件" },
+    { english: "preclude", chinese: "pri’klu:d vt. 预先排除,预防,阻止,妨碍" },
+    { english: "rural", chinese: "'ru:rəl adj.农村的田园的" },
+    { english: "bush", chinese: "buʃn.灌木灌木丛矮树荒野狐狸尾巴vt.用灌木保护或支撑加衬套于" },
+    { english: "formidable", chinese: "‘fɔ:midәbl a.可怕的；难对付的" }
+];

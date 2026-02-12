@@ -1,0 +1,22 @@
+const words = [
+    { english: "pick", chinese: "pikn.镐鹤嘴锄采摘精选精品收获量vt.拾摘挑选挑惕剔除戳撬vi.慎" },
+    { english: "comply", chinese: "kәm’plai vi.应允，遵照，照做" },
+    { english: "protein", chinese: "'prəuti:n n.蛋白质朊" },
+    { english: "principal", chinese: "'prinsəpəl adj.主要的首要的n.负责人首要校长" },
+    { english: "fabricate", chinese: "‘fæbrikeit vt.制作，组合；捏造" },
+    { english: "circumference", chinese: "sə'kʌmfərəns n.圆周周长周围圆周线胸围" },
+    { english: "gentle", chinese: "'dʒentladj.和蔼的轻柔的显赫的温和的文雅的有教养的n.贵族vt.使显" },
+    { english: "capacity", chinese: "kə'pæsiti n.容量能力能量容积资格职位adj.(达到最大容量)满的" },
+    { english: "swear", chinese: "swɛə vt.宣(誓)发誓vi.诅咒n.宣誓誓言" },
+    { english: "challenge", chinese: "'tʃælindʒ n.挑战要求需要v.向...挑战" },
+    { english: "twenty", chinese: "'twenti num.二十二十个" },
+    { english: "separate", chinese: "'sepəreit adj.分离的个别的各自的单独的n.分开抽印本v.分开隔开分居" },
+    { english: "publication", chinese: ".pʌbli'keiʃən n.公布发表出版发行出版物" },
+    { english: "nylon", chinese: "'nailɔn n.尼龙耐纶(复数nylons)：女长袜" },
+    { english: "pine", chinese: "pain n.松树松木vi.消瘦憔悴渴望" },
+    { english: "drought", chinese: "draut n.旱灾，干旱" },
+    { english: "wool", chinese: "wul n.羊毛毛线绒线毛织品" },
+    { english: "zeal", chinese: "zi:l n.热心热情热忱" },
+    { english: "sacred", chinese: "'seikrid adj.上帝的神圣的受尊重的" },
+    { english: "ambition", chinese: "æm'biʃən n.雄心，抱负，野心，精力vt.有..野心追求" }
+];

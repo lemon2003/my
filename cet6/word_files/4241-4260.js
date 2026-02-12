@@ -1,0 +1,22 @@
+const words = [
+    { english: "cautious", chinese: "‘kɔ:ʃәs a.小心的，谨慎的" },
+    { english: "proclaim", chinese: "prә’kleim vt.宣告，宣布；表明" },
+    { english: "explore", chinese: "iks'plɔ: vt. &vi.探险探索探测探究" },
+    { english: "eleven", chinese: "i'levn num.十一十一个" },
+    { english: "contaminate", chinese: "kәn’tæmineit vt. 弄脏,毒害,传染" },
+    { english: "fancy", chinese: "'fænsin.想象力设想幻想爱好喜好adj.想像的时髦的华丽装饰的奢侈的" },
+    { english: "complete", chinese: "kəm'pli:t adj.完整的完成的彻底的vt.完成使圆满使完美" },
+    { english: "delegation", chinese: ".deli'geiʃən n.代表团委派" },
+    { english: "echo", chinese: "'ekəun. 回声回音回波反响共鸣vi. 重复发回声回响仿效vi. 回响回" },
+    { english: "argument", chinese: "'ɑ:gjumənt n.争论辩论理由论点(据)" },
+    { english: "cube", chinese: "kju:b n.立方体立方vt.求...的立方adj.立方的" },
+    { english: "fuse", chinese: "fju:z n.保险丝，导火线" },
+    { english: "hospitality", chinese: "hɔspi’tæliti n.好客，殷勤；宜人" },
+    { english: "Polish", chinese: "'pɔliʃ adj.波兰的波兰人的波兰语的n.波兰语" },
+    { english: "origin", chinese: "'ɔridʒin n.起源由来出身" },
+    { english: "refugee", chinese: "refju:’dʒi: n.难民，流亡者" },
+    { english: "read", chinese: "red,ri:d vt.阅读看懂理解识别vi.读读起来研究adj.博学的n.阅读" },
+    { english: "oxide", chinese: "‘ɔksaid n.氧化物" },
+    { english: "sovereign", chinese: "‘sɔvrin n.君主 a.统治的" },
+    { english: "quiet", chinese: "'kwaiətadj.寂静的安静的静止的宁静的adv.安静地v.使...平静使...安" }
+];

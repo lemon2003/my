@@ -1,0 +1,22 @@
+const words = [
+    { english: "site", chinese: "sait n.地点地基场所位置现场vt.使...位于" },
+    { english: "nineteen", chinese: "'nain'ti:n num.十九十九个" },
+    { english: "successor", chinese: "sәk’sesә n.继承人，继任者" },
+    { english: "equivalent", chinese: "i'kwivələnt adj.相等的等量的n.相等物" },
+    { english: "exclusive", chinese: "iks’klu:siv a.排外的；孤傲的" },
+    { english: "prohibit", chinese: "prə'hibit vt.禁止阻止妨碍" },
+    { english: "holy", chinese: "'həuli adj.神圣的圣洁的令人敬仰的" },
+    { english: "tag", chinese: "tægn.附加语附属物名称谚语标签vt.附以签条尾随添饰指责连接vi." },
+    { english: "sample", chinese: "'sæmpl n.样品实例标本vt.采样品尝adj.样例的" },
+    { english: "social", chinese: "'səuʃəl adj.社会的社交的群居的社团的" },
+    { english: "match", chinese: "mætʃ n.比赛竞赛对手火柴般配的人配偶v.使...相配与...竞争相配" },
+    { english: "scared", chinese: "skɛәd adj. 受惊吓的" },
+    { english: "bewilder", chinese: "bi’wildә vt.迷惑，把…弄糊涂" },
+    { english: "benefit", chinese: "'benifit n.利益恩惠津贴义卖义演vt.有益于vi.得益" },
+    { english: "virus", chinese: "‘vaiәrәs n. 病毒" },
+    { english: "prestige", chinese: "pres’ti:ʒ n.威望，威信，声望" },
+    { english: "comment", chinese: "'kɔment n.评论意见注释闲话v.注释评论" },
+    { english: "merry", chinese: "'meri adj.欢乐的愉快的敏捷的" },
+    { english: "sunset", chinese: "'sʌnset n.日落(时分)衰落时期(尤指人的晚年)" },
+    { english: "lifetime", chinese: "'laiftaim n.一生终身寿命使用期限" }
+];

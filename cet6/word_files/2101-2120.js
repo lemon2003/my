@@ -1,0 +1,22 @@
+const words = [
+    { english: "researcher", chinese: "ri:'sə:tʃə n.调查者探究者研究人员" },
+    { english: "incredible", chinese: "in’kredәbl a.难以置信的，惊人的" },
+    { english: "price", chinese: "prais n.价格价钱代价vt.定格标价比较价格" },
+    { english: "dispatch", chinese: "dis’pætʃ vt.派遣；调度 n.急件" },
+    { english: "town", chinese: "taun n.镇市镇城镇城市" },
+    { english: "frequent", chinese: "'fri:kwənt adj.时常发生的经常的频繁的vt.常到常去" },
+    { english: "badminton", chinese: "'bædmintən n.羽毛球" },
+    { english: "turbulent", chinese: "'tə:bjulənt adj.骚动的骚乱的狂暴的动荡的汹涌的" },
+    { english: "spy", chinese: "spai n.间谍特务侦探侦察vt.侦察侦探看到找出vi.看侦察" },
+    { english: "intersection", chinese: "intә’sekʃәn n. 交集,十字路口,交叉点" },
+    { english: "piece", chinese: "pi:s n.碎片块片篇vt.拼合修补结合" },
+    { english: "mineral", chinese: "'minərəl n.矿物矿石adj.矿物的" },
+    { english: "quench", chinese: "kwentʃ vt.熄灭，扑灭；压制" },
+    { english: "latent", chinese: "‘leitәnt a.存在但看不见的" },
+    { english: "recruit", chinese: "ri’kru:t vi.征募(新兵),招收 n. 新兵,新成员" },
+    { english: "basketball", chinese: "'bɑ:skitbɔ:l n.篮球篮球运动" },
+    { english: "restraint", chinese: "ri'streint n.抑制遏制克制束缚" },
+    { english: "bore", chinese: "bɔ:vbl.忍受(动词bear过去式)n.令人讨厌的人枪膛孔井眼枪管口径" },
+    { english: "sadness", chinese: "'sædnis n.悲痛悲哀" },
+    { english: "swamp", chinese: "swɔmp n.沼泽沼泽地湿地v.淹没陷于沼泽" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "stroke", chinese: "strəukn.打击鸣声中风笔画连续的动作心跳抚摩捋vt.奉承轻抚摩捋vi." },
+    { english: "bold", chinese: "bəuld adj.大胆的冒失的粗体的醒目的无礼的陡峭的" },
+    { english: "generous", chinese: "'dʒenərəs adj.慷慨的宽厚的宽宏大量的丰盛的味浓的" },
+    { english: "tremble", chinese: "'trembl vi.发抖哆嗦摇动战悚忧虑微动n.战悚颤抖" },
+    { english: "durable", chinese: "'djuərəbl adj.耐久的耐用的n.(复)耐用品" },
+    { english: "lake", chinese: "leik n.湖" },
+    { english: "deliberate", chinese: "di’libәrit a.深思熟虑的；审慎的" },
+    { english: "racket", chinese: "‘rækit n.球拍" },
+    { english: "vinegar", chinese: "'vinigə n.醋" },
+    { english: "gramme", chinese: "græm n.克(重量单位)=gram" },
+    { english: "vanity", chinese: "'væniti n.虚荣心虚夸浮华无价值的东西adj.虚荣心的" },
+    { english: "furnish", chinese: "'fə:niʃ vt.供应提供装备布置" },
+    { english: "home", chinese: "həumn.家家乡住所国内的养老院adj.家庭的家(乡)的adv.回家在家正" },
+    { english: "common", chinese: "'kɔmən adj.普通的共同的平常的n.平民普通公地公园" },
+    { english: "holiday", chinese: "'hɔlədi n.假日节日假期vi.度假" },
+    { english: "whitewash", chinese: "'waitwɔʃ vt.粉刷涂白用白色涂料粉刷掩盖或粉饰n.白色涂料粉饰" },
+    { english: "door", chinese: "dɔ: n.门通道一家" },
+    { english: "effective", chinese: "i'fektiv adj.有效的有影响的" },
+    { english: "resource", chinese: "ri'sɔ:s n.资源物力办法谋略消遣" },
+    { english: "quote", chinese: "kwəut vt.引用引证报价举证n.引用" }
+];

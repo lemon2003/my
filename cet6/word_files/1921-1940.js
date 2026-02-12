@@ -1,0 +1,22 @@
+const words = [
+    { english: "museum", chinese: "mju:'ziəm n.博物馆展览馆" },
+    { english: "notwithstanding", chinese: "nɔtwiθ’stændiŋ prep.尽管，虽然" },
+    { english: "throat", chinese: "θrəut n.咽喉喉咙嗓音vt.低语压着嗓子说(唱)" },
+    { english: "superior", chinese: "su:'piəriə adj.较高的优越的上层的上好的出众的高傲的n.上级高手上标" },
+    { english: "hopeful", chinese: "'həupfəl adj.有希望的" },
+    { english: "material", chinese: "mə'tiəriəln.材料原料物质素材题材资料a.物质的实体的身体上的肉体的重" },
+    { english: "bonus", chinese: "‘bәunәs n. 奖金,红利" },
+    { english: "glitter", chinese: "‘glitә vi.闪闪发光 n.闪光" },
+    { english: "tissue", chinese: "'tiʃu: n.薄绢薄纸(生物的)组织织物纸巾" },
+    { english: "chop", chinese: "tʃɔp vt.砍(价)劈切(细)剁碎vi.砍n.厚肉片排骨砍" },
+    { english: "retell", chinese: "ri:'tel vt.再讲重述复述" },
+    { english: "courage", chinese: "'kʌridʒ n.勇气胆量胆识" },
+    { english: "first", chinese: "fə:stnum. 第一adv. 最初首先第一优先adj. 第一的最早的一流的n." },
+    { english: "investigate", chinese: "in'vestigeit vt. &vi.调查研究" },
+    { english: "attribute", chinese: "ætribju:t vt.把...归因于属于n.属性特征标志象征" },
+    { english: "torture", chinese: "'tɔ:tʃə n.拷问折磨痛苦vt.拷打拷问使痛苦曲解" },
+    { english: "striking", chinese: "‘straikiŋ a.显著的，惊人的" },
+    { english: "reign", chinese: "rein n.君主统治(时期)执政王朝支配vi.当政统治占优势支配盛行" },
+    { english: "mayor", chinese: "'mɛ n.市长" },
+    { english: "lunch", chinese: "lʌntʃ n.午餐(美)便餐vi.吃午餐vt.请客吃午餐" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "soon", chinese: "su:n adv.不久很快早快" },
+    { english: "mile", chinese: "mail n.英里大量海里一英里赛跑" },
+    { english: "onion", chinese: "'ʌnjən n.洋葱洋葱头" },
+    { english: "guarantee", chinese: ".gærən'ti: n.保证(书)担保(书)担保人担保物抵押品vt.保证担保" },
+    { english: "earnings", chinese: "‘ә:niŋz n.工资，收入；收益" },
+    { english: "disgust", chinese: "dis'gʌst n.厌恶憎恶嫌恶vt. &vi.令人厌恶" },
+    { english: "galaxy", chinese: "‘gælәksi n. 银河,星系,一群显赫的人物" },
+    { english: "underground", chinese: "'ʌndəgraund adj.地下的秘密的adv.在地下秘密地n.地下地铁地道秘密活动" },
+    { english: "much", chinese: "mʌtʃ adv.非常很adj.许多的pron. &n.许多" },
+    { english: "proximity", chinese: "prak’sim әti n. 接近,亲近" },
+    { english: "support", chinese: "sə'pɔ:t vt.支撑支持供养帮助n.支持援助供养" },
+    { english: "clumsy", chinese: "'klʌmzi adj.笨拙的笨重的愚笨的不得体的" },
+    { english: "combine", chinese: "kəm'bainvt.使结合兼有融合联结收割混合谷物vi.结合联合n.集团联合收" },
+    { english: "naturally", chinese: "'nætʃərəli adv.自然地天然地" },
+    { english: "butterfly", chinese: "'bʌtəflai n.蝴蝶蝶状物蝶泳vt.(烹饪时把鱼肉等)切开摊平" },
+    { english: "media", chinese: "‘mi:diә n. 媒体" },
+    { english: "actress", chinese: "'æktris n.女演员" },
+    { english: "prevail", chinese: "pri'veil vi.胜优胜获胜流行盛行主导" },
+    { english: "tree", chinese: "tri: n.树树状物vt.把…赶上树使…走投无路" },
+    { english: "teenager", chinese: "'ti:n.eidʒə n.青少年13岁到19岁的年轻人" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "precaution", chinese: "pri'kɔ:ʃən n.预防(措施)警惕" },
+    { english: "wonder", chinese: "'wʌndə n.惊异惊奇奇迹惊谔v.惊奇想知道怀疑adj.奇妙的非凡的" },
+    { english: "limited", chinese: "'limitid adj.有限的被限制住的缺乏创新性的" },
+    { english: "screen", chinese: "skri:n n.屏屏幕银幕屏风vt.掩蔽放映检查选拔遮蔽" },
+    { english: "commentary", chinese: "‘kɔmәntәri n. 注释,评论,批评" },
+    { english: "need", chinese: "ni:d vt.需要必需v.aux.需要n.需要必须缺乏" },
+    { english: "stimulate", chinese: "'stimjuleit vt.刺激激励激发鼓舞vi.起刺激作用" },
+    { english: "emphasize", chinese: "emfəsaizvt 强调着重" },
+    { english: "ignorance", chinese: "‘ignәrәns n.无知，无学，愚昧" },
+    { english: "rent", chinese: "rent n.租金租vi.出租vt. 出租租用" },
+    { english: "musical", chinese: "'mju:zikəl adj.音乐的和谐的n.音乐片" },
+    { english: "horse", chinese: "hɔ:s n.马马科动物vt.骑马adj.马的" },
+    { english: "rare", chinese: "rɛə adj.稀薄的稀有的稀罕的罕见的珍贵的adj.煎得嫩的" },
+    { english: "ash", chinese: "æʃ n.灰灰烬灰末骨灰" },
+    { english: "frighten", chinese: "'fraitən vt.使惊恐吓唬惊恐" },
+    { english: "mean", chinese: "mi:nvt. 作...解释意指意谓想要意欲n. 平均值平均数中部adj. 低" },
+    { english: "aspect", chinese: "'æspekt n.方面样子外表外貌外观方位方向" },
+    { english: "irony", chinese: "‘aiәrәni n. 反讽,讽剌,讽剌之事" },
+    { english: "insight", chinese: "‘insait n.洞察力，洞悉，见识" },
+    { english: "English", chinese: "iŋgliʃn.英语adj.英国人的英国的英语的vt.译成英语把...(外来语言)" }
+];

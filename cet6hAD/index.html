@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百词斩6级高频词2902个</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: #4a6fa5;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .page-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .page-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            background: #f0f7ff;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            color: #2575fc;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            min-height: 60px;
+            font-size: 1.1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .page-link:hover {
+            background: #dbe9ff;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+        
+        .instructions {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .instructions h2 {
+            margin-bottom: 15px;
+            color: #4a6fa5;
+        }
+        
+        .instructions p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .search-box {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .page-list {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .page-link {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>百词斩英语6级高频词2902个</h1>
+            <p class="subtitle">选择单词单元开始学习</p>
+        </header>
+        
+        <div class="content">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索单词单元...">
+            </div>
+            
+            <div class="page-list" id="pageList">
+                <!-- 页面链接将在这里动态生成 -->
+            </div>
+            
+            <div class="instructions">
+                <h2>使用说明</h2>
+                <p>1. 点击上面的链接进入对应的单词学习页面</p>
+                <p>2. 在学习页面中，点击单词卡片查看中文翻译</p>
+                <p>3. 使用"返回首页"按钮可以回到本页面</p>
+                <p>4. 使用"下一个"按钮可以继续学习单词</p>
+                <p>5. 使用搜索框可以快速查找特定单元的单词</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>单词学习系统 &copy; 2023</p>
+        </footer>
+    </div>
+    
+    <script>
+        // 生成所有Words页面链接（从1到29）
+        function generateAllWords() {
+            const words = [];
+            for (let i = 1; i <= 29; i++) {
+                words.push(`Words ${i}`);
+            }
+            return words;
+        }
+        
+        // 所有Words页面
+        const allWords = generateAllWords();
+        let filteredWords = [...allWords];
+        
+        // 获取页面元素
+        const pageList = document.getElementById('pageList');
+        const searchInput = document.getElementById('searchInput');
+        
+        // 显示所有Words链接
+        function showWords() {
+            pageList.innerHTML = '';
+            
+            filteredWords.forEach(word => {
+                // 提取Words编号
+                const wordNumber = word.split(' ')[1];
+                const link = document.createElement('a');
+                link.className = 'page-link';
+                link.href = `words/words${wordNumber}.html`;
+                link.textContent = word;
+                
+                pageList.appendChild(link);
+            });
+        }
+        
+        // 初始化页面
+        function init() {
+            showWords();
+            
+            // 搜索功能
+            searchInput.addEventListener('input', () => {
+                const searchTerm = searchInput.value.toLowerCase();
+                
+                if (searchTerm === '') {
+                    filteredWords = [...allWords];
+                } else {
+                    filteredWords = allWords.filter(word => {
+                        return word.toLowerCase().includes(searchTerm);
+                    });
+                }
+                
+                showWords();
+            });
+        }
+        
+        // 页面加载完成后初始化
+        window.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

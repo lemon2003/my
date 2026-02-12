@@ -1,0 +1,22 @@
+const words = [
+    { english: "tutor", chinese: "'tju:tə n.家庭教师导师v.当家庭教师当导师指导" },
+    { english: "yard", chinese: "jɑ:d n.院子庭院场地码(长度单位)" },
+    { english: "vary", chinese: "'vɛəri vt.改变变化使多样化" },
+    { english: "many", chinese: "'meni adj.许多的pron.许多人或物n.许多人许多" },
+    { english: "hesitate", chinese: "'heziteit vi.犹豫踌躇含糊停顿口吃迟疑vt.用犹疑的态度表示" },
+    { english: "bear", chinese: "beə(r) n.熊粗鲁的人vt.忍受负荷结果实生子女" },
+    { english: "between", chinese: "bi'twi:n adv.在中间prep.在...中间" },
+    { english: "remarkable", chinese: "ri'mɑ:kəbl adj.异常的非凡的显著的值得注意的" },
+    { english: "loud", chinese: "laud adj.响亮的吵闹的大声的难闻的adv.响亮地大声地" },
+    { english: "hole", chinese: "həul n.洞孔眼裂开处穴vt. &vi.挖洞掘坑进洞" },
+    { english: "stride", chinese: "straid vi.大踏步走 n.大步" },
+    { english: "diplomatic", chinese: "diplә’mætik a.外交的；有策略的" },
+    { english: "conquer", chinese: ".kɔŋkə vt.征服战胜克服破除vi.得胜" },
+    { english: "geography", chinese: "dʒi'ɔgrəfi n.地理地理学" },
+    { english: "lip", chinese: "lip n.嘴唇" },
+    { english: "segment", chinese: "‘segmәnt n.切片，部分；段，节" },
+    { english: "full", chinese: "fuladj. 满的完全的充满的丰富的adv. 完全地整整vt. 使...充满" },
+    { english: "arrangement", chinese: "ə'reindʒmənt n.整理排列安排商议" },
+    { english: "today", chinese: "tə'dei adv.在今天现在当今n.今天当今adj.现在的" },
+    { english: "aerial", chinese: "‘ɛәriәl a.空气的；航空的" }
+];

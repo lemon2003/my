@@ -1,0 +1,22 @@
+const words = [
+    { english: "dot", chinese: "dɔt n.点圆点少量小东西vt.作小点记号点缀vi.作小点记号" },
+    { english: "typical", chinese: "'tipikəl adj.典型的代表性的特有的独特的" },
+    { english: "lobby", chinese: "‘lɔbi n.前厅，(剧院的)门廊" },
+    { english: "ready", chinese: "'redi adj.准备好的愿意的情愿的现成的vt.做好...的准备" },
+    { english: "clause", chinese: "klɔ:z n. 子句,条款" },
+    { english: "ambulance", chinese: "'æmbjuləns n.救护车野战医院" },
+    { english: "regular", chinese: "'regjulə adj.规则的有规律的整齐的正规的" },
+    { english: "tribe", chinese: "traib n.部落，宗族" },
+    { english: "sensation", chinese: "sen’seiʃ әn n.感觉，知觉；轰动" },
+    { english: "trick", chinese: "trik n.诡计欺诈把戏诀窍vt.哄骗戏弄欺骗adj.有诡计的有阴谋的" },
+    { english: "canal", chinese: "kə'næl n.运河沟渠管气管食管vt.建运河疏导" },
+    { english: "undertaking", chinese: ".ʌndə'teikiŋ n.任务事业企业保证许诺" },
+    { english: "circular", chinese: "'sə:kjulə adj.圆的循环的n.传单通报" },
+    { english: "whether", chinese: "'(h)weðə conj.是否无论不管" },
+    { english: "leap", chinese: "li:p vi.跳跃跳跃猛冲vt.跃过n.跳跃剧增急变" },
+    { english: "sore", chinese: "sɔ: adj.痛的痛心的恼火的n.疮痛处adv.疼痛地" },
+    { english: "elder", chinese: "'eldə adj.年龄较大的年长的n.长者长辈" },
+    { english: "oval", chinese: "‘әuvәl a.卵形的 n.卵形" },
+    { english: "position", chinese: "pə'ziʃən n.位置职位姿势状态立场vt.安置决定...的位置" },
+    { english: "edit", chinese: "‘edit vt.编辑，编纂；校订" }
+];

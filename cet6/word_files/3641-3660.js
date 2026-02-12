@@ -1,0 +1,22 @@
+const words = [
+    { english: "diagnose", chinese: "‘daiәgnәuz vt.诊断(疾病)" },
+    { english: "cool", chinese: "ku:ladj.凉的冷静的冷色系的adv.冷静地n.凉快vt. &vi.(使)变凉" },
+    { english: "bench", chinese: "bentʃn.长凳条凳工作台梯田vt.坐在长凳上放置长凳在展览会上展览" },
+    { english: "enlighten", chinese: "in’laitn vt.启发，开导；启蒙" },
+    { english: "desirable", chinese: "di'zaiərəbladj.值得相望的可取的值得有的令人满意的有吸引力的n.有吸引" },
+    { english: "resort", chinese: "ri'zɔ:t n. (渡假)胜地手段求助凭借vi.求助凭借诉诸常去" },
+    { english: "brandy", chinese: "'brændi n.白兰地酒vt.以白兰地酒调制" },
+    { english: "adapt", chinese: "ə'dæpt vt.使适应改编vi.适应适合" },
+    { english: "surface", chinese: "'sə:fisn.地面表面外表平面adj.表面的肤浅的vt.在...上加表层使..." },
+    { english: "intention", chinese: "in'tenʃən n.意图意向目的" },
+    { english: "drip", chinese: "drip vi.滴下漏水n.水滴滴点滴乏味的人" },
+    { english: "creep", chinese: "kri:p vi.爬行缓慢地行进蔓延n.爬徐行蠕动" },
+    { english: "lower", chinese: "'ləuə,'lauəadj. 较低的低的下级的下层的vt. 放下降低跌落减弱贬低vi." },
+    { english: "spread", chinese: "spredvt.伸开伸展展开传播散布铺开涂撒n.传播伸展铺开幅度范围盛" },
+    { english: "profound", chinese: "prә’faund a.深刻的；渊博的" },
+    { english: "polite", chinese: "pə'lait adj.有礼貌的有教养的客气的" },
+    { english: "patent", chinese: "‘peitәnt a.专利的 n.专利" },
+    { english: "exciting", chinese: "ik'saitiŋ adj.令人兴奋的" },
+    { english: "breed", chinese: "bri:d n.品种族类vt.使繁殖养育繁殖引起vi.繁殖" },
+    { english: "room", chinese: "ru:m n.房间空间地位余地" }
+];

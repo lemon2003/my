@@ -1,0 +1,22 @@
+const words = [
+    { english: "inject", chinese: "in’dʒekt vt.注射；注满；喷射" },
+    { english: "positive", chinese: "'pɔzitiv adj.确定的积极的肯定的绝对的正面的正数的阳性的" },
+    { english: "death", chinese: "deθ n.死死亡灭亡死神" },
+    { english: "equal", chinese: "'i:kwəl adj.相等的平等的胜任的n.对手匹敌同辈vt.等于比得上" },
+    { english: "accuracy", chinese: "'ækjurəsi n.准确(性)准确度" },
+    { english: "gun", chinese: "gʌn n.枪炮手枪" },
+    { english: "meadow", chinese: "‘medәu n.草地，牧草地" },
+    { english: "base", chinese: "beisn.基础底层基地（支持、收入、力量等的）基础vt.以...作基础" },
+    { english: "destined", chinese: "‘destind a. (由神、命运) 预定的,注定的" },
+    { english: "magnet", chinese: "'mægnit n.磁铁磁石磁体有强大吸引力的人或物" },
+    { english: "swan", chinese: "swɔn n.天鹅vi.闲荡游荡" },
+    { english: "despise", chinese: "dis’paiz vt.鄙视，蔑视" },
+    { english: "implicit", chinese: "im’plisit a. 暗示的,盲从的,绝对的,固有的" },
+    { english: "literacy", chinese: "‘litәrәsi n. 读写能力,识字" },
+    { english: "cabin", chinese: "'kæbin n.小木屋船舱机舱vt.抑制vi.住在小屋" },
+    { english: "tiny", chinese: "'taini adj.微小的极小的" },
+    { english: "establish", chinese: "i'stæbliʃ vt.建立设立确立创办" },
+    { english: "equip", chinese: "i'kwip vt.装备配备设穿…" },
+    { english: "momentum", chinese: "mou’ment әmn. 动力,要素" },
+    { english: "elevator", chinese: "'eliveitə n.电梯升降机飞机升降舵斗式皮带输送机" }
+];

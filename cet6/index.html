@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语6级单词学习系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: #4a6fa5;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .page-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .page-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            background: #f0f7ff;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            color: #2575fc;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+            min-height: 60px;
+            font-size: 1.1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .page-link:hover {
+            background: #dbe9ff;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+        
+        .instructions {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .instructions h2 {
+            margin-bottom: 15px;
+            color: #4a6fa5;
+        }
+        
+        .instructions p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .search-box {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+        
+        .pagination button {
+            padding: 8px 15px;
+            background: #4a6fa5;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        
+        .pagination button:hover {
+            background: #3a5a8c;
+        }
+        
+        .pagination button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+        
+        .page-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .page-list {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .page-link {
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>英语6级单词学习系统</h1>
+            <p class="subtitle">选择单词范围开始学习</p>
+        </header>
+        
+        <div class="content">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索单词范围...">
+            </div>
+            
+            <div class="page-list" id="pageList">
+                <!-- 页面链接将在这里动态生成 -->
+            </div>
+            
+            <div class="pagination">
+                <button id="prevPage" disabled>上一页</button>
+                <div class="page-info" id="pageInfo">第1页/共28页</div>
+                <button id="nextPage">下一页</button>
+            </div>
+            
+            <div class="instructions">
+                <h2>使用说明</h2>
+                <p>1. 点击上面的链接进入对应的单词学习页面</p>
+                <p>2. 在学习页面中，点击单词卡片查看中文翻译</p>
+                <p>3. 使用"返回首页"，可以回到本页面</p>
+                <p>4. 使用"下一个"可以继续背单词</p>
+                <p>5. 使用搜索框可以快速查找特定范围的单词</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>单词学习系统（6级词库乱序版）&copy; 2023</p>
+        </footer>
+    </div>
+    
+    <script>
+        // 生成所有页面范围（从1到5526，每20个一组）
+        function generateAllRanges() {
+            const ranges = [];
+            const totalWords = 5526;
+            const wordsPerPage = 20;
+            
+            for (let i = 0; i < totalWords; i += wordsPerPage) {
+                const start = i + 1;
+                const end = Math.min(i + wordsPerPage, totalWords);
+                ranges.push(`${start}-${end}`);
+            }
+            
+            return ranges;
+        }
+        
+        // 所有页面范围
+        const allPageRanges = generateAllRanges();
+        const itemsPerPage = 50; // 每页显示50个链接
+        let currentPage = 1;
+        let totalPages = Math.ceil(allPageRanges.length / itemsPerPage);
+        let filteredRanges = [...allPageRanges];
+        
+        // 获取页面元素
+        const pageList = document.getElementById('pageList');
+        const prevPageBtn = document.getElementById('prevPage');
+        const nextPageBtn = document.getElementById('nextPage');
+        const pageInfo = document.getElementById('pageInfo');
+        const searchInput = document.getElementById('searchInput');
+        
+        // 显示当前页的链接
+        function showCurrentPage() {
+            pageList.innerHTML = '';
+            
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = Math.min(startIndex + itemsPerPage, filteredRanges.length);
+            const currentRanges = filteredRanges.slice(startIndex, endIndex);
+            
+            currentRanges.forEach(range => {
+                const link = document.createElement('a');
+                link.className = 'page-link';
+                link.href = `word_files/${range}.html`;
+                link.textContent = range;
+                
+                pageList.appendChild(link);
+            });
+            
+            // 更新分页信息
+            pageInfo.textContent = `第${currentPage}页/共${Math.ceil(filteredRanges.length / itemsPerPage)}页`;
+            
+            // 更新按钮状态
+            prevPageBtn.disabled = currentPage === 1;
+            nextPageBtn.disabled = currentPage === Math.ceil(filteredRanges.length / itemsPerPage);
+        }
+        
+        // 初始化页面
+        function init() {
+            showCurrentPage();
+            
+            // 分页按钮事件
+            prevPageBtn.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    showCurrentPage();
+                }
+            });
+            
+            nextPageBtn.addEventListener('click', () => {
+                if (currentPage < Math.ceil(filteredRanges.length / itemsPerPage)) {
+                    currentPage++;
+                    showCurrentPage();
+                }
+            });
+            
+            // 搜索功能
+            searchInput.addEventListener('input', () => {
+                const searchTerm = searchInput.value.toLowerCase();
+                
+                if (searchTerm === '') {
+                    filteredRanges = [...allPageRanges];
+                } else {
+                    filteredRanges = allPageRanges.filter(range => {
+                        return range.includes(searchTerm);
+                    });
+                }
+                
+                currentPage = 1;
+                showCurrentPage();
+            });
+        }
+        
+        // 页面加载完成后初始化
+        window.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

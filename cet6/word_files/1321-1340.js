@@ -1,0 +1,22 @@
+const words = [
+    { english: "school", chinese: "sku:l n.学校学院学派鱼群vt.教育训练磨炼vi.喂食鱼群游来游去" },
+    { english: "daring", chinese: "dɛəriŋ adj.大胆的勇敢的n.冒险精神" },
+    { english: "subway", chinese: "'sʌbwei n.地道地下铁路" },
+    { english: "drug", chinese: "drʌg n.药药物药材毒品vt.下药使...服麻醉药vi.吸毒" },
+    { english: "kingdom", chinese: "kiŋdəm n.王国领域界" },
+    { english: "bow", chinese: "bəu,baun.弓蝴蝶结鞠躬船头两手准备vi.鞠躬成弓形弯腰首次上演屈服" },
+    { english: "superficial", chinese: ".su:pə'fiʃəl adj.表面的肤浅的" },
+    { english: "zebra", chinese: "'zi:brə n.斑马斑马线" },
+    { english: "utter", chinese: "'ʌtə adj.完全的彻底的全然的绝对vt.发出作声发表说讲" },
+    { english: "mind", chinese: "maind n.头脑理智记忆思想主意心意vt.留心注意介意照顾vi.留心关心" },
+    { english: "weary", chinese: "ˈwɪəri a.疲倦的vt.使疲乏" },
+    { english: "insist", chinese: "in'sist vi.坚持强调坚持要求vi.坚决主张" },
+    { english: "coward", chinese: "'kauəd n.懦夫胆怯者adj.胆小的" },
+    { english: "constrain", chinese: "kәn’strein vt. 强迫,勉强,驱使" },
+    { english: "kill", chinese: "kil vi.杀死扼杀消磨消减破坏n.杀杀戮" },
+    { english: "angle", chinese: "æŋgl n.角角度角落vt.斜移转变角度vi.钓鱼谋取转变角度" },
+    { english: "clock", chinese: "klɔk n.钟时钟计时器仪表" },
+    { english: "complex", chinese: "'kɔmpleks adj.结合的复杂的n.复合体" },
+    { english: "exemplify", chinese: "ig’zәmplifai vt.举例证明(解释)" },
+    { english: "telegram", chinese: "'teligræm n.电报vt.向...发电报" }
+];

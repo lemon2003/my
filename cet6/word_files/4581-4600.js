@@ -1,0 +1,22 @@
+const words = [
+    { english: "football", chinese: "'futbɔ:l n.足球比赛足球橄榄球" },
+    { english: "hose", chinese: "hәuz n.长筒袜；软管" },
+    { english: "curb", chinese: "kә:b n. 抑制,勒马绳 vt. 抑制,束缚" },
+    { english: "appliance", chinese: "ə'plaiəns n.用具器具器械装置应用" },
+    { english: "experimental", chinese: "iks.peri'mentl adj实验(性)的试验(性)的" },
+    { english: "sadly", chinese: "'sædli adv.悲痛地悲哀地悲惨地悲伤地" },
+    { english: "historic", chinese: "his’tɔrik a.历史的；历史性的" },
+    { english: "endeavor", chinese: "in’dɛvә vi.&n.努力，尽力" },
+    { english: "geology", chinese: "dʒi’ɔlәdʒi n.地质学；(某地)地质" },
+    { english: "quite", chinese: "kwait adv.完全很相当的确" },
+    { english: "result", chinese: "ri'zʌlt n.成果结果成绩答案vi.发生结果产生致使" },
+    { english: "vocal", chinese: "‘vәukәl a. 直言不讳的，嗓音的,有声的" },
+    { english: "medal", chinese: "'medl n.奖章勋章纪念章vi.获得奖章" },
+    { english: "alternate", chinese: "ɔ:l’tә:nit vt.使交替 a.交替的" },
+    { english: "shore", chinese: "ʃɔ: n.滨岸国家陆地斜撑柱vt.(up)支撑支持" },
+    { english: "architect", chinese: "‘a:kitekt n.建筑师；创造者" },
+    { english: "stock", chinese: "stɔkn.原料库存品存货股本股份储备树干血统家畜adj.存货的平凡的" },
+    { english: "print", chinese: "print vt.印刷出版打印n.印刷正片版印刷物印迹adj.印刷的" },
+    { english: "hardly", chinese: "'hɑ:dli ad.几乎不简直不" },
+    { english: "forthcoming", chinese: "fɔ:θ’kΛmiŋ a.即将到来的；现有的" }
+];

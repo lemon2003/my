@@ -1,0 +1,22 @@
+const words = [
+    { english: "fertilizer", chinese: "'fə:tilaizə n.肥料" },
+    { english: "certain", chinese: "'sə:tn adj.确实的肯定的必然的特定的pron.某几个某些" },
+    { english: "preach", chinese: "pri:tʃ vt.说教，布道；鼓吹" },
+    { english: "examine", chinese: "ig'zæmin vt.检查仔细观察调查考试vi.调查" },
+    { english: "valuable", chinese: "'væljuəbl adj.值钱的有价值的n.(pl.)贵重物品" },
+    { english: "comfort", chinese: "'kʌmfət n.舒适安慰安慰者vt.安慰" },
+    { english: "radiant", chinese: "‘reidjәnt a.绚丽的；容光焕发的" },
+    { english: "Canadian", chinese: "kə'neidjən adj.加拿大的加拿大人的n.加拿大人" },
+    { english: "wall", chinese: "wɔ:ln.墙壁围墙城墙墙状物vt.用墙围住用墙隔开v.演戏般地转动(眼" },
+    { english: "hardship", chinese: "'hɑ:dʃip n.艰难困苦" },
+    { english: "spade", chinese: "speid n.铲铁锹在扑克牌中指黑桃v.铲vt.(用铲子)铲" },
+    { english: "band", chinese: "bænd n.乐队带波段箍队v.联合结合" },
+    { english: "graduate", chinese: "'grædjueitn.毕业生vi.大学毕业获学位逐渐变得vt.毕业(在表、计、尺上)" },
+    { english: "region", chinese: "'ri:dʒən n.地区地带领域行政区" },
+    { english: "whereas", chinese: "wɛәr’æz conj.而，却，反之" },
+    { english: "underestimate", chinese: "Λndәr’estimeit vt.低估，看轻" },
+    { english: "egg", chinese: "eg n.蛋鸡蛋卵(俚语)人" },
+    { english: "sword", chinese: "sɔ:d n.剑刀" },
+    { english: "sting", chinese: "stiŋ vt.刺刺痛使苦恼欺诈vi.刺叮刺痛n.刺痛刺讽刺" },
+    { english: "hat", chinese: "hæt n.帽子(一般指有边的)职位vt.给...戴帽子vi.提供帽子" }
+];

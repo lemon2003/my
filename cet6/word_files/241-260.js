@@ -1,0 +1,22 @@
+const words = [
+    { english: "delight", chinese: "di'lait n.快乐快乐vt.使高兴vi.给与乐趣" },
+    { english: "ward", chinese: "wɔ:d n.病房，病室；监房" },
+    { english: "probably", chinese: "'prɔbəbli adv.或许大概" },
+    { english: "identical", chinese: "ai'dentikəl adj.完全相同的同一的" },
+    { english: "abroad", chinese: "ə'brɔ:d adv.(在)国外海外(一般作表语)到处到国外广为流传" },
+    { english: "human", chinese: "'hju:mən adj.人的人类的n.人" },
+    { english: "romantic", chinese: "rə'mæntik adj.浪漫的传奇的n.浪漫的人" },
+    { english: "possession", chinese: "pə'zeʃən n.有财产拥有所有占有物" },
+    { english: "glance", chinese: "glɑ:ns vi.看一下瞥闪瞥见反光浏览vt.瞥见反光n.一瞥闪光一滑" },
+    { english: "meeting", chinese: "mi:tiŋ n.聚集会合会见会议" },
+    { english: "squeeze", chinese: "skwi:z vt. &vi.榨挤压榨挤压塞进n.压榨勒索榨取" },
+    { english: "thirteen", chinese: "'θə:ti:n num.十三十三个" },
+    { english: "laugh", chinese: "lɑ:f vi.笑发笑n.笑(声)笑料(复数)娱乐" },
+    { english: "accelerate", chinese: "æk'seləreit vt.(使)加快促进加速提前跳级vi.加速" },
+    { english: "soap", chinese: "səup n.肥皂vt.用肥皂洗阿谀奉承" },
+    { english: "bulk", chinese: "bʌlkn.物体容积大批大部分大多数大块大批容积体积vi.变大增加vt." },
+    { english: "generate", chinese: "'dʒenəreit vt.发生产生引起生殖" },
+    { english: "Atlantic", chinese: "ət'læntik adj.大西洋的n.大西洋" },
+    { english: "Japan", chinese: "dʒə'pæn n.日本日本国日本漆日本式漆器日本式物品" },
+    { english: "dismay", chinese: "dis’mei n.惊慌，沮丧，灰心" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "fluid", chinese: "'flu:id n.流体液体adj.流畅优美的流体的流动的不稳定的" },
+    { english: "apologize", chinese: "ə'pɔlədʒaiz vi.道歉谢罪认错" },
+    { english: "discharge", chinese: "dis'tʃɑ:dʒvt. vi.释放排出放出解雇解除放电清偿债务n.释放卸货放电一" },
+    { english: "quiver", chinese: "‘kwivә vi.(轻微地)颤动" },
+    { english: "plantation", chinese: "plæn'teiʃən n.种植园大农场殖民地栽植" },
+    { english: "radioactivity", chinese: ".reidiəuæk'tiviti n.放射性放射(现象)辐射" },
+    { english: "rival", chinese: "'raivəl n.对手同伴竞争者adj.竞争的vt.与...相匹敌比得上vi.竞争" },
+    { english: "clockwise", chinese: "‘klɔkwaiz a.&ad.顺时针方向转的" },
+    { english: "seventeen", chinese: ".sevn'ti:n num.十七十七个" },
+    { english: "undermine", chinese: "Λndә’main vt. 渐渐破坏,暗中破坏,侵蚀基础" },
+    { english: "limb", chinese: "lim n.肢臂翼树枝四肢枝干边缘vt.切断手足切断树干" },
+    { english: "execute", chinese: "'eksikju:t vt.将...处死实施执行完成" },
+    { english: "rid", chinese: "rid vt.使摆脱使去掉免除清除使...获自由" },
+    { english: "moon", chinese: "mu:n n.月球月亮卫星" },
+    { english: "jerk", chinese: "dʒә:k vt.猛地一拉 vi.急拉" },
+    { english: "surprising", chinese: "sə'praiziŋ adj.惊人的出人意外的令人惊讶的动词surprise的现在分词" },
+    { english: "seriously", chinese: "'siriəsli adv.严肃地认真地严重地" },
+    { english: "keen", chinese: "ki:n adj.热心的激烈的敏锐的强烈的精明的热忠于" },
+    { english: "tendency", chinese: "'tendənsi n.趋向趋势倾向" },
+    { english: "collaboration", chinese: "kәlæbә’reiʃәnn. 合作,通敌" }
+];

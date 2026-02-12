@@ -1,0 +1,22 @@
+const words = [
+    { english: "successful", chinese: "sək'sesful adj.成功的结果良好的圆满的" },
+    { english: "thorn", chinese: "θɔ:n n.刺，棘；荆棘；蒺藜" },
+    { english: "summit", chinese: "‘sΛmit n.顶点，最高点；极度" },
+    { english: "anywhere", chinese: "'eniweə adv.在什么地方任何地方n.任何(一个)地方" },
+    { english: "representative", chinese: "repri'zentətiv adj.代表性的代议制的典型的n.代表众议员典型" },
+    { english: "pure", chinese: "pjuə adj.纯的纯粹的纯洁的纯理论的抽象的完全的" },
+    { english: "wood", chinese: "wudn.树林森林木头木材v.提供、装载(木材)(以树木)覆盖adj.木制" },
+    { english: "spoil", chinese: "spɔil vt.损坏破坏糟蹋宠坏溺爱腐坏n.战利品奖品" },
+    { english: "probable", chinese: "'prɔbəbl adj.或有的大概的很可能的n.很可能的事" },
+    { english: "dangerous", chinese: "'deindʒərəs adj.危险的不安全的引起危险的" },
+    { english: "distinguish", chinese: "di'stiŋgwiʃ vt.区别辨别认别特别关注vi.区别" },
+    { english: "compulsory", chinese: "kәm’pΛls әri a.强迫的，义务的" },
+    { english: "alcohol", chinese: "'ælkəhɔl n.酒精酒醇乙醇" },
+    { english: "electronics", chinese: "ilek’trɔniks n.电子学" },
+    { english: "self", chinese: "self n.自我自己本身" },
+    { english: "repeat", chinese: "ri'pi:t vt.重说重做重复复述vi.重复n.重复反复adj.重复的反复的" },
+    { english: "maintain", chinese: "mein'tein vt.维持赡养维修保养坚持断言" },
+    { english: "scar", chinese: "skɑ: n.伤疤伤痕创伤断崖v.结疤使...有伤痕痊愈" },
+    { english: "pollution", chinese: "pə'lu:ʃən n.污染污染物" },
+    { english: "announcer", chinese: "ə'naunsə n.宣告者播音员广播员告知者" }
+];

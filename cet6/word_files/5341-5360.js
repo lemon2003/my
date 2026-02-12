@@ -1,0 +1,22 @@
+const words = [
+    { english: "factory", chinese: "'fæktəri n.工厂制造厂" },
+    { english: "accomplish", chinese: "ə'kɔmpliʃ vt.达到(目的)完成" },
+    { english: "civilize", chinese: "'sivilaiz vt.使文明教育" },
+    { english: "latitude", chinese: "‘lætitju:d n.纬度；黄纬" },
+    { english: "average", chinese: "'ævəridʒn.平均数平均水平adj.平均的一般的通常的v.取平均值达到平均" },
+    { english: "literal", chinese: "‘litәrәl a.文字(上)的；字面的" },
+    { english: "precious", chinese: "'preʃəs adj.珍贵的宝贵的矫揉造作的adv.极其地" },
+    { english: "deduce", chinese: "di'dju:s vt.演绎推论推断溯源" },
+    { english: "conceive", chinese: "kәn’si:v vt.设想，以为；怀孕" },
+    { english: "spring", chinese: "spriŋvi.跳跃射出涌入(出)发芽长高vt.弹起使喷涌越过弹出释放发生" },
+    { english: "sixteen", chinese: "'siks'ti:n num.十六十六个" },
+    { english: "nickel", chinese: "‘nikl n.镍；镍币" },
+    { english: "otherwise", chinese: "'ʌðəwaiz adv.另外要不然否则不同地在不同方面pron.其他adj.不同的" },
+    { english: "deal", chinese: "di:l n.买卖待遇交易协定份量vt.(dealtdealt" },
+    { english: "clasp", chinese: "klɑ:sp n.扣子钩子别针紧握v.扣紧紧握密切合作" },
+    { english: "call", chinese: "kɔ:ln.呼叫访问打电话请求把…看作vt.把...叫做叫喊呼叫访问打电" },
+    { english: "heal", chinese: "hi:l vt.治愈使和解痊愈恢复vi.痊愈" },
+    { english: "electric", chinese: "i'lektrik adj.电的电动的令人激动的鲜亮的n.供电" },
+    { english: "forbidden", chinese: "fə'bidn adj.被禁止的" },
+    { english: "account", chinese: "ə'kauntn.记述解释根据理由帐目报告估计利益好处vi.报账解释导致vt." }
+];

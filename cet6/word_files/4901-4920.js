@@ -1,0 +1,22 @@
+const words = [
+    { english: "stretch", chinese: "stretʃ vt.伸展张开vi.伸延伸n.伸展张开adj.可伸缩的" },
+    { english: "Greek", chinese: "gri:k adj.希腊(人)的n.希腊人希腊语" },
+    { english: "gymnasium", chinese: "dʒim'neiziəmn.体育馆健身房n.(德国等培养学生升入大学的)大学预科高级中" },
+    { english: "barely", chinese: "‘bɛәli ad.仅仅，勉强" },
+    { english: "advance", chinese: "əd'vɑ:nsn.前进进展进步预支vt.前进增涨预先vi.前进提高提升adj.预先" },
+    { english: "inch", chinese: "intʃ n.英寸少量v.慢慢移动" },
+    { english: "upstairs", chinese: "'ʌp'stɛəz adv.在楼上往楼上高水平地上层地头脑上地adj.楼上的n.楼上" },
+    { english: "invention", chinese: "in'venʃən n.发明发明物虚构虚构物创造捏造" },
+    { english: "illuminate", chinese: "i’lju:mineit vt.照明，照亮；阐明" },
+    { english: "state", chinese: "steitn.状态国家州情形adj.国家的州的正式的vt.说说明阐明陈述声" },
+    { english: "wage", chinese: "weidʒ n.工资报酬vt.从事开展进行(战争、运动)" },
+    { english: "achievement", chinese: "ə'tʃi:vmənt n.完成成就成绩达到" },
+    { english: "wife", chinese: "waif n.妻子夫人" },
+    { english: "pipe", chinese: "paipn.管子导管烟斗笛vt.以管输送装管道吹奏尖声说拷边vi.吹奏管" },
+    { english: "revive", chinese: "ri’vaiv vt.&vi.苏醒；复兴" },
+    { english: "status", chinese: "'steitəs n.地位身分情形状况" },
+    { english: "conception", chinese: "kәn’sepʃәn n.概念，观念，想法" },
+    { english: "violate", chinese: "‘vaiәleit vt.违犯，违背；侵犯" },
+    { english: "avail", chinese: "ә’veil vt.有益于 n.效用" },
+    { english: "rim", chinese: "rim n.边；边缘，(眼镜)框" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "condition", chinese: "kən'diʃən n.状况状态环境条件v.以...为条件决定支配训练" },
+    { english: "captive", chinese: "'kæptiv n.俘虏被监禁的人迷恋者adj.被俘的被迷住的" },
+    { english: "yacht", chinese: "jɔt n.游艇，快艇" },
+    { english: "excuse", chinese: "iks'kju:z vt.原谅免除辩解准许离开同意赦免n.借口理由低劣的样品假条" },
+    { english: "squirrel", chinese: "'skwirəl n.松鼠松鼠皮毛vt.储存" },
+    { english: "heritage", chinese: "‘heritidʒ n. 遗产,继承物,传统" },
+    { english: "handle", chinese: "'hændl n.柄把手vt.拿触买卖处理操作vi.驾驭" },
+    { english: "kid", chinese: "kidn.小孩儿童少年小山羊小山羊皮制品vi.(山羊羚羊)生幼崽玩恶" },
+    { english: "net", chinese: "netn.网网状物通信网净利实价adj.净余的纯粹的vt.用网捕撒网净" },
+    { english: "confess", chinese: "kən'fes vt.供认承认坦白告白忏悔" },
+    { english: "outward", chinese: "'autwəd adj.外面的向外的表面的外部的adv.向外在外表面" },
+    { english: "fall", chinese: "fɔ:l vi.落下跌倒倒下陷落来临n.秋天落下瀑布" },
+    { english: "fasten", chinese: "'fæsn vt.扎牢扣住拴紧使固定系强加于vi.固定系紧抓紧" },
+    { english: "player", chinese: "'pleiə n.游戏的人比赛者演奏者演员播放器" },
+    { english: "floor", chinese: "flɔ: n.地板楼层底部地面议员底线vt.铺地板击倒油门踩到底" },
+    { english: "carve", chinese: "kɑ:v vt.刻雕刻切开vi.雕刻切割" },
+    { english: "alloy", chinese: "'ælɔin.合金(金属的)成色vt.使...成合金搀以劣质减低成色影响或贬" },
+    { english: "former", chinese: "'fɔ:mə adj.在前的以前的前任的n.前者形成的原因" },
+    { english: "beloved", chinese: "bi'lʌvid adj.为...的爱的心爱的n.爱人" },
+    { english: "saw", chinese: "sɔ: n.锯子vt.锯锯开用锯子锯vbl.看见(see的过去式)" }
+];

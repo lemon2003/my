@@ -1,0 +1,22 @@
+const words = [
+    { english: "kitchen", chinese: "'kitʃin n.厨房灶间" },
+    { english: "delay", chinese: "di'lei vt.推迟耽搁延误vi.耽搁n.耽搁迟滞" },
+    { english: "bundle", chinese: "'bʌndl n.捆包束包袱一批一大笔钱vt.捆匆匆送走附赠vi.匆忙" },
+    { english: "nail", chinese: "neil n.钉子指甲vt.钉使牢固抓捕敲定" },
+    { english: "mainland", chinese: "'meinlənd n.大陆本土" },
+    { english: "side", chinese: "said n.边旁边一方侧方面adj.旁的侧的vt.支持同意vi.支持" },
+    { english: "county", chinese: "'kaunti n.英国的郡美国的县" },
+    { english: "radish", chinese: "'rædiʃ n.小萝卜" },
+    { english: "tame", chinese: "teim adj.驯服的顺从的柔顺的乏味的vt.驯养使...驯服vi.变得驯服" },
+    { english: "fire", chinese: "'faiə n.火火灾射击vi.点燃解职开枪开火" },
+    { english: "doctrine", chinese: "‘dɔktrin n.教义，主义；学说" },
+    { english: "fail", chinese: "feil vi.失败失灵不能衰退不及格vt.辜负缺少未能做n.不及格" },
+    { english: "lamb", chinese: "læm n.羔羊小羊羔羊肉温顺的人v.产羊羔" },
+    { english: "install", chinese: "in'stɔ:l vt.安装设置安置使...就职" },
+    { english: "short", chinese: "ʃɔ:t adj.短的短期的矮的短暂的n.短裤adv.短暂地突然地" },
+    { english: "pig", chinese: "pig n.猪小猪野猪" },
+    { english: "manly", chinese: "'mænli adj.男子气概的果断的强壮的适于男人的adv.男子般地" },
+    { english: "theory", chinese: "'θiəri n.理论原理学说意见" },
+    { english: "patrol", chinese: "pә’trәul n.巡逻 n.巡逻，巡查" },
+    { english: "Negro", chinese: "'ni:grəu n.(含歧视意味)黑人adj.黑人的" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "wavelength", chinese: "weiv.leŋθ n.波长波段" },
+    { english: "threaten", chinese: "'θretn vt. &vi.威胁恐吓" },
+    { english: "mercy", chinese: "'mə:si n.仁慈慈悲恩惠怜悯宽恕幸运adj.仁慈的宽恕的" },
+    { english: "acknowledge", chinese: "әk’nɔlidʒ vt.承认；告知收到" },
+    { english: "upward", chinese: "'ʌpwəd adj.向上的上升的adv.向上上升" },
+    { english: "noun", chinese: "naun n.名词" },
+    { english: "ascertain", chinese: "æsә’tein vt.查明，确定，弄清" },
+    { english: "December", chinese: "di'sembə n.十二月" },
+    { english: "automobile", chinese: "ɔ:təməbi:l n.汽车机动车adj.汽车的" },
+    { english: "duck", chinese: "dʌkn.鸭雌鸭鸭肉板球零分vt.把…按入水中低头弯身(以免被打中或" },
+    { english: "ending", chinese: "endiŋ n.结尾结局死亡" },
+    { english: "own", chinese: "əun adj.自己的嫡亲的vt.有拥有承认vi.承认pron.自己的" },
+    { english: "defect", chinese: "di'fekt n.缺点缺陷欠缺vi.背叛" },
+    { english: "afford", chinese: "ə'fɔ:d vt.担负得起(后果损失等)提供给予" },
+    { english: "envelope", chinese: "'enviləup n.信封封套封皮壳层" },
+    { english: "preliminary", chinese: "pri'liminəri adj.预备的初步的开始的n.初步行动准备初步措施" },
+    { english: "hoist", chinese: "hɔist vt.升起 vi.扯起来" },
+    { english: "flaw", chinese: "flɔ: n.缺点，瑕疵；裂隙" },
+    { english: "sociology", chinese: "sәusi’ɔlәdʒi n.社会学" },
+    { english: "purse", chinese: "pə:s n.钱包小钱袋手袋资金金钱vt.皱起放进钱包" }
+];

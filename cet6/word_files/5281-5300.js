@@ -1,0 +1,22 @@
+const words = [
+    { english: "workman", chinese: "'wə:kmən n.工人劳动者工匠技工" },
+    { english: "eleventh", chinese: "i'levnθ num.第十一(个)" },
+    { english: "race", chinese: "reis n.比赛竞赛竞争人种种族民族v.赛跑竞赛" },
+    { english: "lodge", chinese: "lɔdʒ vi.暂住借宿投宿临时住宿安顿n.小屋门房支部" },
+    { english: "bet", chinese: "bet n.打赌赌注最大的可能vi.下注vt.打赌" },
+    { english: "tuition", chinese: "tju:’iʃәn n.教，教诲；学费" },
+    { english: "very", chinese: "'veri adv.很完全真正地adj.真的真正的同一的仅仅的恰好的" },
+    { english: "busy", chinese: "'bizi adj.忙的繁忙的杂乱的vt.使忙于vi.忙" },
+    { english: "anyone", chinese: "'eniwʌn pron.任何人" },
+    { english: "without", chinese: "wið'autprep.无没有不在外面adv.在缺乏的情况下在外面conj.除非n.外" },
+    { english: "borrow", chinese: "'bɔrəu vt.借借用借入" },
+    { english: "relay", chinese: "‘ri:lei vt.分程传递；使接替" },
+    { english: "regulation", chinese: ".regju'leiʃən n.规则规章管理adj.规定的官方的" },
+    { english: "thumb", chinese: "θʌm n.(大)拇指v.翻阅示意要求搭车" },
+    { english: "consider", chinese: "kən'sidə vt.认为考虑思考关心" },
+    { english: "critic", chinese: "'kritik n.批评家评论家爱挑剔的人" },
+    { english: "bridge", chinese: "bridʒ n.桥桥梁桥牌鼻梁vt.渡过架桥" },
+    { english: "till", chinese: "til prep.& conj.直到...为止vt.耕作n.放钱的抽屉冰碛" },
+    { english: "barn", chinese: "bɑ:n n.谷仓牲口棚" },
+    { english: "architecture", chinese: "'ɑ:kitektʃə n.建筑学建筑式样建筑业建筑物结构" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "complain", chinese: "kəm'plein vi.抱怨拆苦悲叹控告控诉" },
+    { english: "stubborn", chinese: "‘stΛbәn a.顽固的；顽强的" },
+    { english: "pigeon", chinese: "'pidʒin n.鸽子" },
+    { english: "attention", chinese: "ə'tenʃən n.注意(力)留心关心立正" },
+    { english: "transient", chinese: "‘trænziәnt a.短暂的,转瞬即逝的,临时的,暂住的" },
+    { english: "assembly", chinese: "ə'sembli n.集合集会装配" },
+    { english: "slip", chinese: "slipvi.滑跤滑落溜滑行下跌脱落犯错vt.使滑动偷偷迅速塞(给)匆忙" },
+    { english: "stabilize", chinese: "‘steibilaiz vt.使稳定,使坚固 vi.稳定,安定" },
+    { english: "humanity", chinese: "hju:’mæniti n.人类；人性，人情" },
+    { english: "notebook", chinese: "'nəutbuk n.笔记本笔记本电脑期票簿" },
+    { english: "inexpensive", chinese: ".inik'spensiv adj.花费不多的廉价的" },
+    { english: "sympathy", chinese: "'simpəθi n.同情同情心一致同感赞同慰问" },
+    { english: "investment", chinese: "in'vestmənt n.投资投资额投入" },
+    { english: "volt", chinese: "vəult n.(电压单位)伏特伏voltage" },
+    { english: "tower", chinese: "'tauə n.塔高楼vi.屹立高耸" },
+    { english: "conservation", chinese: ".kɔnsə:'veiʃən n.保存保护守恒防止流失守恒保护自然资源" },
+    { english: "legal", chinese: "'li:gəl adj.法律的合法的法定的" },
+    { english: "circuit", chinese: "'sə:kit n.电路环行一圈巡行巡回vt. &vi.巡回" },
+    { english: "reel", chinese: "ri:ln.卷轴卷筒线轴vi.蹒跚地走旋转骚乱退缩摇晃vt.卷卷... 轴上" },
+    { english: "tender", chinese: "'tendəadj.嫩的脆弱的温柔的亲切的敏感的未成熟的痛的(船)易倾斜的" }
+];

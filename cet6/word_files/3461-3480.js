@@ -1,0 +1,22 @@
+const words = [
+    { english: "administer", chinese: "әd’minist ә vt.执行,管理,治理," },
+    { english: "expand", chinese: "iks'pænd vt.扩大增加详述扩展使膨胀vi.扩展增加详述" },
+    { english: "gown", chinese: "gaun n.长袍长外衣" },
+    { english: "comparable", chinese: "‘kɔmpәrәbl a.可比较的；类似的" },
+    { english: "survey", chinese: "sə:'vei vt.俯瞰检查调查测量勘定纵览环视n.调查纵览视察测量" },
+    { english: "disappear", chinese: ".disə'piə vi.不见失踪消失灭绝vt.引起消失" },
+    { english: "intensity", chinese: "in'tensiti n.强烈剧烈强度" },
+    { english: "illustration", chinese: "i.ləs'treiʃən n.说明图解插图例证" },
+    { english: "terrace", chinese: "‘terәs n.平台，阳台，露台" },
+    { english: "myself", chinese: "mai'self pron.我自己我亲自" },
+    { english: "linear", chinese: "‘liniә a.线的；长度的" },
+    { english: "defence", chinese: "di'fens n.防御防务辩护答辩" },
+    { english: "dissipate", chinese: "‘disipeit vt.驱散；浪费vi.消散" },
+    { english: "gradually", chinese: "'grædjuəli adv.逐渐地逐步地" },
+    { english: "score", chinese: "skɔ:n.得分比数成绩刻痕二十乐谱vt.记分刻划划线得分批评给...谱" },
+    { english: "laser", chinese: "'leizə n.激光镭射" },
+    { english: "existence", chinese: "ig'zistəns n.存在实在生存" },
+    { english: "proof", chinese: "pru:fn.证据证明校样adj.防...的耐...的能防护vt.检验给...做防护" },
+    { english: "frown", chinese: "fraun vt. &vi.皱眉蹙额不同意n.皱眉不悦" },
+    { english: "southeast", chinese: ".sauθ'i:stn.东南东南地区adj.位于东南的东南的向东南的来自东南的adv." }
+];

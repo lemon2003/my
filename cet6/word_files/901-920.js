@@ -1,0 +1,22 @@
+const words = [
+    { english: "estate", chinese: "is’teit n. 房地产；财产，产业" },
+    { english: "buffer", chinese: "‘bΛfә n. 缓冲,缓冲区 vt. 缓冲" },
+    { english: "hang", chinese: "hæŋvt.挂悬吊死悬挂方式vt.(hangedhanged)悬挂绞死vi.(使)低垂" },
+    { english: "tin", chinese: "tin n.锡罐头听头adj.锡制的vt.镀锡于" },
+    { english: "ground", chinese: "graundn.土地战场场地根据背景vt.放在地上使...搁浅打基础grind的" },
+    { english: "robbery", chinese: "'rɔbəri n.抢劫劫掠盗取" },
+    { english: "receive", chinese: "ri'si:v vt.收到得到接待接受迎接容纳遭受相信vi.接到获得" },
+    { english: "daughter", chinese: "'dɔ:tə n.女儿adj.与女儿有关的女性直系后代的" },
+    { english: "only", chinese: "'əunliadv.只仅仅专门地唯一地刚才adj.最好的唯一的出众的conj.除" },
+    { english: "aluminium", chinese: ".ælju'miniəm n.铝" },
+    { english: "blue", chinese: "blu:adj.蓝色的沮丧的忧郁的(女人)有学问的n.蓝色vt.使...变蓝" },
+    { english: "soft", chinese: "sɔftadj.软的柔软的柔和的温和的不强烈的轻的adv.柔软地温和地n." },
+    { english: "orange", chinese: "'ɔ:rindʒ n.橙(树)柑(树)橙黄色adj.橙色的" },
+    { english: "cook", chinese: "kuk vt.烹调煮编造虚构烧(菜)vi.烧菜发生做好n.厨师烧菜" },
+    { english: "proposition", chinese: "prɔpә’ziʃәn n.命题，主题；提议" },
+    { english: "obtain", chinese: "əb'tein vt.获得得到买到vi.通用流行存在" },
+    { english: "provide", chinese: "prə'vaid vt.提供供给装备规定准备vi.供给提供" },
+    { english: "forecast", chinese: "'fɔ:kɑ:st n.预测预报vt. &vi.预示预测" },
+    { english: "fellow", chinese: "'feləu n.人家伙伙伴朋友同类校董研究生adj.同类的同事的同伴的" },
+    { english: "gain", chinese: "geinvt.获得得到增进增加vi.增加得到(钟表等)走得快n.增进增益获" }
+];

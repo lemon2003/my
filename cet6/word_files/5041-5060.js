@@ -1,0 +1,22 @@
+const words = [
+    { english: "maintenance", chinese: "'meintinəns n.维持保持维修生活费用供给抚养主张" },
+    { english: "seller", chinese: "'selə n.卖者售货者行销货畅销品" },
+    { english: "ripe", chinese: "raip adj.熟的成熟的上年纪的合适的时机成熟的" },
+    { english: "mathematics", chinese: ".mæθi'mætiks n.数学" },
+    { english: "up-to-date", chinese: "'ʌptə'deit adj.直到最近的现代的最新的" },
+    { english: "presence", chinese: "'prezns n.出席到场在在场者所在地方举止" },
+    { english: "biography", chinese: "bai’ɔgrәfi n. 传记" },
+    { english: "expose", chinese: "ik'spəuz vt.使暴露揭露揭穿使遭受(危险或不快)" },
+    { english: "simulate", chinese: "‘simjuleit vt. 模拟,假装,模仿" },
+    { english: "queue", chinese: "kju: n.行列长队vi.排队等候" },
+    { english: "awake", chinese: "ə'weik adj.醒着的警惕的vt.唤醒唤起激发vi.醒来恢复意识" },
+    { english: "their", chinese: "ðɛə pron.他(她、它)们的adj.他们的她们的它们的" },
+    { english: "impair", chinese: "im’pɛә vt. 损害,减少,削弱" },
+    { english: "mess", chinese: "mes vt.弄脏，弄乱，搞糟" },
+    { english: "flu", chinese: "flu: n.流行性感冒" },
+    { english: "judgement", chinese: "'dʒʌdʒmənt n.意见审判判断" },
+    { english: "close", chinese: "kləus,kləuzvt.关闭结束靠近vi. 关停业搏斗n. 完结结论adj. 靠近的亲近" },
+    { english: "instrumental", chinese: "instru’mentl a.仪器的；有帮助的" },
+    { english: "some", chinese: "sʌm, səm, sm adj.一些若干adv.大约在某种程度上pron.一些(人物)若干" },
+    { english: "scorn", chinese: "skɔ:n n.轻蔑；嘲笑 vt.轻蔑" }
+];

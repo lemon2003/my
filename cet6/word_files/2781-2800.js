@@ -1,0 +1,22 @@
+const words = [
+    { english: "beneath", chinese: "bi'ni:θ adv.在下方prep.在...下方在...之下" },
+    { english: "uncover", chinese: "ʌn'kʌvə vt.揭开(...的盖子)揭露" },
+    { english: "paradox", chinese: "‘pærәdɔks n. 似非而是的论点,自相矛盾的话" },
+    { english: "trim", chinese: "trimadj.整齐的匀称的vt.使整齐使整洁修除削剪装备痛打击败n.整" },
+    { english: "vacant", chinese: "'veikənt adj.空的空虚的木然的未被占用的" },
+    { english: "motel", chinese: "mәu’tel n.汽车游客旅馆" },
+    { english: "faculty", chinese: "'fækəlti n.才能能力(大学的)系科全体教员" },
+    { english: "application", chinese: ".æpli'keiʃən n.应用请求申请专心施用应用软件程序" },
+    { english: "proper", chinese: "'prɔpə adj.适合的正当的正确的合乎体统的" },
+    { english: "aesthetic", chinese: "i:s’θetik a. 美学的,审美的,有美感" },
+    { english: "oppose", chinese: "ə'pəuz vt.反对反抗以...对抗抗争" },
+    { english: "fantastic", chinese: "fæn’tæstik a.空想的；奇异的" },
+    { english: "generator", chinese: "'dʒenəreitə n.发电机发生器发生者" },
+    { english: "income", chinese: "'in.kʌm n.收入所得收益进款" },
+    { english: "increasingly", chinese: "in'kri:siŋli adv.日益越来越多地逐渐地渐增地" },
+    { english: "lonely", chinese: "'ləunli adj.孤独的荒凉的寂寞的" },
+    { english: "pearl", chinese: "pә:l n.珍珠；珍珠母" },
+    { english: "your", chinese: "juə pron.你的你们的yours" },
+    { english: "snow", chinese: "snəu n.雪下雪似雪花的东西粉状物vi.下雪vt.雪一般落下使雪白欺骗" },
+    { english: "severely", chinese: "sə'virli adv.严厉地严格地严重地(艰难地紧凑地纯朴地)" }
+];

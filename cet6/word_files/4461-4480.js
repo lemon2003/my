@@ -1,0 +1,22 @@
+const words = [
+    { english: "enforce", chinese: "in'fɔ:s vt.实施执行强制强迫加强" },
+    { english: "microscope", chinese: "'maikrəskəup n.显微镜" },
+    { english: "regarding", chinese: "ri'gɑ:diŋ prep.关于至于" },
+    { english: "stir", chinese: "stə:vt.动拨动激动惹起搅和vi.挪动活动离开搅拌激动n.感动(激动" },
+    { english: "viewpoint", chinese: "'vju:pɔint n.观点看法见解" },
+    { english: "explosive", chinese: "iks'pləusiv n.炸药adj.爆炸(性)的" },
+    { english: "northwest", chinese: "'nɔ:θ'westn.西北西北方adj.位于西北的西北的在西北的来自西北的adv.向" },
+    { english: "absence", chinese: "'æbsəns n.缺席不在场缺乏" },
+    { english: "engineer", chinese: ".endʒi'niə n.工程师技师机械师vt.操纵设计建造" },
+    { english: "lady", chinese: "'leidi n.女士夫人贵妇人" },
+    { english: "pudding", chinese: "pudiŋ n.布丁血肠(英)甜食" },
+    { english: "next", chinese: "'nekst adj.紧接的贴近的下一个的adv.其次n.下一个prep.靠近" },
+    { english: "monument", chinese: "'mɔnjumənt n.纪念碑纪念馆历史遗迹" },
+    { english: "internal", chinese: "in'tə:nəl adj.内的国内的内在的身体内部的" },
+    { english: "initiative", chinese: "i’niʃiәtiv a.创始的 n.第一步" },
+    { english: "silent", chinese: "'sailənt adj.沉默的寂静无声的安静的不吵闹的无言的n.(复数)默剧" },
+    { english: "staff", chinese: "stɑ:f n.工作人员参谋全体人员同事拐杖杆棒五线谱vt.配备员工" },
+    { english: "brass", chinese: "brɑ:s n.黄铜(制品)黄铜器铜管(乐器)adj.黄铜的" },
+    { english: "direct", chinese: "di'rekt adj.直接的直率的笔直的坦白的vt.指挥命令负责vi.指导指出" },
+    { english: "quarterly", chinese: "'kwɔ:təli adj.季度的adv.季度地每季一次n.季刊" }
+];

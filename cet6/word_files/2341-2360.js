@@ -1,0 +1,22 @@
+const words = [
+    { english: "scrap", chinese: "skræp n.碎片；废料 vt.废弃" },
+    { english: "requirement", chinese: "ri'kwaiəmənt n.需要要求必要条件" },
+    { english: "summarize", chinese: "'sʌməraiz vt.概括概述总结摘要而言" },
+    { english: "father-in-law", chinese: "'fɑ:ðərinlɔ: n.岳父公公" },
+    { english: "rhythm", chinese: "'riðəm n.韵律格律节奏" },
+    { english: "forest", chinese: "'fɔrist n.森林森林地带园林林火vt.用树林覆盖植树" },
+    { english: "lantern", chinese: "'læntən n.提灯灯笼[建]天窗屋顶气窗" },
+    { english: "shut", chinese: "ʃʌtvt.关上闭上关闭防止进入禁闭合上停止或中止vi.关闭停止或中" },
+    { english: "chord", chinese: "kɔ:d n.(乐器的)弦 vi.协调" },
+    { english: "bread", chinese: "bred n.面包食物粮食生计vt.撒面包屑" },
+    { english: "strictly", chinese: "'striktli adv.严格地严谨地" },
+    { english: "invert", chinese: "in’vә:t, ‘invә:tvt. 使反转,使颠倒,使转化" },
+    { english: "truth", chinese: "tru:θ n.真理真实真实性真像事实" },
+    { english: "sway", chinese: "swei vt.& vi.摇摆摇动支配影响n.摇摆动摇支配" },
+    { english: "earnest", chinese: "'ə:nist adj.认真的诚恳的重要的n.真诚重要的东西定金保证" },
+    { english: "landlord", chinese: "'lændlɔ:d n.地主房东店主" },
+    { english: "seventy", chinese: "'sevnti num.七十七十个" },
+    { english: "shape", chinese: "ʃeip n.形状情况形式定形身材vt.定形使... 成形塑造" },
+    { english: "magnify", chinese: "‘mægnifai vt.放大，扩大" },
+    { english: "charming", chinese: "tʃɑ:miŋ adj迷人的可爱的" }
+];

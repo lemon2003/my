@@ -1,0 +1,22 @@
+const words = [
+    { english: "wing", chinese: "wiŋn.翼翅膀翅(组织中的)派别边锋边房vt.给...装上翼飞过空运打" },
+    { english: "shame", chinese: "ʃeim n.羞耻羞愧羞辱遗憾的事vt.使羞愧" },
+    { english: "community", chinese: "kə'mju:niti n.社区团体社会公社群落(生)" },
+    { english: "Brazil", chinese: "brə'zil n.巴西" },
+    { english: "prospective", chinese: "prәs’pektiv a. 有希望的,预期,将来的" },
+    { english: "supermarket", chinese: "'sju:pə.m ɑ:kitn.超级市场" },
+    { english: "golden", chinese: "'gəuldən adj.金(黄)色的极好的" },
+    { english: "achieve", chinese: "ə'tʃi:v vt.完成实现达到vi.达到目的" },
+    { english: "fresh", chinese: "freʃadj.新的新鲜的无经验的淡(水)的精神饱满的纯洁无瑕的生动的" },
+    { english: "brook", chinese: "bruk n.小河溪流vt.(常用于否定句或疑问句)容忍忍受" },
+    { english: "melt", chinese: "melt vi.融化熔化溶解软化渐渐混合vt.使融化n.熔化熔化物" },
+    { english: "drunk", chinese: "drʌŋk adj.醉的陶醉的vbl.喝喝酒" },
+    { english: "hostile", chinese: "'hɔstail adj.敌方的不友善的怀敌意的" },
+    { english: "child", chinese: "tʃaild n.小孩儿童儿子产物" },
+    { english: "politician", chinese: ".pɔli'tiʃən n.政治家政客" },
+    { english: "energetic", chinese: "enә’dʒetik a.积极的；精力旺盛的" },
+    { english: "immediate", chinese: "i'mi:djət adj.立即的直接的即刻的最接近的" },
+    { english: "hypothesis", chinese: "hai’pɔθisi:z n.假设；前提" },
+    { english: "disregard", chinese: "‘disri’ga:d vt.不管，不顾 n.不管" },
+    { english: "anxious", chinese: "æŋkʃəs adj.焦急的忧虑的渴望的" }
+];

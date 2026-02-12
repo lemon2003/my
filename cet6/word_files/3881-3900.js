@@ -1,0 +1,22 @@
+const words = [
+    { english: "omit", chinese: "əu'mit vt.省略省去遗漏疏忽" },
+    { english: "conjunction", chinese: "kən'dʒʌŋkʃən n.接合连接连接词关联(事件等的)同时发生" },
+    { english: "coincidence", chinese: "kәuin’sid әns n. 巧合,同时发生" },
+    { english: "cooperate", chinese: "kəu'ɔpəreit vi.合作协作配合" },
+    { english: "rather", chinese: "'rɑ:ðə adv.宁可宁愿相当有些反而" },
+    { english: "confront", chinese: "kәn’frΛnt vt.使面对；使对证" },
+    { english: "maximum", chinese: "'mæksiməm n.最大量极点极大adj.最大的最高的最大极限的" },
+    { english: "abundant", chinese: "ə'bʌndənt adj.丰富的充裕的大量的" },
+    { english: "wireless", chinese: "'waiəlis adj.不用电线的无线的n.无线电收音机v.用无线电发送(通讯)" },
+    { english: "pistol", chinese: "'pistl n.手枪vt.用手枪射击" },
+    { english: "local", chinese: "'ləukəl adj.地方的局部的地方性的当地的n.当地人" },
+    { english: "furniture", chinese: "'fə:nitʃə n.家具装置设备" },
+    { english: "talk", chinese: "tɔ:k vi.讲话说vt.谈论商讨n.谈话会谈讲话讨论" },
+    { english: "displace", chinese: "dis’pleis vt.移置；取代；置换" },
+    { english: "willing", chinese: "wiliŋ adj.愿意的心甘情愿的" },
+    { english: "occasionally", chinese: "ə'keiʒənəli adv.偶然非经常地" },
+    { english: "slight", chinese: "slait adj.细长的轻微的纤细的脆弱的vt.轻视忽略n.轻蔑" },
+    { english: "rein", chinese: "rein n.缰绳统驭支配机会vi.驾驭控制vt.以缰绳控制统制" },
+    { english: "retail", chinese: "‘ri:teil n.零售 a.零售的" },
+    { english: "lunar", chinese: "‘lju:nә a.月亮的" }
+];

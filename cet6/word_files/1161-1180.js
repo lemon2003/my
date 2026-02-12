@@ -1,0 +1,22 @@
+const words = [
+    { english: "unnecessary", chinese: "ʌn'nesisəri adj.不必要的多余的" },
+    { english: "commonplace", chinese: "‘kɔmәnpleis a.平凡的 n.平常话" },
+    { english: "practical", chinese: "'præktikəl adj.实践的实用的明智的n.实践考试" },
+    { english: "assume", chinese: "ə'sju:m vt.假定设想承担呈现(想当然的)认为" },
+    { english: "equation", chinese: "i'kweiʃən n.方程(式)等式均衡相等" },
+    { english: "aunt", chinese: "ɑ:nt n.伯母婶母姑母姨" },
+    { english: "honeymoon", chinese: "'hʌnimu:n n.蜜月vi.度蜜月" },
+    { english: "silicon", chinese: "‘silikәn n.硅(旧名矽)" },
+    { english: "merge", chinese: "mә:dʒ vt. 使合并,使并为一体" },
+    { english: "terrify", chinese: "‘terifai vt.使恐怖，使惊吓" },
+    { english: "ambitious", chinese: "æm’biʃәs a.有雄心的；热望的" },
+    { english: "avert", chinese: "ә’vә:t vt. 转开,避免,防止" },
+    { english: "wretched", chinese: "‘retʃid a.不幸的；卑鄙的" },
+    { english: "spark", chinese: "spɑ:kn.火花火星朝气情人俗丽的年轻人vi.闪烁冒火花热情回应vt.激" },
+    { english: "mostly", chinese: "'məustli adv.主要的大部分大概" },
+    { english: "piano", chinese: "pi'ænəu,pi' ɑ:nəun.钢琴adj. & adv.轻柔" },
+    { english: "beforehand", chinese: "bi’fɔ:hænd ad.预先；提前地" },
+    { english: "jealous", chinese: "'dʒeləs adj.妒忌的猜疑的戒备的" },
+    { english: "dairy", chinese: "'dɛəri n.牛奶场乳制品乳品店adj.牛奶的" },
+    { english: "certify", chinese: "‘sә:tifai vt.vi. 证明,保证" }
+];

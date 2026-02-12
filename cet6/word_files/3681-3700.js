@@ -1,0 +1,22 @@
+const words = [
+    { english: "dull", chinese: "dʌladj.枯燥的不鲜明的呆滞的迟钝的无趣的钝的暗的vt.使变钝vi." },
+    { english: "stem", chinese: "stemn.茎(树)干柄船首vi.起源vt.抽去...的梗给...装柄逆...而行" },
+    { english: "secure", chinese: "si'kjuəadj.安心的安全的无虑的牢靠的稳妥的vt.固定获得使...安全" },
+    { english: "cereal", chinese: "‘siәriәl n.谷类，五谷，禾谷" },
+    { english: "measurement", chinese: "'meʒəmənt n.衡量测量尺寸大小" },
+    { english: "president", chinese: "'prezidənt n.总统总裁总经理校长会长社长" },
+    { english: "wise", chinese: "waizadj.有智慧的聪明的明智的有见识的n.方式方法vt.引导vi.知道" },
+    { english: "cradle", chinese: "‘kreidl n.摇篮，发源地" },
+    { english: "regularly", chinese: "'regjuləli adv.有规律地定期地" },
+    { english: "international", chinese: "intə'næʃənəl adj.国际的世界(性)的n.国际组织" },
+    { english: "employ", chinese: "im'plɔi vi.雇用使用使忙于" },
+    { english: "multitude", chinese: "‘mΛltitju:d n.大批，大群；大量" },
+    { english: "astronaut", chinese: "'æstrənɔ:t n.宇宙航行员宇航员" },
+    { english: "incentive", chinese: "in’sentiv n. 动机 a. 激励的" },
+    { english: "wrap", chinese: "ræp vt.裹包捆覆盖包围n.披肩围巾包装材料" },
+    { english: "conflict", chinese: "'kɔnflikt n.争论冲突斗争战斗矛盾vi.争执撞斗冲突" },
+    { english: "ghost", chinese: "gəust n.鬼灵魂幽灵鬼魂一丝vt. &vi.像(鬼一样)地行进" },
+    { english: "drawer", chinese: "'drɔ:ə n.抽屉" },
+    { english: "frontier", chinese: "'frʌntjə n.边境边界边疆新领域尖端边缘" },
+    { english: "sceptical", chinese: "‘skeptik әl a. 怀疑的" }
+];

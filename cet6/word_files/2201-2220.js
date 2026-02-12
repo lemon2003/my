@@ -1,0 +1,22 @@
+const words = [
+    { english: "ore", chinese: "ɔ: n.矿矿石矿砂" },
+    { english: "special", chinese: "'speʃəl adj.特殊的特别的专门的n.特别的东西特价特刊特色菜" },
+    { english: "periodic", chinese: "‘piәri’ɔdik n.周期的；一定时期的" },
+    { english: "dream", chinese: "dri:m n.梦梦想vt. &vi.做梦想象" },
+    { english: "let", chinese: "let vt.允许让使释放vi.出租承包n.障碍擦网球" },
+    { english: "waterfall", chinese: "'wɔ:təfɔ:l n.瀑布" },
+    { english: "whip", chinese: "wipvt.鞭笞抽打鞭策快速移动搅拌搅打煽动锁边n.鞭子鞭打鞭状物" },
+    { english: "lick", chinese: "lik vt.舔舔吃连续击打击败vi.用舌头舔拍打n.舔少许打" },
+    { english: "irritate", chinese: "‘iriteit vt.激怒；引起不愉快" },
+    { english: "snowstorm", chinese: "'snəustɔ:m n.雪暴暴风雪" },
+    { english: "infinite", chinese: "'infinit adj.无限的无穷的无数的n.无限" },
+    { english: "kidney", chinese: "‘kidni n.肾，腰子；性格" },
+    { english: "despite", chinese: "di'spait prep.不管尽管不顾v.憎恨轻视" },
+    { english: "resistant", chinese: "ri'zistənt adj.抵抗的反抗的n.抵抗者" },
+    { english: "thing", chinese: "θiŋ n.物用品事情况(复)things：所有物财产用品" },
+    { english: "hinge", chinese: "hindʒ n.合页，折叶，铰链" },
+    { english: "profitable", chinese: "‘prɔfitәbl a.有利的；有益的" },
+    { english: "root", chinese: "ru:t n.根根子根源祖先vi.生根扎根翻寻起源于" },
+    { english: "agriculture", chinese: "'ægrikʌltʃə n.农业农艺农学" },
+    { english: "thesis", chinese: "‘θi:sis n.论题，论点；论文" }
+];

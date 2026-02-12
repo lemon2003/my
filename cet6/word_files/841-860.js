@@ -1,0 +1,22 @@
+const words = [
+    { english: "electrician", chinese: "ilek’triʃәn n.电工，电气技师" },
+    { english: "handicap", chinese: "‘hændikæp vt.妨碍，使不利" },
+    { english: "stumble", chinese: "'stʌmbl vi.绊倒犯错失策踌躇无意中发现vt.绊倒困惑n.绊倒失策" },
+    { english: "village", chinese: "'vilidʒ n.乡村村庄" },
+    { english: "notable", chinese: "‘nәutәbl n.值得注意的；著名的" },
+    { english: "warrant", chinese: "‘wɔrәnt n. 正当理由, 委任状，许可证" },
+    { english: "obstacle", chinese: "'ɔbstəkl n.障碍障碍物妨害绊脚石" },
+    { english: "skill", chinese: "'skil n.技能技巧熟练" },
+    { english: "weather", chinese: "'weðən.天气气候气象vt.经受住使风化使日晒雨淋vi.风化褪色adj.上" },
+    { english: "someone", chinese: "'sʌmwʌn pron.某人有人" },
+    { english: "journal", chinese: "'dʒə:nl n.日报期刊杂志日志" },
+    { english: "clinic", chinese: "klinik n.诊所，医务室；会诊" },
+    { english: "example", chinese: "ig'zɑ:mpl n.例子实例模范榜样vt.把...作为例子" },
+    { english: "fixture", chinese: "‘fikstʃә n.固定；定期存款" },
+    { english: "realize", chinese: "'riəlaiz vt.实现认识到了解意识到净得" },
+    { english: "crash", chinese: "kræʃ vi.碰撞坠落猛使...破碎迫降n.碰撞猛撞轰隆声崩溃破产垮台" },
+    { english: "unify", chinese: "‘ju:nifai vt. 统一,使成一体" },
+    { english: "depend", chinese: "di'pend vi.依靠依赖相信指望" },
+    { english: "portrait", chinese: "'pɔ:trit n.消像画像adj.(文件页面)竖的" },
+    { english: "moist", chinese: "mɔistadj.湿润的潮湿的多雨的(果物)多汁的,有分泌物的湿性的n.潮" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "capable", chinese: "'keipəbl adj.有能力的有才能的足以胜任的有...倾向的" },
+    { english: "liberate", chinese: "'libəreit vt.解放释放使获自由v.解放使获得自由释出放出" },
+    { english: "identify", chinese: "ai'dentifai vt.认出识别鉴定vi.认同感同身受" },
+    { english: "core", chinese: "kɔ: n.果实的心核心要点vt.挖去果核" },
+    { english: "policy", chinese: "'pɔlisi n.政策方针保险单" },
+    { english: "sometime", chinese: "'sʌmtaim adv.在某一时候从前改天来日adj.以前的某一时间" },
+    { english: "hug", chinese: "hΛg vt.搂 n.紧紧拥抱" },
+    { english: "address", chinese: "ə'dresn. 地址住址致词讲话演说谈吐(处理问题的)技巧vt. 发表演说" },
+    { english: "cite", chinese: "sait vt.引用，引证；举例" },
+    { english: "none", chinese: "nʌn pron.没有人没有任何东西adv.毫不一点也不" },
+    { english: "fulfil", chinese: "ful.fil vt.履行满足完成实践使应验" },
+    { english: "dirty", chinese: "'də:tiadj.脏的下流的肮脏的色情的卑鄙的adv.卑鄙地vt.使...变脏" },
+    { english: "severe", chinese: "si'viə adj.严格的严厉的剧烈的严重的严峻的" },
+    { english: "yell", chinese: "jel vi.叫喊n.大喊" },
+    { english: "carry", chinese: "'kærin. 搬运射程投射联运vt. 负载承担携带运载运输传送传播表达" },
+    { english: "hero", chinese: "'hiərəu n.男主角英雄勇士" },
+    { english: "marginal", chinese: "‘ma:dʒin әl a.记在页边的；边缘的" },
+    { english: "okay", chinese: "əʊ'kei (缩作OK)adv.&adj.<表示同意或允许>对好同意vt.同意" },
+    { english: "country", chinese: "'kʌntri n.国家国土农村adj.国家(的)农村(的)" },
+    { english: "consume", chinese: "kən'sju:m vt.消耗消费消灭毁灭吃、喝、挥霍vi.耗尽生命被烧毁" }
+];

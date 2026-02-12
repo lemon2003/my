@@ -1,0 +1,22 @@
+const words = [
+    { english: "seek", chinese: "si:k vt.寻找探索试图vi.寻找" },
+    { english: "active", chinese: "'æktiv adj.活跃的积极的主动的" },
+    { english: "resignation", chinese: ".rezig'neiʃən n.放弃辞职辞呈顺从" },
+    { english: "bud", chinese: "bʌd n.芽萌芽蓓蕾vi.发芽萌芽vt.使发芽" },
+    { english: "chase", chinese: "tʃeis n.追逐追赶追求狩猎争取vt.追捕狩猎" },
+    { english: "hard", chinese: "hɑ:d adj.硬的困难的艰难的苛刻的adv.努力地猛烈地坚定地" },
+    { english: "luxury", chinese: "'lʌkʃəri n.奢侈奢华奢侈品" },
+    { english: "volunteer", chinese: "vɔlәn’tiә n.志愿者 vt.志愿" },
+    { english: "spill", chinese: "spil vt.使溢出洒使...流出泄漏vi.溢出n.溢出流n.木片小杆" },
+    { english: "Oceania", chinese: ".əuʃi'einiə n.大洋洲" },
+    { english: "watch", chinese: "wɔtʃ vt. &vi.观看注视看守n.手表看管监视" },
+    { english: "wind", chinese: "wind,waind n.风气息呼吸v.使气急吹(号角等)vt.绕缠绕vi.卷曲" },
+    { english: "withdraw", chinese: "wið'drɔ: vt.收回撤回取回撤退vi.撤退退回走开" },
+    { english: "ruler", chinese: "'ru:lə n.统治者尺直尺" },
+    { english: "dissolve", chinese: "di'zɔlvvt.使溶解解散消除解决(问题)使沮丧vi.消散溶解解散液化变得" },
+    { english: "but", chinese: "bʌt adv.仅仅只conj.但是可是prep.除...以外pron.只有" },
+    { english: "bounce", chinese: "baunsn.跳反跃(活)弹力vt.弹跳向...透露注意vi.反跳弹起跳起重新" },
+    { english: "blanket", chinese: "blæŋkitn.毛毯羊毛毯覆盖物排字版vt.用毯子裹扑灭挡风覆盖使包含" },
+    { english: "endure", chinese: "in'djuə vt.忍受容忍vi.持久持续" },
+    { english: "conservative", chinese: "kən'sə:vətiv adj.保守的守旧的n.保守的人保守派(党)" }
+];

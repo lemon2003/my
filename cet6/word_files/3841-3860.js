@@ -1,0 +1,22 @@
+const words = [
+    { english: "bunch", chinese: "bʌntʃn.束球串一群一组凸起大量vi.凸起使成一束(或一群等)vt.使成" },
+    { english: "workshop", chinese: "'wə:kʃɔp n.车间工场创作室研讨会讲习班" },
+    { english: "puzzle", chinese: "'pʌzl n.难题谜惑vi.使迷惑使困惑解决vi.迷惑苦思" },
+    { english: "gather", chinese: "'gæðə vi.聚集集合渐增vt.收集使聚集推断鼓起n.集合聚集" },
+    { english: "porridge", chinese: "'pɔridʒ n.粥麦片粥" },
+    { english: "comparative", chinese: "kəm'pærətiv adj.比较的相对的n.对手" },
+    { english: "complement", chinese: "‘kәmplimәnt vt.补充 n.补足(物)" },
+    { english: "irrespective", chinese: "iris’pektiv a.不考虑的，不顾的" },
+    { english: "avoid", chinese: "ə'vɔid vt.避免躲开逃避撤消" },
+    { english: "Swiss", chinese: "swis adj.瑞士的n.瑞士人" },
+    { english: "dusk", chinese: "dʌskn.薄暮黄昏幽暗vi.(天)变黑变暗vt.把…变黑变暗adj.颜色暗沉" },
+    { english: "finger", chinese: "fiŋgən.手指指针指状物vt.用手指触碰(演奏)(用手)指vi.触摸用手指" },
+    { english: "consciousness", chinese: "'kɔnʃəsnis n.意识觉悟知觉自觉" },
+    { english: "preside", chinese: "pri’zaid vi.主持；主奏" },
+    { english: "peel", chinese: "pi:l vt.剥(皮)，削(皮)" },
+    { english: "sound", chinese: "saundadj.健康的健全的完好的可靠的合理的adv.酣畅地n.声音吵闹海" },
+    { english: "fluctuate", chinese: "‘flΛktjueit vi.波动 vt.使波动" },
+    { english: "inevitable", chinese: "in'evitəbl adj.不可避免的必然(发生)的" },
+    { english: "ensue", chinese: "in’sju: vt. 追求 vi. 跟着发生,继起" },
+    { english: "spacious", chinese: "‘speiʃәs a.广阔的，广大的" }
+];

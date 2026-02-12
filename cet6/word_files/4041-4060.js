@@ -1,0 +1,22 @@
+const words = [
+    { english: "orbit", chinese: "'ɔ:bitn.运行轨道势力范围眼眶轨迹vt.环绕绕轨道而行进入轨道vi.盘" },
+    { english: "scarf", chinese: "skɑ:f n.围巾头巾领带" },
+    { english: "disturb", chinese: "dis'tə:b vt. &vi.打扰扰乱弄乱妨碍使...不安" },
+    { english: "balloon", chinese: "bə'lu:n n.气球玩具气球vt.使膨胀vi.如气球般膨胀激增adj.气球状的" },
+    { english: "sweep", chinese: "swi:pvt.扫扫过扫除拂去刮起掠过席卷扫视全胜vi.打扫席卷昂首阔步" },
+    { english: "industrial", chinese: "in'dʌstriəl adj.工业的产业的n.工业公司" },
+    { english: "suspend", chinese: "səs'pend vt.吊推迟悬挂暂停取消vi.悬挂中止停止偿付债务" },
+    { english: "socialism", chinese: "'səuʃəlizəm n.社会主义" },
+    { english: "revolution", chinese: ".revə'lu:ʃən n.革命旋转绕转转数" },
+    { english: "contest", chinese: "'kɔntest,kən'test vt.争夺争取辩驳竞赛vi.奋斗n.竞赛比赛" },
+    { english: "leader", chinese: "'li:də n.领袖领导人首领" },
+    { english: "pray", chinese: "prei vt. &vi.请求恳求祈祷" },
+    { english: "inlet", chinese: "‘inlet n.进口，水湾 vt.引进" },
+    { english: "upon", chinese: "ə'pɔn prep.在...上在...旁" },
+    { english: "tyre", chinese: "taiən.轮胎车胎=tire(美)Tyre：提尔(古代腓尼基的有名港口现属黎" },
+    { english: "loft", chinese: "lɔ:ft n.阁楼顶楼" },
+    { english: "dozen", chinese: "'dʌzn n.一打十二个adj.一打的十二个的" },
+    { english: "immediately", chinese: "i'mi:diətli adv.立即直接地conj.一...(就)" },
+    { english: "incur", chinese: "in’kә: vt. 招致,蒙受,遭遇" },
+    { english: "tablet", chinese: "‘tæblit n.碑，匾；药片" }
+];

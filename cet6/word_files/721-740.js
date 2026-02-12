@@ -1,0 +1,22 @@
+const words = [
+    { english: "slippery", chinese: "'slipəri adj.滑的使人滑跤的狡猾的不可靠的" },
+    { english: "preface", chinese: "'prefis n.序言前言引语v.作序写前言以...开始" },
+    { english: "accept", chinese: "ək'sept vt.接受同意承担(责任等)vi.接受" },
+    { english: "circulate", chinese: "'sə:kjuleit vt.使循环使流通vi.流通循环传播" },
+    { english: "management", chinese: "'mænidʒmənt n.管理(层)经营处理" },
+    { english: "careless", chinese: "'kɛəlis adj.粗心的漫不经心的疏忽的n.不关心的粗心的[反]attentive" },
+    { english: "minimize", chinese: "‘minimaiz vt.使减到最小" },
+    { english: "recreation", chinese: "rekri’eiʃ әn n.消遣，娱乐活动" },
+    { english: "sue", chinese: "sju: vt. 控告,请愿" },
+    { english: "bottom", chinese: "'bɔtəmn. 底底部根基臀部船身水底服装下面的部分低洼地底色尽头" },
+    { english: "would", chinese: "wud aux.v.将愿愿意总是总会可能大概will的过去式" },
+    { english: "deem", chinese: "di:m vt.认为，相信 vi.想" },
+    { english: "scare", chinese: "skɛə vt.惊吓(惊恐惊慌)vi.受惊n.惊吓(惊恐惊慌)" },
+    { english: "obey", chinese: "ə'bei vt.顺从vi.服从听从" },
+    { english: "hostage", chinese: "‘hɔstidʒ n.人质，抵押品" },
+    { english: "crush", chinese: "krʌʃvt.压碎碾碎镇压拥挤的人群迷恋关键时刻果汁榨汁酿酒vt.压破" },
+    { english: "repay", chinese: "ri:’pei vt.&vi.偿还，报答" },
+    { english: "relativity", chinese: ".relə'tiviti n.相关性相对性" },
+    { english: "strap", chinese: "stræp n.带子皮带vt.(用带)捆扎(用带)打" },
+    { english: "buzz", chinese: "bΛz vi.(蜂等)嗡嗡叫" }
+];

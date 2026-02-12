@@ -1,0 +1,22 @@
+const words = [
+    { english: "prevent", chinese: "pri'vent vt.预防防止阻止" },
+    { english: "generally", chinese: "'dʒenərəli adv.一般地通常地" },
+    { english: "triangle", chinese: "traiæŋgl n.三角(形)" },
+    { english: "straw", chinese: "strɔ:n.稻草麦杆吸管adj.用稻草做的用来作稻草的麦杆色的无价值的" },
+    { english: "mobilize", chinese: "‘mәubilaiz vt.动员 vi.动员起来" },
+    { english: "wealth", chinese: "welθ n.财富财产丰富大量" },
+    { english: "attempt", chinese: "ə'tempt vt.尝试试图n.企图" },
+    { english: "simply", chinese: "'simpli adv.简单地朴素地仅仅完全地" },
+    { english: "Bible", chinese: "'baibl n.基督教《圣经》有权威的书" },
+    { english: "fortnight", chinese: "'fɔ:tnait n.两星期十四天" },
+    { english: "wealthy", chinese: "'welθi adj.富的富裕的n.富人" },
+    { english: "plan", chinese: "plæn n.计划策略方法vt.计划设计打算vi.打算" },
+    { english: "toast", chinese: "təust n.烤面包吐司祝酒祝酒词被祝酒的人vt.烘烤vi. (为... )祝酒" },
+    { english: "soda", chinese: "'səudə n.碳酸钠纯碱汽水苏打" },
+    { english: "garment", chinese: "‘ga:mәnt n.衣服；服装，衣着" },
+    { english: "spatial", chinese: "‘speiʃәl a.空间的，占据空间的" },
+    { english: "entrepreneur", chinese: "‘ɔntrәprә’nә:n. 企业家,主办人" },
+    { english: "artist", chinese: "'ɑ:tist n.艺术家美术家艺人" },
+    { english: "neighbour", chinese: "'neibə n.邻居(邻近的东西邻近值)邻国邻人vt.邻接(相邻接近)" },
+    { english: "expenditure", chinese: "iks’penditʃ n.(时间等)支出，消费" }
+];

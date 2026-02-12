@@ -1,0 +1,22 @@
+const words = [
+    { english: "college", chinese: "'kɔlidʒ n.学院学校社团枢机主教团大学" },
+    { english: "suspicious", chinese: "sәs’piʃәs a.可疑的；猜疑的" },
+    { english: "capital", chinese: "'kæpitl n.资本资金首都大写字母adj.大写的资本的首要的" },
+    { english: "warfare", chinese: "‘wɔ:fɛә n.战争，战争状态" },
+    { english: "clearance", chinese: "‘kliәrәns n. 清除,解除,间隙" },
+    { english: "angel", chinese: "‘eindʒәl n.天使，神差，安琪儿" },
+    { english: "prize", chinese: "praiz n.奖赏奖金奖品珍品战利品vt.珍视重视adj.奖励的杰出的" },
+    { english: "pillar", chinese: "'pilə n.柱柱子栋梁支柱核心(人物)vt.用柱支持" },
+    { english: "velocity", chinese: "vi'lɔsiti n.速度速率迅速" },
+    { english: "authorize", chinese: "‘ɔ:θәraiz vt. 授权与,批准,委托代替" },
+    { english: "plant", chinese: "plɑ:nt n.植物工厂设施设备vt.栽种种植建立设立" },
+    { english: "deer", chinese: "diə n.鹿" },
+    { english: "safeguard", chinese: "‘seifga:d n.保护措施；护照" },
+    { english: "fourth", chinese: "fɔ:θ num.第四四分之一n.四分之一" },
+    { english: "mud", chinese: "mʌd n.软泥泥浆恶意诽谤和攻击vt.弄脏污蔑" },
+    { english: "modern", chinese: "'mɔdən a.现代的近代的时髦的n.现代人时尚人士" },
+    { english: "superb", chinese: "sju:’pә:b a.壮丽的；超等的" },
+    { english: "coherent", chinese: "kәu’hiәrәnt a.粘着的；紧凑的" },
+    { english: "shy", chinese: "ʃaiadj.易受惊的害羞的胆怯的迟疑的vi.惊退畏缩乱投vt.乱投n.投" },
+    { english: "operator", chinese: "'ɔpə.reitə n.操作人员接线员管理者技工报务员" }
+];

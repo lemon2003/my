@@ -1,0 +1,22 @@
+const words = [
+    { english: "expert", chinese: "'ekspə:t n.专家能手adj.熟练的内行的vi.当专家" },
+    { english: "vibration", chinese: "vai'breiʃən n.颤动振动摆动" },
+    { english: "woman", chinese: "'wumən n.妇女女人女性adj.女人的" },
+    { english: "optical", chinese: "'ɔptikəl adj.眼的眼睛的视觉的光学的" },
+    { english: "raid", chinese: "reid n.袭击突然搜查劫掠v.劫掠攫取突击搜捕袭击" },
+    { english: "song", chinese: "sɔŋ n.歌唱歌曲歌词(鸟等)鸣声" },
+    { english: "victory", chinese: "'viktəri n.胜利战胜成功" },
+    { english: "impatient", chinese: "im'peiʃənt adj.不耐烦的急躁的" },
+    { english: "everyday", chinese: "'evri'dei adj.每天的日常的平常的" },
+    { english: "journey", chinese: "'dʒə:ni n.旅行旅程行程v.旅行" },
+    { english: "grow", chinese: "grəu vt. &vi.生长变得变成增长种植逐渐开始" },
+    { english: "specific", chinese: "spi'sifik adj.特有的特殊的明确的具体的有特效的n.特效药特性详情" },
+    { english: "when", chinese: "(h)wenadv.什么时候当...时conj.当...时然后可是pron.什么时候n.时" },
+    { english: "monkey", chinese: "mʌŋki n.猴子猿v.胡闹乱弄" },
+    { english: "education", chinese: ".edjukeiʃn n.教育培养训导教育学" },
+    { english: "outlet", chinese: "'autlet n.出口出路通风口批发商店排遣" },
+    { english: "additional", chinese: "ə'diʃənl adj.附加的追加的另外的" },
+    { english: "cloth", chinese: "klɔθ n.布衣料桌布" },
+    { english: "equator", chinese: "i’kweitә n.赤道，天球赤道" },
+    { english: "layman", chinese: "‘leimәn n. 俗人,门外汉,凡人" }
+];

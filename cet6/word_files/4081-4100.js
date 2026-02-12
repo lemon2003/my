@@ -1,0 +1,22 @@
+const words = [
+    { english: "reputation", chinese: ".repju'teiʃən n.名誉名声好名声" },
+    { english: "educate", chinese: "'edjukeit vt.教育培养训练" },
+    { english: "mushroom", chinese: "'mʌʃrum n.蘑菇菌类植物暴发户vi.扩张迅速增加采蘑菇" },
+    { english: "gaol", chinese: "dʒeil n. 监禁,监狱 vt. 监禁" },
+    { english: "loyal", chinese: "'lɔiəl adj.忠诚的忠心的" },
+    { english: "pasture", chinese: "‘pa:stʃә n.牧场；牲畜饲养" },
+    { english: "recently", chinese: "'ri:sntli adv.最近新近" },
+    { english: "namely", chinese: "'neimli adv.即也就是" },
+    { english: "dash", chinese: "dæʃvt.使猛撞猛掷泼溅冲撞匆忙溅vi.猛冲 猛撞n.猛冲冲撞破折号" },
+    { english: "bubble", chinese: "'bʌbl n.泡泡沫气泡幻想骗局欢乐vi.冒泡沸腾起泡出现洋溢vt.使冒泡" },
+    { english: "rigid", chinese: "'ridʒid adj.刚硬的僵硬的刻板的严格的" },
+    { english: "resign", chinese: "ri'zain vt.放弃辞职使顺从vi.辞职顺从" },
+    { english: "consistent", chinese: "kən'sistənt adj.坚持的一贯的始终如一的一致的" },
+    { english: "dense", chinese: "dens adj.密集的浓厚的愚钝的不易看透的" },
+    { english: "extremely", chinese: "iks'tri:mli adv.极端极其非常" },
+    { english: "troop", chinese: "tru:p n.军队一群组大量vi.群集结队成群前行" },
+    { english: "excessive", chinese: "ik'sesiv adj.过多的过分的极度的" },
+    { english: "rumour", chinese: "'ru:mə n.谣言谣传传闻低语(美)=rumorvt.传闻谣传" },
+    { english: "fork", chinese: "fɔ:k n.餐叉叉叉状物vt. &vi.叉起耙成叉状" },
+    { english: "third", chinese: "θə:d num.第三三分之一adj.第三的三分之一的" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "muscular", chinese: "‘mΛskjul ә a.肌肉发达的，强健的" },
+    { english: "sum", chinese: "sʌm n.总数金额顶点概略一笔钱vi.共计总计概括" },
+    { english: "one", chinese: "wʌnnum.一pron.一个人某人任何人n.一第一个一美元纸币adj.单一" },
+    { english: "think", chinese: "θiŋk vt.想想要认为考虑记起n.想" },
+    { english: "teach", chinese: "ti:tʃ vt.讲教育教教书教导教训vi.给予指导" },
+    { english: "stereo", chinese: "‘stiәriәu n.立体声 a.立体声的" },
+    { english: "outdoors", chinese: "'aut'dɔ:z adv.在户外在野外n.露天野外名词outdoor的复数形式" },
+    { english: "ninety", chinese: "'nainti num.九十九十个" },
+    { english: "creation", chinese: "kri’eiʃәn n. 创造,创作物,发明" },
+    { english: "seam", chinese: "si:m n.缝口；接缝；骨缝" },
+    { english: "paralyze", chinese: "‘pærәlaiz vt. 使瘫痪,使麻痹" },
+    { english: "merchant", chinese: "'mə:tʃənt n.商人零售商店主专家adj.商业的vt.做买卖" },
+    { english: "advocate", chinese: "‘ædvәkit n.辩护者 vt.拥护" },
+    { english: "exploit", chinese: "'eksplɔit,iks'plɔit vt. &vi.剥削利用开拓开发n.功绩勋绩" },
+    { english: "stage", chinese: "steidʒ n.舞台驿站戏剧阶段vt.上演实行进行" },
+    { english: "railway", chinese: "'reilwei n.铁路铁道" },
+    { english: "utilize", chinese: "'ju:tilaiz vt.利用" },
+    { english: "provision", chinese: "prə'viʒən n.供应(品)预备存粮规定条款(pl.)食物vt.向...供应食物" },
+    { english: "specification", chinese: "spesifi’keiʃәn n.载明，详述；规格" },
+    { english: "inspiration", chinese: "inspә’reiʃәn n.灵感；妙想；鼓舞" }
+];

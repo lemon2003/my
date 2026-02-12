@@ -1,0 +1,22 @@
+const words = [
+    { english: "ignite", chinese: "ig’nait vt.引燃 vi.着火" },
+    { english: "clean", chinese: "kli:nadj.清洁的干净的纯洁的正当的完全的精准的空的adv.完全地n." },
+    { english: "slot", chinese: "slɔt n. 缝,狭槽,位置,职位" },
+    { english: "brace", chinese: "breis n.支柱 vt.拉紧，撑牢" },
+    { english: "counsel", chinese: "‘kaunsәl n.商议；忠告；律师" },
+    { english: "discrete", chinese: "di’skrit a. 不连续的, 离散的" },
+    { english: "assess", chinese: "ə'ses vt.对(财产等)估价估定评定" },
+    { english: "conversation", chinese: ".kɔnvə'seiʃən n.会话谈话非正式会谈" },
+    { english: "pour", chinese: "pɔ: vt.灌倒流出倾泻骤雨vi.倾泻蜂涌而来倒" },
+    { english: "acceptance", chinese: "ək'septəns n.接受（礼物、邀请、建议等）同意认可验收承认" },
+    { english: "afraid", chinese: "ə'freid adj.害怕的担心的" },
+    { english: "ban", chinese: "bæn n. 禁令 vt. 禁止,取缔" },
+    { english: "mute", chinese: "mju:tadj.缄默的哑的无声的n.哑巴默音字母弱音器vt.减音减弱" },
+    { english: "about", chinese: "'əbaut prep.关于在...周围adj.准备adv.大约" },
+    { english: "repeatedly", chinese: "ri'pi:tidli adv.重复地再三地一再" },
+    { english: "denote", chinese: "di’nәut vt.指示，意味着" },
+    { english: "directory", chinese: "di’rektәri n.姓名地址录；董事会" },
+    { english: "mould", chinese: "məuldn.模子(样板形状霉菌土类型)模型vt.浇铸模压(铸造发霉形成轮" },
+    { english: "gratitude", chinese: "'grætitju:d adj.感激感谢感恩n.感恩之心" },
+    { english: "profit", chinese: "'prɔfit n.益处利润盈利比率vi.得益利用获利vt.有益于" }
+];

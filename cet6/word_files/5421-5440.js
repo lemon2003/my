@@ -1,0 +1,22 @@
+const words = [
+    { english: "predominant", chinese: "pri’dɔmin әnta.占优势的；主要的" },
+    { english: "yellow", chinese: "'jeləu adj.黄(色)的n.黄(色)蛋黄黄种人v.(使)变黄" },
+    { english: "elastic", chinese: "i'læstik n.橡皮圈有松紧的东西松紧带adj.有弹性的灵活的可变的" },
+    { english: "twist", chinese: "twist vt. & vi.拧捻搓扭曲弯曲n.扭曲弯曲盘旋捻拧" },
+    { english: "ally", chinese: "‘ælai, ә’lai n.盟国，同盟者，伙伴" },
+    { english: "sign", chinese: "sain n.符号招牌正负号手势迹象签名v.签做手势做标记" },
+    { english: "spirit", chinese: "'spiritn.精神气魄情绪心灵幽灵精灵(复)spirits: 精力情绪烈酒vt.使" },
+    { english: "centimetre", chinese: "'senti.mi:tə n.公分厘米=centimeter(美）" },
+    { english: "saturate", chinese: "‘sætʃәreit vt. 使浸透,使充满,使饱和" },
+    { english: "undo", chinese: "'ʌn'du: vt.解开打开松开取消" },
+    { english: "eyesight", chinese: "'aisait n.视力目力" },
+    { english: "suitable", chinese: "'sju:təbl adj.合适的适宜的adv.<古>合适地恰当地" },
+    { english: "household", chinese: "'haushəuld n.家庭户家务adj.家庭的家喻户晓的" },
+    { english: "murder", chinese: "'mə:də n.谋杀凶杀危险物vt.谋杀凶杀折磨损坏vi.谋杀凶杀" },
+    { english: "listen", chinese: "'lisn vi.听留神听听从倾听n.听倾听" },
+    { english: "rectangular", chinese: "rek’tæŋgjul әa. 矩形的,成直角的" },
+    { english: "strict", chinese: "strikt adj.严格的严谨的精确的完全的" },
+    { english: "incidentally", chinese: "insi’dent әliad.附带地；顺便提及" },
+    { english: "condense", chinese: "kən'dens vt.压缩使缩短浓缩摘要" },
+    { english: "comparison", chinese: "kəm'pærisn n.比较对照比似" }
+];

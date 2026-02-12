@@ -1,0 +1,22 @@
+const words = [
+    { english: "clash", chinese: "klæʃ n.碰撞声；抵触，冲突" },
+    { english: "from", chinese: "frɔm prep.从...来离开" },
+    { english: "facet", chinese: "‘fæsit n. 小平面,方面,刻面" },
+    { english: "neighbourhood", chinese: "'neibəhud n.邻居关系邻近" },
+    { english: "barrier", chinese: "'bæriə n.栅栏屏障障碍障碍物界线" },
+    { english: "cash", chinese: "kæʃ n.现金现款vt.兑现付现款adj.现金的" },
+    { english: "consequent", chinese: "‘kɔnsikw әnt a.作为结果的；必然的" },
+    { english: "nightmare", chinese: "‘naitmɛә n.恶梦；经常的恐惧" },
+    { english: "oath", chinese: "әuθ n.誓言，誓约，宣誓" },
+    { english: "catch", chinese: "kætʃn.捕捉陷阱捕获物接(球等)扣栓物隐患vt.捉住赶上领会了解感" },
+    { english: "planet", chinese: "'plænit n.行星" },
+    { english: "potential", chinese: "pə'tenʃəl adj.潜在的可能的n.潜力潜能电位电势" },
+    { english: "breeze", chinese: "bri:z n.微风和风轻而易举的事vi.飘然而行轻松地得胜或进步" },
+    { english: "dish", chinese: "diʃ n.碟盘子菜肴凹形vt.装盘提出揭露挖空vi.闲谈" },
+    { english: "prolong", chinese: "prә’lɔŋ vt.延长，拉长，拖延" },
+    { english: "reckless", chinese: "‘reklis a.粗心大意的；鲁莽的" },
+    { english: "blossom", chinese: "‘blɔsәm n.花，开花 vi.开花" },
+    { english: "disclose", chinese: "dis’klәuz vt.揭开，揭发；透露" },
+    { english: "deny", chinese: "di'nai vt.否定拒绝相信拒绝反对克制" },
+    { english: "knock", chinese: "nɔk vi. &vt.敲击打互撞攻击n.敲敲打敲门" }
+];

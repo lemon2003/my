@@ -1,0 +1,22 @@
+const words = [
+    { english: "needle", chinese: "'ni:dl n.针缝补编织针vt.用针缝激怒嘲弄vi.缝纫" },
+    { english: "turnover", chinese: "‘tә:nouvә n. 人员调整，营业额，成交量" },
+    { english: "dark", chinese: "dɑ:k adj.暗的黑色的n.黑暗暗处" },
+    { english: "impression", chinese: "im'preʃən n.印印象印记效果" },
+    { english: "airplane", chinese: "'eəplein n.飞机=aeroplane(英）" },
+    { english: "domestic", chinese: "də'mestik adj.本国的国内的家庭的驯养的n.家仆佣人" },
+    { english: "therapy", chinese: "‘θerәpi n. 治疗" },
+    { english: "mercury", chinese: "'mə:kjuri n.水银汞(Mercury)水星" },
+    { english: "compromise", chinese: "'kɔmprəmaiz n.妥协让步和解折衷折衷案vt.妥协处理危害vi.妥协让步" },
+    { english: "fierce", chinese: "fiəs adj.凶猛的猛烈的残暴的强烈的狂热的" },
+    { english: "file", chinese: "fail n.档案公文箱锉刀,文件vt.把...归档列队行进申请" },
+    { english: "below", chinese: "bi'ləuadv.在下面向下下级prep.在...下面(以下)(级别、重要性)低于" },
+    { english: "bearing", chinese: "‘bɛәriŋ n.支承；忍受；方位" },
+    { english: "hurl", chinese: "hә:l vt.猛投 vi.猛冲" },
+    { english: "Angle", chinese: "æŋgl n.盎格鲁人" },
+    { english: "mingle", chinese: "‘miŋgl vt.使混合vi.混合起来" },
+    { english: "teaching", chinese: "ti:tʃiŋ n.教学教义讲授教导adj.教学的动词teach的现在分词" },
+    { english: "signify", chinese: "‘signifai vt.表示，意味着" },
+    { english: "especially", chinese: "is'peʃəli adv.特别尤其格外" },
+    { english: "ring", chinese: "riŋn.环形物(如圈、环等)戒指圈铃声vt.包围挂铃铛vi.鸣响回响在" }
+];

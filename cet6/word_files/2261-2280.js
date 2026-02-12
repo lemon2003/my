@@ -1,0 +1,22 @@
+const words = [
+    { english: "poor", chinese: "puə adj.贫穷的贫乏的可怜的缺乏的拙劣的" },
+    { english: "reservior", chinese: "'rezəvwɑ: n.水库蓄水池积蓄储藏=reservoir" },
+    { english: "foster", chinese: "‘fɔstә vt.养育，抚养；培养" },
+    { english: "violin", chinese: ".vaiə'lin n.小提琴" },
+    { english: "digital", chinese: "'didʒitəl adj.数字的计数的手指的数码的电子的" },
+    { english: "cosmic", chinese: "‘kɔzmik a.宇宙的；广大无边的" },
+    { english: "arouse", chinese: "ə=rauz vt.引起唤起唤醒激发激起vi.唤醒" },
+    { english: "announce", chinese: "ə'nauns vi.当电台的播音员宣称vt.宣布宣告发表通知" },
+    { english: "Tuesday", chinese: "'tju:zdi n.星期二" },
+    { english: "recycle", chinese: "‘ri:’saikl vt. 使再循环,再利用,再制" },
+    { english: "moisture", chinese: "'mɔistʃə n.潮湿湿气温度" },
+    { english: "symbol", chinese: "'simbəl n.象征符号记号标志" },
+    { english: "similarly", chinese: "'similəli adv.类似地相似地" },
+    { english: "void", chinese: "vɔid a.空的；无效的" },
+    { english: "decide", chinese: "di'said vt. &vi.决定决心解决作出抉择" },
+    { english: "strengthen", chinese: "streŋθən vt.加强变坚固巩固" },
+    { english: "uneasy", chinese: "ʌn'i:zi adj.心神不安的忧虑的不自在的不稳定的不舒服的" },
+    { english: "my", chinese: "maipron.我的adj.我的(I的所有格形式)int.哎呦(用于表示惊讶的" },
+    { english: "determine", chinese: "di'tə:min vt.决定查明决心" },
+    { english: "representation", chinese: "reprizen’teiʃ әnn.描写；陈述；代表" }
+];

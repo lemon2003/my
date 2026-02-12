@@ -1,0 +1,22 @@
+const words = [
+    { english: "verdict", chinese: "‘vә:dikt n. 裁决,结论,定论,判断" },
+    { english: "retire", chinese: "ri'taiə vi.退下引退撤退退休就寝n.退休退职" },
+    { english: "bathe", chinese: "beið vt.给...洗澡弄湿沐浴用水洗沉浸" },
+    { english: "no", chinese: "nəu adv.不并不adj.没有不是绝非n.不拒绝否决票" },
+    { english: "God", chinese: "gɔd n.神神像上帝偶像vt.像对神一样崇拜" },
+    { english: "anyhow", chinese: "'eni:.hau adv.无论如何不管怎样" },
+    { english: "son", chinese: "sʌn n.儿子孩子(长者对后辈的称呼)" },
+    { english: "odour", chinese: "'əudə n.气味香气味道=odor(美)" },
+    { english: "suddenly", chinese: "'sʌdnli adv.突然地" },
+    { english: "elderly", chinese: "‘eldәli a. 过了中年的,稍老的" },
+    { english: "fuel", chinese: "'fjuəl n.燃料木炭vt.给...加燃料vi.加燃料" },
+    { english: "mission", chinese: "'miʃən n.使命任务使团代表团传教vt.传教" },
+    { english: "agenda", chinese: "ә’dʒendә n. 议程,应办事项" },
+    { english: "pioneer", chinese: ".paiə'niə n.拓荒者先驱者先锋vt.提倡开辟vi.做先驱" },
+    { english: "sauce", chinese: "sɔ:sn.调味汁酱汁无理的话(或举动)vt.给...调味使...增加趣味无" },
+    { english: "information", chinese: ".infə'meiʃən n.消息信息通知情报新闻资料询问" },
+    { english: "electrical", chinese: "i'lektrikəl adj.电的电气科学的与电有关的" },
+    { english: "hello", chinese: "hə'ləu int.喂n.(见面打招呼或打电话用语)喂哈罗" },
+    { english: "save", chinese: "seivvt.救解救节省储蓄保存vi.节省储蓄救球prep.除...之外conj." },
+    { english: "allege", chinese: "ә’ledʒ vt. 宣称,申述,主张,断言" }
+];

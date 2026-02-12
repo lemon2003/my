@@ -1,0 +1,22 @@
+const words = [
+    { english: "Russian", chinese: "'rʌʃən adj.俄国的俄罗斯的n.俄国人俄语" },
+    { english: "center", chinese: "'sentə n.中心中间主角中锋重点vi.居中聚焦于...vt.使集中放在中央" },
+    { english: "satellite", chinese: "'sætəlait n.卫星人造卫星卫星城随从" },
+    { english: "plot", chinese: "plɔt n.小块土地阴谋情节图vt.密谋绘图计划标示位置" },
+    { english: "turbine", chinese: "'tə:bin n.叶轮机汽轮机涡轮" },
+    { english: "whenever", chinese: "wen'evə conj.无论何时每当随时adv.无论何时" },
+    { english: "susceptible", chinese: "sә’septәbl a. 易受影响的,易感动的" },
+    { english: "gardener", chinese: "'gɑ:dnə n.园丁花匠园艺家" },
+    { english: "knowledge", chinese: "'nɔlidʒ n.知识学识知道了解" },
+    { english: "farmer", chinese: "'fɑ:mə n.农民农夫农场主" },
+    { english: "designate", chinese: "‘dezigneit vt.指出，指示；指定" },
+    { english: "both", chinese: "bəuθ adj.两者的conj.不但…而且…pron.两者(都)" },
+    { english: "successfully", chinese: "sək'sesfəli advS.成功地" },
+    { english: "carpet", chinese: "'kɑ:pit n.地毯毡毯毛毯vt.铺以地毯铺盖" },
+    { english: "cricket", chinese: "'krikit n.板球蟋蟀vi.打板球" },
+    { english: "incorrect", chinese: ".inkə'rekt adj.不正确的错误的" },
+    { english: "Indian", chinese: "'indjən adj.印度的印度人的印第安人的n.印度人印第安人" },
+    { english: "appendix", chinese: "ә’pendiks n.附录，附属物；阑尾" },
+    { english: "scholar", chinese: "'skɔlə n.学者(尤指文学方面)获奖学金的学生" },
+    { english: "twice", chinese: "twais adv.两次两倍" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "estimate", chinese: "'estimeit vt.估计估价评价n.估计估价" },
+    { english: "Friday", chinese: "'fraidi n.星期五" },
+    { english: "variety", chinese: "və'raiəti n.多样化种类变种杂耍" },
+    { english: "purpose", chinese: "'pə:pəs n.目的意图效果意志决心议题vt.打算决意" },
+    { english: "neat", chinese: "ni:t adj.整洁的熟练的巧妙的端正的极好的纯的adv.整齐地" },
+    { english: "outstanding", chinese: "aut'stændiŋ adj.突出的杰出的显著的未支付的" },
+    { english: "essence", chinese: "‘esns n.本质，本体；精华" },
+    { english: "razor", chinese: "'reizə n.剃刀" },
+    { english: "independent", chinese: ".indi'pendənt adj.独立的自主的私立的无偏见的n.独立派人士无党派者" },
+    { english: "frog", chinese: "frɔg n.蛙马的蹄叉刀剑的挂环" },
+    { english: "woollen", chinese: "'wulən adj.羊毛制的毛线的n.毛织品" },
+    { english: "lessen", chinese: "'lesn vt.减少减轻缩小变小" },
+    { english: "carrot", chinese: "'kærət n.胡罗卜报酬好处" },
+    { english: "cycle", chinese: "'saikl n自行车循环周期长期圈套曲vt.环行骑自行车vi.使环行" },
+    { english: "discriminate", chinese: "dis’krimineit vt.vi. 区别对待，歧视" },
+    { english: "scale", chinese: "skeiln.天平磅秤秤鳞刻度衡量数值范围标度比例大小v.依比例决定攀" },
+    { english: "lever", chinese: "'levə n.杆杠杆控制杆似杠杆之工具vt.撬开使用杠杆" },
+    { english: "locate", chinese: "ləu'keit vt.探明找出查出设于位于建立vi.建立住下来" },
+    { english: "decimal", chinese: "‘desimәl a.小数的，十进制的" },
+    { english: "coincide", chinese: "kәuin’said vi.相符合；相巧合" }
+];

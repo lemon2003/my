@@ -1,0 +1,22 @@
+const words = [
+    { english: "seaman", chinese: "'si:mən n.海员水手水兵" },
+    { english: "pleasant", chinese: "'pleznt adj.令人愉快的舒适的vi.满意喜欢vt.使高兴" },
+    { english: "labor", chinese: "'leibən.工作劳动劳力劳方vt.苦干劳动分娩阵痛致力于vi.过分详尽阐" },
+    { english: "commercial", chinese: "kə'mə:ʃəl adj.商业的商品化的n.商业广告" },
+    { english: "deserve", chinese: "di'zə:v vt.应受值得vi.应该得到" },
+    { english: "document", chinese: "'dɔkjumənt,'dɔkju n.公文文件证件" },
+    { english: "over", chinese: "'əuvəprep.在...上方超过表示能控制在...期间adj.结束的超过的多" },
+    { english: "separately", chinese: "'sepəritli adv.分离地分别地个别地独立地" },
+    { english: "Soviet", chinese: "'səʊviət, 'sɔviət n.苏维埃adj.苏维埃的苏联的" },
+    { english: "enemy", chinese: "'enimi n.敌人仇敌敌兵敌对势力有害物" },
+    { english: "cordial", chinese: "'kɔ:djəl adj.真诚的诚恳的热忱的兴奋的n.兴奋剂补品" },
+    { english: "dump", chinese: "dʌmp vt.倾卸倾倒倾销丢弃抛售导出vi.骤降扔垃圾n.垃圾场堆放处" },
+    { english: "brain", chinese: "brein n.脑脑髓脑力智力vt.打...的脑袋" },
+    { english: "religion", chinese: "ri'lidʒən n.宗教宗教信仰" },
+    { english: "wrench", chinese: "rentʃ vt.拧，扭伤 n.拧" },
+    { english: "intensify", chinese: "in’tensifai vt.vi. 加强，强化" },
+    { english: "quantify", chinese: "‘kwɔntifai vt.确定…的数量" },
+    { english: "vine", chinese: "vain n.葡萄树攀爬植物藤蔓" },
+    { english: "bullet", chinese: "'bulit n.枪弹子弹弹丸" },
+    { english: "stationary", chinese: "‘steiʃnәri a.固定的,静止不动的" }
+];

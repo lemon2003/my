@@ -1,0 +1,22 @@
+const words = [
+    { english: "flash", chinese: "flæʃn. 闪光闪现闪烁物花哨一瞬间电脑动画技术vi. 闪闪现闪烁vt." },
+    { english: "random", chinese: "‘rændәm n.随机 a.随机的" },
+    { english: "Arabian", chinese: "ə'reibiən adj.阿拉伯(人)的n.阿拉伯人" },
+    { english: "tub", chinese: "tʌb n.桶盆浴缸浴盆v.装入桶洗澡" },
+    { english: "cruel", chinese: "'kru:əl adj.残忍的残酷的引起痛苦的" },
+    { english: "insect", chinese: "'insekt n.昆虫虫" },
+    { english: "alternative", chinese: "ɔ:l'tə:nətiv adj.两者择一的供选择的非主流的n.替换物取舍抉择" },
+    { english: "classroom", chinese: "'klɑ:srum n.教室课堂" },
+    { english: "minority", chinese: "mai'nɔ:riti n.少数少数民族未成年" },
+    { english: "reed", chinese: "ri:d n.芦苇芦杆芦丛芦笛簧片(Reed)里德(姓氏)" },
+    { english: "bacteria", chinese: "bæk'tiəriə n.(复数)细菌" },
+    { english: "debt", chinese: "det n.债债务欠债负债状态义务罪过失" },
+    { english: "contribute", chinese: "kən'tribju:t vt.捐献捐助投稿vi.投稿贡献是原因之一" },
+    { english: "assist", chinese: "ə'sist vt.援助帮助协助的器械搀扶vt.帮助协助vi.帮助协助出席" },
+    { english: "kick", chinese: "kikn.踢冲刺反冲钱包反对极大兴趣vt.踢对自己生气戒除vi.踢反抗" },
+    { english: "fine", chinese: "faina.美好的优质的精致的晴朗的健康的纤细的恭维的辞藻华丽的" },
+    { english: "easy", chinese: "'i:zi adj.容易的安逸的不费力的adv.慢慢地当心地" },
+    { english: "represent", chinese: ".repri'zent vt.描绘代表象征表现表示说明阐明vi.提出异议" },
+    { english: "brother", chinese: "'brʌðə n.兄弟同事同胞教友" },
+    { english: "jacket", chinese: "'dʒækit n.短上衣茄克衫" }
+];

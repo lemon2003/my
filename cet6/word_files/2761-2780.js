@@ -1,0 +1,22 @@
+const words = [
+    { english: "empire", chinese: "'empaiə n.帝国" },
+    { english: "link", chinese: "liŋk vt.有环连接连接联系n.环环节联系(链的)环圈" },
+    { english: "exchange", chinese: "iks'tʃeindʒ vt. &vi.交换交流交易兑换n.交换交换物汇兑交易所" },
+    { english: "promising", chinese: "‘prɔmisiŋ a.有希望的；有前途的" },
+    { english: "car", chinese: "kɑ: n.汽车小汽车轿车车厢吊舱" },
+    { english: "facility", chinese: "fə'siliti n.设备容易便利灵巧容易熟练" },
+    { english: "mood", chinese: "mu:d n.心情情绪语气" },
+    { english: "grind", chinese: "graindvt.磨(碎)碾磨快挤摩擦声无聊的苦工作vt.磨碾挤压摇动手柄" },
+    { english: "province", chinese: "'prɔvins n.省范围领域部门" },
+    { english: "essay", chinese: "'esei,e'sei n.短文散文论文小品文尝试vt.尝试" },
+    { english: "date", chinese: "deit n.日期约会枣椰子vt.约会定...日期vi.追溯到n." },
+    { english: "transaction", chinese: "træn’zækʃ әnn.处理；交易；和解" },
+    { english: "springtime", chinese: "spriŋtaim n.春季春天青春期初期" },
+    { english: "funny", chinese: "'fʌni adj.古怪的滑稽的有趣的莫名其妙的n.笑话(the funny)滑稽戏" },
+    { english: "surname", chinese: "'sə:neim n.姓vt.冠姓" },
+    { english: "batch", chinese: "bætʃ n. 一组,分批,成批,批" },
+    { english: "retrieve", chinese: "ri’tri:v vt. 取回,挽回, 检索" },
+    { english: "feature", chinese: "fi:tʃə n.特征特色面貌vt.以...为特色vi.起重要作用" },
+    { english: "generation", chinese: ".dʒenə'reiʃən n.一代一代人产生" },
+    { english: "observer", chinese: "əb'zə:və n.观察员观测者" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "advise", chinese: "əd'vaiz vt.劝告建议通知警告vi.劝告与...商量" },
+    { english: "definite", chinese: "'definit adj.明确的肯定的一定的" },
+    { english: "atmosphere", chinese: "'ætməsfiə n.大气空气气氛格调情趣气压" },
+    { english: "inward", chinese: "'inwəd adj.里面的内心的向内的亲密的adv.向内n.内部内在" },
+    { english: "valley", chinese: "'væli n.(山)谷溪谷流域adj.流域山谷峡谷" },
+    { english: "exam", chinese: "ig'zæm n.考试检查细查=examination 考试" },
+    { english: "writer", chinese: "'raitə n.作者作家文学家" },
+    { english: "burn", chinese: "bə:n vt. &vi.烧燃烧烧着烧毁灼伤n.烧伤灼伤" },
+    { english: "rebel", chinese: "'rebl,ri'belvi.造反n.造反者叛徒起义者vi.造反反抗反感adj.造反的反抗的" },
+    { english: "sequence", chinese: "'si:kwəns n.连续继续次序序列一系列顺序一组镜头vt.安排顺序" },
+    { english: "knob", chinese: "nɔb n.门把，拉手；旋纽" },
+    { english: "trial", chinese: "'traiəln.试试验试用审判讯问审讯尝试努力讨厌的事人adj.尝试性的审" },
+    { english: "petition", chinese: "pi’tiʃәn n.请愿 vt.向…请愿" },
+    { english: "effort", chinese: "'efət n.努力努力的成果" },
+    { english: "indeed", chinese: "in'di:d adv.真正地确实的确事实上" },
+    { english: "member", chinese: "'membə n.成员会员部位" },
+    { english: "emotion", chinese: "i'məuʃən n.情感感情情绪激动" },
+    { english: "density", chinese: "'densiti n.密集稠密密度透明度" },
+    { english: "supreme", chinese: "sju:'pri:m adj.最高的最大的至上的极度的" },
+    { english: "valid", chinese: "'vælid adj.有效的有根据的正当的合法的" }
+];

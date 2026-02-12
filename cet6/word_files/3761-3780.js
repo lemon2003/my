@@ -1,0 +1,22 @@
+const words = [
+    { english: "miss", chinese: "mis n.小姐vt.想念惦念漏掉错过未看到" },
+    { english: "stony", chinese: "'stəuni adj.多石的石头的石质的冷酷的铁石心肠的<古>石造的" },
+    { english: "temperature", chinese: "'tempritʃə(r) n.温度体温气温发烧" },
+    { english: "list", chinese: "listn.表明细表目录名单条纹倾斜列举<古>意向vt.列出列表(使)倾" },
+    { english: "Asian", chinese: "'eiʃən adj.亚洲的n.亚洲人" },
+    { english: "culminate", chinese: "‘kΛlmineit vi.到绝顶,达于极点,高潮" },
+    { english: "pupil", chinese: "'pju:pl n.学生小学生学徒瞳孔" },
+    { english: "quarrel", chinese: "'kwɔrəl n.争吵吵架口角争论怨言vi.吵架争论挑剔" },
+    { english: "explain", chinese: "iks'plein vt. &vi.解释说明为...辩解" },
+    { english: "pressure", chinese: "'preʃə n.压力压强压迫压按" },
+    { english: "dazzle", chinese: "‘dæzl vt.&vi.炫耀；迷惑" },
+    { english: "ax", chinese: "æksn.斧子（吉他或者萨克斯风类的）乐器vt.用斧砍削减" },
+    { english: "supersonic", chinese: "‘sju:pә’sɔnik a.超声的，超声速的" },
+    { english: "homogeneous", chinese: "hɔmә’dʒi:njәsa.同类的；均匀的" },
+    { english: "mutter", chinese: "'mʌtə vi.轻声低语喃喃自语作低沉声抱怨出怨言n.喃喃低语" },
+    { english: "affiliate", chinese: "ә’filieit vt. 附属,接纳 vi. 有关" },
+    { english: "choose", chinese: "tʃu:z vt.选择挑选情愿vi.选择" },
+    { english: "image", chinese: "'imidʒ n.像形象映象图像影像肖像想像vt.想像描绘反映" },
+    { english: "boat", chinese: "bəut n.小船艇渔船船型物体vt.放于船上vi.划船" },
+    { english: "pose", chinese: "pәuz vi.假装，摆姿势 n.姿势" }
+];

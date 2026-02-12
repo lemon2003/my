@@ -1,0 +1,22 @@
+const words = [
+    { english: "organism", chinese: "'ɔ:gənizəm n.生物体有机体" },
+    { english: "coast", chinese: "kəust n.海岸海滨(地区)滑坡vt.沿海岸而行vi.下滑" },
+    { english: "fund", chinese: "fʌnd n.资金基金存款储备vt.为...提供资金" },
+    { english: "orchestra", chinese: "'ɔ:kistrə n.管弦乐队" },
+    { english: "exotic", chinese: "ig’zɔutik a.异国的,外来的n.外来物,舶来品" },
+    { english: "component", chinese: "kəm'pəunənt n.组成部分分组件元件成份adj.组成的构成的" },
+    { english: "uncle", chinese: "ʌŋkl n.伯父叔父舅父姨父姑父伯舅叔" },
+    { english: "still", chinese: "stiladj.静止的不动的静寂的n.寂静沉默定格照酒厂adv.仍然更静止" },
+    { english: "accident", chinese: "'æksidənt n.意外的事故" },
+    { english: "danger", chinese: "'deindʒə n.危险危险事物" },
+    { english: "rot", chinese: "rɔt vt.烂，腐坏 n.腐烂" },
+    { english: "folk", chinese: "fəuk n.人们家属亲属adj.民间的" },
+    { english: "splendid", chinese: "'splendid adj.壮丽的显著的极好的辉煌的壮观的杰出的" },
+    { english: "quilt", chinese: "kwilt n.被(子)被状物vt.缝被缝制用垫料填塞vi.制作被子做缝制工作" },
+    { english: "injury", chinese: "'indʒəri n.损害伤害受伤处" },
+    { english: "arrow", chinese: "'ærəu n.箭箭头箭状物vi.快且笔直的前进有如穿梭的箭" },
+    { english: "central", chinese: "'sentrəladj.中心的主要的基本的折中的中枢的n.电话交流中央办公室中" },
+    { english: "justice", chinese: "'dʒʌstis n.正义公正司法上诉法庭的法官" },
+    { english: "liquor", chinese: "'likə n.酒溶液液剂" },
+    { english: "eloquent", chinese: "‘elәkwәnt a. 雄辩的,有口才的,动人的" }
+];

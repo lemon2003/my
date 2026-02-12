@@ -1,0 +1,22 @@
+const words = [
+    { english: "motor", chinese: "'məutən.发动机机动车马达汽车adj.机动的有引擎的汽车的v.(用引擎)" },
+    { english: "ball", chinese: "bɔ:l n.球球状物舞会v.(把...捏)成球状" },
+    { english: "second", chinese: "'sekənd num.第二adj.二等的第二的另一个的n.第二秒vt.支持" },
+    { english: "elite", chinese: "ei’li:t n. 精华,精锐,中坚分子" },
+    { english: "further", chinese: "'fə:ðə adv.更远地此外进一步地adj.更远的v.促进推动vt.促进" },
+    { english: "simplicity", chinese: "sim'plisiti n.简单简易朴素单纯简朴" },
+    { english: "toe", chinese: "təu n.脚趾足尖vt.趾触趾踢vi.踮着脚尖走" },
+    { english: "dilute", chinese: "dai’lut vt. 冲淡,稀释 a. 淡的,稀释的" },
+    { english: "select", chinese: "si'lekt vt. &vi.选择挑选选拔adj.精选的优等的n.被挑选出来的人或物" },
+    { english: "bracket", chinese: "‘brækit n. 支架,括弧,托架" },
+    { english: "cement", chinese: "si'mentn.水泥胶泥纽带接合剂牙骨质补牙物基石vt.粘结接合用水泥涂" },
+    { english: "final", chinese: "'fainl adj.最后的决定性的n.决赛期末考试" },
+    { english: "compile", chinese: "kәm’pail vt.编辑，编制，搜集" },
+    { english: "service", chinese: "'sə:vis n.服务行政部门公务部门服役发球发球方式vt.维护保养" },
+    { english: "tease", chinese: "ti:z vt.逗乐，戏弄；强求" },
+    { english: "shrug", chinese: "ʃrΛg vt.&vi.耸(肩) n.耸肩" },
+    { english: "grey", chinese: "grei adj.灰色的n.灰色vi.变成灰色=gray" },
+    { english: "enroll", chinese: "in’rәul vt.登记，招收vi.参军" },
+    { english: "airport", chinese: "'eəpɔ:t n.机场航空站" },
+    { english: "fourteen", chinese: "fɔ:ˈti:n  num.十四第十四" }
+];

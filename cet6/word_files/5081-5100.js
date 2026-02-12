@@ -1,0 +1,22 @@
+const words = [
+    { english: "ecology", chinese: "i(:)’kɔlәdʒi n.生态学；个体生态学" },
+    { english: "crow", chinese: "krəu n.鸦乌鸦啼叫欢叫vi.啼啼叫报晓欢叫vt.洋洋夸口自鸣得意" },
+    { english: "cast", chinese: "kɑ:st n.演员阵容投掷vt.投扔抛浇铸" },
+    { english: "oppress", chinese: "ә’pres vt.压迫，压制；压抑" },
+    { english: "somebody", chinese: "'sʌmbədi pron.某人有人n.重要人物" },
+    { english: "petty", chinese: "‘peti a.细小的；器量小的" },
+    { english: "quotation", chinese: "kwəu'teiʃən n.引用引文引语语录引用报价单行情" },
+    { english: "unsatisfactory", chinese: "'ʌn.sætisfæktəri adj.不能令人满意的" },
+    { english: "noble", chinese: "'nəubl adj.贵族的高尚的宏伟的贵族的高贵的n.贵族" },
+    { english: "noisy", chinese: "'nɔizi adj.嘈杂的喧闹的发出噪声的" },
+    { english: "happy", chinese: "'hæpi adj.快乐的幸福的乐于做某事" },
+    { english: "office", chinese: "'ɔ:fis n.办公室职务事务处局社" },
+    { english: "handy", chinese: "'hændi adj.手边的方便的便于使用的" },
+    { english: "mediterranean", chinese: "meditә’reinjәnn.地中海 a.地中海的" },
+    { english: "adopt", chinese: "ə'dɔpt vt.收养采用采取接受" },
+    { english: "background", chinese: "'bækgraund n.背景后景经历幕后配音vt.提供背景" },
+    { english: "guilty", chinese: "'gilti adj.内疚的有罪的" },
+    { english: "southern", chinese: "'sʌðən adj.南方的南部的来自南方的" },
+    { english: "extinguish", chinese: "iks’tiŋgwiʃ vt.熄灭，扑灭；消灭" },
+    { english: "outline", chinese: "'autlain n.轮廓略图大纲概要素描vt.描画轮廓描述要点" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "lover", chinese: "'lʌvə n.爱好者情人情侣" },
+    { english: "sight", chinese: "sait n.视力见情景景观眼界vt.看见观看vi.瞄准" },
+    { english: "civil", chinese: "'sivil adj.国内的公民的文职的文明的有礼貌的民用的" },
+    { english: "quality", chinese: "'kwɔliti n.质量品质特质特性才能adj.高品质的" },
+    { english: "psychological", chinese: ".saikə'lɔdʒikəl adj.心理的心理学的" },
+    { english: "elect", chinese: "i'lektvt.选举推选选择n.当选人被选的人上帝的选民adj.被选的选出" },
+    { english: "basket", chinese: "'bɑ:skit n.篮篓筐<篮>篮球筐得分" },
+    { english: "mature", chinese: "mə'tjuəadj.成熟的到期的充分发育的考虑周到的vt.使…成熟长成vi.长" },
+    { english: "sponge", chinese: "spʌndʒ n.海绵海绵状的东西vt.用海绵擦拭吸收掉抹掉" },
+    { english: "advantage", chinese: "əd'vɑ:ntidʒ n.优点优势有利条件好处vt.有利于" },
+    { english: "collide", chinese: "kә’laid vi.碰撞；冲突，抵触" },
+    { english: "clearly", chinese: "'kliəli adv.明白地清晰地adj.清楚的" },
+    { english: "conviction", chinese: "kәn’vikʃәn n.确信，信服，深信" },
+    { english: "elimination", chinese: "i.limi'neiʃən n.消灭排除除去消除" },
+    { english: "intermediate", chinese: ".intə'mi:diət adj.中间的中级的n.中间体媒介物调解人vi.调解干涉" },
+    { english: "invalid", chinese: "‘invәli:d, in’vælid n.病人 a.有病的，无效的" },
+    { english: "unexpected", chinese: "'ʌnik'spektid adj.想不到的意外的" },
+    { english: "die", chinese: "dai vi.死死亡灭亡n.金属模子印模骰子" },
+    { english: "detective", chinese: "di’tektiv n.侦探，密探" },
+    { english: "fringe", chinese: "‘frindʒ n.穗，毛边；边缘" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "joint", chinese: "dʒɔintn.接头接缝关节接合处adj.联合的共同的合资的连带的v.连接贴" },
+    { english: "ancestor", chinese: "'ænsəstə n.祖宗祖先原种" },
+    { english: "idiom", chinese: "‘idiәm n.习语，成语" },
+    { english: "shear", chinese: "ʃiəvt.剪剪掉剥夺割vi.剪修剪切割剥夺穿越n.修剪剪下的东西羊的" },
+    { english: "static", chinese: "'stætikadj.静的静态的静力的静止的静电的n.静电静电干扰(猛烈的)反" },
+    { english: "trousers", chinese: "'trauzəz n.裤子长裤" },
+    { english: "figure", chinese: "'figə n.数字外形人物图形形状外形体型v.演算认为领会到" },
+    { english: "dominate", chinese: "‘dɔmineit vt.统治，支配，控制" },
+    { english: "option", chinese: "'ɔpʃən n.选择选择权可选物vt.选择" },
+    { english: "slaughter", chinese: "‘slɔ:tә vt.&n.屠杀，屠宰" },
+    { english: "fitting", chinese: "‘fitiŋ a.适当的 n.配合" },
+    { english: "intervene", chinese: "intә’vi:n vi.干涉，干预；播进" },
+    { english: "confirm", chinese: "kən'fə:m vt.证实肯定批准确定" },
+    { english: "basic", chinese: "'beisikn.基本实质性的东西基础训练[计]BASIC语言基本高级语言adj." },
+    { english: "reader", chinese: "'ri:də n.读者读物读本" },
+    { english: "contradiction", chinese: ".kɔntrə'dikʃən n.矛盾不一致否认反驳" },
+    { english: "physicist", chinese: "'fizisist n.物理学家<古>自然科学家" },
+    { english: "spouse", chinese: "spauz n. 配偶,夫妻" },
+    { english: "rubber", chinese: "'rʌbə n.橡皮(擦子)橡胶合成橡胶adj.橡胶的" },
+    { english: "tennis", chinese: "'tenis n.网球网球运动" }
+];

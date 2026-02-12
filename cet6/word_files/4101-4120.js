@@ -1,0 +1,22 @@
+const words = [
+    { english: "linen", chinese: "'linin n.亚麻布亚麻线亚麻织物亚麻制品adj.亚麻布制的亚麻的" },
+    { english: "versus", chinese: "‘vә:sәs prep.(比赛等中)对" },
+    { english: "male", chinese: "meil a.男的雄的n.男子雄性动物" },
+    { english: "bake", chinese: "beik vt.烤烘焙烧硬vi.烘焙烤变得炎热n.烘焙烤" },
+    { english: "bat", chinese: "bæt n.球拍短棍棒击打蝙蝠v.用棒击打[计算机]DOS文件名：批文件" },
+    { english: "collect", chinese: "'kɔlekt,kə'lekt vt.收集推论接走vi.收款聚集积累adj. &adv.对方付费(的)" },
+    { english: "cup", chinese: "kʌp n.杯子(一)杯奖杯v.(使)成杯形vt.使成杯形" },
+    { english: "sixty", chinese: "'siksti num.六十六十个n.六十adj.六十的六十个的" },
+    { english: "exclude", chinese: "iks'klu:d vt.把...排除在外拒绝" },
+    { english: "flexible", chinese: "'fleksəbl adj.易弯曲的灵活的柔韧的可变通的" },
+    { english: "reliability", chinese: "ri.laiə'biliti n.可靠性" },
+    { english: "Spanish", chinese: "'spæniʃ adj.西班牙的西班牙人的西班牙语的n.西班牙人西班牙语" },
+    { english: "bitter", chinese: "'bitəadj.苦的痛苦的剧烈的严寒的n.苦久苦涩苦的东西vt.使...变苦" },
+    { english: "opposite", chinese: "'ɔpəzitadj.对面的相对的相反的n.对立物对立者对手adv.在对面地处于" },
+    { english: "horizontal", chinese: ".hɔri'zɔntl adj.地平的水平的横的n.水平线水平面" },
+    { english: "testify", chinese: "‘testifai v.证明，证实，作证" },
+    { english: "repent", chinese: "ri'pent vi.悔悟悔改后悔vt.后悔" },
+    { english: "sharply", chinese: "'ʃɑ:pli adv.锐利地敏锐地严厉地厉害地轮廓清晰、线条分明地" },
+    { english: "idle", chinese: "'aidladj.空闲的懒散的无目的的无聊的懒惰的闲散的无根据的" },
+    { english: "heel", chinese: "hi:l n.脚后跟踵后跟v.倾侧" }
+];

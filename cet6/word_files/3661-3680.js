@@ -1,0 +1,22 @@
+const words = [
+    { english: "hit", chinese: "hitvt.打(击)碰撞偶然发现要求符合vi.打(击)袭击达到n.打(击)冲" },
+    { english: "almost", chinese: "'ɔ:lməust adv.几乎差不多adj.几乎" },
+    { english: "qualify", chinese: "'kwɔlifai vt.使具有资格取得资格有资格限定描述vi.取得资格有资格" },
+    { english: "chief", chinese: "tʃi:f adj.主要的首席的n.首领" },
+    { english: "moment", chinese: "'məumənt n.片刻瞬间时刻准确时刻非常重要的时机力矩" },
+    { english: "neither", chinese: "'ni:ðə adj.(两者)都不的皆不int.两者都不conj.既非既不" },
+    { english: "eclipse", chinese: "i’klips n.(日，月)食" },
+    { english: "careful", chinese: "'kɛəfəl adj.小心的仔细的细致的" },
+    { english: "surgeon", chinese: "‘sә:dʒәn n.外科医师；军医" },
+    { english: "cope", chinese: "kəup vi.对付应付对抗n.长袍斗篷状物vt.笼罩" },
+    { english: "trunk", chinese: "trʌŋkn.树干大衣箱皮箱躯干干线象鼻(汽车后部)行李箱(复)trunks：" },
+    { english: "erect", chinese: "i'rekt vt.建造建立使竖立adj.直立的竖立的笔直的" },
+    { english: "dwelling", chinese: "dweliŋ n.住处寓所" },
+    { english: "box", chinese: "bɔksn.箱盒包箱专席亭子窘境vt.装...入盒中限制住调和改变形状用" },
+    { english: "constituent", chinese: "kәn’stitju әnt a.形成的 n.选民" },
+    { english: "alphabet", chinese: "'ælfəbet n.字母表字母系统符号系统基本原理(元素)" },
+    { english: "impetus", chinese: "‘impitәs n. 动力,推动力,激励" },
+    { english: "anybody", chinese: "eni.bɔdi n.重要人物pron.任何人" },
+    { english: "always", chinese: "'ɔ:lweiz adv.总是一直永远" },
+    { english: "damn", chinese: "dæm vt.诅咒 n.诅咒；丝毫" }
+];

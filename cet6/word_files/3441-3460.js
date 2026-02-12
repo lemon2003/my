@@ -1,0 +1,22 @@
+const words = [
+    { english: "instinct", chinese: "instiŋkt n.本能直觉生性天性adj.充满的" },
+    { english: "weekday", chinese: "'wi:kdei n.周日工作日" },
+    { english: "glove", chinese: "glʌv n.手套vt.给...戴手套" },
+    { english: "process", chinese: "'prɑ:ses n.过程工序vt.加工处理起诉vi.列队前进adj.经过加工的" },
+    { english: "norm", chinese: "nɔ:m n.标准，规范；平均数" },
+    { english: "foresee", chinese: "fɔ:’si: vt.预见，预知，看穿" },
+    { english: "famine", chinese: "'fæmin n.饥荒严重的缺乏" },
+    { english: "hunger", chinese: "hʌŋgə n.饿饥饿渴望v.饿渴望使...饥饿" },
+    { english: "shift", chinese: "ʃift vt.替换转移变声vi.改变定责更衣n.转换交换变化移动接班者" },
+    { english: "abnormal", chinese: "æb'nɔ:məl adj.反常的不正常的不规则的变态的n.不正常的人" },
+    { english: "reveal", chinese: "ri'vi:lvt.展现揭示显示揭露透露n.(外墙与门或窗之间的)窗侧门侧(汽" },
+    { english: "invaluable", chinese: "in’vælju әbl a. 无价的,价值无法衡量的" },
+    { english: "train", chinese: "trein vt.培养训练培训n.列车火车队列行列一系列" },
+    { english: "bump", chinese: "bΛmp vt.撞击 vi.撞 n.肿块" },
+    { english: "deep", chinese: "di:p adj.深的有...深的深奥的纵深的adv.深深地晚地n.深处" },
+    { english: "sense", chinese: "sens n.感官感觉见识侦测理智意义vt.感觉了解检测" },
+    { english: "loyalty", chinese: "'lɔiəlti n.忠诚忠心" },
+    { english: "curtain", chinese: "'kə:tn n.帘窗帘幕(布)遮蔽物vt.用窗帘装饰遮蔽" },
+    { english: "handkerchief", chinese: "hæŋkətʃif n.手帕方头巾围巾" },
+    { english: "guidance", chinese: "'gaidəns n.引导指导领导导航系统" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "circus", chinese: "‘sә:kәs n.马戏；马戏团" },
+    { english: "marriage", chinese: "'mæridʒ n.结婚婚姻婚礼" },
+    { english: "wax", chinese: "wæksn.蜡蜂蜡(一阵)情绪增大vt. (用蜡)涂得到...(更好的)vi.变大" },
+    { english: "desperate", chinese: "'despərit adj.拼死的绝望的不顾一切的极想得到的" },
+    { english: "goodness", chinese: "'gudnis n.优良德性仁慈善良美德精华int.天哪" },
+    { english: "thin", chinese: "θin adj.薄的淡的稀的vi.变薄变瘦adv.薄薄地稀疏地" },
+    { english: "literature", chinese: "'litərətʃə n.文学文献" },
+    { english: "impact", chinese: "'impækt,im'pækt n.影响(力)作用冲击(力)冲突vt.挤入压紧撞击对...发生影响" },
+    { english: "imaginative", chinese: "i’mædʒәnәtiva. 想象的,虚构的" },
+    { english: "free", chinese: "fri: adj.自由的空闲的大方的免费的vt.释放解放adv.自由地免费地" },
+    { english: "replace", chinese: "ri'pleis vt.把...放回取代更换" },
+    { english: "reference", chinese: "'refrəns n.参考出处提及参照推荐人推荐函vt.提供参考" },
+    { english: "see", chinese: "si:vt.看见遇见看出经历明白确保视为拜访陪同vi.注意想象了解调" },
+    { english: "offence", chinese: "ә’fens n.犯罪，犯规；冒犯" },
+    { english: "ought", chinese: "ɔ:t v.aux.应当应该conj.应该大概" },
+    { english: "pledge", chinese: "pledʒ n.誓言 vt.使发誓" },
+    { english: "marsh", chinese: "ma:ʃ n.沼泽地，湿地" },
+    { english: "heave", chinese: "hi:v vt.(用力地)举起；抛" },
+    { english: "practice", chinese: "'præktis n.实践练习业务实行习惯vt. & vi.练习实习开业" },
+    { english: "medium", chinese: "'mi:diəm n.媒质方法媒介中间adj.中等的适中的" }
+];

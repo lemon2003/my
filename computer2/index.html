@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能学习系统 - 随机选项</title>
+    <script src="questions_data.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #bdc3c7;
+            font-size: 1.1em;
+        }
+
+        .group-select {
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .group-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .group-info h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .group-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .group-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .group-card:hover {
+            transform: translateY(-5px);
+            border-color: #3498db;
+            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.2);
+        }
+
+        .group-card.active {
+            border-color: #2ecc71;
+            background: #f0f9f0;
+        }
+
+        .group-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .group-count {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .start-btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto 0;
+            padding: 15px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .start-btn:hover {
+            background: #2980b9;
+        }
+
+        .start-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .question-container {
+            display: none;
+            padding: 30px;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .question-number {
+            background: #ff6b6b;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .question-progress {
+            color: #7f8c8d;
+        }
+
+        .question-content {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .options-container {
+            display: grid;
+            gap: 15px;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .option:hover {
+            border-color: #3498db;
+            background: #f0f8ff;
+        }
+
+        .option.selected {
+            border-color: #4CAF50;
+            background: #f0fff0;
+        }
+
+        .option.correct {
+            border-color: #4CAF50;
+            background: #e8f5e8;
+        }
+
+        .option.incorrect {
+            border-color: #f44336;
+            background: #ffebee;
+        }
+
+        .option-label {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #3498db;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .option-text {
+            flex: 1;
+        }
+
+        .feedback {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .feedback.correct {
+            background: #e8f5e8;
+            border: 1px solid #4CAF50;
+            color: #2e7d32;
+        }
+
+        .feedback.incorrect {
+            background: #ffebee;
+            border: 1px solid #f44336;
+            color: #c62828;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+        }
+
+        .nav-button {
+            padding: 12px 30px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .nav-button:hover {
+            background: #2980b9;
+        }
+
+        .nav-button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .results {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .results h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .results p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #7f8c8d;
+        }
+
+        .score {
+            font-size: 2em;
+            color: #3498db;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .info-panel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-right: 5px;
+        }
+
+        .info-value {
+            color: #3498db;
+        }
+
+        @media (max-width: 768px) {
+            .group-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>智能学习系统</h1>
+            <div class="subtitle">选项随机排列 | 808道题目 | 8个学习组</div>
+        </header>
+
+        <div class="loading" id="loading">正在加载题目数据...</div>
+
+        <div class="group-select" id="groupSelect" style="display: none;">
+            <div class="group-info">
+                <h2>请选择学习组别</h2>
+                <p>总计808道题目，已分为8个学习组</p>
+            </div>
+
+            <div class="group-grid" id="groupGrid">
+                <!-- 组别将通过JavaScript动态生成 -->
+            </div>
+
+            <button class="start-btn" id="startLearning" disabled>开始学习</button>
+        </div>
+
+        <div class="question-container" id="questionContainer">
+            <div class="info-panel">
+                <div class="info-item">
+                    <span class="info-label">当前组别:</span>
+                    <span class="info-value" id="currentGroup">第1组</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">正确率:</span>
+                    <span class="info-value" id="accuracyRate">0%</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">用时:</span>
+                    <span class="info-value" id="elapsedTime">00:00</span>
+                </div>
+            </div>
+
+            <div class="question-header">
+                <div class="question-number" id="questionNumber">题目 #1</div>
+                <div class="question-progress" id="questionProgress">1/100</div>
+            </div>
+
+            <div class="question-content" id="questionContent">
+                问题将会显示在这里
+            </div>
+
+            <div class="options-container" id="optionsContainer">
+                <!-- 选项将通过JavaScript动态生成 -->
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+
+            <div class="navigation">
+                <button class="nav-button" id="prevButton">上一题</button>
+                <button class="nav-button" id="nextButton">下一题</button>
+            </div>
+        </div>
+
+        <div class="results" id="results">
+            <h2>🎉 学习完成！</h2>
+            <p>恭喜您完成了本组的学习！</p>
+            <div class="score" id="finalScore">正确率: 0%</div>
+            <p id="scoreDetail">共回答了0道题目，正确0道，错误0道</p>
+            <button class="nav-button" id="backToGroup">返回选择组别</button>
+            <button class="nav-button" id="reviewWrong">复习错题</button>
+        </div>
+    </div>
+
+    <!-- 题目数据将被JavaScript动态加载 -->
+    <script>
+        // 全局变量
+<!--        let allQuestions = []; // 所有题目-->
+        let groupedQuestions = []; // 分组后的题目
+        let currentGroup = null; // 当前组索引
+        let currentQuestionIndex = 0; // 当前题目索引
+        let answerHistory = []; // 答题历史
+        let startTime = null; // 开始时间
+        let timerInterval = null; // 计时器
+
+        // 题目数据结构
+        const mockQuestions = [
+            {
+                "id": "1",
+                "question": "设循环队列的存储空间为Q(1:m)，初始状态为空。现经过一系列正常的入队与退队操作后，front=m，rear=m-1，此后从该循环队列中删除一个元素，则队列中的元素个数为",
+                "options": {
+                    "A": "m-2",
+                    "B": "1",
+                    "C": "m-1",
+                    "D": "0"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "2",
+                "question": "某二叉树共有730个结点，其中度为1的结点有30个，则叶子结点个数为",
+                "options": {
+                    "A": "不存在这样的二叉树",
+                    "B": "351",
+                    "C": "1",
+                    "D": "350"
+                },
+                "answer": "A"
+            },
+            // ... 这里应该包含830道题目的完整数据
+        ];
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化系统
+            initializeSystem();
+
+            // 绑定按钮事件
+            document.getElementById('startLearning').addEventListener('click', startLearning);
+            document.getElementById('prevButton').addEventListener('click', previousQuestion);
+            document.getElementById('nextButton').addEventListener('click', nextQuestion);
+            document.getElementById('backToGroup').addEventListener('click', backToGroupSelect);
+            document.getElementById('reviewWrong').addEventListener('click', reviewWrongQuestions);
+        });
+
+        // 初始化系统
+        function initializeSystem() {
+            console.log("正在初始化系统...");
+
+            // 加载题目数据
+            loadQuestions();
+
+            // 分组题目
+            groupQuestions();
+
+            // 显示组选择界面
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('groupSelect').style.display = 'block';
+
+            console.log(`系统初始化完成，共加载 ${allQuestions.length} 道题目`);
+        }
+
+        // 加载题目数据
+        function loadQuestions() {
+            // 这里应该从外部文件加载实际数据
+            // 现在使用模拟数据
+            allQuestions = allQuestions;
+
+<!--            // 模拟830道题目-->
+<!--            for (let i = 3; i <= 830; i++) {-->
+<!--                allQuestions.push({-->
+<!--                    "id": i.toString(),-->
+<!--                    "question": `问题 ${i}: 这是第 ${i} 个问题的内容，用于演示系统功能。`,-->
+<!--                    "options": {-->
+<!--                        "A": `选项A-${i}`,-->
+<!--                        "B": `选项B-${i}`,-->
+<!--                        "C": `选项C-${i}`,-->
+<!--                        "D": `选项D-${i}`-->
+<!--                    },-->
+<!--                    "answer": ["A", "B", "C", "D"][Math.floor(Math.random() * 4)]-->
+<!--                });-->
+<!--            }-->
+        }
+
+        // 分组题目（8组，第8组108题）
+        function groupQuestions() {
+            groupedQuestions = [];
+            const totalQuestions = allQuestions.length; // 830
+            const groupSize = 100; // 每组100题
+
+            // 创建8个组
+            for (let i = 0; i < 8; i++) {
+                const startIndex = i * groupSize;
+                let endIndex = startIndex + groupSize;
+
+                // 最后一组（第8组）需要包含剩余的题目
+                if (i === 7) {
+                    endIndex = totalQuestions; // 第8组包含从700到829的所有题目
+                } else if (startIndex >= totalQuestions) {
+                    break; // 如果没有更多题目，结束分组
+                }
+
+                if (startIndex < totalQuestions) {
+                    groupedQuestions.push(allQuestions.slice(startIndex, endIndex));
+                }
+            }
+
+            // 显示分组情况
+            displayGroupCards();
+        }
+
+        // 显示组别卡片
+        function displayGroupCards() {
+            const groupGrid = document.getElementById('groupGrid');
+            groupGrid.innerHTML = '';
+
+            groupedQuestions.forEach((group, index) => {
+                const groupCard = document.createElement('div');
+                groupCard.className = 'group-card';
+                groupCard.dataset.groupIndex = index;
+
+                groupCard.innerHTML = `
+                    <div class="group-number">第${index + 1}组</div>
+                    <div class="group-count">${group.length}道题目</div>
+                `;
+
+                groupCard.addEventListener('click', () => selectGroup(index));
+
+                groupGrid.appendChild(groupCard);
+            });
+        }
+
+        // 选择组别
+        function selectGroup(groupIndex) {
+            // 移除所有卡片的激活状态
+            document.querySelectorAll('.group-card').forEach(card => {
+                card.classList.remove('active');
+            });
+
+            // 激活选中的卡片
+            document.querySelector(`.group-card[data-group-index="${groupIndex}"]`).classList.add('active');
+
+            // 启用开始学习按钮
+            document.getElementById('startLearning').disabled = false;
+
+            // 存储当前选择的组
+            currentGroup = groupIndex;
+        }
+
+        // 开始学习
+        function startLearning() {
+            if (currentGroup === null) {
+                alert('请先选择学习组别');
+                return;
+            }
+
+            // 初始化学习状态
+            currentQuestionIndex = 0;
+            answerHistory = [];
+            startTime = new Date();
+
+            // 启动计时器
+            startTimer();
+
+            // 显示学习界面
+            document.getElementById('groupSelect').style.display = 'none';
+            document.getElementById('questionContainer').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+
+            // 显示第一题
+            displayQuestion();
+        }
+
+        // 显示题目
+        function displayQuestion() {
+            const group = groupedQuestions[currentGroup];
+            const question = group[currentQuestionIndex];
+
+            if (!question) {
+                showResults();
+                return;
+            }
+
+            // 更新题目信息
+            document.getElementById('questionNumber').textContent = `题目 #${question.id}`;
+            document.getElementById('questionProgress').textContent =
+                `${currentQuestionIndex + 1}/${group.length}`;
+            document.getElementById('questionContent').textContent = question.question;
+
+            // 检查是否已答过此题
+            const hasAnswered = answerHistory[currentQuestionIndex];
+
+            // 清除选项容器
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+
+            // 清除反馈
+            const feedback = document.getElementById('feedback');
+            feedback.style.display = 'none';
+            feedback.className = 'feedback';
+
+            // 检查是否需要随机化选项
+            if (!question.randomized || !question.randomized.options) {
+                // 第一次显示此题，需要随机化选项
+                const randomized = randomizeOptions(question);
+                question.randomized = randomized;
+            }
+
+            const randomizedOptions = question.randomized.options;
+            const correctAnswer = question.randomized.answer;
+
+            // 创建选项按钮
+            ['A', 'B', 'C', 'D'].forEach(label => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.dataset.option = label;
+
+                const labelSpan = document.createElement('span');
+                labelSpan.className = 'option-label';
+                labelSpan.textContent = label;
+
+                const textSpan = document.createElement('span');
+                textSpan.className = 'option-text';
+                textSpan.textContent = randomizedOptions[label];
+
+                optionDiv.appendChild(labelSpan);
+                optionDiv.appendChild(textSpan);
+
+                // 如果已答过此题，显示正确答案
+                if (hasAnswered) {
+                    const userAnswer = hasAnswered.answer;
+                    const isCorrect = hasAnswered.isCorrect;
+
+                    if (label === correctAnswer) {
+                        optionDiv.classList.add('correct');
+                    } else if (label === userAnswer && !isCorrect) {
+                        optionDiv.classList.add('incorrect');
+                    }
+
+                    if (label === userAnswer) {
+                        optionDiv.classList.add('selected');
+                    }
+                } else {
+                    // 添加点击事件
+                    optionDiv.addEventListener('click', function() {
+                        if (hasAnswered) return; // 已回答过的不再处理
+                        selectOption(this);
+                    });
+                }
+
+                optionsContainer.appendChild(optionDiv);
+            });
+
+            // 如果已答过此题，显示反馈
+            if (hasAnswered) {
+                if (hasAnswered.isCorrect) {
+                    feedback.textContent = "回答正确！";
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.textContent = `回答错误！正确答案是 ${correctAnswer}`;
+                    feedback.className = 'feedback incorrect';
+                }
+                feedback.style.display = 'block';
+            }
+
+            // 更新导航按钮状态
+            updateNavigationButtons();
+
+            // 更新正确率
+            updateAccuracyRate();
+        }
+
+        // 随机化选项内容，保持标签顺序
+        function randomizeOptions(question) {
+            // 获取原始选项数组
+            const originalOptions = ['A', 'B', 'C', 'D'].map(key => ({
+                label: key,
+                content: question.options[key]
+            }));
+
+            // 打乱选项内容
+            const shuffledContents = [...originalOptions];
+            for (let i = shuffledContents.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledContents[i], shuffledContents[j]] = [shuffledContents[j], shuffledContents[i]];
+            }
+
+            // 创建新的选项映射，标签A、B、C、D顺序不变
+            const randomizedOptions = {};
+            const labelMapping = {}; // 记录新标签到原始标签的映射
+
+            ['A', 'B', 'C', 'D'].forEach((label, index) => {
+                randomizedOptions[label] = shuffledContents[index].content;
+                // 记录新标签对应哪个原始标签
+                labelMapping[label] = shuffledContents[index].label;
+            });
+
+            // 计算新的正确答案标签
+            const originalAnswer = question.answer;
+            let newAnswer = 'A'; // 默认值
+
+            // 找到哪个新标签对应原始正确答案
+            for (const [newLabel, originalLabel] of Object.entries(labelMapping)) {
+                if (originalLabel === originalAnswer) {
+                    newAnswer = newLabel;
+                    break;
+                }
+            }
+
+            return {
+                options: randomizedOptions,
+                answer: newAnswer,
+                originalAnswer: originalAnswer,
+                labelMapping: labelMapping
+            };
+        }
+
+        // 选择选项
+        function selectOption(optionElement) {
+            const selectedOption = optionElement.dataset.option;
+            const group = groupedQuestions[currentGroup];
+            const question = group[currentQuestionIndex];
+
+            if (!question.randomized) {
+                console.error('题目未随机化选项');
+                return;
+            }
+
+            const correctAnswer = question.randomized.answer;
+            const isCorrect = selectedOption === correctAnswer;
+
+            // 记录答题历史
+            answerHistory[currentQuestionIndex] = {
+                answer: selectedOption,
+                isCorrect: isCorrect
+            };
+
+            // 更新UI
+            optionElement.classList.add('selected');
+
+            if (isCorrect) {
+                optionElement.classList.add('correct');
+            } else {
+                optionElement.classList.add('incorrect');
+                // 显示正确答案
+                const correctOption = document.querySelector(`.option[data-option="${correctAnswer}"]`);
+                if (correctOption) {
+                    correctOption.classList.add('correct');
+                }
+            }
+
+            // 显示反馈
+            const feedback = document.getElementById('feedback');
+            if (isCorrect) {
+                feedback.textContent = "回答正确！";
+                feedback.className = 'feedback correct';
+            } else {
+                feedback.textContent = `回答错误！正确答案是 ${correctAnswer}`;
+                feedback.className = 'feedback incorrect';
+            }
+            feedback.style.display = 'block';
+
+            // 禁用所有选项
+            const allOptions = document.querySelectorAll('.option');
+            allOptions.forEach(opt => {
+                opt.style.pointerEvents = 'none';
+            });
+
+            // 更新正确率和导航按钮
+            updateAccuracyRate();
+            updateNavigationButtons();
+
+            // 如果是最后一题，自动显示结果
+            if (currentQuestionIndex === group.length - 1) {
+                setTimeout(() => {
+                    showResults();
+                }, 2000);
+            }
+        }
+
+        // 更新正确率
+        function updateAccuracyRate() {
+            const answeredCount = answerHistory.length;
+            if (answeredCount === 0) {
+                document.getElementById('accuracyRate').textContent = '0%';
+                return;
+            }
+
+            const correctCount = answerHistory.filter(a => a.isCorrect).length;
+            const accuracy = Math.round((correctCount / answeredCount) * 100);
+            document.getElementById('accuracyRate').textContent = `${accuracy}%`;
+        }
+
+        // 启动计时器
+        function startTimer() {
+            clearInterval(timerInterval);
+
+            timerInterval = setInterval(() => {
+                if (!startTime) return;
+
+                const now = new Date();
+                const diff = Math.floor((now - startTime) / 1000); // 秒
+
+                const minutes = Math.floor(diff / 60).toString().padStart(2, '0');
+                const seconds = (diff % 60).toString().padStart(2, '0');
+
+                document.getElementById('elapsedTime').textContent = `${minutes}:${seconds}`;
+            }, 1000);
+        }
+
+        // 更新导航按钮状态
+        function updateNavigationButtons() {
+            const prevButton = document.getElementById('prevButton');
+            const nextButton = document.getElementById('nextButton');
+
+            // 上一题按钮
+            prevButton.disabled = currentQuestionIndex === 0;
+
+            // 下一题按钮
+            const group = groupedQuestions[currentGroup];
+            const hasAnswered = answerHistory[currentQuestionIndex];
+            const isLastQuestion = currentQuestionIndex === group.length - 1;
+
+            if (isLastQuestion) {
+                nextButton.textContent = '完成学习';
+                nextButton.disabled = !hasAnswered;
+            } else {
+                nextButton.textContent = '下一题';
+                nextButton.disabled = !hasAnswered;
+            }
+        }
+
+        // 上一题
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        // 下一题
+        function nextQuestion() {
+            const group = groupedQuestions[currentGroup];
+            const hasAnswered = answerHistory[currentQuestionIndex];
+            const isLastQuestion = currentQuestionIndex === group.length - 1;
+
+            if (!hasAnswered) {
+                alert('请先回答当前题目');
+                return;
+            }
+
+            if (isLastQuestion) {
+                showResults();
+            } else {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
+        }
+
+        // 显示结果
+        function showResults() {
+            clearInterval(timerInterval);
+
+            const group = groupedQuestions[currentGroup];
+            const answeredCount = answerHistory.length;
+            const correctCount = answerHistory.filter(a => a.isCorrect).length;
+            const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+
+            // 更新结果信息
+            document.getElementById('finalScore').textContent = `正确率: ${accuracy}%`;
+            document.getElementById('scoreDetail').textContent =
+                `共回答了${answeredCount}道题目，正确${correctCount}道，错误${answeredCount - correctCount}道`;
+
+            // 显示结果界面
+            document.getElementById('questionContainer').style.display = 'none';
+            document.getElementById('results').style.display = 'block';
+        }
+
+        // 返回组选择
+        function backToGroupSelect() {
+            clearInterval(timerInterval);
+
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('questionContainer').style.display = 'none';
+            document.getElementById('groupSelect').style.display = 'block';
+
+            // 重置计时器显示
+            document.getElementById('elapsedTime').textContent = '00:00';
+        }
+
+        // 复习错题
+        function reviewWrongQuestions() {
+            const wrongIndices = answerHistory
+                .map((answer, index) => ({ index, isCorrect: answer.isCorrect }))
+                .filter(item => !item.isCorrect)
+                .map(item => item.index);
+
+            if (wrongIndices.length === 0) {
+                alert('没有错题需要复习！');
+                return;
+            }
+
+            // 创建错题组
+            const wrongQuestions = wrongIndices.map(index => groupedQuestions[currentGroup][index]);
+            groupedQuestions.push(wrongQuestions);
+
+            // 选择错题组
+            currentGroup = groupedQuestions.length - 1;
+            currentQuestionIndex = 0;
+            answerHistory = [];
+            startTime = new Date();
+
+            // 启动计时器
+            startTimer();
+
+            // 显示学习界面
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('questionContainer').style.display = 'block';
+
+            // 更新当前组别显示
+            document.getElementById('currentGroup').textContent = '错题复习';
+
+            // 显示第一题
+            displayQuestion();
+        }
+    </script>
+</body>
+</html>

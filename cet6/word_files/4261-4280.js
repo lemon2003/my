@@ -1,0 +1,22 @@
+const words = [
+    { english: "poverty", chinese: "'pɔvəti n.贫穷贫困贫乏" },
+    { english: "guy", chinese: "gai n. 家伙,支索 vt.用支索撑住,取笑" },
+    { english: "name", chinese: "neim n.名字名称姓名名誉vt.说出命名称呼任命adj.有名的著名的" },
+    { english: "feather", chinese: "'feðə n.羽毛翎毛羽状物心情种类服饰vt.用羽毛装饰vi.长出羽毛" },
+    { english: "ability", chinese: "ə'biliti n.能力能耐本领" },
+    { english: "form", chinese: "fɔ:m n.形式形状表格vt.形成组成建立" },
+    { english: "soccer", chinese: "'sɔkə n.英式足球" },
+    { english: "nationality", chinese: ".næʃə'næliti n.国籍民族族" },
+    { english: "disagree", chinese: ".disə'gri: vi.有分歧不一致不适应不适宜" },
+    { english: "nerve", chinese: "nə:v n.神经(生物)勇敢胆量精神勇气叶脉vt.鼓起勇气" },
+    { english: "birthday", chinese: "'bə:θdei n.生日诞生的日期" },
+    { english: "antarctic", chinese: "ænt’a:ktik a.南极的 n.南极区" },
+    { english: "wire", chinese: "'waiə n.金属线电缆电线电信电报v.发电报装电线(通过电线)接通" },
+    { english: "disorder", chinese: "dis'ɔ:də n.混乱杂乱骚乱vt.扰乱" },
+    { english: "dedicate", chinese: "‘dedikeit vt.奉献；献身" },
+    { english: "nut", chinese: "nʌt n.坚果干果螺母螺帽难对付的人(事)vi.采坚果" },
+    { english: "enclose", chinese: "in'kləuz vt.围住圈起附上放入封套" },
+    { english: "birth", chinese: "bə:θ n.分娩出生诞生出身血统出现起源" },
+    { english: "flower", chinese: "'flauən.花花卉开花华丽盛年精英自然发展的结果vi.成熟。开花vt.使" },
+    { english: "closet", chinese: "‘klɔzit n.小房间；壁碗橱" }
+];

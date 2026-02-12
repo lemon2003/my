@@ -1,0 +1,22 @@
+const words = [
+    { english: "attorney", chinese: "ә’tә:ni n.代理人；辩护律师" },
+    { english: "dip", chinese: "dipvt.浸蘸给...洗药浴vi.浸一浸下降向下倾斜翻阅提取(款项)n." },
+    { english: "dim", chinese: "dimadj.昏暗的暗淡的朦胧的模糊的笨的vt.使暗淡使失去光泽vi.变" },
+    { english: "action", chinese: "'ækʃən n.起诉行动作用功能情节活动" },
+    { english: "ocean", chinese: "'əuʃən n.海洋洋大量" },
+    { english: "cell", chinese: "sel n.细胞小房间电池小组单人牢房(蜂房的)巢室手机" },
+    { english: "impose", chinese: "im'pəuz vt.把...强加加上强迫征(税)课征" },
+    { english: "wipe", chinese: "waip vt.擦抹揩消除拭去用力打n.擦拭用力打" },
+    { english: "our", chinese: "'auə pron.我们的adj.我们的" },
+    { english: "brittle", chinese: "‘britl a.脆的；易损坏的" },
+    { english: "bibliography", chinese: "bibli’ɔgr әfi n. 参考书目" },
+    { english: "tile", chinese: "tail n.瓦片，瓷砖；贴砖" },
+    { english: "blunt", chinese: "blΛnt a. 钝的,坦率的,麻痹的" },
+    { english: "beyond", chinese: "bi'jɔnd adv.在更远处另外n.远处来世prep.在...的那边超出越过另外" },
+    { english: "magic", chinese: "'mædʒik n.魔法巫术戏法adj.有魔力的神奇的vt.使用魔(变出等)" },
+    { english: "mechanics", chinese: "mi'kæniks n.力学机械学(技术的操作的)过程手法技术性细节" },
+    { english: "segregate", chinese: "‘segrigeit a.分离的,被隔离的vt.使分离,使隔离" },
+    { english: "threshold", chinese: "‘θreʃhәuld n.门槛；入门，开端" },
+    { english: "vein", chinese: "vein n.静脉，血管，矿脉" },
+    { english: "youngster", chinese: "‘jΛŋstә n.儿童，少年，年轻人" }
+];

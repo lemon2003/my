@@ -1,0 +1,22 @@
+const words = [
+    { english: "behavior", chinese: "bi'heivjə n.行为举止态度" },
+    { english: "pond", chinese: "pɔnd n.池塘vt.堵河成湖vi.形成池塘" },
+    { english: "murderer", chinese: "'mə:dərə n.杀人犯凶手" },
+    { english: "thirsty", chinese: "'θə:sti adj.口渴的渴望的" },
+    { english: "plough", chinese: "plau n.犁耕地vt. &vi.犁耕用犁耕田耕犁" },
+    { english: "contain", chinese: "kən'tein vt.包含容纳等于克制抑制vi.自制" },
+    { english: "cease", chinese: "si:s vi. &vi. &n.停止终了停息" },
+    { english: "fluent", chinese: "'flu:ənt adj.流利的流畅的" },
+    { english: "them", chinese: "θem pron.(宾格)他(她、它)们" },
+    { english: "less", chinese: "les adj.更少的更小的ad.更少地更小地n.少量次要prep.减" },
+    { english: "sick", chinese: "sik adj.有病的恶心的腻烦的晕的n.病人呕吐物vt.追逐攻击唆使" },
+    { english: "tentative", chinese: "‘tentәtiv n.试验,假设a.试验性,暂时的" },
+    { english: "tired", chinese: "'taiədadj.疲劳的疲倦的累的厌倦的装备以轮胎的动词tire的过去式和" },
+    { english: "immense", chinese: "i'mens adj.巨大的广大的非常好的极好的" },
+    { english: "composite", chinese: "‘kɔmpәzit a.合成的 n.合成物" },
+    { english: "field", chinese: "fi:ldn.田野田地原野牧场场地领域运动场adj.田间的野外的vi.担任" },
+    { english: "apple", chinese: "'æpəl n.苹果苹果树" },
+    { english: "baby", chinese: "'beibiadj.(形容用法)婴儿的过小的n.婴儿孩子气的人象婴儿的人需特" },
+    { english: "civilization", chinese: ".sivilai'zeiʃən n.文明文化开化" },
+    { english: "consequently", chinese: "'kɔnsikwəntli adv.因此因而所以" }
+];

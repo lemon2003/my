@@ -1,0 +1,22 @@
+const words = [
+    { english: "greeting", chinese: "gri:tiŋ n.问候招呼致敬" },
+    { english: "easily", chinese: "'i:zili adv.容易地舒适的无疑地" },
+    { english: "story", chinese: "'stɔ:rin.故事小说传说叙述新闻报道楼层(=storey)vt.以历史事件为图" },
+    { english: "stress", chinese: "stres n.压力紧张重音负载vt.着重强调vi.强调着重" },
+    { english: "rear", chinese: "riən.后部后面背面臀部adj.后面的背面的后方的vt.养育饲养举起" },
+    { english: "mountain", chinese: "'mauntin n.山山岳山脉大量" },
+    { english: "keep", chinese: "ki:p vi.保持坚持保存维持继续保有记录n.生计维持围墙监狱" },
+    { english: "largely", chinese: "lɑ:dʒli adv.大部分大量地主要地" },
+    { english: "dormitory", chinese: "'dɔ:mitri n.集体寝室宿舍" },
+    { english: "smart", chinese: "smɑ:tadj.巧妙的洒脱的聪明的时髦的漂亮的敏捷的轻快的整洁的vi." },
+    { english: "schedule", chinese: "'skedʒul n.时间表计划表一览表计划vt.安排计划预定编制目录" },
+    { english: "ahead", chinese: "ə'hed adv.在前向前提前将来地占优势" },
+    { english: "spaceship", chinese: "'speisʃip n.航天飞船" },
+    { english: "deceive", chinese: "di'si:v vt.欺骗蒙蔽行骗vi.行骗" },
+    { english: "silver", chinese: "'silvə n.银银子银器adj.银色的银的vt.镀银变成银白色" },
+    { english: "attraction", chinese: "ə'trækʃən n.吸引吸引力有吸引力的人或事物引力" },
+    { english: "pink", chinese: "piŋk n.粉红色石竹花典范adj.粉红色的激进的vt.刺" },
+    { english: "polar", chinese: "‘pәulә a.南(北)极的；极性的" },
+    { english: "star", chinese: "stɑ: n.星恒星明星v.以星状物装饰变成演员" },
+    { english: "waggon", chinese: "'wægən n.四轮运货马车敞篷货车=wagon(美)" }
+];

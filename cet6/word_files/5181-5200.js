@@ -1,0 +1,22 @@
+const words = [
+    { english: "everyone", chinese: "'evriwʌn pron.每人人人n.每个人" },
+    { english: "tray", chinese: "trei n.(浅)盘托盘碟" },
+    { english: "avenue", chinese: "ævənju: n.林荫道道路大街途径手段" },
+    { english: "ours", chinese: "'auəz pron.我们的" },
+    { english: "triumph", chinese: "'traiəmf n.凯旋胜利欢欣vi.成功得胜庆功" },
+    { english: "fortunately", chinese: "'fɔitʃənitli adv.幸运地幸亏" },
+    { english: "doubtless", chinese: "'dautlis adv.无疑地很可能确定地adj.无疑的确定的" },
+    { english: "dismiss", chinese: "dis'mis vt.不再考虑解雇解散开除逃避(法律)驳回" },
+    { english: "dead", chinese: "dedadj.死的无生命的萧条的精疲力竭的用完的无趣的adv.完全地突" },
+    { english: "cancel", chinese: "'kænsl n.取消撤消vt.取消撤消删去约分vi.抵消" },
+    { english: "ideal", chinese: "ai'diəl adj.理想的观念的完美的高尚的n.理想典范目标" },
+    { english: "lock", chinese: "lɔkn.锁刹车水闸牢牢紧握一束一缕vt.锁上锁住抓牢使固定vi.锁" },
+    { english: "joyful", chinese: "'dʒɔifəl adj.十分喜悦的快乐的" },
+    { english: "distribution", chinese: ".distri'bju:ʃən n.分发分配分布散布" },
+    { english: "assert", chinese: "ә’sә:t vt.断言，宣称；维护" },
+    { english: "owl", chinese: "aul n.猫头鹰枭" },
+    { english: "shave", chinese: "ʃeiv vt.剃修面擦过消减价格vi.修面刮胡子勉强通过n.修面刮胡子" },
+    { english: "wallet", chinese: "‘wɔlit n.钱包，皮夹子" },
+    { english: "grave", chinese: "greiv n.坟墓沉音符adj.严肃的严重的低沉的adv.缓慢庄严的vt.凿" },
+    { english: "this", chinese: "ðis adj.这今pron.这这个adv.这么这样" }
+];

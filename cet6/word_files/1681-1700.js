@@ -1,0 +1,22 @@
+const words = [
+    { english: "eighteen", chinese: "'ei'ti:n num.十八十八个" },
+    { english: "development", chinese: "di'veləpmənt n.发展开发生长显影开发区" },
+    { english: "ridge", chinese: "ridʒ n.脊岭山脉垄" },
+    { english: "submarine", chinese: "'sʌbməri:n adj.水下的海底的n.潜水艇vt.用潜艇袭击vi.滑入...底下" },
+    { english: "carrier", chinese: "'kæriən.运输工具运载工具运送者行李架客运公司航空母舰带菌者电信" },
+    { english: "contrast", chinese: "'kɔntræst,kən'træs n.对比对照悬殊差别v.对比成对照" },
+    { english: "curl", chinese: "kə:l n.卷毛螺旋vi.卷曲弄卷弯曲" },
+    { english: "fantasy", chinese: "‘fæntәsi n. 幻想,白日梦" },
+    { english: "predict", chinese: "pri'dikt v.预言预告预测预报" },
+    { english: "unemployment", chinese: "‘Λnim’plɔim әntn.失业；失业人数" },
+    { english: "send", chinese: "send vt.送传寄派遣发射vi.放送n.波浪的推力" },
+    { english: "ethics", chinese: "‘eθiks n. 道德规范" },
+    { english: "admire", chinese: "əd'maiə vt.钦佩羡慕赞赏" },
+    { english: "absurd", chinese: "әb’sә:d a.不合理的，荒唐的" },
+    { english: "sort", chinese: "sɔ:t n.种类类别特征方法vt.分类整理使明确vi.交往协调" },
+    { english: "monopoly", chinese: "mә’nɔpәli n.垄断，独占，专利" },
+    { english: "decrease", chinese: "'di:kri:s,di:'kri:s vi. &n.减少减少" },
+    { english: "cheese", chinese: "tʃi:z n.乳酪干酪要求照相的人说的口形词vt.停止" },
+    { english: "barber", chinese: "'bɑ:bə n.理发师" },
+    { english: "dishonour", chinese: "dis'ɔnə n.不光彩丢脸的人耻辱拒付vt.使丢脸侮辱拒付=dishonor" }
+];

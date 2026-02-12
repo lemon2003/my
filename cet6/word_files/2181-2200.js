@@ -1,0 +1,22 @@
+const words = [
+    { english: "tax", chinese: "tæks n.税税款负担重负vt.课税使...负重荷斥责" },
+    { english: "chocolate", chinese: "'tʃɔkəlitn.巧克力巧克力糖巧克力饮品adj.巧克力的有巧克力糖衣的巧克" },
+    { english: "amongst", chinese: "ə'mʌŋst prep在...之中在...之间(=among)" },
+    { english: "concern", chinese: "kən'sə:n n.关心(人或事)忧虑挂念关系公司企业vt.涉及影响关心" },
+    { english: "mix", chinese: "miks vt.使混合混淆掺入合成交往联系n.混合(物)融合" },
+    { english: "marry", chinese: "'mæri vt.娶嫁vi.结婚结合" },
+    { english: "fish", chinese: "fiʃ n.鱼鱼肉vi.钓鱼捕鱼" },
+    { english: "stall", chinese: "stɔ:l n.货摊，书摊；厩" },
+    { english: "thoughtful", chinese: "'θɔ:tfəl adj.沉思的体贴的" },
+    { english: "transit", chinese: "‘trænsit n.运输 a.中转的，过境的" },
+    { english: "tan", chinese: "tæn n.棕褐色黝黑adj.棕黄色的棕褐色的v.晒黑鞣(革)使晒成棕褐色" },
+    { english: "scandal", chinese: "‘skændl n.丑事，丑闻；耻辱" },
+    { english: "rider", chinese: "'raidə n.骑马的人乘车的人骑士附件扶手" },
+    { english: "communism", chinese: "'kɔmjunizəm n.共产主义" },
+    { english: "chalk", chinese: "tʃɔ:k n.白垩粉笔v.用粉笔写记录" },
+    { english: "transformer", chinese: "træns'fɔ:mə n.变压器转换器" },
+    { english: "tooth", chinese: "tu:θ n.牙齿齿状物粗糙表面嗜好(复)teeth" },
+    { english: "strive", chinese: "straiv vi.努力，奋斗，力求" },
+    { english: "range", chinese: "reindʒ n.排行山脉炉灶范围行列射程v.排列归类于延伸漫游" },
+    { english: "kilometer", chinese: "'kilə.mi:tə n.千米公里=kilometre(略作km)" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "narrow", chinese: "'nærəuadj.狭的狭窄的精密的有限的n.狭窄部份海峡隘路vt.变窄使..." },
+    { english: "sale", chinese: "seil n.卖削价出售拍卖销售额(量)," },
+    { english: "cafe", chinese: "kə'fei n.咖啡馆小餐厅" },
+    { english: "hour", chinese: "auə n.小时时间时刻钟点" },
+    { english: "spider", chinese: "'spaidə n.蜘蛛" },
+    { english: "horrible", chinese: "‘hɔrәbl a. 可怕的,极可憎的,极可厌的" },
+    { english: "revelation", chinese: "revi’leiʃәn n. 揭露,泄露,启示,展示" },
+    { english: "practise", chinese: "'præktis vt.练习实习训练实践(使...练习养成...的习惯)" },
+    { english: "humble", chinese: "'hʌmbl adj.谦逊的地位低下的卑下的粗陋的vt.使...卑下贬低" },
+    { english: "earn", chinese: "ə:n vt.赚得挣得获得赚得赢得生利" },
+    { english: "bull", chinese: "buladj.大型的公牛的雄性的n.公牛雄的象买空着像牛的东西斗牛犬" },
+    { english: "devise", chinese: "di'vaiz vt.设计发明遗赠n.遗赠(的财产)" },
+    { english: "rush", chinese: "rʌʃvi.冲(进)奔vt.催促匆忙猛冲n.匆促冲进急流猛冲急需突击adj." },
+    { english: "where", chinese: "(h)wɛə adv.在哪里pron.哪里conj.在...地方" },
+    { english: "snap", chinese: "snæp vt.猛咬，突然折断" },
+    { english: "commute", chinese: "kә’mju:t vt. 交换,兑换, 经常来往" },
+    { english: "distance", chinese: "'distənsn. 距离间距远处(人际关系的) 疏远vt. 使疏远把(对手) 甩在" },
+    { english: "protect", chinese: "prə'tekt vt.保护保卫警戒投保vi.提供保护" },
+    { english: "exercise", chinese: "'eksəsaiz n.锻炼训练练习作业运动vi.练习锻炼vt.运用" },
+    { english: "roof", chinese: "ru:f n.屋顶车顶顶顶盖vt.给...覆以屋顶覆盖" }
+];

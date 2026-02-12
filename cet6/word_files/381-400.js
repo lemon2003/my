@@ -1,0 +1,22 @@
+const words = [
+    { english: "studio", chinese: "‘stju:diәu n.工作室；播音室" },
+    { english: "theirs", chinese: "ðɛəz pron.他(她)们的东西" },
+    { english: "sake", chinese: "seik n.缘故理由利益好处" },
+    { english: "learning", chinese: "lə:niŋ n.学习学问知识动词learn的现在分词" },
+    { english: "relevant", chinese: "'relivənt adj.有关的相关的贴切的切题的中肯的" },
+    { english: "motivate", chinese: "'məutiveit vt.促动激励激发(兴趣或欲望)给与动机" },
+    { english: "reality", chinese: "ri'æləti n.现实真实实际" },
+    { english: "materialism", chinese: "mə'tiəriəlizəm n.唯物主义唯物论实利主义" },
+    { english: "romance", chinese: "rәu’mæns n.传奇；浪漫文学" },
+    { english: "upside-down", chinese: "'ʌpsaid'daun adj.颠倒的乱七八糟的" },
+    { english: "gang", chinese: "gæŋ n.一帮一伙队群帮vt. &vi.结一组联合在一起" },
+    { english: "beautiful", chinese: "'bju:tifəl adj.美的美丽的漂亮的" },
+    { english: "tea", chinese: "ti: n.茶茶叶茶树茶点" },
+    { english: "sensible", chinese: "'sensəbl adj.感觉得到的明智的可察觉的意识到的实用的n.可感知物" },
+    { english: "interesting", chinese: "intəristiŋ adj.有趣的引人入胜的" },
+    { english: "loosen", chinese: "'lu:sn vt.解开使松驰放松松开解除(便秘等)放宽vi.变松松弛" },
+    { english: "several", chinese: "'sevərəl adj.几个数个各自的pron.若干" },
+    { english: "club", chinese: "klʌbn.俱乐部夜总会击棍扑克牌中的梅花vt.用棍棒打集合vi.集合分" },
+    { english: "something", chinese: "sʌmθiŋ pron.某事某物有价值或重要的人或物adv.稍微有点非常" },
+    { english: "recall", chinese: "ri'kɔ:l vt.回想叫回收回召回与...相似恢复n.回忆召回取消" }
+];

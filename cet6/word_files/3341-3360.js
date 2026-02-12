@@ -1,0 +1,22 @@
+const words = [
+    { english: "refresh", chinese: "ri'freʃ vt.使清新使...生气蓬勃提起精神恢复精神vi.恢复精神" },
+    { english: "response", chinese: "ri'spɔns n.作答回答响应反应" },
+    { english: "cue", chinese: "kju: n. 开端,线索,发辫,长队" },
+    { english: "vote", chinese: "vəʊt n.选举投票表决投票结果选举权v.投票选举表决" },
+    { english: "inflict", chinese: "in’flikt vt. 施以,加害,使承受" },
+    { english: "medieval", chinese: "medi’i:v әl a. 中古的,中世纪的" },
+    { english: "allocate", chinese: "‘ælәkeit vt. 分派,分配" },
+    { english: "concert", chinese: "'kɔnsət n.音乐会演奏会一致和谐vt.制定计划通过协商达成一致vi.合作" },
+    { english: "two", chinese: "tu: num.二两个" },
+    { english: "mystery", chinese: "'mistəri n.神秘秘密神秘的人或事物" },
+    { english: "spokesman", chinese: "‘spәuksmәnn.发言人，代言人" },
+    { english: "horizon", chinese: "hə'raizn n.地平线眼界见识视野" },
+    { english: "rotation", chinese: "rəu'teiʃən n.旋转转动循环" },
+    { english: "fox", chinese: "fɔks n.狐狸狡猾的人v.奸狡地行动" },
+    { english: "downstairs", chinese: ".daun'stɛəz adv.在楼下向楼下adj.楼下的n.楼下" },
+    { english: "sheer", chinese: "ʃiә a.纯粹的；全然的；陡峭的" },
+    { english: "fleet", chinese: "fli:t n.舰队船队团队机群vt. &vi.飞过掠过adj.跑得快的" },
+    { english: "improvement", chinese: "im'pru:vmənt n.改进改善改进处" },
+    { english: "presentation", chinese: "prezen’teiʃ әnn.介绍；赠送；呈现" },
+    { english: "tap", chinese: "tæpn.龙头塞子窃听轻拍轻敲鞋掌vi.轻拍轻击补鞋掌选择vt.装龙头" }
+];

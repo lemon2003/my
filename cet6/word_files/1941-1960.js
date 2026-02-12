@@ -1,0 +1,22 @@
+const words = [
+    { english: "steal", chinese: "sti:l vt.偷窍取n.偷窃便宜货(欺诈的)政治交易" },
+    { english: "publicity", chinese: "pΛb’lisiti n. 公开,名声,宣传" },
+    { english: "undoubtedly", chinese: "ʌn'dautidli adv.无容置疑肯定地" },
+    { english: "the", chinese: "ði:, ðiart.(定冠词)这那这些那些adv.(用于比较级前)更加(用于形容" },
+    { english: "accommodation", chinese: "ə.kɔmə'deiʃən n.招待设备预定铺位住处膳宿适应和解" },
+    { english: "dimension", chinese: "di'menʃən n.尺寸尺度面积次元容积维度范围方面vt.标尺寸形成...尺寸" },
+    { english: "harmful", chinese: "'hɑ:mfəl adj.有害的" },
+    { english: "prescribe", chinese: "pris'kraib vt.命令规定开处(方)vi.规定开药方" },
+    { english: "necessary", chinese: "'nesə.səri adj.必要的必需的必然的n." },
+    { english: "praise", chinese: "preiz n.赞扬赞美称赞崇拜vi.赞扬vt.称赞归荣誉于赞美" },
+    { english: "unlike", chinese: "'ʌn'laik adj.不同的不相似的prep.不象...和...不同" },
+    { english: "freight", chinese: "freit n.货运货物运费船货vt.装货运送使充满(某种心情或口气)" },
+    { english: "throw", chinese: "θrəu vt.投掷抛扔n.投掷抛" },
+    { english: "elapse", chinese: "i’læps vi.(时间)过去，消逝" },
+    { english: "configuration", chinese: "kәnfigju’reiʃәn n. 结构,配置,形态" },
+    { english: "sunny", chinese: "'sʌni adj.阳光充足的睛朗的明媚的快活的" },
+    { english: "disrupt", chinese: "dis’rΛpt a.分裂的,分散的 vt.使分裂,瓦解" },
+    { english: "retrospect", chinese: "‘retrәspekt n. 回顾,追忆,回溯" },
+    { english: "duration", chinese: "dju'reiʃən n.持续持久持续时间期间" },
+    { english: "medicine", chinese: "'medisin n.内服药医学" }
+];

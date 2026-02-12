@@ -1,0 +1,22 @@
+const words = [
+    { english: "cheap", chinese: "tʃi:p adj.廉价的便宜的劣质的品质低的虚伪的adv.便宜地" },
+    { english: "nourish", chinese: "‘nΛriʃ vt.提供养分，养育" },
+    { english: "furious", chinese: "‘fjuәriәs a.狂怒的；狂暴的" },
+    { english: "great", chinese: "greit adj.大的伟大的大量的很好的美好的重要的adv.(口语)好极了" },
+    { english: "occasion", chinese: "ə'keiʒən n.场合时刻时机机会理由vt.致使惹起引起" },
+    { english: "watertight", chinese: "‘wɔ:tәtait a.不漏水的，防水的" },
+    { english: "hobby", chinese: "'hɔbi n.业余爱好癖好" },
+    { english: "profile", chinese: "‘prәufail n. 侧面,轮廓,人物素描,传略" },
+    { english: "construction", chinese: "kən'strʌkʃən n.建造建设建筑建筑物结构构造" },
+    { english: "relationship", chinese: "ri'leiʃənʃip n.关系联系" },
+    { english: "vanish", chinese: "'væniʃ vi.突然不见消失绝迹vt.消失" },
+    { english: "rainbow", chinese: "'reinbəu n.虹彩虹adj.五彩缤纷的" },
+    { english: "burial", chinese: "‘beriәl n.安葬，埋葬，埋藏" },
+    { english: "migrate", chinese: "mai’greit vi.迁移，移居" },
+    { english: "rest", chinese: "restn.休息安静静止其余的部分其余的人adj.其余的vi.搁(在)休息" },
+    { english: "meet", chinese: "mi:tvt.遇见引见经历结识对付满足支付vi.相遇集合交锋相交n.集会" },
+    { english: "mechanism", chinese: "‘mekәnizәm n.机械装置；机制" },
+    { english: "portray", chinese: "pɔ:’trei vt. 描绘,描写,描写...的肖像," },
+    { english: "slipper", chinese: "'slipə n.拖鞋便鞋" },
+    { english: "continual", chinese: "kən'tinjuəl adj.不断的连续的频繁的" }
+];

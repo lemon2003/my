@@ -1,0 +1,22 @@
+const words = [
+    { english: "beard", chinese: "biəd n.胡须络腮胡子vt.抓住胡须公开反对" },
+    { english: "compatible", chinese: "kәm’pætәbl a.一致的；兼容制的" },
+    { english: "shine", chinese: "ʃainvi.照耀发光表现出众闪耀着vt.使发光照射在...上擦亮n.光光" },
+    { english: "metric", chinese: "'metrik adj.公制的米制的十进制的n.度量标准公制米制十进制" },
+    { english: "container", chinese: "kən'teinə n.容器集装箱" },
+    { english: "subsidy", chinese: "‘sΛbsidi n. 补助金,津贴" },
+    { english: "forum", chinese: "‘fɔ:rәm n.论坛，讨论会" },
+    { english: "either", chinese: "'i:ðə pron.(两者)任何一个adj.任一两方的adv.也conj.或也" },
+    { english: "ensure", chinese: "in'ʃuə vt.保证保护赋予" },
+    { english: "orphan", chinese: "'ɔ:fən n.孤儿adj.无双亲的孤儿的vt.成孤儿" },
+    { english: "uncertain", chinese: "ʌn'sə:tn adj.无常的不确定的" },
+    { english: "poison", chinese: "'pɔizn n.毒毒药败坏道德之事毒害vt.毒害摧毁中毒adj.有毒的" },
+    { english: "justification", chinese: "dʒΛstifi’keiʃәn n. 辩护,证明是正当的,释罪" },
+    { english: "aloud", chinese: "ə'laud adv.出声地大声地" },
+    { english: "dilemma", chinese: "di’lemә n. 困境,进退两难的局面" },
+    { english: "organization", chinese: ".ɔ:gənai'zeiʃən n.组织团体机构adj.有组织的" },
+    { english: "optimism", chinese: "‘ɔptimizm n.乐观，乐观主义" },
+    { english: "sweater", chinese: "'swetə n.厚运动衫毛线衫毛衣出汗者" },
+    { english: "concede", chinese: "kәn’si:d vt. 承认,退让 vi. 让步" },
+    { english: "propel", chinese: "prә’pel vt.推进，推动" }
+];

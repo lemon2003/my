@@ -1,0 +1,22 @@
+const words = [
+    { english: "front", chinese: "frʌnt adj.前面的n.前部前面开头前线vt.面对朝向对付vi.面朝做掩护" },
+    { english: "league", chinese: "li:g n.同盟联盟联合会社团" },
+    { english: "harmony", chinese: "'hɑ:məni n.调合协调和谐和弦和睦" },
+    { english: "cloud", chinese: "klaudn.云云状物云状的烟阴影vt.使…模糊以云遮敝笼罩使…混淆毁" },
+    { english: "dialog", chinese: "'daiəlɔg n.对话对白(美)=dialogue" },
+    { english: "headline", chinese: "'hedlain n.(pl.)新闻提要大字标题" },
+    { english: "vigorous", chinese: "'vigərəs adj.朝气蓬勃的精力充沛的元气旺盛的有力的" },
+    { english: "disadvantage", chinese: ".disəd'væntidʒ n.不利不利地位不利条件损害损失" },
+    { english: "appear", chinese: "ə'piə vi.出现来到抵达似乎显得出版" },
+    { english: "aural", chinese: "'ɔ:rəl adj.耳的听觉的" },
+    { english: "lens", chinese: "lenz n.透镜镜片镜头" },
+    { english: "cause", chinese: "kɔ:z n.原因理由事业vt.引起使发生" },
+    { english: "high", chinese: "haiadj.高的高级的轻微变质的高尚的严重的强的adv.高好n.高地天" },
+    { english: "majesty", chinese: "‘mædʒisti n.威严，尊严；陛下" },
+    { english: "naked", chinese: "'neikid adj.裸体的无遮敝的明白的手无寸铁的" },
+    { english: "civilian", chinese: "si’viljәn n.平民 a.平民的" },
+    { english: "move", chinese: "mu:vvt.使移动使...感动推动(有时也意译为\"跳槽\")n.移动迁居步骤" },
+    { english: "intermittent", chinese: "intә’mitnt a. 间歇的,断断续续的" },
+    { english: "rope", chinese: "rəup n.绳索v.捆绑" },
+    { english: "applaud", chinese: "ә’plɔ:d vt.喝彩；欢呼vi.欢呼" }
+];

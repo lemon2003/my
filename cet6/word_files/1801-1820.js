@@ -1,0 +1,22 @@
+const words = [
+    { english: "expire", chinese: "iks’paiә vi.满期，到期；断气" },
+    { english: "synthesis", chinese: "‘sinθisis n.合成；综合，综合物" },
+    { english: "house", chinese: "haus n.房屋住宅商号全家人议院vt.提供住安置收容vi.居住躲避" },
+    { english: "disable", chinese: "dis’eibl vt.使无能，使伤残" },
+    { english: "characterize", chinese: "‘kæriktәraiz vt.表示…的特性" },
+    { english: "dictation", chinese: "dik'teiʃən n.口授笔录听写" },
+    { english: "fertile", chinese: "'fə:tail adj.肥沃的多产的能繁殖的、" },
+    { english: "film", chinese: "filmn.影片胶卷薄层薄膜vt.把...拍成电影给...覆上一薄层vi.从事" },
+    { english: "doubt", chinese: "daut n.怀疑疑虑不信任vt.怀疑不信任vi.不确定" },
+    { english: "overnight", chinese: "'əuvə'nait adv.一夜昨晚一晚上突然adj.通宵的晚上的前夜的n.前晚" },
+    { english: "introduce", chinese: ".intrə'dju:s vt.介绍引进传入采用提出提倡放入" },
+    { english: "chronic", chinese: "‘krɔnik a.慢性的,习惯性的n.慢性病患者" },
+    { english: "clever", chinese: "'klevə adj.聪明的机敏的" },
+    { english: "balance", chinese: "'bælənsvt.使平衡称称重量权衡抵消vi.建立平衡均衡n.天平平衡差额平" },
+    { english: "stand", chinese: "stænd vi.站坐落位于停滞忍受n.架台站立停顿楼台货摊" },
+    { english: "blind", chinese: "blaindadj.瞎的盲目的未察觉的n.百叶窗幌子vt.使失明隐藏adv.盲目" },
+    { english: "history", chinese: "'histəri n.历史个人经历" },
+    { english: "statue", chinese: "'stætju: n.塑像雕像铸像" },
+    { english: "kiss", chinese: "kis vt.吻轻触vi.接吻轻触n.吻蛋白小饼干小糖果" },
+    { english: "suffice", chinese: "sә’fais vi.足够；有能力" }
+];

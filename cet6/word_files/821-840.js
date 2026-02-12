@@ -1,0 +1,22 @@
+const words = [
+    { english: "stiffen", chinese: "'stifn vt.使硬使僵硬变为浓粘" },
+    { english: "prefer", chinese: "pri'fə: vt.宁可宁愿较喜欢vt.【法】提出(控告)" },
+    { english: "never", chinese: "'nevə adv.永不决不不" },
+    { english: "thanksgiving", chinese: "‘θæŋksgiviŋ n.感恩节" },
+    { english: "late", chinese: "leit adj.迟的晚的已故的adv.迟很迟晚最近地" },
+    { english: "exist", chinese: "ig'zist vi.存在生存生活" },
+    { english: "criticism", chinese: "'kriti.sizəm n.批评批判评论" },
+    { english: "shed", chinese: "ʃed vt.散发脱落使...流出除掉n.车棚小屋贷棚脱落物" },
+    { english: "descend", chinese: "di'send vt. &vi.降传降临下来下降下倾" },
+    { english: "unlucky", chinese: "ʌn'lʌki adj.不幸的不吉的倒霉的" },
+    { english: "vegetation", chinese: "vedʒi’teiʃәn n. 植物,草木" },
+    { english: "offer", chinese: "'ɔ:fə vt.提供提出出价贡献奉献vi.提议出现求婚n.提供出价" },
+    { english: "reproach", chinese: "ri'prəutʃ n.责备耻辱vt.责备申斥指责" },
+    { english: "cubic", chinese: "'kju:bik adj.立方体的立方的" },
+    { english: "for", chinese: "fɔ: prep.为给因为关于代表支持往conj.因为" },
+    { english: "emerge", chinese: "i'mə:dʒ vi.出现涌现冒出(由某种状态)脱出(事实)显现出来" },
+    { english: "volume", chinese: "'vɔljum n.卷册容积体积音量" },
+    { english: "cheerful", chinese: "'tʃiəfəl adj.快乐的愉快的" },
+    { english: "aircraft", chinese: "'eəkrɑ:ft n.飞机飞行器" },
+    { english: "tiger", chinese: "'taigə n.老虎凶残之人" }
+];

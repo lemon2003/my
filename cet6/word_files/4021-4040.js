@@ -1,0 +1,22 @@
+const words = [
+    { english: "ivory", chinese: "‘aivәri n.象牙；牙质；乳白色" },
+    { english: "crucial", chinese: "‘kru:ʃiәl a. 决定性的,重要的,严厉的" },
+    { english: "flesh", chinese: "fleʃ n.肉肌肉肉体人性vt.用肉喂赋予血肉使长肉vi.变胖" },
+    { english: "dorm", chinese: "dɔ:m n.(集体)宿舍" },
+    { english: "gigantic", chinese: "dʒai’gæntik a.巨大的；巨人似的" },
+    { english: "brick", chinese: "brik n.砖砖块砖状物积木可靠的朋友vt.(up)用砖砌补用砖堵住" },
+    { english: "alien", chinese: "‘eiljәn a.外国的 n.外国人" },
+    { english: "lemon", chinese: "'lemən n.柠檬柠檬树" },
+    { english: "meantime", chinese: "'mi:n'taim n.其时其间adv.当时与此同时" },
+    { english: "delete", chinese: "di'li:t vt.删除擦掉" },
+    { english: "Mister", chinese: "'mistə n.先生" },
+    { english: "similar", chinese: "'similə adj.相似的类似的同样的" },
+    { english: "temper", chinese: "'tempə n.调剂韧度回火度心情情绪脾气性情vt.使缓和调和vt.使回火" },
+    { english: "biscuit", chinese: "'biskit n.(英)饼干(美)软饼姜黄褐色" },
+    { english: "inn", chinese: "in n.客栈小旅店小酒店" },
+    { english: "radical", chinese: "‘rædikәl a.基本的；激进的" },
+    { english: "actual", chinese: "'æktjuəl adj.实际的真实的现行的" },
+    { english: "west", chinese: "west n.西西方西部西洋adj.西方的adv.向(在)西方" },
+    { english: "phenomenon", chinese: "fə'nɑ:minən n.现象非凡的人或事物" },
+    { english: "flour", chinese: "flauə n.面粉粉粉状物质vt. &vi.研成粉末" }
+];

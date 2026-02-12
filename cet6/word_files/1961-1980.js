@@ -1,0 +1,22 @@
+const words = [
+    { english: "convince", chinese: "kən'vins vt.使确信使信服说服使...相信" },
+    { english: "depression", chinese: "di’preʃәn n.消沉；不景气萧条期" },
+    { english: "float", chinese: "fləutvi.漂浮游荡飘vt.使漂浮提出开办新公司洽谈n.漂流物装有轮子" },
+    { english: "previously", chinese: "'pri:vjəsli adv.先前预先仓促地" },
+    { english: "compress", chinese: "'kɔmpres,kəm'pre vt.压紧压缩" },
+    { english: "report", chinese: "ri'pɔ:t vt. &vi.报告汇报n.传闻报告成绩单爆炸声" },
+    { english: "flock", chinese: "flɔkn.羊群群大量信众软填料短绒棉絮毛屑vt.塞填充料vi.成群而行" },
+    { english: "rejoice", chinese: "ri’dʒɔis vi.欣喜，高兴" },
+    { english: "half", chinese: "hɑ:f n.半一半adj.一半的不完全的adv.一半地" },
+    { english: "decent", chinese: "‘di:snt a.正派的；体面的" },
+    { english: "toilet", chinese: "'tɔilit n.厕所盥洗室浴室梳洗打扮礼服创口洗涤v.打扮使用厕所" },
+    { english: "glide", chinese: "glaid vi.滑动；消逝 n.滑行" },
+    { english: "unity", chinese: "'ju:niti n.单一统一团结个体一致结合" },
+    { english: "rely", chinese: "ri'lai vi.依赖依靠信赖" },
+    { english: "saint", chinese: "seint n.圣人圣徒基督教徒vt.把...封为圣人" },
+    { english: "degrade", chinese: "di’greid vt.使降给；使堕落" },
+    { english: "realistic", chinese: "riә’listik a.现实的；现实主义的" },
+    { english: "Africa", chinese: "'æfrikə n.非洲" },
+    { english: "discard", chinese: "'diskɑ:d,dis'kɑ:dvt.丢弃抛弃遗弃vi.丢牌n.丢牌废牌" },
+    { english: "highlight", chinese: "‘hailait n.突出,精彩场面vt.加亮,使显著" }
+];

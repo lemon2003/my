@@ -1,0 +1,22 @@
+const words = [
+    { english: "system", chinese: "'sistəm n.系统体系制度" },
+    { english: "along", chinese: "ə'lɔŋ adv.向前(与某人)一道prep.沿着" },
+    { english: "weakness", chinese: "'wi:knis n.虚弱软弱弱点" },
+    { english: "premature", chinese: "pri:mә’tjuәa. 早熟,过早的 n. 早产儿" },
+    { english: "orientation", chinese: "ɔ:rien’teiʃ әnn.向东；定位；方向" },
+    { english: "during", chinese: "djuəriŋ prep.在...期间" },
+    { english: "profession", chinese: "prə'feʃən n.职业专业声明信仰" },
+    { english: "novelty", chinese: "‘nɔvәlti n.新颖；新奇的事物" },
+    { english: "democratic", chinese: ".demə'krætik adj.民主的民主政体的大众的平等的" },
+    { english: "curious", chinese: "'kjuəriəs adj.好奇的奇特的稀奇古怪的" },
+    { english: "optimum", chinese: "‘ɔptimiәm n.最适条件，最适度" },
+    { english: "stool", chinese: "stu:l n.凳子搁脚凳便桶根株vi.引诱" },
+    { english: "ideology", chinese: "aidi’ɔlәdʒi n. 意识形态,思想体系" },
+    { english: "cross", chinese: "krɔsvt.穿过划叉剔除画横线于vi.穿越prep.穿过n.十字架十字架形" },
+    { english: "cure", chinese: "kjuə vt.医治消除vt. &vi.治疗治愈改正n.治疗治愈治疗法" },
+    { english: "fact", chinese: "fækt n.事实实际实情" },
+    { english: "evaluate", chinese: "i'væljueit vt.评估评价估...的价" },
+    { english: "Permissible", chinese: "pә’misәbl a. 可允许的" },
+    { english: "germ", chinese: "dʒə:m n.微生物细菌幼芽" },
+    { english: "atom", chinese: "'ætəm n.原子微粒微量" }
+];

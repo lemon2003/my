@@ -1,0 +1,22 @@
+const words = [
+    { english: "inquire", chinese: "in'kwaiə vt.打听询问调查vi.询问查究" },
+    { english: "protection", chinese: "prə'tekʃən n.保护警戒防卫" },
+    { english: "and", chinese: "ənd, ænd conj.和又并则逻辑与" },
+    { english: "prone", chinese: "prәun a. 俯伏的,易于...的" },
+    { english: "degree", chinese: "di'gri: n.程度度度数学位" },
+    { english: "shortage", chinese: "'ʃɔ:tidʒ n.不足缺少不足额" },
+    { english: "myth", chinese: "miθ n. 神话,虚构的事,虚构的人" },
+    { english: "examination", chinese: "ig.zæmi'neiʃən n.考试检查细查审讯" },
+    { english: "cotton", chinese: "'kɔtn n.棉棉花棉线棉布vi.向…讨好明白领悟" },
+    { english: "sink", chinese: "siŋkvi.下沉下垂降低下落陷于倾斜恶化渗透vt.下沉陷于倾斜减少n." },
+    { english: "instruction", chinese: "in'strʌkʃən n.命令指令教学教训说明须知" },
+    { english: "will", chinese: "wilaux.v.将要会愿必须n.意志决心愿望遗嘱vt.决心想要(某事发" },
+    { english: "discussion", chinese: "di'skʌʃən n.讨论谈论辩论论述" },
+    { english: "video", chinese: "'vidiəu adj.电视的视频的录像的n.电视视频录像" },
+    { english: "function", chinese: "fʌŋkʃən n.功能职务函数重大聚会vi.运行起作用" },
+    { english: "broadcast", chinese: "'brɔ:dkɑ:st n.广播广播节目播音adj.广播的vt. &vi.广播adv.经广播四散地" },
+    { english: "hint", chinese: "hint n.暗示提示示意建议小部分vt. &vi.暗示示意" },
+    { english: "sock", chinese: "sɔk n.短袜vt. 给...穿短袜v.狠揍痛打n.重击犁头犁刃轻软鞋喜剧" },
+    { english: "responsible", chinese: "ri'spɔnsəbl adj.有责任的尽责的责任重大的可靠的" },
+    { english: "Asia", chinese: "'eiʃə n.亚洲" }
+];

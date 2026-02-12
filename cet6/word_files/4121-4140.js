@@ -1,0 +1,22 @@
+const words = [
+    { english: "backward", chinese: "'bækwəd adj.向后的倒的adv.倒向后" },
+    { english: "through", chinese: "θru:prep.经过穿过凭借adv.从头到尾穿越完全adj.完成的完结的贯" },
+    { english: "ceremony", chinese: "'seriməni n.典礼仪式礼节礼仪" },
+    { english: "southwest", chinese: ".sauθ'westn.西南西南风西南地区adj.西南的来自西南方的adv.往西南来自" },
+    { english: "minimum", chinese: "'miniməm n.最小量最低限度adj.最低的最小的" },
+    { english: "focus", chinese: "'fəukəs vi.聚焦注视集中聚集使集中n.焦点焦距" },
+    { english: "proportion", chinese: "prə'pɔ:ʃən n.比比率部分均衡vt.使成比例使均衡分摊" },
+    { english: "forward", chinese: "fɔ:wəd adv.向前今后往后adj.向前的早的迅速的前锋v.转交促进运送" },
+    { english: "column", chinese: "'kɔləm n.柱支柱圆柱柱形物专栏[计算机]列" },
+    { english: "despatch", chinese: "dis’pætʃ vt.vi.n. 派遣" },
+    { english: "typist", chinese: "'taipist n.打字员" },
+    { english: "queer", chinese: "kwiə adj.奇怪的古怪的不舒服的可疑的n.同性恋者" },
+    { english: "rig", chinese: "rig vt. 操纵,垄断 n. 钻井架,塔台" },
+    { english: "lump", chinese: "lʌmpn.团块块状肿块瘤很多愚笨的人惩罚vt.聚成团合并考虑同等对" },
+    { english: "evoke", chinese: "i’vәuk vt. 唤起,引起" },
+    { english: "million", chinese: "'miljən num.百万n.许多百万(the millions)群众adj.百万的无数的" },
+    { english: "embassy", chinese: "‘embәsi n.大使馆；大使的职务" },
+    { english: "consumer", chinese: "kәn’sju:m әn.消费者，用户" },
+    { english: "fade", chinese: "feid vi.褪色逐渐消失凋谢vt.使褪色n.淡入淡出adj.平凡的乏味的" },
+    { english: "conceal", chinese: "kən'si:l vt.把...隐藏起来掩盖" }
+];

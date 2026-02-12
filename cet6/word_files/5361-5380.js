@@ -1,0 +1,22 @@
+const words = [
+    { english: "order", chinese: "'ɔ:də n.次序整齐勋章阶级决议订单命令vt.命令调整定购" },
+    { english: "dizzy", chinese: "‘dizi a.头晕眼花的，眩晕的" },
+    { english: "shallow", chinese: "'ʃæləu adj.浅的浅薄的肤浅的浅显易懂的n.(pl.)浅滩浅处v.变浅" },
+    { english: "rotate", chinese: "rəu'teit vi.旋转vt.使旋转轮流adj.车轮状的" },
+    { english: "juice", chinese: "dʒu:sn.(水果等)汁液果汁细胞液内在本质汽油唾液体液vt.加液体榨" },
+    { english: "four", chinese: "fɔ: num.四四个第四" },
+    { english: "theoretical", chinese: "θiə'retikəl adj.理论(上)的" },
+    { english: "amplify", chinese: "‘æmplifai vt.放大，增强；扩大" },
+    { english: "pension", chinese: "‘penʃәn n.抚恤金，年金" },
+    { english: "dear", chinese: "diəadj.严重的珍贵的亲爱的昂贵的衷心的adv.高价地热爱地n.亲爱" },
+    { english: "compartment", chinese: "kәm’pa:tm әntn. 间隔,个别室,车厢" },
+    { english: "redundant", chinese: "ri’dΛndәnt a. 多余的,过多的,冗长的" },
+    { english: "cock", chinese: "kɔkn.公鸡雄禽旋塞(男子间友好的互称用语)老兄阴茎vt.立起竖起" },
+    { english: "destiny", chinese: "‘destini n. 命运,定数" },
+    { english: "after", chinese: "'ɑ:ftə adj.以后的adv.以后后来conj.在...以后prep.在...以后次于" },
+    { english: "shepherd", chinese: "'ʃepəd n.牧羊人羊倌牧师指导者v.看守领导指导" },
+    { english: "cartoon", chinese: "ka:’tu:n n.漫画，动画片" },
+    { english: "groan", chinese: "grәun vi.哼，呻吟 n.呻吟" },
+    { english: "moan", chinese: "məun n.呻吟声悲叹声抱怨声vi.呻吟v.抱怨呻吟" },
+    { english: "general", chinese: "'dʒenərəl adj.总的一般的普遍的全体的n.将军一般大体" }
+];

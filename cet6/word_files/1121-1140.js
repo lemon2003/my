@@ -1,0 +1,22 @@
+const words = [
+    { english: "like", chinese: "laikvt. 喜欢喜爱希望愿意想adj. 相似的同样的prep. 像如同像要" },
+    { english: "launch", chinese: "lɔ:ntʃ vt.&n.发射投射发动下水开始升天汽艇" },
+    { english: "mine", chinese: "main pron.我的n.地雷矿山宝库vt.采矿开凿暗中破坏埋地雷vi.挖掘" },
+    { english: "gauge", chinese: "geidʒ vt.量测量估计判断n.测量标准轨距口径直径测量仪器" },
+    { english: "intend", chinese: "in'tend vt.想要打算计划意指" },
+    { english: "royal", chinese: "'rɔiəl adj.王室的皇家的盛大的极度的n.贵族顶帆" },
+    { english: "come", chinese: "kʌm vi.来来到达到出现发生进入vt.接近扮演" },
+    { english: "deposit", chinese: "di'pɔzit vt.使沉淀存放堆积vi.沉淀n.存款定金堆积物" },
+    { english: "mediate", chinese: "‘midieit a. 居间的,间接的vt. 斡旋,调停" },
+    { english: "cheek", chinese: "tʃi:k n.面颊脸蛋vt.粗鲁地向...讲" },
+    { english: "hare", chinese: "hɛə n.野兔" },
+    { english: "farewell", chinese: "'fɛə'wel int.再会别了n.告别adj.告别的" },
+    { english: "unless", chinese: "ən'les conj.除非如果不prep.除...外" },
+    { english: "ingredient", chinese: "in’gri:dj әnt n.配料，成分" },
+    { english: "adolescent", chinese: "ædә’lesәnt a.青春期的,青年的n.青少年" },
+    { english: "miracle", chinese: "'mirəkl n.奇迹令人惊奇的人" },
+    { english: "yoke", chinese: "jәuk n.轭，牛轭；枷锁" },
+    { english: "chain", chinese: "tʃein n.链链条项圈连锁束缚vt.用铁练锁住束缚囚禁" },
+    { english: "shirt", chinese: "ʃə:t n.(男式)衬衫" },
+    { english: "commonly", chinese: "'kɔmənli adv.普通地一般地通常地" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "haircut", chinese: "'hɛəkʌt n.理发发式" },
+    { english: "tear", chinese: "tiən.眼泪泪珠(撕破的)洞或裂缝撕扯vt.撕掉撕开撕裂扯下扰乱vi." },
+    { english: "finish", chinese: "'finiʃvt.完成结束获...第几名vi.终结完成n.结束完成最后加工结局" },
+    { english: "possibly", chinese: "'pɔsəbli adv.可能地也许" },
+    { english: "hot", chinese: "hɔtadj.热的热情的刺激的辣的性感的adv.激动地快速地n.最高温度" },
+    { english: "negative", chinese: "'negətiv adj.否定的消极的负的n.底片负数否定vt.否定" },
+    { english: "rust", chinese: "rʌst n.锈锈vi.生锈氧化变成红棕色vt.使...生锈损害" },
+    { english: "vest", chinese: "vestn.汗衫背心马甲内衣vt.授予给予使穿衣vi.(权力、财产等)归于" },
+    { english: "trust", chinese: "trʌst n.信任信托vt.相信委托vi.信任" },
+    { english: "know", chinese: "nəu vt.知道认识通晓n.知识了解" },
+    { english: "heading", chinese: "hediŋ n.标题题词题名航向动词head的现在分词" },
+    { english: "mist", chinese: "mist n.薄雾迷蒙朦胧不清vt.使...模糊蒙上雾vi.使...模糊下雾" },
+    { english: "argue", chinese: "'ɑ:gju: vt.争论辩论争吵劝说表明vi.提出理由争论争辩辩论" },
+    { english: "boom", chinese: "bu:m vi. n. 急速发展,繁荣,隆隆响" },
+    { english: "classic", chinese: "‘klæsik n.名著 a.不朽的" },
+    { english: "considerable", chinese: "kən'sidərəbl adj.相当大的重要的可观的" },
+    { english: "visit", chinese: "'vizit vt. &n.访问参观拜访探访" },
+    { english: "influence", chinese: "'influəns n.影响影响力势力权势有影响的人(或事物) vt.影响感化" },
+    { english: "oneself", chinese: "wʌn'self pron.自己亲自" },
+    { english: "night", chinese: "nait n.夜夜间" }
+];

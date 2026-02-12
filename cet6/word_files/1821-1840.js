@@ -1,0 +1,22 @@
+const words = [
+    { english: "individual", chinese: ".indi'vidjuəl adj.个别的独特的n.个人个体" },
+    { english: "terrain", chinese: "‘terein n. 地带,地域,范围,领域" },
+    { english: "ourselves", chinese: ".auə'selvz pron.我们自己" },
+    { english: "sexual", chinese: "‘seksjuәl a. 性的,性别的" },
+    { english: "exact", chinese: "ig'zækt adj.确切的精确的vt.强求要求索取" },
+    { english: "progressive", chinese: "prə'gresiv adj.进步的向前进的渐进的n.进步人士" },
+    { english: "rabbit", chinese: "'ræbit n.兔子野兔vi.猎兔vt.让...见鬼去吧该死" },
+    { english: "scarcely", chinese: "'skɛəsli adv.仅仅几乎不简直没有勉强" },
+    { english: "hurry", chinese: "'hʌri vi.赶紧快速移动vt.催促加快迅速处理n.骚乱匆忙急需" },
+    { english: "manner", chinese: "'mænə n.方式态度礼貌举止习俗" },
+    { english: "spell", chinese: "spelvt.拼写缓慢地或吃力地读轮班休息用符咒镇住(某人) vi.拼字" },
+    { english: "abuse", chinese: "ə'bju:z vt.滥用辱骂虐待n.滥用恶习" },
+    { english: "eight", chinese: "eit num.八八个第八" },
+    { english: "lead", chinese: "led,li:dvt.为...带路领导引导带领以铅接合过...(的生活)n.铅铅制品" },
+    { english: "thought", chinese: "θɔ:t n.思想思维想法观念意向动词think的过去式和过去分词" },
+    { english: "quantitative", chinese: "‘kwɔntit әtiv a.量的；定量的" },
+    { english: "unfold", chinese: "Λn’fәuld vt.展开 vi.呈现" },
+    { english: "postage", chinese: "'pəustidʒ n.邮费邮资邮资已付邮戳" },
+    { english: "receiver", chinese: "ri'si:və n.收受者收件人接收器收款员接待者听筒" },
+    { english: "text", chinese: "tekst n.原文本文课文正文v.发短信" }
+];

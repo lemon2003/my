@@ -1,0 +1,22 @@
+const words = [
+    { english: "fisherman", chinese: "'fiʃəmən n.渔民渔夫打鱼人渔船" },
+    { english: "sunrise", chinese: "'sʌnraiz n.日出(时分)" },
+    { english: "care", chinese: "kɛən.小心照料忧虑慎思焦虑因素vi.关心介意照顾喜爱vt.介意希望" },
+    { english: "infant", chinese: "'infənt n.婴儿幼儿adj.婴儿的幼稚的初期的" },
+    { english: "miniature", chinese: "‘minjәtʃә n.缩影 a.缩小的" },
+    { english: "custom", chinese: "'kʌstəm n.习惯风俗海关" },
+    { english: "want", chinese: "wɔnt vt.要想要n.需要缺乏需求品" },
+    { english: "Thursday", chinese: "'θə:zdi n.星期四" },
+    { english: "brake", chinese: "breik n.蕨菜闸刹车制动器vt. &vi.制动煞车压榨" },
+    { english: "renew", chinese: "ri'nju: vt.使更新复始使恢复补充vi.更新重新开始" },
+    { english: "with", chinese: "wið prep.和...一起具有用随着包括" },
+    { english: "physical", chinese: "'fizikəl adj.身体的物质的物理的n.体检" },
+    { english: "defend", chinese: "di'fend vt. &vi.防护辩护防卫保卫防守" },
+    { english: "limit", chinese: "'limit n.限度限制范围vt.限制限定" },
+    { english: "adjacent", chinese: "ә’dʒeisәnt a.毗连的；紧接着的" },
+    { english: "observe", chinese: "əb'zə:v vt.遵守看到注意到说观察" },
+    { english: "Australian", chinese: "ɔ'streiliən adj.澳大利亚的n.澳大利亚人" },
+    { english: "interference", chinese: ".intə'fiərəns n.干涉干预干扰阻碍" },
+    { english: "shopkeeper", chinese: "'ʃɔp.ki:pə n.店主零售商人" },
+    { english: "oak", chinese: "əuk n.栎属植物栎木橡树橡木adj.橡木制的" }
+];

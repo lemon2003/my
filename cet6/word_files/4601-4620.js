@@ -1,0 +1,22 @@
+const words = [
+    { english: "desire", chinese: "di'zaiə vt.要求向往请求渴望n.愿望欲望情欲" },
+    { english: "empty", chinese: "'empti a.空的空洞的" },
+    { english: "fiction", chinese: "'fikʃən n.小说虚构杜撰" },
+    { english: "approval", chinese: "ə'pru:vəl n.赞成同意批准认可" },
+    { english: "lay", chinese: "leilie的过去式vt.置放铺设设置击产卵使平静打赌压平罚款设计" },
+    { english: "gaseous", chinese: "'gæsiəs adj.气体的气态的" },
+    { english: "bend", chinese: "bend vt.使弯曲vi.弯曲屈服n.弯曲(物)弯道" },
+    { english: "humid", chinese: "'hju:mid adj.湿的湿气重的潮湿的" },
+    { english: "restless", chinese: "'restlis adj.不安定的焦虑的静不下来的得不到休息的" },
+    { english: "grateful", chinese: "'greitfəl adj.感激的感谢的令人愉快的" },
+    { english: "clarity", chinese: "‘klæriti n. 清楚,透明" },
+    { english: "guest", chinese: "gest n.客人宾客旅客客串演员特邀来宾vt.款待vi.作客" },
+    { english: "absent", chinese: "'æbsənt adj.缺席的不在场的缺乏的vt.使缺席prep.没有" },
+    { english: "twelfth", chinese: "twelfθ num.第十二adj.第十二的十二分之一的n.第十二十二日第十二音" },
+    { english: "research", chinese: "ri'sə:tʃ n. &vi.调查探究研究" },
+    { english: "brave", chinese: "breivadj.勇敢的华丽的缤纷的vt.勇敢地面对(危险等)抵抗n.勇敢的" },
+    { english: "acceptable", chinese: "ək'septəbl adj.可接受的合意的受欢迎的" },
+    { english: "rise", chinese: "raiz vi.起立升起上涨起身n.上升增加小山斜坡" },
+    { english: "diamond", chinese: "'daiəməndn.金钢石钻石菱形像钻石的物质纸牌的方块棒球内场vt.用钻石" },
+    { english: "connection", chinese: "kə'nekʃən n.连接联系关系亲戚连贯性" }
+];

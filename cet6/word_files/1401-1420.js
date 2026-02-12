@@ -1,0 +1,22 @@
+const words = [
+    { english: "mention", chinese: "'menʃən vt. &n.提及说起" },
+    { english: "fraud", chinese: "frɔ:d n. 骗子,欺骗,欺诈,诡计" },
+    { english: "overhead", chinese: "'əuvə'hedadj.在头顶上的架空的高架的n.经常开支普通用费adv.在头顶上" },
+    { english: "liter", chinese: "'li:tə n.升公升(容量单位)=litre(英)" },
+    { english: "external", chinese: "eks'tə:nl adj.外部的外面的外用的客观的表面的n.外部" },
+    { english: "must", chinese: "mʌst v.aux.必须必然要n.必须一定绝对发霉果汁麝香" },
+    { english: "session", chinese: "'seʃən n.会议一段时间开庭期市盘学期adj.短期的" },
+    { english: "detach", chinese: "di’tætʃ vt.分开；派遣(军队)" },
+    { english: "kneel", chinese: "ni:l vi.跪跪下跪着" },
+    { english: "dislike", chinese: "dis'laik vt. &n.不喜爱厌恶反感" },
+    { english: "actually", chinese: "'æktʃuəli adv.实际上事实上居然竟然（表示惊讶）" },
+    { english: "wicked", chinese: "'wikid adj.坏的令人厌恶的邪恶的缺德的adv.极端地非常地vt.吸收" },
+    { english: "exactly", chinese: "ig'zæktli adv.确切地恰恰正是" },
+    { english: "me", chinese: "mi: pron.(宾格)我" },
+    { english: "black", chinese: "blækadj.黑的暗的穿黑衣服的脏的邪恶的阴沉的机密的n.黑色东西黑" },
+    { english: "window", chinese: "'windəu n.窗子窗户窗口橱窗视窗" },
+    { english: "entail", chinese: "in’teil vt. 使必需,使承担" },
+    { english: "weekend", chinese: "wi:k'end n.周末周末假期vi.过周末adj.周末的" },
+    { english: "apparent", chinese: "ə'pærənt adj.表面上的明显的" },
+    { english: "quicken", chinese: "'kwikənvt.使加快使...有生气鼓舞使(曲线)更弯使(斜坡)更陡vi.加快" }
+];

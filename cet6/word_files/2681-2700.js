@@ -1,0 +1,22 @@
+const words = [
+    { english: "foreign", chinese: "'fɔrin adj.外国的外来的外交的不相关的" },
+    { english: "company", chinese: "'kʌmpəni n.公司商号同伴客人一群连队vt.陪伴vi.联合" },
+    { english: "user", chinese: "'ju:zə n.用户使用者" },
+    { english: "win", chinese: "win vi.获胜赢vt.赢得n.胜利" },
+    { english: "chemist", chinese: "'kemist n.化学家药剂师" },
+    { english: "Pendulum", chinese: "‘pendjul әm n.(钟等的)摆" },
+    { english: "round", chinese: "raundadj.圆的微胖的完整的坦率的圆满完成的n.兜圈圆(某种圆形)交" },
+    { english: "miner", chinese: "'mainə n.矿工" },
+    { english: "desert", chinese: "'dezət,di'zə:tn.沙漠荒地应得(的惩罚或奖励)vt.离弃擅离遗弃vi.擅离职守" },
+    { english: "hook", chinese: "huk n.钩挂钩钩子钩拳vt. &vi.钩住" },
+    { english: "guess", chinese: "ges vt. &vi. &n.猜测推测猜想" },
+    { english: "Nonetheless", chinese: "‘nΛnðә’les adv. 尽管如此,然而" },
+    { english: "hatch", chinese: "hætʃ vt.孵出vi.(蛋)孵化破壳n.孵化舱口" },
+    { english: "destroy", chinese: "dis'trɔi vt. &vi.破坏消灭打破" },
+    { english: "candle", chinese: "'kændl n.蜡烛烛形物烛光" },
+    { english: "dominant", chinese: "‘dɔminәnt a.统治的 n.主因" },
+    { english: "wake", chinese: "weik vi.醒醒来vt.唤醒n.清醒守夜" },
+    { english: "victim", chinese: "'viktim n.牺牲者受害者牺牲" },
+    { english: "dramatization", chinese: ".dræməti'zeiʃən n.编剧改编成戏剧" },
+    { english: "traitor", chinese: "'treitə n.叛徒卖国贼出卖朋友者" }
+];

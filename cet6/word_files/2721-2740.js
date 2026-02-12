@@ -1,0 +1,22 @@
+const words = [
+    { english: "distinct", chinese: "di'stiŋkt adj.与其他不同的不同的明显的(from)独特的清楚的" },
+    { english: "force", chinese: "fɔ:s vt.强迫施暴强夺加压力强制n.力力量武力暴力影响力" },
+    { english: "complication", chinese: "kɔmpli’keiʃәn n.复杂，混乱；并发症" },
+    { english: "suffer", chinese: "'sʌfə vt.遭受忍受容许允vi.受苦患病受损失" },
+    { english: "quickly", chinese: "'kwikli adv.快迅速" },
+    { english: "witness", chinese: "'witnisn.证据目击者证人vt.目击见证出席观察经历vi.为(宗教信仰)做" },
+    { english: "Christian", chinese: "'kristʃən n.基督教徒信徒adj.基督教(徒)的信奉基督教的仁慈的" },
+    { english: "midnight", chinese: "'midnait n.午夜子夜夜半漆黑" },
+    { english: "transfer", chinese: "træns'fə: vt.& vi.转移调动调转调任n.迁移移动换车" },
+    { english: "conclusion", chinese: "kən'klu:ʒən n.结论推论结尾" },
+    { english: "context", chinese: "‘kɔntekst n.上下文；来龙去脉" },
+    { english: "sail", chinese: "seil n.帆船乘船航行vi.(驾船)航行vt.乘船航行浮游启航" },
+    { english: "thirst", chinese: "θə:st n.渴口渴渴望vi.(for)渴望渴求" },
+    { english: "camel", chinese: "'kæməl n.骆驼浮船箱浅黄棕色" },
+    { english: "controversy", chinese: "‘kɔntrәvә:si n.争论，辩论，争吵" },
+    { english: "promise", chinese: "'prɔmis n.诺言指望约定(有)希望预示vt.允诺约定预示有可能" },
+    { english: "classmate", chinese: "'klɑ:smeit n.同班同学" },
+    { english: "charm", chinese: "tʃa:m n.魅力；妩媚 vi.迷人" },
+    { english: "lack", chinese: "læk vi. &vi. &n.缺乏不足无" },
+    { english: "monthly", chinese: "'mʌnθliadj.每月的持续一个月的每月发生的adv.每月按月n.月刊(复数" }
+];

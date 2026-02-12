@@ -1,0 +1,22 @@
+const words = [
+    { english: "heavy", chinese: "'heviadj.重的大(量)的充满的激烈的难消化的费力的沉闷的adv.密集" },
+    { english: "distil", chinese: "dis’til v. 蒸馏, 提取....的精华" },
+    { english: "eject", chinese: "i:’dʒekt vt.逐出，排斥；喷射" },
+    { english: "slide", chinese: "slaid vi.滑跌落vt.使滑动n.滑幻灯片雪崩山崩滑坡滑梯" },
+    { english: "variable", chinese: "'vɛəriəbl adj.易变的可变的n.变量易变的东西" },
+    { english: "tale", chinese: "teil n.故事传说叙述谎话总计" },
+    { english: "freedom", chinese: "'fri:dəm n.自由自主" },
+    { english: "unhappy", chinese: "ʌn'hæpi adj.不幸福的不快乐的" },
+    { english: "haste", chinese: "heist n.急速急忙草率v.匆忙赶快vi.赶紧赶快" },
+    { english: "ray", chinese: "rei n.光线射线辐射线雷(男子名)" },
+    { english: "philosophy", chinese: "fi'lɔsəfi n.哲学哲理人生观" },
+    { english: "comrade", chinese: "'kɑ:mræd n.同志亲密的同伴" },
+    { english: "noise", chinese: "nɔiz n.喧闹声响声噪声vt.谣传vi.大声说话发出噪音" },
+    { english: "mug", chinese: "mʌg n.大杯脸一杯的量恶棍vi.扮鬼脸vt.攻击打劫" },
+    { english: "end", chinese: "end n.末端目标结束终点vt. &vi.结束终结adj.最终的" },
+    { english: "deaf", chinese: "def adj.聋的不愿听的" },
+    { english: "conventional", chinese: "kən'venʃənl adj.普通的习惯的传统的惯例的常规的" },
+    { english: "resist", chinese: "ri'zist vt.&vi.抵抗抵制耐得住压制n.保护膜" },
+    { english: "circumstance", chinese: "'sə:kəmstəns n.情况条件境遇环境(复数)境况事件详情" },
+    { english: "headmaster", chinese: "'hed'mɑ:stə n.(中小学的)校长" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "vessel", chinese: "'vesl n.容器器皿船飞船管脉管血管" },
+    { english: "entire", chinese: "in'taiə adj.全部的整个的完整的同性质的纯正的全面的" },
+    { english: "advent", chinese: "‘ædvәnt n. 来到,来临" },
+    { english: "terrible", chinese: "'terəbl adj.可怕的极度的糟糕的" },
+    { english: "rag", chinese: "ræg n.破布碎布抹布碎屑石板瓦散拍乐曲vt.责骂欺负以散拍乐演奏" },
+    { english: "religious", chinese: "ri'lidʒəs adj.宗教的虔诚的细心的n.修道院成员僧侣" },
+    { english: "brood", chinese: "bru:d n.窝同窝幼鸟vt.孵(蛋)沉思" },
+    { english: "grieve", chinese: "gri:v vt.使悲痛vi.悲痛" },
+    { english: "foolish", chinese: "'fu:liʃ adj.愚蠢的鲁莽的荒谬的可笑的" },
+    { english: "specimen", chinese: "'spesimən n.样本标本样品" },
+    { english: "tradition", chinese: "trə'diʃən n.传统惯例" },
+    { english: "European", chinese: ".juərə'pi(:)ən adj.欧洲的n.欧洲人" },
+    { english: "satisfactory", chinese: ".sætis'fæktəri adj.令人满意的良好的" },
+    { english: "historical", chinese: "his'tɔ:rikəl adj.历史的有关历史的" },
+    { english: "primarily", chinese: "prai'mərili adv.首先主要地" },
+    { english: "bury", chinese: "'beri vt.埋葬葬埋藏" },
+    { english: "naive", chinese: "na:’i:v a. 天真的,纯真的,朴素的" },
+    { english: "obscure", chinese: "әb’skjuә a.阴暗的；蒙昧的" },
+    { english: "all", chinese: "ɔ:ladj.全部的所有的adv.全部非常全然所有prep.全部pron.全部所" },
+    { english: "extract", chinese: "iks’trækt, ‘ekstræ vt.取出；榨取 n.摘录" }
+];

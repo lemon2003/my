@@ -1,0 +1,22 @@
+const words = [
+    { english: "describe", chinese: "di'skraib vt.形容描写描绘描述画(尤指几何图形)" },
+    { english: "lawn", chinese: "lɔ:n n.草地草坪草场上等细麻布" },
+    { english: "besides", chinese: "bi'saidz adv.而且也此外prep.除...之外adj.别的" },
+    { english: "transmission", chinese: "træns'miʃən n.传送传动发射播送变速器传递的信息" },
+    { english: "bizarre", chinese: "bi’za: a. 奇异的" },
+    { english: "share", chinese: "ʃɛə n.份份额股份部份分担犁头vt.分享共有分配vi.分享" },
+    { english: "comprehensive", chinese: ".kɔmpri'hensiv adj.广泛的理解的综合的" },
+    { english: "contend", chinese: "kәn’tend vi.竞争 vt.坚决主张" },
+    { english: "perplex", chinese: "pә’pleks vt.迷惑，困惑，难住" },
+    { english: "speciality", chinese: "speʃi’æliti n.专业，特长；特产" },
+    { english: "verge", chinese: "vә:dʒ n.边缘，边界，界限" },
+    { english: "unjust", chinese: "'ʌn'dʒʌst adj.非正义的不公平的" },
+    { english: "cut", chinese: "kʌtvt.切割剪减少停止修剪vi.切割快速移动剪掉n.切口割伤降低份" },
+    { english: "wander", chinese: "'wɔndə vi.漫游迷路离题徘徊漫步闲逛蜿蜒vt.漫步于n.漫游闲逛徘徊" },
+    { english: "financial", chinese: "fai'nænʃəl adj.财政的金融的" },
+    { english: "collective", chinese: "kə'lektiv adj.集体的共同的集合性的n.集体" },
+    { english: "now", chinese: "nauadv. 现在立刻于是adj. 现存的目前的n. 现在此刻conj. 既然" },
+    { english: "hundred", chinese: "'hʌndrəd num.百百个百位n.许多" },
+    { english: "kit", chinese: "kit n.成套工具；用具包" },
+    { english: "smell", chinese: "smel n.嗅觉气味味道vt.嗅闻探出发臭vi.闻发臭" }
+];

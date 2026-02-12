@@ -1,0 +1,22 @@
+const words = [
+    { english: "transplant", chinese: "træns’pla:nt vt.&vi.移植，移种" },
+    { english: "divine", chinese: "di’vain a.神的；敬神的" },
+    { english: "evolution", chinese: ".i:və'lu:ʃən n.进化演化发展" },
+    { english: "senior", chinese: "'si:njə adj.年长的地位较高的高级的资深的n.年长者上司毕业班学生" },
+    { english: "appreciate", chinese: "ə'pri:ʃieit vt.欣赏感激赏识领会充分意识感谢vi.增值" },
+    { english: "bribe", chinese: "braib n.贿赂 vt.向…行贿" },
+    { english: "clutch", chinese: "klΛtʃ vt.抓住 vi.掌握，攫" },
+    { english: "sufficiently", chinese: "sə'fiʃəntli adv.足够地充分地" },
+    { english: "element", chinese: "'elimənt n.成分要素元素基本原理(复数)恶劣天气" },
+    { english: "dentist", chinese: "‘dentist n.牙科医生" },
+    { english: "gray", chinese: "grei adj.灰色的阴沉的黯淡的n.灰色v.变灰色" },
+    { english: "costume", chinese: "‘kɔstju:m n. 装束,服装" },
+    { english: "ounce", chinese: "auns n.盎司英两" },
+    { english: "metallic", chinese: "mi’tælik a.金属的 n.金属粒子" },
+    { english: "fight", chinese: "fait vi.打架(仗)斗争战斗斗志vt.对抗打架vi.斗争奋斗" },
+    { english: "efficient", chinese: "i'fiʃənt adj.效率高的有能力的胜任的" },
+    { english: "menu", chinese: "'menju: n.菜单饭菜菜肴" },
+    { english: "mental", chinese: "'mentl adj.智力的精神的脑力的精神错乱的传心术的" },
+    { english: "veil", chinese: "veiln.面纱面罩遮蔽物掩饰物修女vt.给...戴面纱或面罩vi.带面纱" },
+    { english: "aggressive", chinese: "ə'gresiv adj.侵略的好斗的攻击性的有进取心的强烈的迅速生长的" }
+];

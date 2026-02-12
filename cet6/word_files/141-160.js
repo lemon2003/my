@@ -1,0 +1,22 @@
+const words = [
+    { english: "indicative", chinese: "in’dikәtiv a.指示的；陈述的" },
+    { english: "cassette", chinese: "kə'set n.盒式录音带盒子匣子盒式录音机" },
+    { english: "more", chinese: "mɔ: a.更多的程度较大的更大的adv.更多更多进一步n.更多" },
+    { english: "duty", chinese: "'dju:ti n.职责责任义务税adj.值班的作为一种义务的" },
+    { english: "chorus", chinese: "‘kɔ:rәs vt.&vi.合唱" },
+    { english: "liability", chinese: "laiә’biliti n.责任；倾向；债务" },
+    { english: "solve", chinese: "sɔlv vt.解答解释解决" },
+    { english: "impressive", chinese: "im'presiv adj.给人印象深刻的" },
+    { english: "expense", chinese: "iks'pens n.花费消费费用代价" },
+    { english: "play", chinese: "pleivi.玩游戏演奏进行比赛播放捉弄假装n.游戏游玩剧本比赛比赛" },
+    { english: "constant", chinese: "'kɔnstənt adj.经常的永恒的不变的n.常数恒量" },
+    { english: "gold", chinese: "gəuld n.金金子金币金黄色金牌钱财adj.金制的金色的" },
+    { english: "bed", chinese: "bedn.床床位圃河床底层基座vt.铺床去睡觉安置发生性关系vi.铺床" },
+    { english: "host", chinese: "həust n.主人东道主军队大量主人主持人主机vt.主持做东vi.聚集" },
+    { english: "born", chinese: "bɔ:n 动词bear的过去分词adj.天生的出生的与生俱来的" },
+    { english: "church", chinese: "tʃə:tʃn.教堂礼拜堂礼拜仪式基督教徒教会adj.教堂的vt.把...带到教" },
+    { english: "garden", chinese: "'gɑ:dnn. 花园菜园果园菜园草地公园vi. 栽培花木从事园艺工作vt." },
+    { english: "split", chinese: "split vt.劈开分离分开vi.被劈开adj.分散的n.劈开裂片裂口" },
+    { english: "indignant", chinese: "in’dignәnt a.愤慨的，义愤的" },
+    { english: "behalf", chinese: "bi'hɑ:f n.利益维护支持" }
+];

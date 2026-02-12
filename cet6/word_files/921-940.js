@@ -1,0 +1,22 @@
+const words = [
+    { english: "emperor", chinese: "'empərə n.皇帝" },
+    { english: "bark", chinese: "bɑ:kn.吠叫声狗叫咆哮厉声说话树皮小帆船vi.吠叫吠叫咆哮急促地" },
+    { english: "directly", chinese: "di'rektli adv.直接地立即完全" },
+    { english: "scream", chinese: "skri:m vi.尖叫呼啸大笑n.尖叫声" },
+    { english: "hurt", chinese: "hə:t vt.使受伤使痛心伤害(使)疼痛损害vi.受疼痛破坏n.打击创伤" },
+    { english: "dose", chinese: "dəus n.剂量用量一剂vt.配" },
+    { english: "ture", chinese: "tru: adj.真的真实的忠实的adv.真实地n.真相精确vt.使...平衡" },
+    { english: "market", chinese: "'mɑ:kitn.市场集市销路交易推销地区vt.在市场上交易使...上市vi.在" },
+    { english: "occupy", chinese: "'ɔkjupai vt.占领占占有占据使忙碌居住担任" },
+    { english: "thermal", chinese: "‘ðә:mәl a.热的；温泉的" },
+    { english: "Persistent", chinese: "pә (:)’sist әnt a. 固执的, 坚持的, 持续的" },
+    { english: "weed", chinese: "wi:d n.杂草野草weeds：衣服丧服vi.除草清除淘汰" },
+    { english: "fifty", chinese: "'fifti num.五十五十个" },
+    { english: "exaggerate", chinese: "ig'zædʒəreit vt. &vi.夸大夸张" },
+    { english: "multiple", chinese: "'mʌltipl adj.复合的并联的许多多种多样的" },
+    { english: "long", chinese: "lɔŋadj.长的远的很久的冗长的adv.长久长期地远地vi.渴望热望极" },
+    { english: "ton", chinese: "tʌn n.吨大量" },
+    { english: "jury", chinese: "'dʒuəri n.陪审团评委会评奖团adj.临时用的vt.挑选" },
+    { english: "pool", chinese: "pu:l n.水塘游泳池水池撞球共用物vi.形成池塘vt.集中积累" },
+    { english: "chess", chinese: "tʃes n.棋国际象棋" }
+];

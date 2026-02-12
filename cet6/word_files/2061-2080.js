@@ -1,0 +1,22 @@
+const words = [
+    { english: "future", chinese: "'fju:tʃə n.将来未来前途前程期货adj.将来的" },
+    { english: "conquest", chinese: "kɔŋkwest n.攻取征服克服" },
+    { english: "confident", chinese: "'kɔnfidənt adj.确信的自信的" },
+    { english: "lane", chinese: "lein n.(乡间)小路小巷行车道跑道" },
+    { english: "communicate", chinese: "kə'mju:nikeit vi.通讯传达传播vi.交流沟通联通" },
+    { english: "rank", chinese: "ræŋkn.排横行社会阶层队列排名等级军衔阶级adj.繁茂的恶臭的讨厌" },
+    { english: "fun", chinese: "fʌnn.乐趣娱乐玩笑有趣的人或事物vi.开玩笑adj.充满乐趣的令人" },
+    { english: "convict", chinese: "kәn’vikt,‘kɔnvikt n.囚犯,罪犯vt.宣告有罪" },
+    { english: "nobody", chinese: "'nəubɔdi pron.谁也不无人没有人n.无足轻重的人小人物" },
+    { english: "map", chinese: "mæp n.地图图天体图基因图谱vt.绘制地图计划" },
+    { english: "search", chinese: "sə:tʃ vt.在...中搜寻搜查探求调查n.搜寻探究" },
+    { english: "hazard", chinese: "'hæzəd n.危险危害公害冒险vt.冒险赌运气" },
+    { english: "director", chinese: "di'rektə, dai'rektə n.指导者理事董事经理主管导演" },
+    { english: "signal", chinese: "'signəl n.信号导火线动机vi.发信号vt.发信号标志adj.显著的" },
+    { english: "define", chinese: "di'fain vt.给...下定义限定解释" },
+    { english: "noticeable", chinese: "'nəutisəbl adj.显而易见的重要的" },
+    { english: "extra", chinese: "'ekstrə adj.额外的ad.特别地n.额外的事物另外收费的" },
+    { english: "heavily", chinese: "'hevili adv.重重地很重地沉重地沉闷地大量地" },
+    { english: "sensitive", chinese: "'sensitiv adj.敏感的灵敏的易受伤害的感光的善解人意的n.敏感的人" },
+    { english: "vacation", chinese: "vei'keiʃən n.假期休假腾出vi.度假" }
+];

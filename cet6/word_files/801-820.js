@@ -1,0 +1,22 @@
+const words = [
+    { english: "shortly", chinese: "'ʃɔ:tli adv.立刻马上简短地" },
+    { english: "division", chinese: "di'viʒən n.分分配除法划分分开部门师(军队)" },
+    { english: "continuous", chinese: "kən'tinjuəs adj.连续不断的连续的继续的连绵不断的持续的" },
+    { english: "anxiety", chinese: "æŋ'zaiəti n.焦虑忧虑渴望担心" },
+    { english: "versatile", chinese: "‘vә:sәtail a.多方面的；通用的" },
+    { english: "bless", chinese: "bles vt.为...祝福赐福祈佑称颂上帝使神圣赋予" },
+    { english: "bankrupt", chinese: "‘bæŋkrәpt a.破产的 vt.使破产" },
+    { english: "dignity", chinese: "‘digniti a.尊贵；(举止)庄严" },
+    { english: "legislation", chinese: "ledʒis’leiʃәn n.立法；法规" },
+    { english: "prototype", chinese: "‘prәutәtaip n.原型；典型，范例" },
+    { english: "flank", chinese: "flæŋk n.肋，肋腹；侧面" },
+    { english: "instantaneous", chinese: "instәn’teinjәsa.瞬间的，即刻的" },
+    { english: "fast", chinese: "fɑ:stadj. 快速的偏快的固定的关紧的忠诚的聪明的耐久的野性的" },
+    { english: "tomorrow", chinese: "tə'mɔrəu adv.在明天n.明天将来" },
+    { english: "stair", chinese: "stɛə n.楼梯" },
+    { english: "tug", chinese: "tΛg vi.用力拖 n.猛拉，拖" },
+    { english: "repetition", chinese: ".repi'tiʃən n.重复反复" },
+    { english: "exhaust", chinese: "ig'zɔ:st vt.使筋疲力尽用尽排空vi.耗尽n.排气排气装置" },
+    { english: "illegal", chinese: "i'li:gəl adj.不合法的非法的n.非法移民" },
+    { english: "handsome", chinese: "'hænsəm adj.英俊的慷慨大方的可观的灵巧的相当大的" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "together", chinese: "tə'geðə adv.共同一起adj.妥当的镇定的" },
+    { english: "listener", chinese: "'lisənə n.听者听众之一" },
+    { english: "inflation", chinese: "in’fleiʃәn n.通货膨胀，物价飞涨" },
+    { english: "violent", chinese: "'vaiələnt adj.猛烈的狂暴的暴力的极端的" },
+    { english: "obscene", chinese: "ɔb’si:n a. 淫秽的,猥亵的" },
+    { english: "essential", chinese: "i'senʃəl adj.必要的重要的本质的n.要素要点" },
+    { english: "badge", chinese: "bædʒ n.徽章，像章；标志" },
+    { english: "join", chinese: "dʒɔin vt.参加结合联合加入连接" },
+    { english: "phase", chinese: "feiz n.阶段时期局面方面相位vt.逐步执行实行按计划进行" },
+    { english: "chance", chinese: "tʃɑ:ns n.机会意外运气风险可能性vi.偶然发生vt.偶然发生冒险" },
+    { english: "blank", chinese: "blæŋkadj. 空白的茫然的全部的面无表情的未完工的n. 空白(处)空隙" },
+    { english: "cafeteria", chinese: ".kæfi'tiəriə n.自助食堂adj.有多种选择的" },
+    { english: "fifth", chinese: "fifθ num.第五n.五分之一" },
+    { english: "cheque", chinese: "tʃek n.支票" },
+    { english: "discrepancy", chinese: "dis’krep әnsi n. 相差,差异,差别" },
+    { english: "understand", chinese: ".ʌndə'stænd vt.获悉理解听说将...理解为认为vi.懂得理解获悉" },
+    { english: "of", chinese: "ɔv prep.出生于住在关于...的由于" },
+    { english: "tunnel", chinese: "'tʌnl n.隧道坑道地道v.挖隧道挖地道" },
+    { english: "fridge", chinese: "fridʒ n.电冰箱" },
+    { english: "scout", chinese: "skaut n.侦察员侦察机童子军守卫vt.侦察物色人才vi.寻找物色" }
+];

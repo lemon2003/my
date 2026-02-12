@@ -1,0 +1,22 @@
+const words = [
+    { english: "good", chinese: "gud adj.好的优良的上等的有本事的n.善行好处" },
+    { english: "surrender", chinese: "sə'rendə v.交出让与投降屈服n.投降屈服放弃" },
+    { english: "cathedral", chinese: "kә’θi:drәl n.总教堂；大教堂" },
+    { english: "magnitude", chinese: "‘mægnitju:d n.大小；重大；星等" },
+    { english: "September", chinese: "səp'tembə n.九月" },
+    { english: "overseas", chinese: "'əuvə'si:z adv.在海外adj.在海外的" },
+    { english: "bay", chinese: "beiadj.红棕色n.湾海湾山脉中的凹处红棕色隔间配电间犬吠围困月" },
+    { english: "camera", chinese: "'kæmərə n.照相机摄影机罗马教廷的财政部" },
+    { english: "institute", chinese: "'institju:t n.研究所学院学会协会vt.创立开始制定" },
+    { english: "concerning", chinese: "kən'sə:niŋ prep.关于" },
+    { english: "waiter", chinese: "'weitə n.侍者(男)服务员托盘" },
+    { english: "drum", chinese: "drʌmn.鼓鼓声鼓状物圆桶冰丘vi.击鼓作鼓声引起兴趣vt.召集入伍逐" },
+    { english: "intent", chinese: "in’tent a.目不转睛的，热切的" },
+    { english: "poetry", chinese: "'pəuitri n.诗诗歌诗作" },
+    { english: "so", chinese: "səuadv.这样这么非常如此如是同样conj.所以因此adj.真的pron.这" },
+    { english: "whoever", chinese: "hu'evə pron.无论谁不管谁任何人" },
+    { english: "fibre", chinese: "'faibə n.纤维纤维质纤维组织织地" },
+    { english: "distinction", chinese: "di'stiŋkʃən n.差别不同区分对比杰出" },
+    { english: "drainage", chinese: "‘dreinidʒ n.排水；下水道" },
+    { english: "feedback", chinese: "'fi:dbæk n.回授反馈反应成果" }
+];

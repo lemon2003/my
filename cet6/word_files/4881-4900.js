@@ -1,0 +1,22 @@
+const words = [
+    { english: "opportunity", chinese: ".ɔpə'tju:niti n.机会时机良机" },
+    { english: "displease", chinese: "dis'pli:z vt.使不愉快使生气" },
+    { english: "rock", chinese: "rɔkvt.摇使动摇使震惊使动心vi.摇来回摇动跳摇摆舞n.岩石巨石石" },
+    { english: "reap", chinese: "ri:p vt. &vi.收割收获获得" },
+    { english: "difficulty", chinese: "'difikəlti n.困难争议反对麻烦难事困境" },
+    { english: "tomb", chinese: "tu:m n.坟冢vt.埋葬" },
+    { english: "outcome", chinese: "'autkʌm n.结果后果成果" },
+    { english: "jew", chinese: "dʒu: n.犹太人" },
+    { english: "boil", chinese: "bɔil n.皮下脓肿沸腾vi.沸腾汽化vt.煮沸" },
+    { english: "description", chinese: "di'skripʃən n.描写描述说明书作图形容种类" },
+    { english: "savage", chinese: "‘sævidʒ a.未开发的,野蛮,残暴的 n.野蛮人" },
+    { english: "maid", chinese: "meid n.女佣女仆侍女少女" },
+    { english: "comfortable", chinese: "'kʌmfətəbl adj.舒适的安慰的充裕的" },
+    { english: "thrive", chinese: "θraiv vi.兴旺繁荣旺盛茁壮成长" },
+    { english: "hatred", chinese: "'heitrid n.憎恶憎恨仇恨" },
+    { english: "afterward", chinese: "'ɑ:ftəwəd adv.后来以后" },
+    { english: "spectrum", chinese: "‘spektrәm n.系列，范围；波谱" },
+    { english: "lame", chinese: "leimadj.跛的瘸的残废的无说服力的vt.使...成残废使...变无用n." },
+    { english: "bare", chinese: "bɛə adj.赤裸的显露的极少的仅仅的vt.使赤裸露出" },
+    { english: "wrist", chinese: "rist n.腕腕关节手腕护腕" }
+];

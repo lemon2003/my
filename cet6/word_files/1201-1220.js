@@ -1,0 +1,22 @@
+const words = [
+    { english: "rarely", chinese: "'rɛəli adv.很少难得" },
+    { english: "span", chinese: "spænn.跨距跨度间距一段时间vt.横跨贯穿估量动词spin的过去式形" },
+    { english: "newspaper", chinese: "'nju:z.peipə n.报纸报报社新闻纸v.从事新闻工作" },
+    { english: "sandy", chinese: "'sændi adj.沙的含沙的沙地的多沙的沙色的不稳固的" },
+    { english: "somehow", chinese: "'sʌmhau adv.由于某种原因不知怎么地以某种方式" },
+    { english: "gate", chinese: "geitn.大门入口篱笆门vt.<英>惩罚(禁止学生离校)解雇n.<古>道路<" },
+    { english: "tongue", chinese: "tʌŋ n.舌舌头舌状物语言口才v.舔用舌吹奏管乐器发音" },
+    { english: "east", chinese: "i:st n.东东部adv.在东方向东方adj.东方的" },
+    { english: "opening", chinese: "əupəniŋ adj.开始的n.开始开口揭幕空缺的职务动词open的现在分词" },
+    { english: "frame", chinese: "freim n.框架框子构架" },
+    { english: "yourself", chinese: "jɔ:'self pron.你(们)自己你(们)亲自" },
+    { english: "fruitful", chinese: "'fru:tfəl adj.多产的肥沃的富有成效的" },
+    { english: "genetic", chinese: "dʒә’netik a. 遗传的,起源的" },
+    { english: "useful", chinese: "'ju:sfəl adj.有用的有益的实用的" },
+    { english: "slightly", chinese: "'slaitli adv.稍微些微地有点苗条地" },
+    { english: "fan", chinese: "fænn.(运动等)狂热爱好者风扇扇形物vt.风选煽吹煽动向扇子一样" },
+    { english: "Sunday", chinese: "'sʌndi n.星期日礼拜日adj.星期日的" },
+    { english: "wholly", chinese: "'həulli adv.完全地全部一概" },
+    { english: "difficult", chinese: "'difikəlt adj.困难的难对付的(人)难取悦的难相处的" },
+    { english: "terminal", chinese: "'tə:minl adj.末端的终点的晚期的(每)学期的n.末端终端机终点终点站" }
+];

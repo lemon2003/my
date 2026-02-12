@@ -1,0 +1,22 @@
+const words = [
+    { english: "locality", chinese: "lәu’kæliti n.位置，地点，发生地" },
+    { english: "disposal", chinese: "di'spəuzəl n.丢掉处理销毁菜碾碎器" },
+    { english: "interval", chinese: "'intəvəl n.间隔休息休息时间(数学)区间(音乐)音程间距" },
+    { english: "anger", chinese: "æŋgə n.怒愤怒vt.使发怒激怒" },
+    { english: "retort", chinese: "ri’tɔ:t vt.&vi.反击；反驳" },
+    { english: "tip", chinese: "tipn.梢末端尖尖端小费提示轻击翻倒倾斜vi.给小费装顶端去掉..." },
+    { english: "interpret", chinese: "in'tə:prit vt.解释说明口译翻译演出" },
+    { english: "apprehension", chinese: "æpri’henʃ әnn. 理解,忧惧,逮捕" },
+    { english: "mat", chinese: "mætn. 席子草席垫子垫丛衬边消光面vt. 遮盖保护用垫子装饰使纠" },
+    { english: "impart", chinese: "im’pa:t vt.给予，传递；告诉" },
+    { english: "rusty", chinese: "'rʌsti adj.生锈的变迟钝的" },
+    { english: "tremendous", chinese: "tri'mendəs adj.极大的非常的巨大的惊人的" },
+    { english: "occur", chinese: "ə'kə: vi.发生出现存在想到" },
+    { english: "give", chinese: "giv vt.做作送给vi.让步塌下折断弯曲" },
+    { english: "candy", chinese: "'kændi n.糖果砂糖结晶vt.用糖煮使结晶为砂糖vi.结晶为砂糖" },
+    { english: "worry", chinese: "'wʌri vt.使烦恼使焦虑撕咬vi.发愁担心n.烦恼担心忧虑" },
+    { english: "bag", chinese: "bægn.袋包钱包背包猎获物vt.鼓起把...装入袋中猎杀占有vi.鼓起" },
+    { english: "toss", chinese: "tɔs vt. &vi.扔抛掷投掷摇荡辗转n.投掷震荡" },
+    { english: "pleasure", chinese: "'pleʒə n.愉快快乐乐事vt.使高兴vi.享受快乐高兴" },
+    { english: "forever", chinese: "fə'revə adv.永远总是老是n.漫长时间" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "hierarchy", chinese: "‘haiәra:ki n.等级制度，统治集团" },
+    { english: "raw", chinese: "rɔ:adj.未煮过的生的未加工的原始的不熟练的寒冷的n.触到某人的" },
+    { english: "trench", chinese: "trentʃ n.深沟；壕沟，战壕" },
+    { english: "sugar", chinese: "'ʃugə n.糖vt.使甜使具有吸引力vi.形成糖状变成颗粒状造枫糖浆" },
+    { english: "harm", chinese: "hɑ:m n.伤害损害vt.伤害损害" },
+    { english: "tie", chinese: "tai n.领带结束缚不分胜负联系vt.系约束捆绑vi.打结连结" },
+    { english: "premise", chinese: "‘premis, pri’maiz n. 前提,假设，房产" },
+    { english: "berry", chinese: "'beri n.浆果(如草莓等)" },
+    { english: "cloak", chinese: "kləuk n.斗篷覆盖(物)宽大外衣掩护v.遮掩隐匿" },
+    { english: "resolution", chinese: ".rezə'lu:ʃənn.坚决坚定决定决心决议果断刚毅解决解答病理状态的减退分辨" },
+    { english: "biology", chinese: "bai'ɔlədʒi n.生物学生态学" },
+    { english: "debate", chinese: "di'beit n. &vi.争论辩论商讨vt.争论思考" },
+    { english: "tangle", chinese: "‘tæŋgl vt.使缠结，使纠缠" },
+    { english: "rifle", chinese: "'raifl n.步枪来复枪v.洗劫抢劫" },
+    { english: "spin", chinese: "spin vt.使旋转疾驰纺织结网眩晕n.旋转纺织眩晕疾驰" },
+    { english: "agony", chinese: "'ægəni n.极度痛苦挣扎" },
+    { english: "coordinate", chinese: "kəu'ɔ:dneit,kəu'ɔ:dvt.使协调调节整合使一致[计算机]坐标n. 同等的人物(色调图" },
+    { english: "pound", chinese: "paundn.磅英磅宠物收留所拘留所vt.连续猛击捣碎舂烂敲打vi.跳动大" },
+    { english: "breathe", chinese: "bri:ð vi.呼吸vt.呼吸轻声说流露感情注入" },
+    { english: "giant", chinese: "'dʒaiənt n.巨人伟人巨大的东西adj.巨大的" }
+];

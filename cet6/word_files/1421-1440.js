@@ -1,0 +1,22 @@
+const words = [
+    { english: "exposure", chinese: "iks'pəuʒə n.暴露揭露显露曝光面临(困难)" },
+    { english: "worship", chinese: "'wə:ʃip n.礼拜做礼拜崇拜爱慕vt.崇拜爱慕vi.做礼拜" },
+    { english: "isolate", chinese: "'aisəleit vt.使隔离使孤立adj.孤立的n.分离" },
+    { english: "tight", chinese: "tait adj.紧的紧身的严厉的密集的拮据的adv.紧紧地牢固地迅速地" },
+    { english: "refreshment", chinese: "ri’freʃmәnt n.茶点，点心，便餐" },
+    { english: "evolve", chinese: "i'vɔlv vt. &vi.使进化使发展展开" },
+    { english: "awful", chinese: "'ɔ:fl adj.令人不愉快的可怕的畏惧的充满敬畏的艰难的adv.极其" },
+    { english: "finite", chinese: "‘fainait a.有限的；有尽的" },
+    { english: "swim", chinese: "swim vi.游游泳眼花n.游泳" },
+    { english: "consent", chinese: "kən'sent n.同意赞成许可vi.同意承诺" },
+    { english: "criticize", chinese: "'kritisaiz vt.批评评论非难吹毛求疵vi.批评" },
+    { english: "cooperative", chinese: "kәu’ɔpәrәtiv a.合作的 n.合作社" },
+    { english: "him", chinese: "him pron.(宾格)他" },
+    { english: "across", chinese: "ə'krɔs prep.横过穿过在...对面adv.横过使...被理解(或接受)" },
+    { english: "oil", chinese: "ɔil n.油石油油画颜料奉承话vt.加油于涂油溶化" },
+    { english: "morality", chinese: "mә’ræliti n.道德，美德，品行" },
+    { english: "undergo", chinese: ".ʌndə'gəu vt.经历经受忍受遭受" },
+    { english: "possess", chinese: "pə'zes vt.占用拥有(财产)持有支配" },
+    { english: "rack", chinese: "ræk n.搁物架行李架拷问台齿轨vt.折磨使痛苦拷问vi.顶风飞行" },
+    { english: "altogether", chinese: ".ɔ:ltə'geðə adv.完全总共总而言之" }
+];

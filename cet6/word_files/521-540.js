@@ -1,0 +1,22 @@
+const words = [
+    { english: "lorry", chinese: "'lɔri n.运货汽车卡车" },
+    { english: "driver", chinese: "'draivə n.驾驶员司机" },
+    { english: "portion", chinese: "'pɔ:ʃən n.一部分一分份命运分担的责任" },
+    { english: "himself", chinese: "him'self pron.他自己他亲自" },
+    { english: "inspire", chinese: "in'spair vt.鼓舞给...以灵感影响使...感动激发煽动vi.吸入" },
+    { english: "correspondent", chinese: ".kɔri'spɔndənt n.通信者通讯记者通讯员adj.与...一致的相应的" },
+    { english: "mechanic", chinese: "mi'kænik n.技工机械机修工adj.手工的" },
+    { english: "plentiful", chinese: "'plentifəl adj.丰富的富裕的多的" },
+    { english: "summer", chinese: "'sʌmə n.夏夏季adj.夏季的v.度过夏天" },
+    { english: "disease", chinese: "di'zi:z n.病疾病病害弊端" },
+    { english: "girl", chinese: "gə:l n.女孩子姑娘女儿" },
+    { english: "hopeless", chinese: "'həuplisli adj.没有希望的绝望的无可救药的" },
+    { english: "satisfaction", chinese: ".sætis'fækʃən n.满意快事乐事赔偿妥善处理确信" },
+    { english: "foam", chinese: "fәum n.泡沫；泡沫塑料" },
+    { english: "capture", chinese: "'kæptʃə n.抓取战利品捕获之物vt.捕获俘获夺得抓取获得迷住" },
+    { english: "indirect", chinese: ".indi'rekt adj.间接的不坦率的迂回的次要的欺骗的" },
+    { english: "soil", chinese: "sɔiln.泥土土壤土地污物粪便vt.弄脏弄污vi.变脏vt.用青草饲料喂" },
+    { english: "transform", chinese: "træns'fɔ:m vt.改变改造变换转换变形vi.改变n.变形" },
+    { english: "fare", chinese: "fɛə n.车费船费票价费用食物vi.进展进食" },
+    { english: "cluster", chinese: "‘klΛstә n.一串 vt.使成群" }
+];

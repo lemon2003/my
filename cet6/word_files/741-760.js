@@ -1,0 +1,22 @@
+const words = [
+    { english: "recession", chinese: "ri’seʃәn n. (经济)衰退,不景气" },
+    { english: "proportional", chinese: "prə'pɔ:ʃənəl adj.(成)比例的相称的n.[数]比例项" },
+    { english: "teacher", chinese: "'ti:tʃə n.教师老师先生" },
+    { english: "startle", chinese: "‘sta:tl vt.使大吃一惊 n.吃惊" },
+    { english: "skate", chinese: "skeit n.冰鞋滑冰vi.滑冰溜冰vt.滑冰" },
+    { english: "supply", chinese: "sə'plai n.补给供给供应贮备vt.补给供给提供提供足够以满足" },
+    { english: "customer", chinese: "'kʌstəmə n.顾客主顾家伙" },
+    { english: "sausage", chinese: "'sɔ:sidʒ n.香肠腊肠" },
+    { english: "music", chinese: "'mju:zik n.音乐乐曲乐谱伴奏美妙的声音" },
+    { english: "amount", chinese: "ə'maunt n.总数数量总额和vi.总计等于" },
+    { english: "boycott", chinese: "‘bɔikәt vt.&n.联合抵制" },
+    { english: "bomb", chinese: "bɔm n.炸弹高压罐火山口喷出的熔岩vt.轰炸大败长传vi.失败" },
+    { english: "express", chinese: "iks'presvt.表达表示挤压出快递n.快车快递专使adj.急速的明确的直接" },
+    { english: "worthy", chinese: "'wə:ði adj.有价值的可尊敬的值得的配得上的n.知名人士杰出人物" },
+    { english: "presumably", chinese: "pri’zju:m әbli ad.推测起来，大概" },
+    { english: "copper", chinese: "'kɔpə n.铜铜币铜制器有紫铜色翅膀的小蝴蝶警官vt.镀铜" },
+    { english: "dive", chinese: "daiv vi.跳水潜水俯冲vt.跳水俯冲vi.把...伸入" },
+    { english: "spectacular", chinese: "spek’tækjulә a. 公开展示的,惊人的 n. 展览物" },
+    { english: "definitely", chinese: "'definitli adv.一定地明确地确切地" },
+    { english: "condemn", chinese: "kən'dem vt.谴责指责判刑官方宣称(某事物)有缺陷或不宜使用" }
+];

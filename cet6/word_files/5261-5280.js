@@ -1,0 +1,22 @@
+const words = [
+    { english: "transition", chinese: "træn’siʃ әn n.转变，变迁；过渡" },
+    { english: "consult", chinese: "kən'sʌlt vt.向...请教查阅商讨" },
+    { english: "pathetic", chinese: "pә’θetik a.哀婉动人的；可怜的" },
+    { english: "surge", chinese: "sә:dʒ n.vt. 激增,奔放,汹涌,澎湃" },
+    { english: "deliver", chinese: "di'livə vt.投递递送送交发表表达释放交付接生履行vi.达成" },
+    { english: "export", chinese: "'ekspɔ:t,eks'pɔ:t vt.输出出口运走n.出口输出品vi.传播输出adj.出口的" },
+    { english: "Latin", chinese: "'lætin adj.拉丁的拉丁人的拉丁语系国家的n.拉丁语拉丁人" },
+    { english: "kind", chinese: "kaind n.种类本质adj.仁慈的友好的和蔼的" },
+    { english: "plead", chinese: "pli:d vt.为…辩护 vi.抗辩" },
+    { english: "proceed", chinese: "prə'si:d vi.进行开始着手继续进行" },
+    { english: "deficit", chinese: "‘defisit n. 赤字,不足额" },
+    { english: "pore", chinese: "pɔ: n.毛孔，气孔，细孔" },
+    { english: "destruction", chinese: "di'strʌkʃən n.破坏毁灭消灭破坏者" },
+    { english: "drop", chinese: "drɔp vt.使落下降低减少vi.落下减少减弱n.滴微量落下" },
+    { english: "update", chinese: "Λp’deit vt. 更新,使现代化" },
+    { english: "hollow", chinese: "'hɔləuadj.空的空洞的虚伪的空腹的vt.形成空洞挖空vi.形成空洞adv." },
+    { english: "canteen", chinese: "kæn'ti:n n.小卖部临时餐室食堂" },
+    { english: "guide", chinese: "gaid n.导游者领路者指南路标vt.给...导游领路指导vi.作导游" },
+    { english: "sympathize", chinese: "'simpəθaiz vi.同情同感共鸣" },
+    { english: "shell", chinese: "ʃel n.壳贝壳外形炮弹v.去壳脱落炮击拾贝壳n." }
+];

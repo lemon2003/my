@@ -1,0 +1,22 @@
+const words = [
+    { english: "check", chinese: "tʃekvt.检查制止阻止核对(国际象棋)将军n.检查支票账单制止阻止" },
+    { english: "muddy", chinese: "'mʌdi adj.多泥的泥泞的肮脏的混浊的v.弄脏使...混浊使迷惑" },
+    { english: "time", chinese: "taimn.时间时机次数回倍vt.为...安排时间计时定时乘adj.根据时间" },
+    { english: "agreement", chinese: "ə'gri:mənt n.协定协议同意一致" },
+    { english: "slap", chinese: "slæp vt.掴，拍 n.巴掌，拍" },
+    { english: "rough", chinese: "rʌfadj.表面不平的粗略的粗糙的粗暴的艰难的讨厌的不适的adv.粗鲁地粗略地n.高低不平且杂草丛生的地区草图暴徒vt.殴打草拟" },
+    { english: "lace", chinese: "leis n.鞋带系带花边饰带缎带v.结带子饰以花边" },
+    { english: "beat", chinese: "bi:t n.打敲打声拍子独家报道一会儿vt. &vi.打敲打败" },
+    { english: "embark", chinese: "im’ba:k vi. 乘船,着手,从事,上飞机" },
+    { english: "neutral", chinese: "'nju:trəl adj.中立的中性的n.中立者空挡的素净色" },
+    { english: "analytical", chinese: "ænә’litikl a. 分析的,解析的" },
+    { english: "towel", chinese: "'tauəl, taul n.毛巾手巾v.用毛巾擦" },
+    { english: "he", chinese: "hi: pron.(主格)他" },
+    { english: "withhold", chinese: "wið’hәuld vt. 拒绝，不给，使停止，阻挡" },
+    { english: "pinch", chinese: "pintʃ vt.捏拧掐掉一撮少量困苦偷窃vt.掐使...困苦偷窃" },
+    { english: "greenhouse", chinese: "'gri:nhaus n.温室玻璃暖房" },
+    { english: "blackboard", chinese: "'blækbɔ:d n.黑板" },
+    { english: "clue", chinese: "klu: n.线索暗示提示vt.提示" },
+    { english: "saddle", chinese: "'sædl n.鞍子马鞍车座山脊拖具vt.装以马鞍使负担vi.装马鞍" },
+    { english: "caution", chinese: "‘kɔ:ʃәn n.小心；告诫 vt.警告" }
+];

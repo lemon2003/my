@@ -1,0 +1,22 @@
+const words = [
+    { english: "change", chinese: "tʃeindʒ n.改变变化零钱vt. &vi.改变" },
+    { english: "periodical", chinese: "piәri’ɔdikәl n.期刊，杂志" },
+    { english: "meat", chinese: "mi:t n.肉主要或重要部分" },
+    { english: "cynical", chinese: "‘sinikәl a. 愤世嫉俗的,讽刺的,冷嘲的" },
+    { english: "concept", chinese: "'kɔnsept n.概念观念设想" },
+    { english: "creative", chinese: "kri'eitiv adj.创造性的创作的" },
+    { english: "offset", chinese: "‘ɔ:fset n.分支，抵销 vt.抵销" },
+    { english: "yield", chinese: "ji:ld vt. &vi.出产屈服投降弯下去凹下去n.产量生产量投资收益" },
+    { english: "finance", chinese: "fai'næns n.财政金融财源vt.给...提供资金负担经费" },
+    { english: "hunt", chinese: "hʌnt n.打猎狩猎搜寻追捕vt.追猎狩猎打猎搜索" },
+    { english: "electron", chinese: "i'lektrɔn n.电子" },
+    { english: "discipline", chinese: "'disiplin n.纪律训练惩罚学科vt.训练 惩罚" },
+    { english: "typhoon", chinese: "tai'fu:n n.台风" },
+    { english: "alike", chinese: "ə'laik adj.同样的相同的相似的adv.一样以同样的方式" },
+    { english: "liver", chinese: "'livə n.肝肝脏" },
+    { english: "poke", chinese: "pәuk vt.戳，刺；伸(头等)" },
+    { english: "zero", chinese: "'ziərəun.零零点零度最低点完全没有无足轻重的人或物adj.零的无价值" },
+    { english: "circulation", chinese: "sә:kju’leiʃәn n.循环；(货币等)流通" },
+    { english: "pretext", chinese: "‘pri:tekst n. 借口,托辞" },
+    { english: "formulate", chinese: "‘fɔ:mjuleit vt.用公式表示" }
+];

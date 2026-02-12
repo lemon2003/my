@@ -1,0 +1,22 @@
+const words = [
+    { english: "motive", chinese: "'məutivn.动机目的主题adj.发动的运动的积极的动机的vt.促使使有动" },
+    { english: "succeed", chinese: "sək'si:d vt.继...之后vi.成功成功继承接着发生" },
+    { english: "later", chinese: "'leitə adv.后来过一会儿稍后后来迟到地adj.更迟的后面的" },
+    { english: "sleep", chinese: "sli:p n.睡眠睡觉vi.& vt.睡" },
+    { english: "given", chinese: "‘givn a. 赠予的,沉溺的,约定的" },
+    { english: "ascend", chinese: "ә’send vi.攀登，登高；追溯" },
+    { english: "grammar", chinese: "'græmə n.语法语法书" },
+    { english: "notorious", chinese: "nәu’tɔ:riәs a.臭名昭著的" },
+    { english: "solo", chinese: "‘sәulәu n.独唱，独奏；独唱曲" },
+    { english: "normally", chinese: "'nɔ:məli adv.通常正常地" },
+    { english: "strong", chinese: "strɔŋ adj.强壮的强烈的坚强的浓的擅长的" },
+    { english: "grammatical", chinese: "grə'mætikəl adj.语法上的合乎文法的" },
+    { english: "feeling", chinese: "fi:liŋ n.感情感觉知觉意识气氛adj.有感情的富于同情心的含情脉脉的" },
+    { english: "solidarity", chinese: "sɔli’dæriti n.团结；休戚相关" },
+    { english: "settle", chinese: "'setlvt.安排安放安顿调停解决决定付清(欠款)vi.定居降落n.有背的" },
+    { english: "body", chinese: "'bɔdi n.身体人主体尸体正文vt.赋予形体体现" },
+    { english: "make", chinese: "meik vt.使做制造vi.表现前往生产n.牌子型号性格生产" },
+    { english: "asset", chinese: "‘æset n. 资产,有用的东西" },
+    { english: "gradual", chinese: "'grædjuəl adj.逐渐的渐进的" },
+    { english: "intelligence", chinese: "in'telidʒəns n.智力理解力情报情报工作情报机关" }
+];

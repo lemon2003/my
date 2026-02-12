@@ -1,0 +1,22 @@
+const words = [
+    { english: "young", chinese: "jʌŋ adj.年轻的没有经验的初期的n.青年人幼崽" },
+    { english: "implication", chinese: ".impli'keiʃən n.含义暗示暗指" },
+    { english: "brute", chinese: "bru:t n.禽兽畜生畜生残忍的人adj.残忍的无理性的粗暴的" },
+    { english: "governor", chinese: "'gʌvənə n.州长主管人员统治者管理者理事" },
+    { english: "north", chinese: "nɔ:θ n.北北方adj.北北方的adv.向北方" },
+    { english: "countryside", chinese: "'kʌntri'said n.乡下农村" },
+    { english: "crack", chinese: "kræk n.裂缝裂纹声变vi.爆裂破裂声变打开" },
+    { english: "propaganda", chinese: "prɔpә’gænd әn.宣传；宣传机构" },
+    { english: "discovery", chinese: "dis'kʌvəri n.发现被发现的事物" },
+    { english: "layout", chinese: "'leiaut n.布局安排设计" },
+    { english: "steam", chinese: "sti:m n.蒸汽水蒸气vi.蒸发蒸冒热气vt.蒸" },
+    { english: "friendly", chinese: "'frendli adj.友好的友谊的adv.友好地n.友好者" },
+    { english: "lubricate", chinese: "‘lju:brikeit vt.使润滑vi.加润滑油" },
+    { english: "joke", chinese: "dʒəuk n.笑话玩笑vi.说笑话开玩笑" },
+    { english: "necessarily", chinese: "'nesəserili adv.必然必定必需地" },
+    { english: "remain", chinese: "ri'mein vi.剩下余留逗留保持依然留下n.遗迹剩余物残骸" },
+    { english: "appeal", chinese: "ə'pi:l n.呼吁申述恳求上诉吸引力诉诸裁决vi.求助诉请呼吁申述吸引" },
+    { english: "endless", chinese: "'endlis adj.无止境的没完没了的" },
+    { english: "library", chinese: "'laibrəri n.图书馆藏书" },
+    { english: "leisure", chinese: "'li:ʒə n.空闲时间悠闲闲暇休闲" }
+];

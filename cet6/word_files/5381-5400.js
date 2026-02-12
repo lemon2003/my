@@ -1,0 +1,22 @@
+const words = [
+    { english: "telescope", chinese: "'teliskəup n.望远镜v.缩短压缩" },
+    { english: "episode", chinese: "‘episәud n.一段情节；插曲" },
+    { english: "invitation", chinese: ".invi'teiʃən n.邀请招待请柬引诱招致" },
+    { english: "fortunate", chinese: "'fɔ:tʃənit adj.幸运的侥幸的" },
+    { english: "comet", chinese: "‘kɔmit n. 慧星" },
+    { english: "except", chinese: "ik'sept prep. &conj.除了...之外若不是除非vt.除除外" },
+    { english: "acquire", chinese: "ə'kwaiə vt.占有取得获得学到" },
+    { english: "three", chinese: "θri: num.三三个pron. & adj.三(个只...)" },
+    { english: "thick", chinese: "θik adj.厚的粗的密的浓adv.厚浓密n.密集处最厚处" },
+    { english: "inform", chinese: "in'fɔ:m vt.通知向...报告告诉告发" },
+    { english: "cellar", chinese: "'selə n.地窑地下室vt.把...藏入地窑(或酒窑)" },
+    { english: "chairman", chinese: "'tʃɛəmən n.主席议长会长" },
+    { english: "minimal", chinese: "‘miniml a. 最小的,极微的,最小限度的" },
+    { english: "camp", chinese: "kæmpn.野营营地兵营露营帐棚训练营做作vt. &vi.露营扎营做作adj." },
+    { english: "usual", chinese: "'ju:ʒuəl adj.通常的平常的惯常的惯例的" },
+    { english: "bother", chinese: "'bɔðə vt.烦扰迷惑vi.烦扰操心n.麻烦烦扰" },
+    { english: "engineering", chinese: ".endʒi'niəriŋ n.工程工程学" },
+    { english: "playground", chinese: "'pleigraund n.操场运动场" },
+    { english: "indoors", chinese: "'in'dɔ:z adv.在室内在屋里" },
+    { english: "prosperity", chinese: "prɔs'periti n.繁荣昌盛兴旺" }
+];

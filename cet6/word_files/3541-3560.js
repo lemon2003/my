@@ -1,0 +1,22 @@
+const words = [
+    { english: "battery", chinese: "'bætəri n.电池一套一组一系列排炮" },
+    { english: "lamp", chinese: "læmp n.灯发光或反射光的天体灵光" },
+    { english: "granddaughter", chinese: "'græn.dɔ:tə n.孙女外孙女" },
+    { english: "devote", chinese: "di'vəut vt.将...奉献致力于投入于献身" },
+    { english: "upwards", chinese: "'ʌpwədz adv.趋向上升以上往上向上地" },
+    { english: "dance", chinese: "dɑ:nsvi.跳舞摇晃雀跃vt.使跳跃使某人以跳舞的方式进入n.舞跳舞舞" },
+    { english: "kilogram", chinese: "'kiləgræm n.千克公斤" },
+    { english: "introduction", chinese: ".intrə'dʌkʃən n.介绍引进引言导论序言" },
+    { english: "ultimately", chinese: "'ʌltimitli adv.最终最后" },
+    { english: "trade", chinese: "treidn.贸易交易买卖职业vi.交易进行交易做买卖交换adj.贸易的商" },
+    { english: "symptom", chinese: "‘simptәm n.症状，征候，征兆" },
+    { english: "nearby", chinese: "'niəbai adj.附近的adv.在附近prep.在...附近" },
+    { english: "level", chinese: "'levln. 水平面水平等级标准层次a. 水平的平坦的齐平的稳定的合理" },
+    { english: "talent", chinese: "'tælənt n.天才才能人才天资" },
+    { english: "rotary", chinese: "'rəutəri adj.旋转的转动的n.旋转式机器环形交叉路" },
+    { english: "belief", chinese: "bi'li:f n.信任相信信念信仰" },
+    { english: "technique", chinese: "tek'ni:k n.技术技巧技能" },
+    { english: "pill", chinese: "piln.药丸丸剂无法逃避的讨厌事屈辱事vt.服用药丸把...制成药丸" },
+    { english: "explode", chinese: "iks'pləud vt.使爆炸驳倒vi.爆炸爆发(感情)激增" },
+    { english: "salt", chinese: "sɔ:ltn.盐盐类刺激adj.含盐的辛辣的vt.加盐于用盐腌abbr." }
+];

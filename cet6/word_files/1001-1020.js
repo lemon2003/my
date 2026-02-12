@@ -1,0 +1,22 @@
+const words = [
+    { english: "plane", chinese: "pleinn.平面飞机刨子(动植物的)属adj.平的与飞机有关的vt.磨平刨" },
+    { english: "contrary", chinese: "'kɔntrəri adj.相反的截然不同的n.相反反面adv.相反(地)" },
+    { english: "worker", chinese: "'wə:kə n.工人工作者人员" },
+    { english: "step", chinese: "step n.(脚)步步骤步伐踏级vi.走vt.踏以步测量" },
+    { english: "chip", chinese: "tʃip n.薄片，碎片" },
+    { english: "entrance", chinese: "'entrəns,in'tr ɑ:nsn.入口门口进入登场vt.使神志恍惚" },
+    { english: "cap", chinese: "kæpn.帽子便帽帽状物盖子顶vt.给戴帽覆盖顶端超过形成化学键于" },
+    { english: "priority", chinese: "prai’ɔriti n.先，前；优先，重点" },
+    { english: "land", chinese: "lænd n.陆地国土土地vi.上岸使靠岸卸货得到登陆" },
+    { english: "clerk", chinese: "klɑ:k n.店员办事员职员" },
+    { english: "brush", chinese: "brʌʃn.刷子毛刷画笔轻擦小冲突灌木丛vt.用刷子清洗画拭去打发vi." },
+    { english: "bad", chinese: "bæd adj.坏的恶的严重的令人不满意的有害的有病的n.坏人坏事" },
+    { english: "mathematical", chinese: ".mæθə'mætikl adj.数学的数学上的精确的可能性极小的" },
+    { english: "trigger", chinese: "‘trigә n.扳机 vt.触发，引起" },
+    { english: "diversion", chinese: "dai’vә:ʃәn n.转移；改道；娱乐" },
+    { english: "shilling", chinese: "ʃiliŋ n.先令(货币单位)" },
+    { english: "destination", chinese: ".desti'neiʃən n.目的地终点目标景点" },
+    { english: "roar", chinese: "rɔ: vi.吼叫大声说出喧闹呼喊vt.呼喊使轰鸣n.吼咆哮轰鸣喧闹" },
+    { english: "hers", chinese: "hə:z pron.她的(所有物)" },
+    { english: "recollect", chinese: ".rekə'lekt vt.回忆追忆想起回想忆起" }
+];

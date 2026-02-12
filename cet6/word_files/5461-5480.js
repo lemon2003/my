@@ -1,0 +1,22 @@
+const words = [
+    { english: "goose", chinese: "gu:s n.鹅雌鹅鹅肉vt.推动" },
+    { english: "shatter", chinese: "‘ʃætә vt.粉碎，破碎；毁坏" },
+    { english: "thirty", chinese: "'θə:ti num.三十三十个" },
+    { english: "weapon", chinese: "'wepən n.武器兵器vt.武装" },
+    { english: "dare", chinese: "dɛə vt. &vi. &aux.v.敢竟敢敢于勇于面对n.敢挑战" },
+    { english: "private", chinese: "'praivit adj.私人的私下的隐蔽的n.士兵列兵" },
+    { english: "world-wide", chinese: "'wə:ld'waild adj.遍及全球的世界范围的" },
+    { english: "pamphlet", chinese: "‘pæmflit n.小册子" },
+    { english: "bid", chinese: "bid n. 出价vt.vi. 命令,吩咐,投标" },
+    { english: "cottage", chinese: "'kɔtidʒ n.村舍小屋" },
+    { english: "feast", chinese: "fi:st n.盛宴宴会酒席筵席节日节会vt. &vi.款宴享乐请客" },
+    { english: "plateau", chinese: "‘plætәu n.高原；平稳时期" },
+    { english: "mass", chinese: "mæsn.众多团群众块大量adj.群众的大规模的v.集中(Mass)n.弥撒弥" },
+    { english: "stranger", chinese: "'streindʒə n.陌生人新来者外地人新手" },
+    { english: "cripple", chinese: "'kripl n.跛子残废的人v.使...跛使...成残废削弱" },
+    { english: "rice", chinese: "rais n.稻米饭" },
+    { english: "literary", chinese: "'litərəri a.dj文学(上)的" },
+    { english: "control", chinese: "kən'trəul vt.控制克制掌管支配n.克制控制管制操作装置" },
+    { english: "seem", chinese: "si:m vi.好像似乎" },
+    { english: "often", chinese: "'ɔ:fən adv.经常常常" }
+];

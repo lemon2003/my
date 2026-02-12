@@ -1,0 +1,22 @@
+const words = [
+    { english: "plea", chinese: "pli: n.请愿，请求，恳求" },
+    { english: "climax", chinese: "‘klaimæks n.顶点，高潮" },
+    { english: "power", chinese: "pauən.能力力权权力幂力量电力vt.供电激励全速前进adj.与力量有" },
+    { english: "tenth", chinese: "tenθ num.第十十分之一n.第十十分之一" },
+    { english: "exception", chinese: "ik'sepʃən n.例外除外" },
+    { english: "acute", chinese: "ə'kju:t adj.尖的锐的敏锐的敏锐的激烈的" },
+    { english: "bristle", chinese: "'brisl n.短而硬的毛鬃毛" },
+    { english: "endow", chinese: "in’dau vt.资助；赋予，授予" },
+    { english: "sole", chinese: "səuln.脚底鞋底袜底sole或soles鳎鱼adj.唯一的单独的独占的vt.给" },
+    { english: "beginning", chinese: "bi'giniŋ n.开始开端起源早期adj.刚开始的动词begin的现在分词" },
+    { english: "standpoint", chinese: "'stændpɔint n.立场观点" },
+    { english: "testimony", chinese: "‘testimәni n. 证言,证据,声明" },
+    { english: "skeptical", chinese: "‘skeptikl a. 怀疑的,多疑的" },
+    { english: "handbook", chinese: "‘hændbuk n.手册，便览，指南" },
+    { english: "calm", chinese: "kɑ:m n.平稳风平浪静adj.静的平静的冷静的vt. &vi.平静下来镇静" },
+    { english: "stimulus", chinese: "‘stimjulәs n. 刺激,激励,刺激品" },
+    { english: "defy", chinese: "di’fai vt.向…挑战；蔑视" },
+    { english: "memory", chinese: "'meməri n.记忆回忆存储内存" },
+    { english: "cultivate", chinese: "'kʌltiveit vt.耕种植培养栽培结交(朋友)促进增长教养" },
+    { english: "counterpart", chinese: "‘kauntәpa:t n.副,复本,配对物,相应物" }
+];

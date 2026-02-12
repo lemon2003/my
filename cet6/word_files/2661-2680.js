@@ -1,0 +1,22 @@
+const words = [
+    { english: "formation", chinese: "fɔ:'meiʃən n.形成构成形成物编队" },
+    { english: "descent", chinese: "di’sent n.下降；出身；斜坡" },
+    { english: "rod", chinese: "rɔd n.杆竿棒戒鞭测量杆视网膜杆状菌" },
+    { english: "diploma", chinese: "di’plәumә n.毕业文凭，学位证书" },
+    { english: "feed", chinese: "fi:d vt.喂(养)饲养靠...为生vi.吃饲料进食n.饲养饲料一餐" },
+    { english: "sentiment", chinese: "‘sentimәnt n.感情；情操；情绪" },
+    { english: "lion", chinese: "'laiən n.狮子勇猛的人" },
+    { english: "wound", chinese: "wu:nd n.创伤伤口伤vt.使受伤使伤害" },
+    { english: "mere", chinese: "miə adj.仅仅的纯粹的微小的n.小湖边界地标" },
+    { english: "ink", chinese: "iŋk n.墨水油墨" },
+    { english: "marble", chinese: "'mɑ:bl n.大理石vt.使有大理石的花纹" },
+    { english: "carriage", chinese: "'kæridʒ n.客车厢四轮马车" },
+    { english: "open", chinese: "'əupənadj.开的开着的开放的公开的vt.开打开公开开放开始vi.开通行" },
+    { english: "route", chinese: "ru:t n.路路线路程航线途径vt.按路线发送改变路线" },
+    { english: "residence", chinese: "'rezidəns n.居住驻扎住处住宅" },
+    { english: "fling", chinese: "fliŋ vi.&vt.(用力)扔，抛" },
+    { english: "technical", chinese: "'teknikəl adj.技术的工艺的" },
+    { english: "selfish", chinese: "'selfiʃ adj.自私的利己的" },
+    { english: "fracture", chinese: "‘fræktʃә n.破裂；裂痕 vi.破裂" },
+    { english: "interact", chinese: "intә’rækt vi.相互作用" }
+];

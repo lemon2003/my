@@ -1,0 +1,22 @@
+const words = [
+    { english: "reconcile", chinese: "‘rekәnsail vt.使和好；调停" },
+    { english: "resident", chinese: "'rezidənt adj.居住的n.居民住客高级专科住院实习医生" },
+    { english: "Chinese", chinese: "'tʃai'ni:z adj.中国的n.中国人汉语" },
+    { english: "discern", chinese: "di’sә:n vt.看出，辨出；辨别" },
+    { english: "France", chinese: "frɑ:ns n.法国法兰西" },
+    { english: "communist", chinese: "'kɔmjunist n.共产党员共产主义者adj.共产主义的" },
+    { english: "likely", chinese: "'laikli adj.可能的合适的可信的有前途的有吸引力的adv.很可能" },
+    { english: "breath", chinese: "breθ n.气息呼吸气味微风迹象精神一种说话的声音" },
+    { english: "shop", chinese: "ʃɔp n.商店店铺车间vi.购物寻找vt.购物逛商店" },
+    { english: "curt", chinese: "kә:t a. 简略的,简短的,生硬的" },
+    { english: "succession", chinese: "sək'seʃən n.连续继任继位继承继承权" },
+    { english: "wheel", chinese: "wi:ln.轮车轮方向盘周期旋转vi.旋转转动改变方向vt.给...装轮子" },
+    { english: "softly", chinese: "'sɔftli adv.柔软地温柔地柔和地静静地" },
+    { english: "investigation", chinese: "in.vesti'geiʃən n.调查调查研究" },
+    { english: "sideways", chinese: "'saidweiz adv.斜着斜向一边地向傍边斜地里向侧面地adj.傍边的向侧面的" },
+    { english: "smuggle", chinese: "‘smΛgl vt.私运 vi.走私" },
+    { english: "imagine", chinese: "i'mædʒin vt.想象设想料想幻想猜测vi.想像起来认为" },
+    { english: "metal", chinese: "'metl n.金属质料金属制品vt.以金属覆盖" },
+    { english: "meridiem", chinese: "mə'ridi:əm n.正午" },
+    { english: "electricity", chinese: ".ilek'trisiti n.电电学电流" }
+];

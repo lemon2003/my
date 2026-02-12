@@ -1,0 +1,22 @@
+const words = [
+    { english: "excursion", chinese: "iks'kə:ʃən n.远足短途旅行" },
+    { english: "Permeate", chinese: "‘pә:miet vt. 弥漫,渗透,充满 vi. 透入" },
+    { english: "insulate", chinese: "‘insjuleit vt.使绝缘，使绝热" },
+    { english: "significance", chinese: "sig'nifikəns n.意义意味重要性" },
+    { english: "declare", chinese: "di'klɛə vt. &vi.断言声明表明宣布申报" },
+    { english: "register", chinese: "'redʒistəvt.记录登记注册挂号n.暂存器记录登记簿(语)语域通风调节设" },
+    { english: "heap", chinese: "hi:p n.(一)堆大量许多累积vt.使成堆装满" },
+    { english: "calculation", chinese: ".kælkju'leiʃən n.计算计算结果" },
+    { english: "authentic", chinese: "ɔ:’θentik a. 真实的,可靠的,可信的" },
+    { english: "photographic", chinese: ".fəutə'græfik adj.摄影的摄影用的逼真的" },
+    { english: "ferry", chinese: "‘feri n.渡船；渡口 vt.运送" },
+    { english: "note", chinese: "nəut n.笔记便条注释备忘录音符音调票据纸币vt.记录注解注意" },
+    { english: "semiconductor", chinese: ".semikən'dʌktə n.半导体" },
+    { english: "mount", chinese: "maunt vt.登上爬上提升装备vi.增长骑上(马)n.山峰乘用马框衬纸" },
+    { english: "captain", chinese: "'kæptin n.陆军上尉队长船长首领vt.率领指挥" },
+    { english: "volcano", chinese: "vɔl'keinəu n.火山" },
+    { english: "adjust", chinese: "ə'dʒʌst vt.调整调节校正使...适于vi.适应" },
+    { english: "dine", chinese: "dain vi.吃饭 vt.宴请" },
+    { english: "stable", chinese: "'steibladj.稳定的不变的安定的可靠的n.厩马厩马棚牛棚一批人vt.使" },
+    { english: "advertisement", chinese: "əd'və:tismənt n.广告公告登广告" }
+];

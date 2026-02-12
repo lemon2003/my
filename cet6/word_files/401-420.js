@@ -1,0 +1,22 @@
+const words = [
+    { english: "drain", chinese: "dreinvt.排去放水耗尽排出排干喝光vi.变干排出排水n.下水道排水沟" },
+    { english: "resume", chinese: "ri'zju:m vt.恢复重新开始再继续n.简历履历摘要" },
+    { english: "suck", chinese: "sʌk vt.吸吮啜吸收吸入vi.吸吸收奉承<俚>烂令人讨厌n.吸吮吸力" },
+    { english: "well-known", chinese: "'wel'nəun adj.众所周知的出名的" },
+    { english: "mill", chinese: "miln.磨坊制造厂磨粉机密尔：一种货币单位使陷于困境vt.磨细vi." },
+    { english: "broken", chinese: "'brəukənadj.被打碎的骨折的坏掉的坏掉的v.打破弄坏(break的过去分" },
+    { english: "preferable", chinese: "'prefərəbl adj.更可取的更好的更合意的" },
+    { english: "sudden", chinese: "'sʌdn adj.突然的意外的快速的出乎意料的n.突发之事" },
+    { english: "wait", chinese: "weit vi.等等候n.等待等候公共乐队队员沿街唱圣诗的人们" },
+    { english: "agent", chinese: "'eidʒənt n.代理人代理商特工人员药剂" },
+    { english: "adverse", chinese: "‘ædvә:s a. 不利的,敌对的,相反的,逆的" },
+    { english: "scope", chinese: "skəup n.范围余地机会能力眼界vt.仔细研究" },
+    { english: "democracy", chinese: "di'mɔkrəsi n.民主民主制民主国家" },
+    { english: "humorous", chinese: "'hju:mərəs adj.富于幽默的诙谐的" },
+    { english: "invest", chinese: "in'vest vt.投资投入花费授与赋予(某种性质)包围vi.投资" },
+    { english: "ancient", chinese: "'einʃənt adj.古代的古老的n.古人古货币" },
+    { english: "preposition", chinese: ".prepə'ziʃən n.前置词介词" },
+    { english: "recur", chinese: "ri’kә: vi. 复发,重现,再发生" },
+    { english: "expertise", chinese: "ekspә’ti:z n. 专家的意见,专门技术" },
+    { english: "fly", chinese: "flai n.蝇苍蝇两翼昆虫飞行升高vt. &vi.飞行飞翔逃走飞逝猛然移动" }
+];

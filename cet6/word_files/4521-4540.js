@@ -1,0 +1,22 @@
+const words = [
+    { english: "employer", chinese: "im'plɔiə n.雇佣者雇主" },
+    { english: "delegate", chinese: "‘deligeit n.代表，委员，特派员" },
+    { english: "target", chinese: "'tɑ:git n.靶标的目标对象vt.把...作为目标瞄准" },
+    { english: "smooth", chinese: "smu:ðadj.平滑的平静的平稳的流畅的安祥的圆滑的搅拌均匀的vt.使" },
+    { english: "roll", chinese: "rəuln.卷滚动名单压路机颤音vt.滚绕转动摇摆展开vi.滚卷绕运载完" },
+    { english: "most", chinese: "məustadj.最多的大多数的几乎全部的adv.最很最多极其n.最多最大" },
+    { english: "refrigerator", chinese: "ri'fridʒə.reitə n.冰箱冷藏库" },
+    { english: "zone", chinese: "zəunn.地区区域范围地域地带vt.划分成带, 标出或指定成区, 用腰" },
+    { english: "instant", chinese: "'instənt n.瞬间立即adj.立即的即时的" },
+    { english: "buckle", chinese: "'bʌkl n.皮带扣vt. &vi.扣住弯曲专心做事屈服adj.带扣弯曲的" },
+    { english: "greatly", chinese: "'greitli adv.大大地非常很" },
+    { english: "premium", chinese: "‘pri:mjәm n. 额外费用,奖金,奖赏,保险费" },
+    { english: "produce", chinese: "prə'dju:s vt.生产产生展现提出引起分娩制片vi.生产制造n.产品农作物" },
+    { english: "logical", chinese: "'lɔdʒikəl adj.逻辑的符合逻辑的有推理能力的" },
+    { english: "companion", chinese: "kəm'pænjənn.同伴同事共事者伴侣成对物品之一(船的)甲板间扶梯(或扶梯" },
+    { english: "drawback", chinese: "‘drɔ:bæk n.退款；妨碍；弊端" },
+    { english: "lot", chinese: "lɔtn.许多大量签抽签阄小组场地命运adv.很非常pron.大量vt.分配" },
+    { english: "political", chinese: "pə'litikəl adj.政治的政治上的政党的派系斗争的有政治头脑的" },
+    { english: "entertain", chinese: ".entə'tein vt. &vi.使欢乐招待怀抱" },
+    { english: "respectful", chinese: "ri'spektfəl adj.恭敬的尊重的有礼貌的谦恭的" }
+];

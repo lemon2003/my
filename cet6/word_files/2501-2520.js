@@ -1,0 +1,22 @@
+const words = [
+    { english: "verbal", chinese: "‘vә:bәl a. 言辞的,文字的,口头的,动词的" },
+    { english: "comprehension", chinese: ".kɔmpri'henʃən n.理解理解力领悟" },
+    { english: "gleam", chinese: "gli:m n.微光 vi.发微光" },
+    { english: "oar", chinese: "ɔ: n.浆橹划手v.划行" },
+    { english: "hear", chinese: "hiə vt. &vi.听见审讯听说听到得知倾听听证" },
+    { english: "genuine", chinese: "'dʒenjuin adj.真的真正的真实的诚恳的" },
+    { english: "new", chinese: "nju: adj.新的新近出现的附加的adv.新的" },
+    { english: "clothe", chinese: "kləuð vt.给...穿衣服穿上覆上授以赋予表达" },
+    { english: "affirm", chinese: "ә’fә:m vt.断言，批准；证实" },
+    { english: "because", chinese: "bi'kɔz conj.由于因为" },
+    { english: "web", chinese: "web n.网，丝，网状物" },
+    { english: "writing", chinese: "raitiŋ n.书写写著作写作笔迹作品动词write的现在分词形式" },
+    { english: "astonish", chinese: "əs'tɔniʃ vt.使惊讶使吃惊" },
+    { english: "belong", chinese: "bi'lɔŋ vi.属于附属适合于" },
+    { english: "just", chinese: "dʒʌst adv.刚才只是正好恰好adj.公正的公平的恰当的" },
+    { english: "strategic", chinese: "strә’ti:dʒik a. 战略的,战略上的" },
+    { english: "vapour", chinese: "'veipə n.汽蒸气雾气v.蒸发吹嘘=vapor(英)" },
+    { english: "herself", chinese: "hə:'self pron.她自己她亲自" },
+    { english: "pronunciation", chinese: "prə.nʌnsi'eiʃən n.发音发音法" },
+    { english: "terror", chinese: "'terə n.恐怖惊骇<口>令人惧怕或讨厌的人或事物" }
+];

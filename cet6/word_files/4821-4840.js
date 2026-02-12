@@ -1,0 +1,22 @@
+const words = [
+    { english: "rubbish", chinese: "'rʌbiʃ n.垃圾废物废话" },
+    { english: "harness", chinese: "'hɑ:nisvt.治理束以马具披上甲胄利用(产生动力)n.马具挽具系在身上" },
+    { english: "consequence", chinese: "'kɔnsikwəns n.结果后果" },
+    { english: "nasty", chinese: "‘na:sti a.龌龊的；淫猥的" },
+    { english: "respective", chinese: "ri'spektiv adj.各自的各个的分别的" },
+    { english: "porch", chinese: "pɔ:tʃ n.门廊，入口处" },
+    { english: "approximate", chinese: "ə'prɔksimət adj.近似的大约的vt.近似接近约等于" },
+    { english: "seldom", chinese: "'seldəm adv.很少不常难得adj.很少的" },
+    { english: "event", chinese: "i'vent n.事件大事事变项目活动" },
+    { english: "remind", chinese: "ri'maind vt.提醒使想起" },
+    { english: "grace", chinese: "greis n.优美文雅雅致魅力恩惠慈悲vt.使荣耀装饰" },
+    { english: "bleed", chinese: "bli:dvi.出血流血泌脂(为事业祖国)负伤或牺性(花草﹑树木等)流出" },
+    { english: "chapter", chinese: "'tʃæptə n.章回篇牧师的例行会议地方分会" },
+    { english: "visual", chinese: "'vizjuəl adj.看的看得见的,视觉的n.画面图象" },
+    { english: "solar", chinese: "'səulə adj.太阳的太阳能的日光的" },
+    { english: "bruise", chinese: "bru:z n.青肿伤痕擦伤瘀青挫伤vi.受伤擦伤vt.使挫伤" },
+    { english: "thus", chinese: "ðʌs adv.如此这样因而因此从而" },
+    { english: "drink", chinese: "driŋk vt. &vi.饮喝喝酒n.饮料" },
+    { english: "commit", chinese: "kə'mit vt.犯(错误)干(坏事)委托(托付)作...事承诺[计算机]委托" },
+    { english: "grant", chinese: "grɑ:nt n.授给物补助金同意给予财产转让vt.授予同意承认" }
+];

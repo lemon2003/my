@@ -1,0 +1,22 @@
+const words = [
+    { english: "nation", chinese: "'neiʃən n.民族国家" },
+    { english: "atmospheric", chinese: ".ætməs'ferik adj.大气的大气层的制造气氛的" },
+    { english: "wonderful", chinese: "'wʌndəfəl adj.惊人的极好的精彩的" },
+    { english: "accordance", chinese: "ə'kɔ:dəns n.一致和谐授予符合同意" },
+    { english: "thief", chinese: "θi:f n.窃贼偷窃犯小偷" },
+    { english: "conserve", chinese: "kәn’sә:v vt. 保存,保全 n. 蜜饯,果酱" },
+    { english: "framework", chinese: "freɪmwə:k  n.框架构架结构骨架v.构成把...框起来陷害adj.木结构的" },
+    { english: "tape", chinese: "teip, tepn.线带磁带录音带磁带胶布v.(用带子)捆录音adj.录音的, 用来" },
+    { english: "thread", chinese: "θredn.线细丝螺纹头绪线索思路vt.穿线于穿过遍布vi.小心地通过蜿" },
+    { english: "prosperous", chinese: "'prɔspərəs adj.繁荣的昌盛的兴旺的" },
+    { english: "acceleration", chinese: "æk.selə'reiʃən n.加速促进加速度" },
+    { english: "exquisite", chinese: "‘ekskwizit a. 精致的,细腻的,敏锐的" },
+    { english: "bureaucracy", chinese: "bjuә’rɔkrәsi n.官僚主义；官僚机构" },
+    { english: "donkey", chinese: "dɔŋki n.驴笨蛋" },
+    { english: "medical", chinese: "'medikəl adj.医学的内科的医疗的药物的需治疗的" },
+    { english: "proud", chinese: "praud adj.骄傲的自豪的壮观的" },
+    { english: "salute", chinese: "sə'lu:t n.招呼行礼vi.行礼致意问候" },
+    { english: "honour", chinese: "'ɔnən.光荣尊敬敬意荣誉荣幸头衔vt.尊敬信守承诺方形舞中鞠躬致" },
+    { english: "deteriorate", chinese: "di’tiәriәreit vt.vi. (使)恶化" },
+    { english: "trait", chinese: "treit n. 显著特点，特性" }
+];

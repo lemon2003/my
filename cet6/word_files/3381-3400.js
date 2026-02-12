@@ -1,0 +1,22 @@
+const words = [
+    { english: "robot", chinese: "'rəubɔt n.机器人自动机" },
+    { english: "able", chinese: "'eibl adj.能干的有能力的出色的" },
+    { english: "foremost", chinese: "'fɔ:məust adj.最初的第一流的adv.在最前面" },
+    { english: "ache", chinese: "eik vi.痛想念渴望n.疼痛" },
+    { english: "unfair", chinese: "ʌn'fɛə adj.不公平的不公正的(商业上)不正当的" },
+    { english: "inaugurate", chinese: "i’nɔ:gjureit vt.开始；使就职" },
+    { english: "reporter", chinese: "ri'pɔ:tə n.记者通讯员" },
+    { english: "shock", chinese: "ʃɔk n.冲击震惊冲突震惊休克vi.震动冲突使...受电击" },
+    { english: "appreciable", chinese: "ә’pri:ʃәbl a.可估价的；可察觉的" },
+    { english: "upgrade", chinese: "‘Λp’greid vt. 使升级,提升" },
+    { english: "shuttle", chinese: "‘ʃΛtl n.(织机的)梭" },
+    { english: "overthrow", chinese: ",әuvә’θrәu vt.推翻 n.推翻，瓦解" },
+    { english: "cabinet", chinese: "'kæbinit n.橱柜内阁adj.私人的" },
+    { english: "leadership", chinese: "'li:dəʃip n.领导领导才干" },
+    { english: "mirror", chinese: "'mirə n.镜子vt.反映反射" },
+    { english: "guideline", chinese: "‘gaidlain n. 指导路线,方针,指标" },
+    { english: "reserve", chinese: "ri'zə:v vt.储备保留预定延期n.预备品贮存候补克制含蓄" },
+    { english: "growth", chinese: "grəuθ n.增长增长量生长生长物" },
+    { english: "spray", chinese: "sprei n.浪花喷雾水沫喷雾器vt.喷喷雾扫射喷射" },
+    { english: "hair", chinese: "hɛə n.头发毛发毛毛织物极少量极短距离" }
+];

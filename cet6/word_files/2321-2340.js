@@ -1,0 +1,22 @@
+const words = [
+    { english: "operational", chinese: ".ɔpə'reiʃənəl adj.操作上的可使用的运作的" },
+    { english: "extinct", chinese: "iks’tiŋkt a.绝种的；熄灭了的" },
+    { english: "mate", chinese: "meit n.伙伴同事配偶助手v.使...配对交配使...一致结伴" },
+    { english: "axis", chinese: "‘æksis n.轴，轴线；第二颈椎" },
+    { english: "accumulate", chinese: "ə'kju:mjuleit vt.积累累加堆积vi.堆积累积" },
+    { english: "amuse", chinese: "ə'mju:z vt.逗乐给...娱乐消遣" },
+    { english: "racial", chinese: "'reiʃəl adj.种族的人种的" },
+    { english: "interview", chinese: "'intəvju: n.接见会见面谈访问vt.接见对...进行面谈(试)vi.面试采访" },
+    { english: "radioactive", chinese: ".reidiəu'æktiv adj.放射性的" },
+    { english: "uniform", chinese: "'ju:nifɔ:m adj.一样的一致的统一的n.制服vt.穿制服使统一" },
+    { english: "ugly", chinese: "'ʌgli adj.丑陋的难看的可怕的" },
+    { english: "economic", chinese: ".i:kə'nɔmik adj.经济的经济学的有利可图的n." },
+    { english: "oblige", chinese: "ə'blaidʒ vt.迫使强制施恩惠于vi.帮忙" },
+    { english: "doctor", chinese: "'dɔktə n.医生医师博士vt.医治篡改对...做手脚vi.用药" },
+    { english: "beginner", chinese: "bi'ginə n.初学者生手" },
+    { english: "responsibility", chinese: "ri.spɔnsə'biliti n.责任责任心可信度职责" },
+    { english: "course", chinese: "kɔ:s n.课程讲座过程路线一道菜" },
+    { english: "repel", chinese: "ri’pel vt.拒绝；使厌恶" },
+    { english: "sponsor", chinese: "'spɔnsə n.发起者保证人赞助者主办者vt.发起赞助倡议" },
+    { english: "despair", chinese: "di'spɛə n.绝望失望vi.绝望失望" }
+];

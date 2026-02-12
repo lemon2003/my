@@ -1,0 +1,22 @@
+const words = [
+    { english: "drill", chinese: "dril n.钻头钻孔机钻子播种机操练vi.钻孔vt.训练钻孔" },
+    { english: "sad", chinese: "sæd adj.悲哀的令人悲痛的伤心的不能令人满意的" },
+    { english: "ripple", chinese: "‘ripl n.涟漪，细浪，波纹" },
+    { english: "transportation", chinese: ".trænspə'teiʃən n.运输运送客运运输系统运输工具" },
+    { english: "destructive", chinese: "dis’trΛktiv a.破坏(性)的，危害的" },
+    { english: "pest", chinese: "pest n.害虫；害人虫" },
+    { english: "breakfast", chinese: "'brekfəst n.早饭早餐vt.吃早餐vi.提供早餐" },
+    { english: "access", chinese: "'ækses n.进入接近(的机会)使用之权通道入口vt.(电脑)存取进入" },
+    { english: "bee", chinese: "bi: n.蜂密蜂忙碌的人" },
+    { english: "inference", chinese: "‘infәrәns n.推论；推断的结果" },
+    { english: "rally", chinese: "‘ræli n.&vt.&vi.(重新)集合" },
+    { english: "experience", chinese: "iks'piəriəns n.经验感受经历vt.经历体验" },
+    { english: "odd", chinese: "ɔd adj.奇数的单只的古怪的剩余的" },
+    { english: "respect", chinese: "ri'spekt n.尊敬敬重关系方面vt.尊敬尊重关于涉及" },
+    { english: "rob", chinese: "rɔb vt. &vi.抢劫劫掠" },
+    { english: "cigarette", chinese: ".sigə'ret n.香烟纸烟卷烟" },
+    { english: "take", chinese: "teik vt.拿抓吃拿走取修(课程)花费记录认为搭乘n.拿取取得物" },
+    { english: "infer", chinese: "in'fə: vt.推论推断猜想暗示vi.推论" },
+    { english: "poll", chinese: "pәul n.投票 vi.投票" },
+    { english: "sometimes", chinese: "'sʌmtaimz adv.不时有时间或" }
+];

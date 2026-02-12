@@ -1,0 +1,22 @@
+const words = [
+    { english: "inser", chinese: "in'sə:t t vt.插入嵌入登载n.插入物" },
+    { english: "computer", chinese: "kəm'pju:tə n.计算机电脑" },
+    { english: "accordingly", chinese: "ə'kɔ:diŋli adv.因此所以于是相应地照着" },
+    { english: "hire", chinese: "'haiə vt.租借雇请出租n.租用雇用租用" },
+    { english: "retention", chinese: "ri’tenʃәn n. 保留,保有,保持" },
+    { english: "wedding", chinese: "wediŋ n.婚礼结合" },
+    { english: "census", chinese: "‘sensәs n. 户口普查 vt.统计调查" },
+    { english: "broad", chinese: "brɔ:dadj.宽广的阔的广泛的清楚无误的明显的粗俗的adv.完全地" },
+    { english: "collapse", chinese: "kə'læps vi.倒坍崩溃瓦解折叠vt.倒塌缩减n.崩溃倒塌暴跌" },
+    { english: "stitch", chinese: "stitʃ n.一针针脚疼痛碎布条vt.缝缝合" },
+    { english: "stare", chinese: "steə(r) vi.盯凝视vt.显眼(毛发)竖立n.凝视" },
+    { english: "scientist", chinese: "'saiəntist n.(自然)科学家" },
+    { english: "plug", chinese: "plʌg n.塞子插头消防拴电插头vt.塞射杀宣传vi.射杀持续的工作" },
+    { english: "manager", chinese: "'mænidʒə n.经理管理人" },
+    { english: "solely", chinese: "'səulli adv.单独地独自地唯一地" },
+    { english: "lid", chinese: "lid n.盖子盖囊盖" },
+    { english: "finally", chinese: "'fainəli adv.最后最终不可更改的" },
+    { english: "reaction", chinese: "ri'ækʃən n.反应反作用反作用力化学反应" },
+    { english: "colony", chinese: "'kɔləni n.侨民殖民地侨居地聚居(地)" },
+    { english: "daily", chinese: "'deili adj.每日的按天计算的日常的adv.每日天天n.日报(复)工作样片" }
+];

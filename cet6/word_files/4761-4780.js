@@ -1,0 +1,22 @@
+const words = [
+    { english: "intact", chinese: "in’tækt a.原封不动的,完整的" },
+    { english: "sport", chinese: "spɔ:t n.运动体育运动会vi.炫耀戏弄嬉戏adj.运动的户外穿戴的" },
+    { english: "revenge", chinese: "ri’vendʒ vt.替…报仇 n.报仇" },
+    { english: "dramatic", chinese: "drə'mætik adj.引人注目的戏剧的给人深刻印象的n.(pl.)戏剧作品戏曲" },
+    { english: "behave", chinese: "bi'heiv vi.表现举止行为举止端正运转" },
+    { english: "low", chinese: "ləuadj.低的矮的低下的低点(价)深度牛叫声adj.低的消沉的低等的" },
+    { english: "considerate", chinese: "kən'sidərit adj.考虑周到的体谅的" },
+    { english: "ordinary", chinese: "'ɔ:dnri adj.平常的平凡的普通的" },
+    { english: "unlikely", chinese: "ʌn'laikli adj.未必的未必可能的" },
+    { english: "overtake", chinese: ".əuvə'teik vt.追上赶上压倒突然来袭" },
+    { english: "dry", chinese: "draiadj.干的干燥的干旱的不行于色的枯燥无味的无酒的口渴的vt." },
+    { english: "filter", chinese: "'filtə vt. &vi.过滤渗透n.滤纸筛选滤波器过滤器滤色镜" },
+    { english: "hope", chinese: "həupn. &vt. &vi.希望abbr.=Health Opportunity for People" },
+    { english: "depress", chinese: "di'pres vt.使沮丧按下降低" },
+    { english: "certificate", chinese: "sə'tifikit n.证(明)书证件执照vt.批准认可发证书给..." },
+    { english: "beam", chinese: "bi:m n.梁横梁束柱光线电波容光焕发vt.闪亮为...上梁vi.微笑发光" },
+    { english: "complicated", chinese: "'kɔmplikeitid adj.复杂的难懂的" },
+    { english: "jam", chinese: "dʒæm n.果酱拥塞之物堵塞窘境v.挤塞满混杂vt.使塞满使堵塞" },
+    { english: "prescription", chinese: "pris’kripʃәn n.药方，处方的药" },
+    { english: "issue", chinese: "'iʃju: n.问题争论点发行发行物期刊号vi. &vt.发行流出造成...结果" }
+];

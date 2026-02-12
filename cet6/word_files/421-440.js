@@ -1,0 +1,22 @@
+const words = [
+    { english: "upright", chinese: "'ʌp'rait adj.垂直的正直的诚实的合乎正道的" },
+    { english: "sigh", chinese: "sai n.呼吸叹息(带有情感)vi.发出叹息的声音感叹vt.叹息" },
+    { english: "somewhere", chinese: "'sʌmwɛə ad.在某处到某种程度大约差不多n.某地某处" },
+    { english: "unwilling", chinese: "ʌn'wiliŋ adj.不愿意的" },
+    { english: "coil", chinese: "kɔil n.(一)卷线圈骚动【电】线圈绕组vt. &vi.盘绕卷" },
+    { english: "commodity", chinese: "kә’mɔditi n.日用品，商品，物品" },
+    { english: "federation", chinese: "fedә’reiʃ әn n. 联邦,联合,联盟" },
+    { english: "specialist", chinese: "'speʃəlist n.专家" },
+    { english: "case", chinese: "keis n.情况事实实情病例箱(子)盒(子)套案例vt.装箱踩点" },
+    { english: "cow", chinese: "kau n.母牛奶牛母兽" },
+    { english: "revolve", chinese: "ri’vɔlv vt.&vi.(使)旋转" },
+    { english: "too", chinese: "tu: adv.也还太过分很" },
+    { english: "hysterical", chinese: "his’terikәl a. 歇斯底里的,异常兴奋的" },
+    { english: "timid", chinese: "‘timid a.胆怯的；羞怯的" },
+    { english: "why", chinese: "wai adv.为什么conj.为什么...的理由int.咳哎呀n.理由谜" },
+    { english: "accurate", chinese: "'ækjurit adj.准确的正确无误的" },
+    { english: "dye", chinese: "dai vt.染vi.染色n.染料染色" },
+    { english: "breakdown", chinese: "‘breikdaun n.崩溃，倒塌；失败" },
+    { english: "fill", chinese: "fil vt.装满盛满占满填充弥漫担任n.足量" },
+    { english: "gravity", chinese: "'græviti n.重力引力严重性严重庄重严肃" }
+];

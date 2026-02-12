@@ -1,0 +1,22 @@
+const words = [
+    { english: "leak", chinese: "li:k vi.漏泄露漏渗n.漏洞" },
+    { english: "seven", chinese: "'sevn num.七七个(人或物)" },
+    { english: "height", chinese: "hait n.高高度高处身高最高峰极点" },
+    { english: "ignore", chinese: "ig'nɔ: vt.不顾不理忽视" },
+    { english: "assumption", chinese: "ә’sΛmpʃ әn n.采取；假定；傲慢" },
+    { english: "ditch", chinese: "ditʃn.沟沟渠渠道vt.坠入沟中摆脱飞机(在海上)迫降vi.挖一条沟渠" },
+    { english: "brisk", chinese: "brisk adj.活泼的活跃的快的清新的敏锐的凛冽的" },
+    { english: "contemporary", chinese: "kən'tempərəri adj.当代的同时代的同时的现代的n.同时代的人" },
+    { english: "mad", chinese: "mæd adj.发疯的恼火的狂热的着迷的生气的v.发怒n.发怒" },
+    { english: "bus", chinese: "bʌs n.公共汽车" },
+    { english: "pile", chinese: "pail n.堆桩大量核反应堆vt.堆叠堆积累积装载vi.形成堆拥挤进入" },
+    { english: "output", chinese: "'autput n.产量输出量输出输出功率输出端vt.输出(信息等)" },
+    { english: "tailor", chinese: "'teilə n.裁缝vt.裁制衣服剪裁vi.做裁缝" },
+    { english: "or", chinese: "ɔ:,ə conj.或或者即还是否则" },
+    { english: "healthy", chinese: "'helθi adj.健康的有益健康的" },
+    { english: "wear", chinese: "wɛə vt.穿着戴磨损n.穿着磨损耐久性" },
+    { english: "admit", chinese: "əd'mit vt.承认准许...进入vi.允许进入允许承认" },
+    { english: "abundance", chinese: "ә’bΛndәns n.丰富，充裕" },
+    { english: "exceedingly", chinese: "ik'si:diŋli adv.极端地非常很" },
+    { english: "sky", chinese: "skai n.天天空v. <英>把...投向空中将...高挂" }
+];

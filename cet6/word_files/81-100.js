@@ -1,0 +1,22 @@
+const words = [
+    { english: "recorder", chinese: "ri'kɔ:də n.记录者录音机(英国某些市镇的)首席法官市法院法官竖笛" },
+    { english: "hotel", chinese: "həu'tel n.旅馆宾馆酒店饭店" },
+    { english: "pop", chinese: "pɔpn. 流行音乐流行歌曲流行文化艺术取出砰的一声爆破声(尤用作" },
+    { english: "wherever", chinese: "wɛər'evə adv.究竟在哪里无论什么地方在...的各个地方conj.无论在哪里" },
+    { english: "ice-cream", chinese: "'aiskri:m n.冰淇淋" },
+    { english: "chicken", chinese: "'tʃikin n.小鸡小鸟鸡肉胆小懦夫adj.懦弱的胆小的" },
+    { english: "habit", chinese: "'hæbit n.习惯习性隐长袍vt.穿衣" },
+    { english: "confuse", chinese: "kən'fju:z vt.使混乱混淆狼狈困惑" },
+    { english: "murmur", chinese: "‘mә:mә vi. 低语,低声而言 n.低语" },
+    { english: "enable", chinese: "i'neibl vt.使能够使可能" },
+    { english: "Portuguese", chinese: ".pɔ:tju'gi:z n.葡萄牙人葡萄牙语adj.葡萄牙的葡萄牙人的葡萄牙语的" },
+    { english: "faithful", chinese: "'feiθfəl adj.忠诚的如实的" },
+    { english: "ox", chinese: "ɔks n.牛公牛阉牛" },
+    { english: "learn", chinese: "lə:n vi.学学习了解习得vt.学学习获悉" },
+    { english: "tragedy", chinese: "'trædʒidi n.悲剧惨事惨案灾难" },
+    { english: "ego", chinese: "‘egәu n. 自我" },
+    { english: "meanwhile", chinese: "'mi:n'wail adv.同时当时n.其时其间" },
+    { english: "living-room", chinese: "liviŋ'ru:m n.起居室" },
+    { english: "exterior", chinese: "eks'tiəriə adj.外部的外在的表面的对外的" },
+    { english: "objective", chinese: "əb'dʒektivadj.客观的目标的无偏见的n.目标目的物镜=objective case 宾" }
+];

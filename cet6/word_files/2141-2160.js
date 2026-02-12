@@ -1,0 +1,22 @@
+const words = [
+    { english: "series", chinese: "'siəri:z n.连续系列系列节目丛书" },
+    { english: "message", chinese: "'mesidʒ n.信息消息启示要点v.传递信息通讯" },
+    { english: "trap", chinese: "træp n.陷阱诡计圈套困境双轮轻便马车vt.诱骗设圈套陷入(困境)" },
+    { english: "haunt", chinese: "hɔ:nt vt.常去 vi.经常出没" },
+    { english: "campaign", chinese: "kæm'pein n.战役运动活动vt.参加竞赛vi.(从事、组织)活动" },
+    { english: "fertilize", chinese: "'fə:tilaiz v.施肥使丰饶" },
+    { english: "purify", chinese: "'pjuərifai vt.使纯净使洁净(使)精炼涤罪" },
+    { english: "horn", chinese: "hɔ:n n.号角警报器角动物角喇叭触角角状物力量源泉" },
+    { english: "originate", chinese: "ә’ridʒineit vi.发源 vt.首创" },
+    { english: "learned", chinese: "'lə:nid adj.有学问的博学的学术上的learn的过去式和过去分词" },
+    { english: "please", chinese: "pli:z vt.取悦使高兴合心意请vi.取悦满意adv.请" },
+    { english: "right", chinese: "raitadj.正确的正直的合适的垂直的右面的正常的正面的adv.对正好" },
+    { english: "evidence", chinese: "'evidəns n.根据证据证人vt. &vi.证实证明" },
+    { english: "grasp", chinese: "grɑ:sp vt.抓紧抓住紧握掌握领会n.抓把握抓紧领会" },
+    { english: "glue", chinese: "glu: n.胶胶水粘性之物vt.胶合粘紧附于..." },
+    { english: "simultaneous", chinese: "simәl’teinjәsa.同时的，同时存在的" },
+    { english: "FALSE", chinese: "fɔ:lsadj.不真实的伪造的人造的假的错误的虚伪的adv.不真诚地虚伪" },
+    { english: "cherry", chinese: "'tʃeri n.樱桃樱桃树樱桃色" },
+    { english: "lift", chinese: "liftvt.提起提高升高举起还清取消偷窃运送vi.提升n.电梯举起帮助" },
+    { english: "plate", chinese: "pleitn.板片盘碟金属板板块vt.镀金电镀为...制印版给...装钢板用" }
+];

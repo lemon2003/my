@@ -1,0 +1,22 @@
+const words = [
+    { english: "strange", chinese: "streindʒ adj.陌生的奇怪的adv.奇怪地" },
+    { english: "assemble", chinese: "ə'sembəl vt.集合召集装配vi.集合聚集" },
+    { english: "zinc", chinese: "ziŋk n.锌" },
+    { english: "flight", chinese: "flait n.航班飞行逃跑航程(鸟等)群奇思妙想一段楼梯vi.滑行vt.冲" },
+    { english: "indicate", chinese: "'indikeit vt.标示表示指明表明v.显示象征指示" },
+    { english: "total", chinese: "'təutl adj.总的全体的完全的vi.合计总共n.总数合计" },
+    { english: "differentiate", chinese: "difә’renʃieit vt.vi. 区别,区分" },
+    { english: "trail", chinese: "treil n.痕迹踪迹小径尾vt.跟踪追踪拖拽vi.拖尾随追踪落后于" },
+    { english: "relatively", chinese: "'relətivli adv.相对地比较地" },
+    { english: "ease", chinese: "i:zn.容易舒适安乐n.安逸悠闲vt.缓和使...安乐使...安心v.减轻" },
+    { english: "whisper", chinese: "'wispəvt.低声地讲耳语私语vi.低语低声说窃窃私语飒飒地响n.低语窃" },
+    { english: "increase", chinese: "'inkri:s,in'kri:s vt. &vi. &n.增加增强提高" },
+    { english: "shaft", chinese: "ʃa:ft n.(工具的)柄，杆状物" },
+    { english: "denial", chinese: "di’naiәl n.否定；拒绝相信" },
+    { english: "vicinity", chinese: "vi’siniti n.邻近；附近地区" },
+    { english: "demonstrate", chinese: "'demənstreit vt.说明论证证明表露示范演示vi.示威" },
+    { english: "imagination", chinese: "i.mædʒi'neiʃən n.想象想象力空想" },
+    { english: "breast", chinese: "brest n.乳房胸脯胸膛vt.面对以胸对着" },
+    { english: "establishment", chinese: "is'tæbliʃmənt n.建立设立确立设施机构权威" },
+    { english: "youthful", chinese: "'ju:θfəl adj.年轻的青年的有青春活力的" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "tribute", chinese: "‘tribju:t n.贡物；献礼，贡献" },
+    { english: "sanction", chinese: "‘sæŋkʃәn n. 制裁，批准" },
+    { english: "attractive", chinese: "ə'træktiv adj.有吸引力的引起注意的" },
+    { english: "ribbon", chinese: "'ribən n.缎带丝带带色带带状物vt.用丝带装饰撕碎" },
+    { english: "volleyball", chinese: "'vɔlibɔ:l n.排球排球运动" },
+    { english: "helpful", chinese: "'helpfəl adj.给予帮助的有用的有益的" },
+    { english: "beauty", chinese: "'bju:ti n.美美丽美人美的东西" },
+    { english: "corporation", chinese: ".kɔ:pə'reiʃən n.公司法人集团企业社团" },
+    { english: "tall", chinese: "tɔ:l adj.高的身材高的难以置信的难以办成的夸大的adv.夸大地" },
+    { english: "American", chinese: "ə'merikən adj.美洲的美国的美式的n.美国人美式英语" },
+    { english: "oven", chinese: "'ʌvən n.炉灶烘箱烤炉" },
+    { english: "fence", chinese: "fensn.栅栏围墙击剑术买卖赃物的人v.用篱笆围住练习剑术防护买卖" },
+    { english: "pork", chinese: "pɔ:k n.猪肉联邦或州政府用以笼络人心的工程或款项" },
+    { english: "solitary", chinese: "‘sɔlitәri n. 独居者 a. 孤独的,独居的" },
+    { english: "blaze", chinese: "bleiz n.火；闪光 vi.燃烧" },
+    { english: "recognition", chinese: ".rekəg'niʃən n.认出识别承认感知知识" },
+    { english: "congress", chinese: "kɔŋgres n.大会国会议会集会" },
+    { english: "counter", chinese: "'kauntən.柜台计数器计算者计数器adj.相反的adv.与…相反地vt.反对" },
+    { english: "fist", chinese: "fist n.拳(头)抓住vt.紧握用拳头打" },
+    { english: "cargo", chinese: "'kɑ:gəu n.船货货物" }
+];

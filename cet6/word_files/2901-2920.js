@@ -1,0 +1,22 @@
+const words = [
+    { english: "denounce", chinese: "di’nauns vt.谴责，声讨；告发" },
+    { english: "nervous", chinese: "'nə:vəs adj.神经(质)的易激动的紧张的焦虑的" },
+    { english: "editor", chinese: "'editə n.编辑编者校订者" },
+    { english: "knot", chinese: "nɔtn.(绳的)结(树的)节难题一小群vi.打结vt.把...打成结系牢捆" },
+    { english: "pregnant", chinese: "‘pregnәnt a.怀孕的；意义深长的" },
+    { english: "customary", chinese: "‘kΛstәmәri a.通常的；照惯例的" },
+    { english: "eat", chinese: "i:t vt.吃喝消耗vi.吃饭侵蚀n.食物" },
+    { english: "cheer", chinese: "tʃiə n.愉快激励欢呼vt.欢呼加油鼓舞快活起来vi.使振奋欢呼" },
+    { english: "suppose", chinese: "sə'pəuzvt.猜想假定让以为认为应该获准(be suppose to)让(虚拟语" },
+    { english: "automation", chinese: "ɔ:tә’meiʃәn n.自动，自动化" },
+    { english: "wooden", chinese: "'wudn adj.木制的呆板的生硬笨拙的" },
+    { english: "western", chinese: "'westən adj.西方的西部的西洋的n.西方人西部片西部小说" },
+    { english: "manufacturer", chinese: ".mænju'fæktʃərə n.制造商制造厂" },
+    { english: "exposition", chinese: "ekspә’ziʃәn n.说明，解释；陈列" },
+    { english: "riddle", chinese: "'ridl n.谜谜语vt.解谜出谜题充满打洞筛选vi.出谜题" },
+    { english: "haul", chinese: "hɔ:l vt.拖曳；拖运" },
+    { english: "row", chinese: "rəu,rau n.(一)排(一)行船游吵闹vt.划船成排vi.划船吵架" },
+    { english: "affect", chinese: "ə'fekt vt.影响感动作用" },
+    { english: "inquiry", chinese: "in'kwaiəri n.询问打听调查查问=enquiry(英)" },
+    { english: "clear", chinese: "kliəadj.清晰的清楚的明确的澄清的头脑清醒的vt.清除清除障碍澄" }
+];

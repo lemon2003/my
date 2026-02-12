@@ -1,0 +1,22 @@
+const words = [
+    { english: "influential", chinese: ".influ'enʃəl adj.有影响的有权势的n.有影响力的人物" },
+    { english: "warehouse", chinese: "‘wɛәhaus n.仓库，货栈" },
+    { english: "chew", chinese: "tʃu: vt.咀嚼嚼碎损坏vi.咀嚼n.咀嚼咀嚼物" },
+    { english: "remark", chinese: "ri'mɑ:k vt. &vi.评论注意述及谈论n.备注评论注意" },
+    { english: "tool", chinese: "tu:ln.工具器具用具手段被利用者印压的图案vt.用工具加工vi.使用" },
+    { english: "noon", chinese: "nu:n n.正午中午全盛期顶点" },
+    { english: "clothes", chinese: "kləuðz n.衣服服装被褥" },
+    { english: "reward", chinese: "ri'wɔ:d n.报答报酬赏金vt.报答给...报酬奖赏" },
+    { english: "newly", chinese: "'nju:li adv.新近重新地最近" },
+    { english: "premier", chinese: "'premjə n.总理首相adj.第一的首位的最初的" },
+    { english: "union", chinese: "'ju:njən n.联合团结协会结合政党工会连接轴adj.联邦政府的工会的" },
+    { english: "altitude", chinese: "'æltitju:d n.高高度海拔高处高地" },
+    { english: "intimate", chinese: "'intimeit,'intimit adj.亲密的个人的私人的秘密的n.密友vt.透露暗示" },
+    { english: "precipitate", chinese: "pri’sipiteit a.突如其来的vt.使突然发生n.沉淀物" },
+    { english: "troublesome", chinese: "'trʌblsəm adj.令人烦恼的麻烦的讨厌的困难的棘手的" },
+    { english: "vent", chinese: "vent n. 排放口,通风口 vt. 发泄,表达" },
+    { english: "simplify", chinese: "'simplifai vt.简化使单纯" },
+    { english: "relax", chinese: "ri'læks vt.使松弛放松放宽(限制等)vi.松弛放松松懈" },
+    { english: "somewhat", chinese: "'sʌmwɔt pron.一点儿一些某物adv.有点多少几分" },
+    { english: "unload", chinese: "'ʌn'ləudvt.卸(货)卸下摆脱...之负担(大量)倾销vi.卸货摆脱负担退出" }
+];

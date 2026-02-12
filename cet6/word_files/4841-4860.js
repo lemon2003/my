@@ -1,0 +1,22 @@
+const words = [
+    { english: "improve", chinese: "im'pru:v vt.使更好改进利用(提高)价值vi.改善改进" },
+    { english: "sticky", chinese: "'stiki adj.粘性的胶粘的闷热的困难的令人不满意的" },
+    { english: "have", chinese: "hæv v.aux.已经曾经vt.有吃从事得到雇用享有允许" },
+    { english: "carpenter", chinese: "'kɑ:pintə n.木工木匠v.做木工活" },
+    { english: "procedure", chinese: "prə'si:dʒə n.程序手续过程步骤常规的做法" },
+    { english: "arbitrary", chinese: "'ɑ:bi.trəri adj.随心所欲的专断的任意的专制的武断的霸道的" },
+    { english: "ask", chinese: "ɑ:sk vt.问询问要求邀请请求开价vi.询问恳求" },
+    { english: "esthetic", chinese: "es’θetik a. 审美的" },
+    { english: "mother", chinese: "'mʌðə n.母亲妈妈adj.母亲的母体的vt.生育像母亲一样关爱" },
+    { english: "elicit", chinese: "i’lisit vt. 引出,抽出,引起" },
+    { english: "melody", chinese: "‘melәdi n.旋律，曲调；歌曲" },
+    { english: "intellectual", chinese: ".intil'ektʃuəl n.知识分子凭理智做事者adj.智力的聪明的" },
+    { english: "November", chinese: "nəu'vembə n.十一月" },
+    { english: "soak", chinese: "səukvt.浸泡使...湿透浸泡在液体中浸洗吸入使某人喝醉向某人敲竹" },
+    { english: "deck", chinese: "dek n.甲板舱面层面桥面楼层vt.装饰" },
+    { english: "helpless", chinese: "'helplis adj.无助的无能的无依靠的" },
+    { english: "absolutely", chinese: "'æbsəlu:tli adv.独立地完全地绝对地" },
+    { english: "compact", chinese: "‘kɔmpækt,k әm’pæa.紧密的 vt.使紧凑" },
+    { english: "accessory", chinese: "æk’sesәri n.同谋 a.附属的" },
+    { english: "belt", chinese: "beltn.带(状物)腰带皮带区vi.飞奔大声唱vt.系上腰带环绕击打大声" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "assign", chinese: "ə'sain vt.指派分配指定转让n.受让人" },
+    { english: "torch", chinese: "tɔ:tʃ n.火炬火把手电筒纵火犯v.用火炬点燃" },
+    { english: "rapid", chinese: "'ræpid adj.快的迅速的急促的n.急流" },
+    { english: "walk", chinese: "wɔ:k vi.步行散步走vt.陪...走走过使行走n.散步步行人行道" },
+    { english: "reply", chinese: "ri'plai vi. &n.回答答复" },
+    { english: "rug", chinese: "rʌg n.小地毯地毯毛毯毯子旅行毯" },
+    { english: "qualitative", chinese: "‘kwɔlitәtiv a.质的；定性的" },
+    { english: "insult", chinese: "'insʌlt,in'sʌlt vt. &n.侮辱凌辱(对人身的)损害" },
+    { english: "adequate", chinese: "'ædikwit adj.足够的充足的适当的可以胜任的" },
+    { english: "authoritative", chinese: "ɔ:’θɔritәtiv a. 权威的,有权威的,命令式的" },
+    { english: "treat", chinese: "tri:t vt.对待处理治疗请客视为n.款待宴飨" },
+    { english: "infectious", chinese: "in’fekʃәs a.传染的；感染性的" },
+    { english: "divert", chinese: "dai’vә:t vt.使转向 vi.转移" },
+    { english: "royalty", chinese: "‘rɔiәlti n.皇家，王族，皇族" },
+    { english: "divide", chinese: "di'vaid vt.分分配分开(组)vi.除分开" },
+    { english: "flap", chinese: "flæp vt.&n.拍打 vi.拍动" },
+    { english: "author", chinese: "'ɔ:θə n.作者作家创造者vt.创造写作" },
+    { english: "distant", chinese: "'distənt adj.在远处的疏远的疏远的远房的陌生的远行的" },
+    { english: "situation", chinese: ".sitju'eiʃən n.位置处境形势局面状况职位" },
+    { english: "imitation", chinese: "imi’teiʃәn n.仿制品，伪制物" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "immerse", chinese: "i’mә:s vt.沉浸；给…施洗礼" },
+    { english: "edition", chinese: "i'diʃən n.版版本版次" },
+    { english: "distribute", chinese: "di'stribjut vt. &vi.分发分送分布分配" },
+    { english: "relate", chinese: "ri'leit vt.叙述使联系vi.追溯到有关联建立关系了解" },
+    { english: "fever", chinese: "'fi:və n.发热发烧狂热vt.激怒vi.发烧" },
+    { english: "display", chinese: "di'splei vt.陈列展览显示炫耀vt.显示表现夸示" },
+    { english: "translation", chinese: "træns'leiʃən n.翻译译文译本RNA的转录平移" },
+    { english: "robust", chinese: "rәu’bΛst a. 强健的,粗野的,坚定的" },
+    { english: "irrigation", chinese: "iri’geiʃәn n.灌溉；冲洗法" },
+    { english: "vulgar", chinese: "‘vΛlgә a.粗俗的，庸俗的" },
+    { english: "motion", chinese: "'məuʃən n.运动打手势提议示意移动动作大便v.运动向...打手势示意" },
+    { english: "whatever", chinese: "wɔt'evə pron.无论什么adj.不管怎样的adv.无论如何不管怎样" },
+    { english: "conscience", chinese: "'kɔnʃəns n.良心道德心责任心顾忌" },
+    { english: "reverse", chinese: "ri'və:svt.颠倒翻转逆转倒退n.背面相反失败挫折adj.反面的相反的颠" },
+    { english: "occurrence", chinese: "ə'kʌrəns n.发生出现事件" },
+    { english: "public", chinese: "'pʌblik adj.公众的公开的众所周知的n.公共场合 公众同好者" },
+    { english: "license", chinese: "'laisns n.许可批准批准执照许可证vt.准许特许" },
+    { english: "colonel", chinese: "'kə:nl n.陆军上校中校" },
+    { english: "each", chinese: "i:tʃ pron.各各自adj.每个每每一adv.每个int.每个个人个自" },
+    { english: "outset", chinese: "'autset n.开始开端" }
+];

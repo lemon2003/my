@@ -1,0 +1,22 @@
+const words = [
+    { english: "section", chinese: "'sekʃən n.切片一段部门零件部分章节区域路段断面vt.划分切开vi.划分" },
+    { english: "straightforward", chinese: "streit’fɔ:wәd a.老实的 ad.坦率地" },
+    { english: "facilitate", chinese: "fә’siliteit vt.使容易；助长" },
+    { english: "divorce", chinese: "di'vɔ:s n.离婚离异vi.离婚与...办离婚" },
+    { english: "shade", chinese: "ʃeid n.荫遮光物荫凉处色度稍微vi.荫蔽遮蔽渐变微减" },
+    { english: "queen", chinese: "'kwi:nn.王后女王最重要的女子或事物女冠军女王蜂vi.立...为女王当" },
+    { english: "charter", chinese: "‘tʃa:tә vt.租 n.宪章；契据" },
+    { english: "aviation", chinese: "eivi’eiʃәn n.飞行" },
+    { english: "municipal", chinese: "mju:’nisip әla.市的，市立的" },
+    { english: "eighth", chinese: "eitθ num.第八n.八分之一" },
+    { english: "sorry", chinese: "'sɔri adj.对不起的抱歉的难过的遗憾的int.对不起" },
+    { english: "entertainment", chinese: "entә’teinmәntn.娱乐,款待,娱乐表演" },
+    { english: "shot", chinese: "ʃɔtn.发射弹丸射门炮弹射击射手努力v.射击发出发芽(shoot的过去" },
+    { english: "emergency", chinese: "i'mə:dʒənsi n.紧急情况突然事件" },
+    { english: "on", chinese: "ɔnprep. 在...上在...旁由...支撑着在(某一天)  使用根据,开" },
+    { english: "chill", chinese: "tʃilvt.  使变冷使...寒心冷冻使...惊恐使泄气vi. 变冷发抖凝固感到寒冷n.  寒冷寒意失意恐惧adj.  寒冷的冷漠的感冒的扫兴" },
+    { english: "white", chinese: "wait adj.白色的白种的纯洁的幸运的n.白色白种人" },
+    { english: "wolf", chinese: "wulf n.狼残暴的人v.狼吞虎咽" },
+    { english: "asleep", chinese: "ə'sli:padj.睡着的睡熟的已死的不活跃的麻木的adv.处于或进入睡眠状" },
+    { english: "contrive", chinese: "kәn’traiv vt.vi. 发明,设计,图谋" }
+];

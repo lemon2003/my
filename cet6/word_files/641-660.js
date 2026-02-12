@@ -1,0 +1,22 @@
+const words = [
+    { english: "interpreter", chinese: "in'tə:pritə n.译员口译者解释程序" },
+    { english: "refrain", chinese: "ri’frein vi.抑制，制止，忍住" },
+    { english: "allowance", chinese: "ә’lauәns n津贴，补助费" },
+    { english: "mouth", chinese: "mauθn. 嘴口口腔开口需要供养的人夸张说话的趋势(河流等)入口容" },
+    { english: "beef", chinese: "bi:f n.牛肉菜牛v.抱怨诉苦" },
+    { english: "headquarters", chinese: "'hed'kwɔ:təz n.司令部指挥部总部" },
+    { english: "resonance", chinese: "‘rɛznәns n. 共鸣,回声,共振" },
+    { english: "widow", chinese: "'widəu n.寡妇遗孀vt.使丧偶" },
+    { english: "ceramic", chinese: "si’ræmik a. 陶器的 n. 陶瓷制品" },
+    { english: "nap", chinese: "næp n.小睡打盹瞌睡绒毛表面vi.小睡疏忽vt.使…起毛" },
+    { english: "injure", chinese: "'indʒə vt.伤害损害损伤使...受冤屈" },
+    { english: "transcend", chinese: "træn’send vt. 超越,胜过" },
+    { english: "leading", chinese: "li:diŋadj.指导的领导的最主要的在前的vbl.领导引领以铅接合n.领导" },
+    { english: "possible", chinese: "'pɔsəbl adj.可能的可能存在的" },
+    { english: "habitual", chinese: "hə'bitjuəl adj.习惯性的惯常的" },
+    { english: "skirt", chinese: "skə:tn.女裙边缘郊区vt.位于...边缘装边于回避绕开vi.形成边缘" },
+    { english: "gulf", chinese: "gʌlf n.海湾" },
+    { english: "quart", chinese: "kwɔ:t n.夸脱(=2品脱)" },
+    { english: "unusually", chinese: "ʌn'ju:ʒuəli adj.不平常地非常异乎寻常地显著地" },
+    { english: "begin", chinese: "bi'gin vi.开始起初是vt.开始意欲作出某事" }
+];

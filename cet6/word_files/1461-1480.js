@@ -1,0 +1,22 @@
+const words = [
+    { english: "us", chinese: "ʌs pron.(we的宾格)我们" },
+    { english: "colonial", chinese: "kә’lәuniәl a.殖民地的，殖民的" },
+    { english: "fond", chinese: "fɔnd adj.喜爱的溺爱的愚蠢的渴望的n.基础" },
+    { english: "sheep", chinese: "ʃi:p n.羊绵羊" },
+    { english: "command", chinese: "kə'mɑ:ndvt.命令指挥控制支配n.命令指挥控制[计算机]DOS命令：引用辅" },
+    { english: "lovely", chinese: "'lʌvli adj.可爱的令人愉快的n.漂亮的女人美好的东西" },
+    { english: "doom", chinese: "du:m n.命运，毁灭 vt.注定" },
+    { english: "towards", chinese: "tə'wɔ:dz prep.向朝关于adj.在即的有希望的=toward" },
+    { english: "sulphur", chinese: "'sʌlfə n.硫(磺)硫黄" },
+    { english: "pilot", chinese: "'pailət n.领航员飞行员引航员vt.领航驾驶向导adj.引导的示范的" },
+    { english: "remainder", chinese: "ri’meind ә n.剩余(物)；余数" },
+    { english: "skeleton", chinese: "‘skelitәn n.骨骼，骷髅；骨架" },
+    { english: "opinion", chinese: "ə'pinjən n.意见看法主张判断" },
+    { english: "hide", chinese: "haid vt. &vi.把...藏起来隐瞒遮避鞭打n.兽皮生活富足度" },
+    { english: "rehearsal", chinese: "ri'hə:sl n.排练彩排排演练习" },
+    { english: "taxi", chinese: "'tæksi n.出租汽车v.用出租车运送乘计程车(飞机)滑行" },
+    { english: "grape", chinese: "greip n.葡萄葡萄藤,深紫色,[军]葡萄弹" },
+    { english: "wit", chinese: "wit n.智力才智智能机智" },
+    { english: "dreadfu", chinese: "‘dredful a.可怕的；令人敬畏的" },
+    { english: "innocent", chinese: "'inəsnt adj.清白的幼稚的无罪的不懂事的无知的无辜的" }
+];

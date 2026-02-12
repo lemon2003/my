@@ -1,0 +1,22 @@
+const words = [
+    { english: "Nutrition", chinese: "nju:’triʃәn n. 营养,营养学" },
+    { english: "ladder", chinese: "'lædə n.梯子阶梯梯状物" },
+    { english: "whisky", chinese: "'wiski n.威士忌酒=whiskey" },
+    { english: "buy", chinese: "bai n.合理的价格购买vt.买购买换得收买接受vi.购买" },
+    { english: "prospect", chinese: "'prɔspekt n.展望前景前程景色v.探勘寻找" },
+    { english: "rupture", chinese: "‘rΛptʃә n. 破裂,决裂 vt.(使)破裂" },
+    { english: "inefficient", chinese: ".ini'fiʃənt adj.效率低的无效率的不称职的无能的" },
+    { english: "quantity", chinese: "'kwɔntiti n.量数量分量大量" },
+    { english: "convenient", chinese: "kən'vi:njənt adj.便利的近便的方便的" },
+    { english: "symmetry", chinese: "‘simitri n.对称(性)，匀称" },
+    { english: "speak", chinese: "spi:k vi.说话发言vt.说讲演说" },
+    { english: "executive", chinese: "ig'zekjutivadj.执行的行政的决策的经营的,执行指令n.执行者主管行政部" },
+    { english: "official", chinese: "ə'fiʃəl adj.官员的官方的正式的有权威的n.官员" },
+    { english: "traditional", chinese: "trə'diʃənəl adj.传统的惯例的" },
+    { english: "weaken", chinese: "'wi:kən vt.削弱弄淡vi.变弱使...弱" },
+    { english: "admission", chinese: "əd'miʃən n.允许进入承认许可入会费" },
+    { english: "prey", chinese: "prei vi.猎物 vi.捕获" },
+    { english: "singer", chinese: "siŋə n.歌唱家歌手鸣禽烧毛工烧毛机Singer：辛格(姓氏)" },
+    { english: "hungry", chinese: "hʌŋgri adj.饥饿的渴望的" },
+    { english: "weekly", chinese: "'wi:kli adj.每周的一周一次的周刊的adv.每周一周一次n.周刊周报" }
+];

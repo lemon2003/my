@@ -1,0 +1,22 @@
+const words = [
+    { english: "burst", chinese: "bə:st n.破裂阵爆发vt. &vi.爆裂突发" },
+    { english: "bosom", chinese: "'buzəm n.胸胸部内心" },
+    { english: "she", chinese: "ʃi: pron.(主格)她" },
+    { english: "used", chinese: "ju:stvi.过去常常adj.使用过的二手的习惯的动词use的过去式和过去" },
+    { english: "watt", chinese: "wɔt n.瓦(特)" },
+    { english: "width", chinese: "widθ n.宽阔广阔宽度" },
+    { english: "pronoun", chinese: "'prəunaun n.代名词" },
+    { english: "surprisingly", chinese: "sə'praiziŋli adv.惊人地(意外地)" },
+    { english: "place", chinese: "pleis n.地方地点住所职位获奖的名次vt.放置任命安排vi.获得名次" },
+    { english: "institution", chinese: ".insti'tju:ʃən n.协会制度习俗机构创立" },
+    { english: "unusual", chinese: "ʌn'ju:ʒuəl adj.不平常的独特的异常的" },
+    { english: "expansion", chinese: "iks'pænʃən n.扩大扩充扩张膨胀" },
+    { english: "diary", chinese: "'daiəri n.日记日记簿" },
+    { english: "precede", chinese: "pri(:)’si:d vt.先于… vi.领先" },
+    { english: "radiation", chinese: ".reidi'eiʃən n.放射发射辐射能" },
+    { english: "yet", chinese: "jet adv.还已经仍然conj.而然而但是" },
+    { english: "pave", chinese: "peiv vt.铺，筑(路等)" },
+    { english: "slow", chinese: "sləu adj.慢的迟钝的adv. 慢慢地v.放慢减速" },
+    { english: "clap", chinese: "klæpvi.拍手砰的一声突然离开vt.拍轻拍轻敲鼓掌击掌急速放置n.拍" },
+    { english: "arc", chinese: "a:k n.弧，弓形物；弧光" }
+];

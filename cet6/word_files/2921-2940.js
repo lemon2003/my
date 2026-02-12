@@ -1,0 +1,22 @@
+const words = [
+    { english: "virtual", chinese: "‘vә:tjuәl a.实际上的，实质上的" },
+    { english: "load", chinese: "ləud vt.装装满装载装填担负给(枪)装子弹n.负载负荷重担装载量" },
+    { english: "scrape", chinese: "skreip vt. &vi. &n.刮擦刮擦声" },
+    { english: "program", chinese: "'prəugræm n.节目单大纲程序计划vt.规划拟定计划制作节目" },
+    { english: "implement", chinese: "‘implimәnt n.工具vt. 实现,使生效,执行" },
+    { english: "review", chinese: "ri'vju: vt.再检查温习检讨评论检阅vi.写评论n.复习检讨回顾评审" },
+    { english: "television", chinese: "'teliviʒən n.电视电视机电视节目电视行业" },
+    { english: "really", chinese: "'riəli adv.真正地实在事实上" },
+    { english: "auxiliary", chinese: "ɔ:g'ziljəri n.帮助者辅助物助动词adj.辅助的附属的附加的" },
+    { english: "bond", chinese: "bɔnd n.联结联系结合公债债券粘结剂粘合剂" },
+    { english: "perfume", chinese: "‘pә:fju:m, p ә:’fju:mn.香味，芳香；香料" },
+    { english: "explicit", chinese: "iks’plisit a.明晰的；直率的" },
+    { english: "memorial", chinese: "mi'mɔ:riəl adj.纪念的追悼的记忆的n.纪念碑(堂)纪念仪式" },
+    { english: "departure", chinese: "di'pɑ:tʃə n.离开出发起程分歧" },
+    { english: "chamber", chinese: "'tʃeimbə n.会议室房间会所室腔vt.装入室中(枪膛)adj.室内演奏的" },
+    { english: "pluck", chinese: "plʌk vt.采摘拉下猛拉拔n.拉猛拉勇气动物内脏" },
+    { english: "spiral", chinese: "‘spaiәrәl a.螺旋(形)的，盘旋的" },
+    { english: "complaint", chinese: "kəm'pleint n.抱怨怨言控告" },
+    { english: "spontaneous", chinese: "spɔn’teinj әsa.自发的；本能的" },
+    { english: "at", chinese: "æt prep.在...里在...时" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "mixture", chinese: "'mikstʃə n.混合混合物" },
+    { english: "diligent", chinese: "'dilidʒənt adj.勤勉的勤奋的用功的" },
+    { english: "suspicion", chinese: "səs'piʃən n.怀疑疑心猜疑" },
+    { english: "solid", chinese: "'sɔlid adj.固体的结实的实心的可靠的n.固体立方体adv.一致地" },
+    { english: "highly", chinese: "'haili adv.高度地很非常" },
+    { english: "compete", chinese: "kəm'pi:t vi.比赛竞争对抗" },
+    { english: "supplement", chinese: "'sʌplimənt,'sʌplim n.补充物补充增刊增补vt.补充增补" },
+    { english: "celebrate", chinese: "'selibreit vt.庆祝歌颂赞美vi.庆祝祝贺颂扬" },
+    { english: "dying", chinese: "daiiŋ adj.垂死的临终的n.死死亡" },
+    { english: "enormous", chinese: "i'nɔ:məs adj.巨大的庞大的" },
+    { english: "correction", chinese: "kə'rekʃən n.改正纠正修改改正的地方" },
+    { english: "offend", chinese: "ə'fend vt.冒犯犯罪vi.犯过错令人不适违反" },
+    { english: "agency", chinese: "'eidʒənsi n.经办代理代理处政府机构" },
+    { english: "Necessitate", chinese: "ni’sesiteit vt. 迫使,使成为必需,需要" },
+    { english: "treasure", chinese: "'treʒə n.财富珍宝vt.珍视" },
+    { english: "war", chinese: "wɔ: n.战争冲突斗争竞争vi.作战斗争" },
+    { english: "inventor", chinese: "in'ventə n.发明者发明家创造者" },
+    { english: "legitimate", chinese: "li’dʒitimit a. 合法的,正当的 vt. 使合法" },
+    { english: "pole", chinese: "pəul n.杆柱极(点)磁极电极vt.跳支撑vi.用篙撑船" },
+    { english: "hell", chinese: "hel n.地狱极大的痛苦" }
+];

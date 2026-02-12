@@ -1,0 +1,22 @@
+const words = [
+    { english: "scold", chinese: "skəuld vi.责骂vt.申斥n.老爱责骂的人训斥" },
+    { english: "gunpowder", chinese: "'gʌn.paudə n.黑色火药有烟火药" },
+    { english: "tomato", chinese: "tə'mɑ:təu n.番茄西红柿" },
+    { english: "mall", chinese: "mɔ:l n.大型购物中心" },
+    { english: "molecule", chinese: "'mɔlikju:l n.分子克分子" },
+    { english: "heating", chinese: "hi:tiŋ n.加热供暖暖气装置adj.加热的供暖的动词heat的现在分词" },
+    { english: "double", chinese: "'dʌbladj.两倍的复制品替身双重角色的演员反转双的双人房adj.两倍的双重的骗人的加量的adv.两倍地双人地翻来覆去地对折地vt." },
+    { english: "airline", chinese: "'eəlain n.航空公司航线" },
+    { english: "swift", chinese: "swiftadj.快的反应快的迅速的n.雨燕线轴n.斯威夫特(人名)adv.快速" },
+    { english: "luggage", chinese: "'lʌgidʒ n.行李皮箱皮包" },
+    { english: "disperse", chinese: "dis’pә:s vt.(使)分散；驱散" },
+    { english: "index", chinese: "'indeks n.索引指数指标指针vt.编入索引中指出vi.编索引" },
+    { english: "cumulative", chinese: "‘kjumjuleitiv a. 累积的" },
+    { english: "vicious", chinese: "‘viʃәs a.邪恶的；恶性的" },
+    { english: "single", chinese: "siŋgladj.单一的独身的单纯的n.单程票单曲单人房单身者vt.单独挑" },
+    { english: "remedy", chinese: "'remidi n.药物治疗法补救vt.治疗补救矫正" },
+    { english: "virgin", chinese: "‘vә:dʒin n.处女 a.处女的" },
+    { english: "downward", chinese: "'daunwəd adj.向下的adv.向下地" },
+    { english: "assure", chinese: "ə'ʃuə vt.使确信向...保证保险保证确信担保" },
+    { english: "dissatisfy", chinese: "dis'sætisfai vi.使不满使不平" }
+];

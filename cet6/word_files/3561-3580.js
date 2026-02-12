@@ -1,0 +1,22 @@
+const words = [
+    { english: "pronounce", chinese: "prə'nauns vt.发...的音宣布断言发表意见" },
+    { english: "sin", chinese: "sin n.罪，罪孽 vi.犯罪" },
+    { english: "thereby", chinese: "'ðɛə'bai adv.因此从而由此" },
+    { english: "missile", chinese: "'misail n.发射物导弹" },
+    { english: "verb", chinese: "və:b n.动词" },
+    { english: "wave", chinese: "weiv n.波波涛波浪波纹vi.波动挥动飘动" },
+    { english: "add", chinese: "æd vt.添加附加掺加增加" },
+    { english: "liberal", chinese: "'libərəladj.心胸宽大的慷慨的无偏见的不拘泥的宽大的开明的n.自由主" },
+    { english: "Outbreak", chinese: "‘autbreik n.(战争、愤怒等)爆发" },
+    { english: "seal", chinese: "si:l n.封蜡印记印章封条海豹vt.封盖印封闭猎海豹" },
+    { english: "brilliant", chinese: "'briljənt adj.光辉的卓越的灿烂的有才气的杰出的n.宝石" },
+    { english: "crude", chinese: "kru:d adj.简陋的天然的未加工的粗鲁的n.原油" },
+    { english: "famous", chinese: "'feiməs adj.著名的出名的一流的" },
+    { english: "multiply", chinese: "'mʌltiplai vt.使增加乘vi.扩大繁衍做乘法adv.多样地多重地" },
+    { english: "cavity", chinese: "‘kæviti n.洞，穴，空腔" },
+    { english: "Britain", chinese: "'britən n.不列颠英国" },
+    { english: "masculine", chinese: "‘ma:skjulin a.男性的；强壮的" },
+    { english: "choke", chinese: "tʃəukvt.(掐住或阻塞气管)使(某人)停止呼吸塞满vi.窒息阻塞n.窒息" },
+    { english: "blood", chinese: "blʌd n.血血液血统仇恨vt.流血" },
+    { english: "climb", chinese: "klaim vt. &vi.攀登爬上升n.攀登(处)" }
+];

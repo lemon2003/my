@@ -1,0 +1,22 @@
+const words = [
+    { english: "restrain", chinese: "ri'strein vt.抑制遏制限制阻止束缚剥夺" },
+    { english: "curve", chinese: "kə:v n.曲线弯弯曲曲球vt.弄弯使...弯曲vi.弯曲" },
+    { english: "picture", chinese: "'piktʃə n.画图片照片景色vt.画描写想像" },
+    { english: "harvest", chinese: "'hɑ:vist n.收获(期)成果收获物收成vt. &vi.收割收获" },
+    { english: "empirical", chinese: "im’pirikәl a.经验主义的" },
+    { english: "continue", chinese: "kən'tinju: vt. &vi.继续连续维持延伸" },
+    { english: "fair", chinese: "fɛəadj.公平的晴朗的美丽的相当的(皮肤毛发等)浅色的白皙的n.展" },
+    { english: "steer", chinese: "stiə vt.&vi.驾驶掌舵引导操纵n.(食用的)公牛暗示" },
+    { english: "token", chinese: "‘tәukәn n.象征；辅币；纪念品" },
+    { english: "Italian", chinese: "i'tæljən adj.意大利n.意大利人" },
+    { english: "sand", chinese: "sænd n.沙沙子沙滩v.撒沙以沙掩盖" },
+    { english: "ingenious", chinese: "in’dʒi:nj әs a.机灵的；精巧制成的" },
+    { english: "marine", chinese: "mə'ri:n adj.海的海上的海事的船舶的航海的n.(海军)士兵或军官海景画" },
+    { english: "recommendatio", chinese: ".rekəmen'deiʃən n.推荐介绍劝告" },
+    { english: "honesty", chinese: "'ɔnisti n.诚实正直" },
+    { english: "until", chinese: "ən'til prep. &conj.直到...为止" },
+    { english: "continent", chinese: "'kɔntinənt n.大陆陆地洲(the Continent)欧洲大陆" },
+    { english: "attack", chinese: "ə'tæk n.攻击评击vt.攻击动手疾病发作vi.发动攻击adj.有计划的攻击" },
+    { english: "bell", chinese: "beln.钟铃门铃钟声花冠吼叫声vt.敲钟使象钟状地张开vi.使呈钟状" },
+    { english: "privacy", chinese: "‘praivәsi n. 隐私,隐居,秘密" }
+];

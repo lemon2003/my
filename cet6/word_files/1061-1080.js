@@ -1,0 +1,22 @@
+const words = [
+    { english: "tar", chinese: "ta: n.柏油，焦油" },
+    { english: "dome", chinese: "dәum n.圆屋顶，拱顶" },
+    { english: "eagle", chinese: "'i:gl n.鹰vt.(高尔夫)鹰击" },
+    { english: "merit", chinese: "'merit n.长处优点功过功绩价值v.博得值得或应得" },
+    { english: "beer", chinese: "biə n.啤酒" },
+    { english: "lately", chinese: "'leitli adv.最近不久前" },
+    { english: "light", chinese: "laitn. 光光线灯光源启发众所周知的通光口眼光adj. 轻的不重要的" },
+    { english: "sleepy", chinese: "'sli:pi adj.想睡的寂静的" },
+    { english: "prominent", chinese: "'prɔminənt adj.实起的突出的杰出的显著的" },
+    { english: "Physiological", chinese: "fiziә’lɔdʒik әla. 生理学的, 生理学上的" },
+    { english: "resent", chinese: "ri’zent vt.对…不满，怨恨" },
+    { english: "such", chinese: "sʌtʃ, sətʃ adj.这样的如此的pron.这样的人或事adv.如此地" },
+    { english: "whom", chinese: "hu:m pron.(who的宾格)谁" },
+    { english: "wisdom", chinese: "'wizdəm n.智慧才智明智至理名言聪明" },
+    { english: "prepare", chinese: "pri'pɛə vt. &vi.准备预备整合" },
+    { english: "barren", chinese: "‘bærәn a.贫瘠的；不妊的" },
+    { english: "available", chinese: "ə'veiləbəl adj.可利用的可得到的有用的有效的通用的" },
+    { english: "statement", chinese: "'steitmənt n.陈述声明" },
+    { english: "conclude", chinese: "kən'klu:d vt.推断出使结束缔结断定得出结论vi.结束作出决定" },
+    { english: "artificial", chinese: ".ɑ:ti'fiʃəl adj.人工的人造的虚伪的武断的娇揉造作的" }
+];

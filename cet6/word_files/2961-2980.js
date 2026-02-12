@@ -1,0 +1,22 @@
+const words = [
+    { english: "assault", chinese: "ә’sɔ:lt vt.袭击；殴打 n.攻击" },
+    { english: "stop", chinese: "stɔp vt.塞住阻止停止停留n.停止车站逗留" },
+    { english: "invariably", chinese: "in’vɛәriәbli ad.不变地，永恒地" },
+    { english: "snowy", chinese: "snəui adj.雪的下雪的多雪的被雪所覆盖着的" },
+    { english: "horsepower", chinese: "'hɔ:spauə n.马力(功率单位)" },
+    { english: "that", chinese: "ðætadj.如此的上文提到的特定的pron.那adv.那样非常conj.引导从" },
+    { english: "fix", chinese: "fiksvt. &vi.使固定决定修理准备n.困境(船只、飞机等的)定方位贿" },
+    { english: "business", chinese: "'biznis n.商业生意事务" },
+    { english: "lease", chinese: "li:s n.租约，契约，租契" },
+    { english: "timetable", chinese: "'taim.teibl n.时间表时刻表课程表" },
+    { english: "soldier", chinese: "'səuldʒə n.(陆军)士兵军人偷懒者,兵蚁vi.当兵" },
+    { english: "value", chinese: "'vælju: n.价值重要性价格(pl)价值观vt.评价估价重视" },
+    { english: "integrate", chinese: "‘intigreit vt.使结合，使并入" },
+    { english: "stay", chinese: "stei vi.停留逗留住n.逗留停留支撑物倚赖的人或事" },
+    { english: "clamp", chinese: "klæmp n.夹子 vt.夹住，夹紧" },
+    { english: "enterprise", chinese: "‘entәpraiz n.企业，事业心" },
+    { english: "mobile", chinese: "'məubailadj.运动的流动的可移动的易变的迁徙的n.(可随风飘动的)悬挂" },
+    { english: "skin", chinese: "skin n.皮皮肤兽皮外皮皮囊v.剥皮削皮adj.色情的" },
+    { english: "whilst", chinese: "wailst conj. &n.当...的时候可是虽然只要" },
+    { english: "prince", chinese: "prins n.王子亲王佼佼者" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "gloomy", chinese: "‘glu:mi a.黑暗的；令人沮丧的" },
+    { english: "cater", chinese: "‘keitә vi.迎合，投合" },
+    { english: "female", chinese: "'fi:meil n.雌性的动植物女子adj.雌的女(性)的凹的" },
+    { english: "vacuum", chinese: "'vækjuəmn.真空空间真空吸尘器adj.真空的产生(利用)真空的v.用吸尘器" },
+    { english: "burden", chinese: "'bə:dn n.担子负担重担装载量v.使负重装载烦扰" },
+    { english: "attach", chinese: "ə'tætʃ vt.缚系贴附加使依恋" },
+    { english: "cherish", chinese: "‘tʃeriʃ vt.珍爱；怀有(感情)" },
+    { english: "misunderstand", chinese: "'misʌndə'stænd vt.误解误会曲解" },
+    { english: "surround", chinese: "sə'raund vt.围围绕圈住包围环绕n.环绕物" },
+    { english: "relative", chinese: "'relətiv adj.有关系的相对的比较的涉及到的n.亲属同类事物相关物" },
+    { english: "notice", chinese: "'nəutis vt.注意通知留心n.通知注意布告" },
+    { english: "instance", chinese: "'instəns n.例子实例事例阶段情况诉讼程序vt.举例说明" },
+    { english: "conform", chinese: "kәn’fɔ:m vt.使遵守 vi.一致" },
+    { english: "shrewd", chinese: "ʃru:d a. 精明的,敏锐的,机灵的" },
+    { english: "inside", chinese: "'in'said prep.在...里面n.内部adj.里面的adv.在里面" },
+    { english: "storage", chinese: "'stɔridʒ n.贮藏贮藏量存储保管保管费仓库" },
+    { english: "humour", chinese: "'hju:mə n.幽默诙谐幽默感体液vi.纵容迁就=humor(美)" },
+    { english: "centre", chinese: "'sentə n.中心中枢聚集点vt.集中置于中央关注于vi.居中" },
+    { english: "discover", chinese: "dis'kʌvə vt. &vi.发现暴露显示" },
+    { english: "worse", chinese: "wə:s adj.更坏的更差的adv.更坏以更坏的方式变得更坏n.更坏的事物" }
+];

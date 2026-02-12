@@ -1,0 +1,22 @@
+const words = [
+    { english: "observation", chinese: ".ɔbzə'veiʃən n.注意观察观察力评论adj.被设计用来观察的" },
+    { english: "reasonable", chinese: "'ri:znəbl adj情合理的公道的适度的通情达理的" },
+    { english: "rake", chinese: "reik n.耙子集赌金工具向船尾的倾斜vi.耙用耙子搜索向船尾了望" },
+    { english: "code", chinese: "kəud n.码密码法规准则法典代码vt.把...编码制成法典" },
+    { english: "lightly", chinese: "'laitli adv.轻轻地轻松地轻快地轻蔑地轻率地轻微地" },
+    { english: "brim", chinese: "brim n.边边缘帽沿v.(装)满(使)溢出" },
+    { english: "forget", chinese: "fə'get vt. &vi.忘记遗忘忽略" },
+    { english: "substantial", chinese: "səb'stænʃəl adj.物质的坚固的实质的可观的大量的n.重要部份本质" },
+    { english: "India", chinese: "'indiə n.印度" },
+    { english: "metre", chinese: "'mi:tə n.米公尺计量器(诗的)韵律格律=meter(美)" },
+    { english: "basin", chinese: "'beisən n.盆洗脸盆盆地流域水池" },
+    { english: "island", chinese: "'ailənd n.岛岛屿孤立体vt.建成岛屿隔离" },
+    { english: "committee", chinese: "kə'miti n.委员会全体委员" },
+    { english: "afternoon", chinese: "'ɑ:ftə'nu:n n.下午午后int.下午好" },
+    { english: "embarrass", chinese: "im'bærəs vt.使窘迫使为难阻碍vi.变得困窘" },
+    { english: "script", chinese: "skript n. 手迹,手稿,剧本,字母表" },
+    { english: "interpretation", chinese: "in.tə:pri'teiʃən n.解释口译翻译演出" },
+    { english: "cart", chinese: "kɑ:tn.(二轮或四轮)运货马车手推车vt.用马车装载用手提(笨重物" },
+    { english: "monitor", chinese: "'mɔnitə n.班长监视器监听员,显示器v.监视监听监督" },
+    { english: "fashionable", chinese: "'fæʃənəbl adj.流行的时髦的" }
+];

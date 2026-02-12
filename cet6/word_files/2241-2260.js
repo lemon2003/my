@@ -1,0 +1,22 @@
+const words = [
+    { english: "preparation", chinese: ".prepə'reiʃən n.准备预备制备" },
+    { english: "maybe", chinese: "'meibi adv.大概或许也许n.不确定性" },
+    { english: "intrigue", chinese: "in’tri:g n.阴谋vi.密谋,耍诡计vt.激起兴趣" },
+    { english: "verify", chinese: "'verifai vt.证实查证证明核实" },
+    { english: "portable", chinese: "'pɔ:təbl adj.轻便的手提的n.便携的东西" },
+    { english: "hall", chinese: "hɔ:l n.门厅过道会堂礼堂" },
+    { english: "organic", chinese: "ɔ:'gænik adj.有机体的器官的根本的接近自然的n.有机物质" },
+    { english: "approve", chinese: "ə'pru:v vt.赞成称许批准核准证实vi.赞同" },
+    { english: "pipeline", chinese: "'paip.lain n.管道管线" },
+    { english: "straight", chinese: "streitadj.直的正直的准的坦率的连续的异性恋的adv.直直接笔直地平" },
+    { english: "wreck", chinese: "rek n.失事残骸vt.破坏使遇难使失事遇难" },
+    { english: "aeroplane", chinese: ".eərə.plein n.飞机" },
+    { english: "infect", chinese: "in'fekt vt.传染感染" },
+    { english: "nowhere", chinese: "'nəuwɛə adv.任何地方都不n.不知道的地方无处" },
+    { english: "reach", chinese: "ri:tʃ vt.抵达到达伸出延伸取得联系vi.达到延伸n.延伸范围河段" },
+    { english: "heighten", chinese: "‘haitn vt.加高，提高；增加" },
+    { english: "landing", chinese: "lændiŋ n.上岸登陆着陆楼梯平台动词land的现在分词" },
+    { english: "obviously", chinese: "'ɔbviəsli adv.明显地显然地" },
+    { english: "mortal", chinese: "‘mɔ:tl a.终有一死的；致死的" },
+    { english: "Grant", chinese: "grɑ:nt n.格兰特(男子名)" }
+];

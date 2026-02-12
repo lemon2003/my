@@ -1,0 +1,22 @@
+const words = [
+    { english: "prior", chinese: "'praiəadj.在先的优先的更重要的较早的adv.居先n.小修道院院长大修" },
+    { english: "subsidiary", chinese: "sәb’sidjәri a.辅助的，补充的" },
+    { english: "strawberry", chinese: "'strɔ:bəri n.草莓" },
+    { english: "hinder", chinese: "‘hindә, ‘haind әa. 后面的 vt.vi. 阻碍,打扰" },
+    { english: "expect", chinese: "iks'pekt vt.预料预期等待盼望" },
+    { english: "likewise", chinese: "'laikwaiz ad.同样地也又此外(表示感觉相同)我也是" },
+    { english: "feasible", chinese: "'fi:zəbl adj.可行的可能的" },
+    { english: "fossil", chinese: "‘fɔsl n.化石 a.化石的" },
+    { english: "discuss", chinese: "di'skʌs vt.讨论谈论论述" },
+    { english: "booth", chinese: "bu:θ n.货摊公用电话亭小间" },
+    { english: "identification", chinese: "aidentifi’keiʃәn n.认出，鉴定；身份证" },
+    { english: "quiz", chinese: "kwiz n.小型考试(随堂)测验恶作剧古怪的人vt.恶作剧提问" },
+    { english: "title", chinese: "'taitl n.标题题目称号头衔称号vt.予称号加标题于adj.标题的" },
+    { english: "atomic", chinese: "ə'tɔmik adj.原子的原子能的" },
+    { english: "sex", chinese: "seks n.性别性性欲vt.区别...性别引起...性欲" },
+    { english: "render", chinese: "'rendəvt.表示给予使得使成为提供报答着色执行实施vi.给予补偿n.交" },
+    { english: "sun", chinese: "sʌn n.太阳日阳光中心人物像太阳般的东西v.晒太阳" },
+    { english: "junction", chinese: "‘dʒΛŋkʃәn n.连接；接头；中继线" },
+    { english: "dictionary", chinese: "'dikʃəneri n.词典字典辞典" },
+    { english: "port", chinese: "pɔ:t n.港港口舱门码头机场(船飞机的)左舷" }
+];

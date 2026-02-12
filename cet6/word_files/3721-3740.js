@@ -1,0 +1,22 @@
+const words = [
+    { english: "client", chinese: "‘klaiәnt n.顾客；诉讼委托人" },
+    { english: "slice", chinese: "slais n.薄片切片薄的切片部分锅铲vt.切成薄片大幅降低" },
+    { english: "stability", chinese: "stə'biliti n.稳定稳定性巩固居于修道院" },
+    { english: "January", chinese: "'dʒænjuəri n.一月" },
+    { english: "ripen", chinese: "'raipən vt.使成熟vi.成熟" },
+    { english: "seventh", chinese: "'sevnθ num.第七七分之一n.第七七分之一adj.第七的adv.第七" },
+    { english: "recipient", chinese: "ri’sipiәnt n. 接受者，接收者" },
+    { english: "glare", chinese: "glɛә vi.瞪眼 n.瞪眼" },
+    { english: "salad", chinese: "'sæləd n.色拉凉拌生菜杂烩莴苣生菜" },
+    { english: "secretary", chinese: "'sekrətri n.秘书书记大臣部长写字台" },
+    { english: "agree", chinese: "ə'gri: vt.同意赞成承认vi.同意持相同意见一致符合" },
+    { english: "substance", chinese: "'sʌbstəns n.物质实质本旨内容重要性财产" },
+    { english: "calculate", chinese: "'kælkjuleit vt.计算估计考虑推测计划vi.计算预测依赖" },
+    { english: "fold", chinese: "fəuldvt.折叠合拢包交叉拥抱vi.翻倍彻底失败倒闭n.褶折层折痕羊栏" },
+    { english: "off", chinese: "ɔ:fadv.(离)开(停)止出发距离隔断分割不继续运行下台adj.远的休" },
+    { english: "purity", chinese: "‘pjuәriti n.纯净；纯洁；纯度" },
+    { english: "incorporate", chinese: "in’kɔ:pәreit vt.结合，合并，收编" },
+    { english: "science", chinese: "'saiəns n.科学科学研究" },
+    { english: "violence", chinese: "'vaiələns n.猛烈激烈暴力强暴暴行" },
+    { english: "lung", chinese: "lʌŋ n.肺脏肺呼吸器官" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "drown", chinese: "draun vi.淹死溺死vt.淹死沉浸于" },
+    { english: "follow", chinese: "'fɔləu vt.跟随沿行遵循听得懂结果是vi.跟着做之后是n.跟随" },
+    { english: "statistics", chinese: "stә’tistiks n.统计，统计数字" },
+    { english: "world", chinese: "wə:ld n.世界世人世间地球领域adj.世界的" },
+    { english: "sentence", chinese: "'sentəns n.判决句子意见宣判刑罚命题vt.宣判判决使遭受" },
+    { english: "lend", chinese: "lend vt.把...借给贷(款)给予增添vi.贷款" },
+    { english: "factor", chinese: "'fæktə n.因素因子系数vt.把…因素包括进去vi.作为因素" },
+    { english: "adverb", chinese: "'ædvə:b n.副词adj.副词的" },
+    { english: "encounter", chinese: "in'kauntə vt. &vi.遭遇遇到偶然碰到n.遭遇意外的相见" },
+    { english: "converge", chinese: "kәn’vә:dʒ vi. 聚合,集中于一点" },
+    { english: "switch", chinese: "switʃ n.开关转换鞭子vt.转换改变交换鞭打n.(女用)假发" },
+    { english: "harden", chinese: "'hɑ:dn vt.使变硬(使)坚强vi.变硬" },
+    { english: "bolt", chinese: "bəultn.螺栓螺钉插销门闩突发剑弩闪电vt.闩门闩住用螺栓固定在一" },
+    { english: "book", chinese: "buk n.书书籍vt.预定登记vi.通过...预订" },
+    { english: "oral", chinese: "'ɔ:rəl adj.口头的口的n.口试" },
+    { english: "within", chinese: "wi'ðin prep.在...里面adv.在内n.里面adj.在里面的" },
+    { english: "chat", chinese: "tʃæt n. 闲谈 vi. 闲谈,聊天" },
+    { english: "widespread", chinese: "'waidspred adj.分布(或散布)广的普遍的" },
+    { english: "also", chinese: "'ɔ:lsəu adv.亦也而且还同样地" },
+    { english: "whistle", chinese: "'wisln.口哨汽笛厂笛啸啸声用于召唤或发布命令的哨声吹口哨vi.吹" }
+];

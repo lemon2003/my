@@ -1,0 +1,22 @@
+const words = [
+    { english: "suspect", chinese: "səs'pekt vt.怀疑猜想vi.疑心猜想n.嫌疑犯adj.令人怀疑的不可信的" },
+    { english: "gross", chinese: "grəus adj.总的粗鲁的严重的过胖的n.总量vt.总共赚得" },
+    { english: "mankind", chinese: "mæn'kaind n.人类男人" },
+    { english: "arrive", chinese: "ə'raiv vi.到达来临达到成功" },
+    { english: "health", chinese: "helθ n.健康健康状况卫生保健" },
+    { english: "sailor", chinese: "'seilə n.水手海员水兵扁平的硬边草帽" },
+    { english: "start", chinese: "stɑ:tvi.跳起出发开始起身vt.开始使震惊n.起点震动领先优势起推动" },
+    { english: "foot", chinese: "futn.脚最下部英尺山脚最底部一步长音步进程vi.跳舞步行vt.表演" },
+    { english: "quest", chinese: "kwest vt.寻找 vi.追求" },
+    { english: "silk", chinese: "silk n.蚕丝丝绸丝织品adj.丝的" },
+    { english: "instead", chinese: "in'sted adv.代替顶替反而" },
+    { english: "scheme", chinese: "ski:m n.计划规划方案诡计阴谋v.计画设计体系结构图谋" },
+    { english: "hitherto", chinese: "‘hiðә’tu: ad.迄今，到目前为止" },
+    { english: "view", chinese: "vju: n.看视力风景视野见解方法检查" },
+    { english: "clarify", chinese: "'klærifai vt.澄清阐明使...明晰" },
+    { english: "cold", chinese: "kəuldadj.冷的冷淡的漠然的客观的n.冷感冒低温adv.唐突地无回旋余" },
+    { english: "visualize", chinese: "‘vizjuәlaiz vt.使看得见,具体化,想象,设想" },
+    { english: "doubtful", chinese: "'dautfəl adj.难以预测的怀疑的疑心的不确定的" },
+    { english: "contact", chinese: "'kɔntækt vt.使接触与...联系n.接触联系联系人adj.接触的" },
+    { english: "adventure", chinese: "əd'ventʃə n.冒险奇遇惊险活动vt.冒险尝试vi.大胆进行冒险" }
+];

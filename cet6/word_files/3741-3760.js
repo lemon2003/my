@@ -1,0 +1,22 @@
+const words = [
+    { english: "ice", chinese: "ais n.冰冰块矜持vt.冰镇冰冻结冰" },
+    { english: "could", chinese: "kud aux.v.(can的过去式)" },
+    { english: "prevalent", chinese: "‘prevәlәnt a.流行的；盛行的" },
+    { english: "awfully", chinese: "'ɔ:fuli adv.令人畏惧的很可怕地非常地极端地" },
+    { english: "sunshine", chinese: "'sʌnʃain n.(直射)日光阳光" },
+    { english: "suit", chinese: "sju:t n.起拆诉讼请求套装vt.适合取悦满足" },
+    { english: "cattle", chinese: "'kætl n.牛牲口家畜畜牲(复数)" },
+    { english: "various", chinese: "'vɛəriəs adj.各种各样的不同的" },
+    { english: "subscribe", chinese: "sәb’skraib vi.订购，认购；预订" },
+    { english: "utility", chinese: "ju:'tiliti n.效用实用实用品公共设施公用程序adj.多效用的多功能的" },
+    { english: "warmth", chinese: "wɔ:mθ n.暖和温暖热烈热情热心" },
+    { english: "evening", chinese: "i:vniŋ n.傍晚黄昏晚上" },
+    { english: "April", chinese: "'eiprəl n.四月" },
+    { english: "in", chinese: "in prep.在...里在穿着(表示状态或状况)参与在...方面adv.进入" },
+    { english: "provided", chinese: "prə'vaidid conj.假如若是以...为条件adj.预备好的由...供给的" },
+    { english: "deviate", chinese: "‘di:vieit vt.(使)背离，偏离" },
+    { english: "loop", chinese: "lu:pn.圈环环孔弯曲部份回路vt.使...成环以圈结以环连结vi.形成" },
+    { english: "stagger", chinese: "‘stægә vi.蹒跚 vt.使摇晃" },
+    { english: "aboard", chinese: "ə'bɔ:d adv.在船(车)上在火车上在飞机上prep.上船上飞机上车" },
+    { english: "accent", chinese: "'æksənt n.口音腔调重音强调vt.重读强调" }
+];

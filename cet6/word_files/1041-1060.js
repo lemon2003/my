@@ -1,0 +1,22 @@
+const words = [
+    { english: "manual", chinese: "'mænjuəl adj.体力的手工的n.手册指南键盘" },
+    { english: "building", chinese: "bildiŋ n.建筑物大楼建筑" },
+    { english: "renaissance", chinese: "rә’neisәns n. 复活,复兴,文艺复兴" },
+    { english: "university", chinese: ".ju:ni'və:siti n.大学综合性大学" },
+    { english: "knife", chinese: "naif n.小刀刀餐刀v.用刀切割如刀割般" },
+    { english: "laboratory", chinese: "'læbrətɔ:ri n.实验室研究室实验大楼" },
+    { english: "class", chinese: "klɑ:s n.班班级(等)阶级种类vt.分类" },
+    { english: "senator", chinese: "‘senәtә n.参议员；评议员" },
+    { english: "leather", chinese: "'leðə n.皮革皮革制品adj.皮革制的vt.用皮革覆盖鞭打" },
+    { english: "ski", chinese: "ski: n.滑橇滑雪滑雪板vi.滑雪adj.滑雪(用)的" },
+    { english: "shower", chinese: "'ʃauən.阵雨(一)阵淋浴vi.倾盆而下淋浴vt.淋湿下骤雨使(大量东西)" },
+    { english: "vital", chinese: "'vaitl adj.生命的有生命力的至关重要的生死攸关的有活力的" },
+    { english: "actor", chinese: "'æktə n.男演员演剧的人" },
+    { english: "mask", chinese: "mɑ:sk n.面具伪装口罩掩饰面膜vt.掩饰戴面具化装[计]掩码" },
+    { english: "construct", chinese: "'kɔnstrʌkt,kən'strʌ vt.建造建设构筑绘制想出n.构想建造物" },
+    { english: "cough", chinese: "kɔf vt. &vi.咳咳嗽n.咳嗽" },
+    { english: "alone", chinese: "ə'ləun adj.单独的仅仅独自一人adv.单独地只有独一无二地" },
+    { english: "beach", chinese: "bi:tʃ n.海滩湖滩河滩vt.拖(船)上岸" },
+    { english: "Italy", chinese: "'itəli n.意大利" },
+    { english: "ride", chinese: "raid n. 乘坐乘车骑马搭便车vi.骑骑马乘车乘坐经受住" }
+];

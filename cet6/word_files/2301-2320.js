@@ -1,0 +1,22 @@
+const words = [
+    { english: "treason", chinese: "'tri:zn n.谋反通敌叛国罪叛逆背叛" },
+    { english: "splash", chinese: "splæʃ vt.溅泼 vi.泼水 n.溅" },
+    { english: "insufficient", chinese: ".insə'fiʃənt adj.不足的不适当的" },
+    { english: "Overt", chinese: "‘әuvә:t a. 明显的,公然的" },
+    { english: "invasion", chinese: "in'veiʒən n.入侵侵略侵犯" },
+    { english: "puff", chinese: "pʌfn.(一)喷(一)吹一阵喷烟粉扑泡夫vt.喷出喘息夸张膨胀vi.喷出" },
+    { english: "politics", chinese: "'pɔlitiks n.政治政治学政纲政策政治活动政见" },
+    { english: "failure", chinese: "'feiljə n.失败失败的人或事" },
+    { english: "ten", chinese: "ten num.十十个" },
+    { english: "whole", chinese: "həul adj.完整的全部的整体的n.全部完整整体adv.完全" },
+    { english: "group", chinese: "gru:p n.小组群团团体vt. &vi.聚合成群聚集" },
+    { english: "brown", chinese: "braun (姓)布朗adj.褐色的棕色的n.褐色棕色" },
+    { english: "blame", chinese: "bleim n.过失责备vt.责备把...归咎于" },
+    { english: "texture", chinese: "‘tekstʃә n. 质地，纹理" },
+    { english: "criterion", chinese: "krai’tiәri әn n.标准，准则，尺度" },
+    { english: "lounge", chinese: "laundʒ n.(旅馆等的)休息室" },
+    { english: "brighten", chinese: "'braitn vt.使发光使快活使变亮使生辉vi.发光发亮" },
+    { english: "content", chinese: "'kɔntent,kən'tent n.内容目录容量adj.满足的满意的vt.使...满足使...安心" },
+    { english: "tide", chinese: "taid n.潮潮汐潮流潮水趋势" },
+    { english: "activate", chinese: "‘æktiveit vt. 刺激,使活动" }
+];

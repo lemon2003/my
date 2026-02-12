@@ -1,0 +1,22 @@
+const words = [
+    { english: "by", chinese: "baiprep.在...旁被由经由在...之前根据adv.靠近经过放在一旁地" },
+    { english: "commence", chinese: "kә’mens vt.开始 vi.获得学位" },
+    { english: "stoop", chinese: "stu:p vi.俯身弯下弯下上身屈服n.弯腰佝偻屈服" },
+    { english: "impress", chinese: "im'pres vt.给...深刻印象影响印刻传送vi.给人印象n.印象特徵印记" },
+    { english: "snack", chinese: "snæk n.快餐，小吃" },
+    { english: "envy", chinese: "'envi vt. &vi. &n.妒忌嫉妒羡慕" },
+    { english: "bring", chinese: "briŋ vt.带来引出促使劝诱vi.产生" },
+    { english: "pretty", chinese: "'pritiadj.漂亮的标致的机灵的恰当的美好的adv.相当地n.(复数)妇女" },
+    { english: "labour", chinese: "'leibə n.劳动工作劳工Labour(英国)工党" },
+    { english: "imaginary", chinese: "i'mædʒinəri adj.想象中的假想的虚构的" },
+    { english: "button", chinese: "'bʌtnn.扣子按钮像纽扣的东西未成熟的蘑菇按钮vt.扣紧用纽扣装饰" },
+    { english: "cucumber", chinese: "'kju:kəmbə n.黄瓜" },
+    { english: "margin", chinese: "'mɑ:dʒin n.页边的空白边缘差额利润vt.使围绕于加边缘" },
+    { english: "coin", chinese: "kɔin n.硬币金钱货币铸造(硬币)vt.制造钱币创造adj.与硬币有关的" },
+    { english: "prose", chinese: "prәuz n.散文" },
+    { english: "species", chinese: "‘spi:ʃi:z n.种，物种；种类" },
+    { english: "clothing", chinese: "kləuðiŋ n.(总称)衣服被褥" },
+    { english: "concentration", chinese: ".kɔnsen'treiʃən n.集中专心专注浓缩 浓度" },
+    { english: "day", chinese: "dei n.(一)天白昼白天" },
+    { english: "Mediterranean", chinese: ".meditə'reinjən n.地中海adj.地中海(的)" }
+];

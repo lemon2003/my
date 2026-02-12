@@ -1,0 +1,22 @@
+const words = [
+    { english: "loudly", chinese: "'laudli adv.大声地高声地花俏地" },
+    { english: "thrust", chinese: "θrʌst vt.插刺推挤n.插讽刺推力刺力推" },
+    { english: "liberty", chinese: "'libəti n.自由释放许可" },
+    { english: "indispensable", chinese: ".indis'pensəbl adj.必不可少的必需的" },
+    { english: "bit", chinese: "bitn.一点少量一些小片钻头马嚼子辅币位比特(二进位制信息单" },
+    { english: "prophet", chinese: "‘prɔfit n.预言家，先知" },
+    { english: "team", chinese: "ti:m n.队组vt.协同工作vi.结成一队adj.团队的" },
+    { english: "eighty", chinese: "'eiti num.八十八十个" },
+    { english: "basis", chinese: "'beisis n.基础根据主要成分" },
+    { english: "grab", chinese: "græb vt.&vi.攫取，抓取" },
+    { english: "hateful", chinese: "'heitfəl adj.可恨的可恶的" },
+    { english: "means", chinese: "mi:nz n.方法手段工具折中点物质财富" },
+    { english: "autonomy", chinese: "ɔ:’tɔnәmi n. 自治" },
+    { english: "elaborate", chinese: "i'læbəreitadj.复杂的精心制作的精细的详尽的精心的v.详细地说明用心地" },
+    { english: "fax", chinese: "fæks n. 传真 vt. 传真" },
+    { english: "Portugal", chinese: "'pɔ:tjugəl n.葡萄牙" },
+    { english: "minister", chinese: "'ministə n.部长大臣公使vi.照顾给予帮助" },
+    { english: "messenger", chinese: "‘mesindʒ ә n.送信者，信使" },
+    { english: "digest", chinese: "dai'dʒest vt.消化领会理解vi.消化n.文摘摘要" },
+    { english: "probe", chinese: "prәub n.探针 vt.用探针探查" }
+];

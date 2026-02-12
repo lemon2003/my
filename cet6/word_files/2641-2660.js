@@ -1,0 +1,22 @@
+const words = [
+    { english: "veteran", chinese: "'vetərən n.老兵老手adj.老练的" },
+    { english: "army", chinese: "'ɑ:mi n.军队陆军大群" },
+    { english: "seed", chinese: "si:d n.种(子)籽萌芽vi.(植物)结实播种vt.播种" },
+    { english: "greet", chinese: "gri:t vt.问候招呼反应致敬欢迎映入眼帘" },
+    { english: "big", chinese: "bigadj.大的巨大的重要的adv.以郑重的方式大数量n.杰出的组织和" },
+    { english: "arrest", chinese: "ə'rest n.逮捕监禁vt.逮捕拘留阻止妨碍吸引" },
+    { english: "surgery", chinese: "'sə:dʒəri n.外科外科手术诊所" },
+    { english: "acquaint", chinese: "ә’kweint vt.使认识，使了解" },
+    { english: "overlap", chinese: "әuvә’læp vt.与…交搭 vi.重迭" },
+    { english: "era", chinese: "'iərə n.时代年代纪元" },
+    { english: "applicable", chinese: "'æplikəbəl adj.能应用的适当的合适的" },
+    { english: "agreeable", chinese: "ә’griәbl a.惬意的；同意的" },
+    { english: "road", chinese: "rəud n.路道路公路" },
+    { english: "telephone", chinese: "'telifəun n.电话vi.打电话" },
+    { english: "halt", chinese: "hɔ:lt vi.停止立定跛行犹豫畏缩vt.使...停止n.停住adj.瘸的" },
+    { english: "inland", chinese: "‘inlәnd, in’lænd a.国内的；内地的" },
+    { english: "notion", chinese: "‘nәuʃәn n.概念，意念；看法" },
+    { english: "suggest", chinese: "sə'dʒest vt.建议暗示启发要求" },
+    { english: "nothing", chinese: "nʌθiŋ n.没有东西微不足道的人或事adv.毫不pron.什么也没有" },
+    { english: "installment", chinese: "in’stɔ:lm әnt n.分期付款" }
+];

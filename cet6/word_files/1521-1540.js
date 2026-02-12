@@ -1,0 +1,22 @@
+const words = [
+    { english: "exceptional", chinese: "ik’sepʃәnl a.例外的；优越的" },
+    { english: "hay", chinese: "hei n.干草" },
+    { english: "assignment", chinese: "ə'sainmənt n.分配功课任务被指定的(课外)作业委派" },
+    { english: "try", chinese: "trai vt.试尝试试验审问审判考验vi.尝试试验n.尝试试验" },
+    { english: "campus", chinese: "'kæmpəs n.校园学校场地" },
+    { english: "delicate", chinese: "'delikitadj.纤细的易碎的精美的微妙的美味的脆弱的敏锐的n.精美的东" },
+    { english: "optimistic", chinese: ".ɔpti'mistik adj.乐观的乐观主义的" },
+    { english: "X-ray", chinese: "'eksrei n.X射线X光X光机X光照片vt.用X射线检查" },
+    { english: "arrival", chinese: "ə'raivəl n.到达到来到达者" },
+    { english: "heroine", chinese: "'herəuin n.女主角女英雄" },
+    { english: "turn", chinese: "tə:n vt.转翻vi.转动旋转转向轮流翻转n.转动轮流" },
+    { english: "calculator", chinese: "'kælkju.leitə n.计算器计算者" },
+    { english: "accuse", chinese: "ə'kju:z vt.指责责备控告归咎于" },
+    { english: "rational", chinese: "'ræʃənəl adj.理性的合理的出于理性的能推理的n.有理数" },
+    { english: "acre", chinese: "'eikə n.英亩(=6.07亩)" },
+    { english: "unique", chinese: "ju:'ni:k adj.唯一的独一无二的独特的稀罕的" },
+    { english: "not", chinese: "nɔt adv.不没有" },
+    { english: "scent", chinese: "sentn.气味香味痕迹香水vt.闻出发觉使充满味道得到...的暗示vi." },
+    { english: "suspension", chinese: "sәs’penʃәn n. 悬挂,暂停,中止" },
+    { english: "aside", chinese: "ə'said n.旁白顺便说的话adv.在旁边到旁边在一边另外离开" }
+];

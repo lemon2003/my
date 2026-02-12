@@ -1,0 +1,22 @@
+const words = [
+    { english: "cling", chinese: "kliŋ vi.粘住；依附；坚持" },
+    { english: "numerical", chinese: "nju’merik әla.数字的，数值的" },
+    { english: "twin", chinese: "twin adj.孪生的n.孪生儿双胞胎之一" },
+    { english: "gorgeous", chinese: "‘gɔ:dʒәs a.绚丽的；极好的" },
+    { english: "fame", chinese: "feim n.名声名望vt.使有名望" },
+    { english: "lighten", chinese: "'laitn vt.照亮使明亮点亮变亮减轻" },
+    { english: "welfare", chinese: "'welfɛə n.幸福福利福利事业adj.福利的" },
+    { english: "term", chinese: "tə:m n.期学期条件词术语名词期限条款vt.把...称为" },
+    { english: "whirl", chinese: "wә:l vt.使回旋 vi.&n.回旋" },
+    { english: "limitation", chinese: ".limi'teiʃən n.限制限度局限" },
+    { english: "consolidate", chinese: "kәn’sɔlideit vt.巩固 vi.合并" },
+    { english: "damp", chinese: "dæmp adj.潮湿的有湿气的n.毒气湿气丧气vt.呛抑制使潮湿vi.衰减" },
+    { english: "go", chinese: "gəu vi.去走变为进行放通往消失vt.走过称重" },
+    { english: "confer", chinese: "kәn’fә: vt. 赠予,协议 vi. 协商" },
+    { english: "disappoint", chinese: ".disə'pɔint vt. &vi.使失望使受挫折" },
+    { english: "conscious", chinese: "'kɔnʃəs adj.意识到的神志清醒的意识到的自觉的有意的n.意识" },
+    { english: "brand", chinese: "brænd n.燃烧的木条剑商品商标牌子烙印类型vt.铭刻打烙印污蔑" },
+    { english: "opponent", chinese: "ə'pəunənt n.对手敌手对抗者反对者adj.敌对的反对的" },
+    { english: "worm", chinese: "wə:m n.虫蠕虫可鄙之人[计]蠕虫病毒螺纹v.蠕动驱虫慢慢探听出" },
+    { english: "typewriter", chinese: "'taip.raitə n.打字机打字员" }
+];

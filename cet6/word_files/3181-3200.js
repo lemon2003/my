@@ -1,0 +1,22 @@
+const words = [
+    { english: "stake", chinese: "steik n.桩赌金赌注利害关系奖品v.下注用桩支撑" },
+    { english: "milk", chinese: "milk n.乳乳状物牛奶vt.挤(奶)产乳" },
+    { english: "budget", chinese: "‘bΛdʒit n.预算，预算案" },
+    { english: "dispose", chinese: "di'spəuz vi.去掉丢掉销毁vt.倾向于处置" },
+    { english: "magazine", chinese: ".mægə'zi:n n.杂志期刊" },
+    { english: "excess", chinese: "ik'ses n.超越过量过度adj.过量的额外的" },
+    { english: "well", chinese: "weln.井源泉楼梯井adj.健康的良好的适宜的adv.很好地适当地完全" },
+    { english: "wide", chinese: "waid adj.宽阔的广泛的adv.全部地广大地" },
+    { english: "gentleman", chinese: "'dʒentlmən n.绅士先生有教养的人" },
+    { english: "territory", chinese: "'teritəri n.领土版图领域范围" },
+    { english: "enough", chinese: "i'nʌf adj.足够的adv.足够地完全地pron.足够受够" },
+    { english: "mislead", chinese: "mis'li:d vt.使误入岐途误导使产生错误印象欺骗" },
+    { english: "record", chinese: "'rekɔ:d,ri'kɔ:d n.记录纪录履历唱片vt.记录(将声音等)录下表明adj.关于" },
+    { english: "classify", chinese: "'klæsifai vt.把...分类分类归类" },
+    { english: "measure", chinese: "'meʒə vt.量测量n.分量措施办法量度尺寸" },
+    { english: "arrange", chinese: "ə'reindʒ vt.筹备整理调解安排计划改编(乐曲)vi.协商计划" },
+    { english: "timely", chinese: "‘taimli a.及时的；适时的" },
+    { english: "genius", chinese: "'dʒi:njəs n.天才天赋天资高智力" },
+    { english: "defeat", chinese: "di'fi:t vt.战胜击败挫败n.败北失败" },
+    { english: "logic", chinese: "'lɔdʒik n.逻辑(学)(合理的)推理逻辑性" }
+];

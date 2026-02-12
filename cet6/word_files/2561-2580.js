@@ -1,0 +1,22 @@
+const words = [
+    { english: "topic", chinese: "'tɔpik n.题目论题话题" },
+    { english: "fry", chinese: "frai vt.油煎油炸油炒炸焦vi.油炸烧焦n.(美)法式炸薯条" },
+    { english: "cancer", chinese: "'kænsə n.癌癌症肿瘤巨蟹座" },
+    { english: "dock", chinese: "dɔkn.船坞码头(造)修船厂尾巴的骨肉部分被告席vt.进港(减)剪短" },
+    { english: "antique", chinese: "æn’ti:k a.古代的 n.古物" },
+    { english: "heir", chinese: "ɛә n.后嗣，继承人" },
+    { english: "few", chinese: "fju: adj.很少的少数的pron.少数n.少量" },
+    { english: "ample", chinese: "‘æmpl a.足够的；宽敞的" },
+    { english: "prison", chinese: "'prizn n.监狱监禁" },
+    { english: "crowd", chinese: "kraud n.群大众一伙人一堆vi.拥挤挤满挤进vt.挤满将...塞进催促" },
+    { english: "monster", chinese: "‘mɔnstә n.怪物；畸形的动植物" },
+    { english: "card", chinese: "kɑ:dn.卡卡片名片纸牌打牌节目单vt.附上或提供卡片印卡在卡片上" },
+    { english: "singular", chinese: "siŋgjulə adj.单一的非凡的个人的单数的独一的唯一的n.单数" },
+    { english: "imperative", chinese: "im’perәtiv n. 命令, a.命令式的,急需的,强制的" },
+    { english: "legend", chinese: "‘ledʒәnd n.传说，传奇" },
+    { english: "accustomed", chinese: "ə'kʌstəmd adj.惯常的习惯的" },
+    { english: "liberation", chinese: ".libə'reiʃən n.解放解放运动(为获得平等权利和地位的行为)" },
+    { english: "scientific", chinese: ".saiən'tifik adj.科学(上)的" },
+    { english: "corps", chinese: "kɔ:ps n. 军团,队,团,兵种" },
+    { english: "fraction", chinese: "'frækʃən n.小部分片断分数破片" }
+];

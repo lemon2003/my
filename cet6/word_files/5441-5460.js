@@ -1,0 +1,22 @@
+const words = [
+    { english: "spur", chinese: "spə: n.刺激刺激物马刺鞭策支脉vt.刺激鞭策促进" },
+    { english: "friction", chinese: "'frikʃən n.摩擦摩擦力分歧" },
+    { english: "steadily", chinese: "'stedili adv.稳定地不变地稳固地坚定地" },
+    { english: "movie", chinese: "'mu:vi n.电影电影院" },
+    { english: "creature", chinese: "'kri:tʃə n.生物动物家畜人" },
+    { english: "shield", chinese: "'ʃi:ld n.盾盾状物防护物vt.保护遮蔽" },
+    { english: "restore", chinese: "ri'stɔ: vt.恢复归还修补翻新" },
+    { english: "sea", chinese: "si: n.海海洋" },
+    { english: "drift", chinese: "driftvi.漂流漂泊吹积n.漂流漂移漂流物观望吹积物趋势vt.使漂流" },
+    { english: "under", chinese: "'ʌndəprep.在...下面低于在...内在...控制下adv.在...下在昏迷中" },
+    { english: "railroad", chinese: "'reilrəudn.铁路=railway(英)vi.由铁路运输在铁路公司工作vt.由铁道运" },
+    { english: "minor", chinese: "'mainəadj.较小的较次要的二流的未成年的n.未成年人辅修科目[音乐]" },
+    { english: "secondary", chinese: "'sekənderi adj.第二的次要的中级的中等的n.次要位置副手" },
+    { english: "routine", chinese: "ru:'ti:n n.例行公事常规无聊adj.日常的常规的例行的乏味的" },
+    { english: "abandon", chinese: "ə'bændən vt.丢弃放弃抛弃n.放纵" },
+    { english: "helicopter", chinese: "'helikɔptə n.直升机" },
+    { english: "couple", chinese: "'kʌpl n.夫妇(一)对几个数个v.加倍成双连结" },
+    { english: "theme", chinese: "θi:m n.题目；词干；主旋律" },
+    { english: "escape", chinese: "is'keip vt. &vi.逃跑逃脱避开逸出n.逃跑逃亡避难设备adj.逃避的" },
+    { english: "saucer", chinese: "'sɔ:sə n.茶托浅碟" }
+];

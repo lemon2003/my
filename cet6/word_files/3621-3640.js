@@ -1,0 +1,22 @@
+const words = [
+    { english: "job", chinese: "dʒɔbn. 职业工作零活职责任务vt. 投机买卖营私舞弊不公正地判罚" },
+    { english: "librarian", chinese: "lai'brɛəriən n.图书馆馆长" },
+    { english: "distract", chinese: "dis’trækt vt.分散(心思)；打扰" },
+    { english: "instrument", chinese: "'instrumənt n.仪器工具乐器器械" },
+    { english: "strategy", chinese: "'strætidʒi n.战略策略" },
+    { english: "retreat", chinese: "ri'tri:t vi.(被迫)退却后退撤退向后倾n.休息寓所撤退隐居" },
+    { english: "approach", chinese: "ə'prəutʃ n.接近途径方法vt.向...靠近靠近接近动手处理" },
+    { english: "currency", chinese: "‘kΛrәnsi n.通货；通用；市价" },
+    { english: "main", chinese: "meinadj.主要的最重要的n.主要部分干线(水、煤气、电等)供应系统" },
+    { english: "smoke", chinese: "sməuk n.烟抽烟无常的事物vi.冒烟吸烟以烟熏" },
+    { english: "postman", chinese: "'pəustmən n.邮递员=mailman" },
+    { english: "chimney", chinese: "'tʃimni n.烟囱烟筒玻璃罩" },
+    { english: "cord", chinese: "kɔ:d n.细绳粗线索束缚vt.用绳索绑" },
+    { english: "occasional", chinese: "ə'keiʒənəl adj.偶然的临时的不时的" },
+    { english: "leave", chinese: "li:vvi.离去生出叶子vt.离开告假遗留听任使处于某种状态n.许可准" },
+    { english: "ventilate", chinese: "‘ventileit vt.使通风，使换气" },
+    { english: "hold", chinese: "həuld vt.拿住掌握拥有持有举行n.把握控制支撑点延误n.船舱" },
+    { english: "ill", chinese: "iladj.有病的坏的引起痛苦的敌意的adv.坏恶劣地勉强地n.邪恶不" },
+    { english: "flavour", chinese: "'fleivə n.味味道风味香味vt给...加味" },
+    { english: "mail", chinese: "meil n.邮件邮政vt.邮寄" }
+];

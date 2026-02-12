@@ -1,0 +1,22 @@
+const words = [
+    { english: "mend", chinese: "mendvt.修理修补缝补修改改进vi.改过自新改进痊愈n.修补改进修补" },
+    { english: "importance", chinese: "im'pɔ:təns n.重要重要性" },
+    { english: "garage", chinese: "'gærɑ:ʒ n.车库加油站汽车修理厂vt.把...放入车库" },
+    { english: "outside", chinese: "'aut'said n.外部外表adj.外部的adv.在外面prep.在...外pron.在...外边" },
+    { english: "castle", chinese: "'kɑ:sln.城堡巨大建筑物vt.置于城堡中(棋)移动王车易位vi.(棋)移动" },
+    { english: "gum", chinese: "gʌmn.口香糖树胶橡皮(糖)齿龈粘性物质牙床vt.搞砸用牙床嚼以树" },
+    { english: "microphone", chinese: "'maikrəfəun n.话筒麦克风扩音器" },
+    { english: "elbow", chinese: "'elbəu n.肘肘部弯管急弯扶手v.用手肘推开推挤" },
+    { english: "fortune", chinese: "'fɔ:tʃən n.命运运气财产" },
+    { english: "maths", chinese: "mæθs n.(英)数学=mathematics(英)" },
+    { english: "enter", chinese: "'entəvt.走进进入参加报名开始加入报价提出vi.进入参加开始上台进" },
+    { english: "advisable", chinese: "əd'vaizəbl n.明智的可取的" },
+    { english: "complicate", chinese: "'kɔmplikeit vt.使复杂使陷入使错综使起纠纷" },
+    { english: "production", chinese: "prə'dʌkʃən n.生产产品总产量作品成果" },
+    { english: "treatment", chinese: "'tri:tmənt n.待遇对待处理治疗疗法" },
+    { english: "curriculum", chinese: "kә’rikjulәm n. 课程" },
+    { english: "auto", chinese: "'ɔ:təu n.(口语)汽车autos=automobile 自动汽车pref.自动的自己的" },
+    { english: "translate", chinese: "træns'leit vt.& vi.翻译译解释转移调动" },
+    { english: "butcher", chinese: "'butʃə n.屠夫屠杀者刽子手肉商小贩vt.屠宰滥杀将某事弄得一团糟" },
+    { english: "there", chinese: "ðɛə, ðəadv.在那里在那点上从那里到那里n.那一点那个地方pron.表示" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "flourish", chinese: "'flʌriʃvi.繁荣茂盛兴旺活跃手舞足蹈vt.挥舞n.挥舞华丽词藻茂盛兴旺" },
+    { english: "badly", chinese: "'bædli adv.坏差严重地恶劣地极度地" },
+    { english: "cheat", chinese: "tʃi:t n.骗子欺骗行为vt.骗取哄作弊vi.行骗作弊" },
+    { english: "curse", chinese: "kə:s n.诅咒咒骂天谴祸端行经vt.咒骂诅咒引起灾祸vi.诅咒" },
+    { english: "serious", chinese: "'siəriəs adj.严肃的认真的庄重的严重的危急的" },
+    { english: "provoke", chinese: "prә’vәuk vt. 激怒,惹起,驱使" },
+    { english: "bright", chinese: "brait adj.明亮的阳光的生动的聪明的adv.亮n.亮色" },
+    { english: "king", chinese: "kiŋ n.国王君主" },
+    { english: "athlete", chinese: "‘æθli:t n.运动员；田径运动员" },
+    { english: "five", chinese: "faiv num.五五个第五" },
+    { english: "certainly", chinese: "'sə:tənli adv.一定必定当然" },
+    { english: "synthetic", chinese: "sin'θetik adj.综合的合成的人造的n.人工制品" },
+    { english: "evil", chinese: "'i:vl n.邪恶罪恶祸害adj.邪恶的坏的" },
+    { english: "usage", chinese: "'ju:sidʒ n.使用用法对待惯用法习惯" },
+    { english: "combination", chinese: ".kɔmbi'neiʃən n.结合联合化合联合体" },
+    { english: "grief", chinese: "gri:f n.悲哀，悲痛，悲伤" },
+    { english: "princess", chinese: "'prin'ses n.公主王妃贵妇adj.(礼服)合身而好看的有贵族气息的" },
+    { english: "bloom", chinese: "blu:m n.花开花开花期钢块兴旺vt.使...开花vi.开花变得健康" },
+    { english: "shelf", chinese: "ʃelf n.搁板(状物)岩棚架子" },
+    { english: "wine", chinese: "wain n.葡萄酒果酒酒紫红色vi.喝酒vt.请...喝酒" }
+];

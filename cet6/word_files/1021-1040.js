@@ -1,0 +1,22 @@
+const words = [
+    { english: "recipe", chinese: "‘resipi n. 菜谱，烹饪法；处方" },
+    { english: "previous", chinese: "'pri:vjəs adj.先的前的在...之前以前的adv.在前" },
+    { english: "annual", chinese: "'ænjuəl adj.每年的年度的一年生的n.年报年刊年鉴一年生植物" },
+    { english: "fragile", chinese: "‘frædʒail a.脆的；体质弱的" },
+    { english: "crew", chinese: "kru: n.全体船员全体乘务员vi.一起工作" },
+    { english: "saving", chinese: "seiviŋn.搭救挽救节约存款(复数)savings:储蓄金存款prep.除...之外" },
+    { english: "significant", chinese: "sig'nifikəntn.有意义的重要的意味深长的相当数量的重大的n.(复)有意义的" },
+    { english: "blend", chinese: "blend vt. &vi.混合n.混合物" },
+    { english: "unfortunately", chinese: "ʌn'fɔ:tʃənitli adv.不幸地" },
+    { english: "point", chinese: "pɔint n.点要点细目分尖端细节目标" },
+    { english: "farther", chinese: "'fɑ:ðə adv.更远地进一步地adj.更远的进一步的" },
+    { english: "radar", chinese: "'reidɑ: n.雷达无线电探测器" },
+    { english: "soar", chinese: "sɔ: vi. 猛增，高耸，高飞,翱翔" },
+    { english: "organize", chinese: "'ɔ:gənaiz vt.组织编组vi.组织起来" },
+    { english: "stab", chinese: "stæb vt. &vi.刺戳刺伤n.刺戳刺痛尝试突然的一阵" },
+    { english: "coal", chinese: "kəul n.煤煤块木炭运煤工vt.烧成炭供应煤vi.装煤加煤" },
+    { english: "scholarship", chinese: "'skɔləʃip n.学业成绩奖学金学问学识" },
+    { english: "fatigue", chinese: "fə'ti:g n.疲劳劳累累活adj.疲劳的vt.使...疲劳使...心智衰弱vi.疲劳" },
+    { english: "plain", chinese: "plein n.平原草原adj.清楚的坦白的简单的平坦的平常的纯的" },
+    { english: "corner", chinese: "'kɔ:nə.n 角角落转角窘境犄角边远地区偏僻住所[计算机]角点vt." }
+];

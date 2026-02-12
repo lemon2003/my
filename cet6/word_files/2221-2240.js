@@ -1,0 +1,22 @@
+const words = [
+    { english: "reclaim", chinese: "ri’kleim vt.开垦，开拓；回收" },
+    { english: "bulb", chinese: "bʌlb n.电灯泡球状物" },
+    { english: "wet", chinese: "wet adj.湿的下雨的雨天的n.潮气雨天vt.(使)弄湿" },
+    { english: "delicious", chinese: "di'liʃəs adj.美味的可口的怡人的" },
+    { english: "intentional", chinese: "in'tenʃənəl adj.故意的有意识的策划的企图的" },
+    { english: "imitate", chinese: "'imiteit vt.模仿仿效仿制" },
+    { english: "bean", chinese: "bi:n n.豆蚕豆" },
+    { english: "sustain", chinese: "səs'tein vt.支撑支持供养忍受承受经受维持认可" },
+    { english: "incidence", chinese: "‘insidәns n.发生，影响；入射" },
+    { english: "spare", chinese: "spɛəvt.节约抽出饶恕赦免adj.多余的闲置的备用的简陋的n.剩余备" },
+    { english: "semester", chinese: "si'mestə n.半年学期半学年" },
+    { english: "to", chinese: "tu:prep.(表示方向)到向达到(表示间接关系)给离对于为了adv.(表" },
+    { english: "rigorous", chinese: "‘rigәrәs a.(性格等)严峻的" },
+    { english: "grass", chinese: "grɑ:s n.草牧草草地vt.以牧草喂养覆盖着草" },
+    { english: "evaporate", chinese: "i'væpəreit vt.使蒸发vi.蒸发失去水分消失" },
+    { english: "grade", chinese: "greid vt. &vi.给...分等级记成绩n.等级年级阶段" },
+    { english: "invisible", chinese: "in'vizəbl adj.看不见的无形的n.隐形人(或物品)" },
+    { english: "interaction", chinese: "ɪntər'ækʃən n.相互作用相互影响互动交流干扰" },
+    { english: "happen", chinese: "'hæpən vi.发生碰巧恰好出现偶然遇到" },
+    { english: "Germany", chinese: "'dʒə:məni n.德意志德国" }
+];

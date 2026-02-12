@@ -1,0 +1,22 @@
+const words = [
+    { english: "swarm", chinese: "swɔ:m n.一大群蜂窝vi.密集云集充满" },
+    { english: "childish", chinese: "'tʃaildiʃ adj.孩子气的幼稚的简单的年老糊涂的" },
+    { english: "eliminate", chinese: "i'limineit vt.消灭消除排除除去剔除忽略" },
+    { english: "liquid", chinese: "'likwid n.液体a.液体的液态的" },
+    { english: "look", chinese: "lukvi.看显得注意朝着好象vt.打量注视用眼神或脸色表示期待n.看" },
+    { english: "interior", chinese: "in'tiəriə adj.内的内地的国内的内部的n.内部内在" },
+    { english: "unknown", chinese: "'ʌn'nəun adj.不知道的未知的不出名的" },
+    { english: "graze", chinese: "greiz vi.喂草；放牧(牲畜)" },
+    { english: "correspond", chinese: ".kɔris'pɔnd vi.相符合相当通信" },
+    { english: "degenerate", chinese: "di’dʒenәreit a.堕落的 vi.vt.(使)变质,(使)退化" },
+    { english: "global", chinese: "‘glәubәl a.球面的；全球的" },
+    { english: "bough", chinese: "bau n.大树枝" },
+    { english: "lean", chinese: "li:nvi.倾斜屈身倚靠依赖vt.使倾斜n.瘦肉倾斜弯曲adj.瘦的贫乏的" },
+    { english: "nucleus", chinese: "'nju:kliəs n.核核心(原子)核细胞核" },
+    { english: "pedestrian", chinese: "pi’destri әn n.行人，步行者" },
+    { english: "flat", chinese: "flætadj.平的扁平的平坦的单调的adv.平直地干脆地n.一套房间单元" },
+    { english: "differ", chinese: "'difə vi.不同(意见)相异不一致" },
+    { english: "exile", chinese: "‘eksail vt.流放 n.被流放者" },
+    { english: "guardian", chinese: "‘ga:djәn n. 监护人,保护人 a. 保护的" },
+    { english: "slave", chinese: "sleivn.奴隶苦工完全受控制的人劳工从动装置vt.对另一种装置作出" }
+];

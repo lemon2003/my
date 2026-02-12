@@ -1,0 +1,22 @@
+const words = [
+    { english: "enhance", chinese: "in’ha:ns vt.提高，增加；夸张" },
+    { english: "velvet", chinese: "'velvit n.丝绒天鹅绒adj.天鹅绒的" },
+    { english: "riot", chinese: "‘raiәt n.&vi.骚乱，暴乱" },
+    { english: "golf", chinese: "gɔlf n.高尔夫球v.打高尔夫球vi.(打)高尔夫球" },
+    { english: "layer", chinese: "'leiən.层层次铺设者vi.分层vt.将某物堆积成层n.产卵鸡[园艺]压条" },
+    { english: "plague", chinese: "pleig n.瘟疫，鼠疫；天灾" },
+    { english: "depute", chinese: "di’pju:t vt. 指定代理人,委任" },
+    { english: "dig", chinese: "dig vt.掘挖翻土采掘" },
+    { english: "alarm", chinese: "ə'lɑ:m n.惊恐惊慌忧虑警报警告报警器vt.使...惊慌警告装报警器" },
+    { english: "professor", chinese: "prə'fesə n.教授宣称者" },
+    { english: "rescue", chinese: "'reskju: n.援救解救营救队vt.援救救出营救" },
+    { english: "structural", chinese: "'strʌktʃərəl adj.结构的构造的建筑的建筑用的" },
+    { english: "lag", chinese: "lægvi. 走得慢落后vt. 落后投掷盖上桶盖耽搁n. 落后滞后落后的" },
+    { english: "tempo", chinese: "‘tempәu n. 拍子,速率,节奏" },
+    { english: "unbearable", chinese: "'ʌn'bɛərəbl adj.难堪的忍受不了的" },
+    { english: "procession", chinese: "prə'seʃən n.队伍行列v.列队行进" },
+    { english: "forgive", chinese: "fə'giv vt. &vi.原谅饶恕宽恕" },
+    { english: "track", chinese: "træk n.行踪踪迹路径轨道小路跑道惯例" },
+    { english: "friend", chinese: "frend n.朋友友人赞助者支持者vt.做朋友对人友好" },
+    { english: "absorb", chinese: "əb'sɔ:b vt.吸收吸纳吸引...的注意吞并使专心" }
+];

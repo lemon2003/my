@@ -1,0 +1,22 @@
+const words = [
+    { english: "hedge", chinese: "hedʒn. 篱笆树篱障碍物防止财产损失的方法vt. 包围限制vi. 种树" },
+    { english: "inspection", chinese: "in'spekʃən n.检查审查检阅视察" },
+    { english: "forehead", chinese: "'fɔ:hed n.额头前部" },
+    { english: "extensive", chinese: "iks'tensiv adj.广阔的广泛的" },
+    { english: "tragic", chinese: "‘trædʒik a.悲剧性的，悲惨的" },
+    { english: "physician", chinese: "fi'ziʃən n.医生内科医生" },
+    { english: "lawyer", chinese: "'lɔ:jə n.律师法学家" },
+    { english: "tonight", chinese: "tə'nait adv.在今夜n.今夜" },
+    { english: "difference", chinese: "'difərəns n.差别差分歧vt.引起区别" },
+    { english: "post", chinese: "pəust n.柱桩杆标竿邮件邮政邮寄职位岗位哨所vt.贴出邮递发布布置" },
+    { english: "moderate", chinese: "'mɔdəreit,'mɔdərita.温和的有节制的适度的稳健的中等的v.节制使...稳定使...缓" },
+    { english: "anticipate", chinese: "æn'tisipeit vt.预料预期期望抢...前语言提前使用vi.预期" },
+    { english: "threat", chinese: "θret n.威胁恐吓凶兆vt.威胁恐吓" },
+    { english: "interest", chinese: "'intərist n.兴趣利益利息嗜好股份vt.使...感兴趣" },
+    { english: "pint", chinese: "paint n.品脱" },
+    { english: "resemblance", chinese: "ri’zemblәns n.相似，相似性" },
+    { english: "ballet", chinese: "‘bælei, bæ’lei n.芭蕾舞；舞剧" },
+    { english: "corresponding", chinese: ".kɔri'spɔndiŋ adj.相应的符合的一致的相同的相当的" },
+    { english: "communication", chinese: "kə.mju:ni'keiʃən n.通讯传达交通信息[计算机]通信" },
+    { english: "overlook", chinese: ".əuvə'luk vt.眺望俯瞰远眺看漏放任没注意到忽视n.高出" }
+];

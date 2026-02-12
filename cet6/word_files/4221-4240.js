@@ -1,0 +1,22 @@
+const words = [
+    { english: "butter", chinese: "'bʌtə n.黄油阿谀奉承vt.涂黄油" },
+    { english: "believe", chinese: "bi'li:v vt.相信认为" },
+    { english: "guard", chinese: "gɑ:d vt. &vi.守卫看守保卫警惕n.卫兵守卫者警戒护卫队保护" },
+    { english: "scan", chinese: "skæn vt.细看浏览扫描详细调查押韵vi.押韵n.扫描押韵细查" },
+    { english: "eligible", chinese: "‘elidʒәbl n. 有资格者,合格者 a.有资格的" },
+    { english: "moral", chinese: "'mɔrəl adj.道德(上)的合乎道德的n.品行寓意道德" },
+    { english: "hi", chinese: "hai ini.嗨(表示问候等)引人注意时的喊声打招呼" },
+    { english: "national", chinese: "'næʃənəl adj.民族的国家的n.国民" },
+    { english: "impulse", chinese: "‘impΛls n.冲动，推动，脉冲" },
+    { english: "thirdly", chinese: "'θə:dli adv.第三" },
+    { english: "heat", chinese: "hi:tn.热炎热热度高潮激动激烈程度辛辣警察vi.变热变暖因热变质" },
+    { english: "funeral", chinese: "'fju:nərəl n.葬礼丧礼丧葬adj.葬礼(的)" },
+    { english: "midday", chinese: "'middei n.正午中午" },
+    { english: "safe", chinese: "seif adj.安全的谨慎的n.保险箱" },
+    { english: "naughty", chinese: "'nɔ:ti adj.顽皮的淘气的粗俗的" },
+    { english: "bite", chinese: "baitn.咬一口少量食物咬伤的伤口vt.咬叮螫剌穿vi.咬(饵)使剧痛紧" },
+    { english: "create", chinese: "kri'eit vt.创造引起产生" },
+    { english: "forty", chinese: "'fɔ:ti num. &adj.四十第四十pron.四十(个只...)" },
+    { english: "vocabulary", chinese: "və'kæbjuləri n.词汇表词汇语汇词汇量" },
+    { english: "masterpiece", chinese: "‘ma:stәpi:s n.杰作，名著" }
+];

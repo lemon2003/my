@@ -1,0 +1,22 @@
+const words = [
+    { english: "release", chinese: "ri'li:s vt.释放放松发表准予发表让与发射n.释放让渡发行" },
+    { english: "sympathetic", chinese: ".simpə'θetik adj.同情的和谐的共鸣的n.交感神经" },
+    { english: "voyage", chinese: "'vɔiidʒ n. &vi.航海航空航行旅行旅程" },
+    { english: "exceed", chinese: "ik'si:d vt.超过胜过超出超出界限vi.领先" },
+    { english: "native", chinese: "'neitiv adj.本土的本国的出生地的天生的n.本地人土著人" },
+    { english: "grandfather", chinese: "'grænd.f ɑ:ðən.祖父外祖父" },
+    { english: "foreigner", chinese: "'fɔ:rinə n.外国人" },
+    { english: "commend", chinese: "kә’mend vt.称赞，表扬；推荐" },
+    { english: "color", chinese: "'kʌlə n.颜色彩色颜料气色风格vt.把...涂颜色粉饰vi.脸红" },
+    { english: "nowadays", chinese: "'nauədeiz adv.现今现在" },
+    { english: "duplicate", chinese: "‘dju:plikit n.复制品 vt.复制" },
+    { english: "vain", chinese: "vein adj.徒劳的无效的自负的虚荣的" },
+    { english: "German", chinese: "'dʒə:mən adj.德国(人)的德语的日耳曼的n.德国人德语日耳曼人" },
+    { english: "merely", chinese: "'miəli adv.仅仅只不过" },
+    { english: "sacrifice", chinese: "'sækrifais n.牺牲供俸祭品vt.牺牲祭祀贱卖vi.献祭(棒球)作牺牲一击" },
+    { english: "manipulate", chinese: "mә’nipjuleit vt.操作；控制，手持" },
+    { english: "slim", chinese: "slim a.细长的；微小的" },
+    { english: "millimetre", chinese: "'mili.mi:tə n.毫米=millimeter(美)" },
+    { english: "his", chinese: "hiz pron.他的他的东西" },
+    { english: "thorough", chinese: "'θʌrə adj.彻底的详尽的完全的精心的" }
+];

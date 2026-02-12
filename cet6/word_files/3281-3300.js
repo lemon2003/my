@@ -1,0 +1,22 @@
+const words = [
+    { english: "innumerable", chinese: "i’nju:mәrәbl a.无数的，数不清的" },
+    { english: "apparatus", chinese: ".æpə'reitəs n.装置器具器械仪器器官机构组织" },
+    { english: "ascribe", chinese: "әs’kraib vt.把…归于" },
+    { english: "present", chinese: "'preznt adj.现在的当面的出席的n.礼物赠送物现在目前" },
+    { english: "steward", chinese: "'stju:əd n.乘务员服务员v.做乘务员管理" },
+    { english: "completely", chinese: "kəm'pli:tli adv.十分完全地全然" },
+    { english: "awkward", chinese: "'ɔ:kwəd adj.笨拙的尴尬的" },
+    { english: "heroic", chinese: "hi'rəuik adj.英雄的英勇的巨大的" },
+    { english: "training", chinese: "treiniŋ n.训练锻炼培养动词train的现在分词和动名词形式" },
+    { english: "interruption", chinese: ".intə'rʌpʃən n.中断打断障碍物" },
+    { english: "paradise", chinese: "‘pærәdais n.伊甸乐园；天堂" },
+    { english: "truly", chinese: "'tru:li adv.真正地忠实地真实地真诚地正确地" },
+    { english: "gallery", chinese: "‘gælәri n.长廊，游廊；画廊" },
+    { english: "emphasis", chinese: "'emfəsis n.强调重点重要性" },
+    { english: "imprison", chinese: "im'prizn vt.关押监禁限制束缚" },
+    { english: "coarse", chinese: "kɔ:s adj.粗的粗糙的非精制的粗俗的" },
+    { english: "undergraduate", chinese: ".ʌndə'grædər'græd n.大学肆业生大学生adj.大学生的大学的" },
+    { english: "answer", chinese: "ɑ:ŋsɚ n.答案回答反驳回应vi.回答符合vt.回答响应适应" },
+    { english: "huge", chinese: "hju:dʒ adj.巨大的庞大的程度高的" },
+    { english: "turning", chinese: "tə:niŋ n.旋转回转转向变向转弯处" }
+];

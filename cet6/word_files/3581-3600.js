@@ -1,0 +1,22 @@
+const words = [
+    { english: "underneath", chinese: ".ʌndə'ni:θ adv.在下面在底下n.下部底部prep.在...下面" },
+    { english: "reliable", chinese: "ri'laiəbl adj.可靠的可信赖的" },
+    { english: "culture", chinese: "'kʌltʃə n.文化文明教养种植vt.培养" },
+    { english: "tortoise", chinese: "'tɔ:təs n.龟乌龟" },
+    { english: "employment", chinese: "im'plɔimənt n.工业雇用使用职业" },
+    { english: "propagate", chinese: "‘prɔpәgeit vt.繁殖；传播，普及" },
+    { english: "resolve", chinese: "ri'zɔlv vt.解决决心决定分离表决vi.分离决定n.决心决定之事" },
+    { english: "throne", chinese: "θrəun n.宝座御座王位君主" },
+    { english: "illness", chinese: "'ilnis n.病疾病" },
+    { english: "role", chinese: "rəul n.角色作用任务影响程度" },
+    { english: "channel", chinese: "'tʃænl n.海峡渠道通道频道方法vt.引导开导形成河道输送" },
+    { english: "sightseeing", chinese: "sait.si:iŋ n.观光游览动词sightsee的现在分词" },
+    { english: "grocer", chinese: "'grəusə n.食品商杂货商" },
+    { english: "missionary", chinese: "‘miʃәnәri n.传教士" },
+    { english: "robe", chinese: "rəub n.长袍长衣浴衣v.(使)穿上长袍等" },
+    { english: "than", chinese: "ðæn conj.(比较级)比prep.比(用于两者之间的比较)" },
+    { english: "vice", chinese: "vais n.罪恶恶习缺点邪恶老虎钳adj.副的代理的prep.代替" },
+    { english: "shiver", chinese: "'ʃivə vi.颤抖哆嗦vt.颤动(碎裂)n.冷颤(碎块)" },
+    { english: "replacement", chinese: "ri’pleism әnt n.归还；取代；置换" },
+    { english: "exhibit", chinese: "ig'zibitvt.显示(感情或品质)陈列展览展现提出证据vi.展览n.展览品展" }
+];

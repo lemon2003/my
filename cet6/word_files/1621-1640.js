@@ -1,0 +1,22 @@
+const words = [
+    { english: "heart", chinese: "hɑ:t n.心内心中心要点红桃勇气" },
+    { english: "tough", chinese: "tʌfadj.坚韧的健壮的强硬的艰苦的棘手的严厉的adv.以强硬的态度" },
+    { english: "version", chinese: "'və:ʃən n.译文说法改写本版本译本形式" },
+    { english: "strike", chinese: "straik vt. &vi.打击撞罢工划燃n.罢工打击殴打" },
+    { english: "month", chinese: "mʌnθ n.月月份" },
+    { english: "attendance", chinese: "ә’tendәns n.到场；出席人数" },
+    { english: "casualty", chinese: "‘kæʒjuәlti n. 伤亡,受害者" },
+    { english: "receipt", chinese: "ri'si:t n.收到收条收据" },
+    { english: "around", chinese: "ə'raundadj.大约在现存范围内adv.大约到处在周围prep.在...周围" },
+    { english: "serve", chinese: "sə:v vt.为...服务招待可作...用对待发球" },
+    { english: "pursuit", chinese: "pә’sju:t n.追赶；追求；事务" },
+    { english: "coach", chinese: "kəutʃn.长途公共汽车大巴教练(火车)客车车厢四轮马车经济舱vt." },
+    { english: "extreme", chinese: "iks'tri:m adj.极度的极端的尽头的严重的末端的n.极端极限" },
+    { english: "sweet", chinese: "swi:t adj.甜的愉快的可爱的n.糖甜食adv.甜蜜地" },
+    { english: "spiritual", chinese: "'spiritjuəl adj.精神的心灵的与上帝有关的n.(尤指美国南部黑人的)圣歌" },
+    { english: "slogan", chinese: "‘slәugәn n.标语，口号" },
+    { english: "dirt", chinese: "də:t n.尘土污物污垢泥土污秽的言行卑鄙的人堕落矿渣" },
+    { english: "prejudice", chinese: "'predʒudis n.偏见成见伤害vt.使...存偏见伤害" },
+    { english: "stamp", chinese: "stæmp n.戳子邮票标志图章印跺脚v.跺脚盖章" },
+    { english: "stomach", chinese: "'stʌmək n.胃胃口肚子食欲vt.忍受容忍" }
+];

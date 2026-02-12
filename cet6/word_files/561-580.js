@@ -1,0 +1,22 @@
+const words = [
+    { english: "string", chinese: "striŋn.线细绳一串字串vt.串起成串收紧悬挂系扎vi.给...装弦adj." },
+    { english: "bang", chinese: "bæŋn.(突然)巨响枪声猛击重击刘海vt.重击大声敲剪成刘海vi.大声" },
+    { english: "dew", chinese: "dju: n.露露水" },
+    { english: "bandage", chinese: "‘bændidʒ n.绷带，包带" },
+    { english: "strength", chinese: "streŋθ n.力力量力气长处强度" },
+    { english: "arm", chinese: "ɑ:mn.手臂臂状物武器港湾狭长地带扶手袖子vt.装备准备(炸弹)vi." },
+    { english: "hydrogen", chinese: "'haidridʒən n.氢" },
+    { english: "conspicuous", chinese: "kәn’spikju әsa. 显著的,显眼的,出众的" },
+    { english: "enjoy", chinese: "in'dʒɔi vt. &vi.享受欣赏喜爱" },
+    { english: "runner", chinese: "'rʌnə n.赛跑的人跑步者" },
+    { english: "bank", chinese: "bæŋk n.银行库岩堤vt.堆积vi.开户把...存入银行" },
+    { english: "whose", chinese: "hu:z pron.谁的哪个人的adj.谁的" },
+    { english: "keeper", chinese: "'ki:pə n.看护人饲养员保管人" },
+    { english: "blow", chinese: "bləuvi.吹吹动吹响打击殴打v.吹风吹擤（鼻子）【口】浪费（机" },
+    { english: "then", chinese: "ðen adv.当时然后那么而且adj.当时的n.当时" },
+    { english: "practicable", chinese: "‘præktik әbl a.能实行的；适用的" },
+    { english: "northern", chinese: "'nɔ:ðən adj.北方的北部的" },
+    { english: "weak", chinese: "wi:k adj.弱的软弱的虚弱的无力的淡薄的差的" },
+    { english: "ashamed", chinese: "ə'ʃeimd adj.惭愧(的)羞耻(的)感到惭愧感到害臊因为羞耻或勉强作某事" },
+    { english: "smoothly", chinese: "smu:ðli adv.光滑地平滑地平稳地流畅地" }
+];

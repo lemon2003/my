@@ -1,0 +1,22 @@
+const words = [
+    { english: "telegraph", chinese: "'teligrɑ:f n.电报机电报vt.打电报显示" },
+    { english: "refute", chinese: "ri’fju:t vt.驳斥，反驳，驳倒" },
+    { english: "apology", chinese: "ə'pɔlədʒi n.道歉认错谢罪勉强的替代物" },
+    { english: "near", chinese: "niəadv.近接近几乎亲近adj.近的接近的亲近的勉强的直接的小气的" },
+    { english: "slender", chinese: "'slendə adj.细长的微薄的苗条的少量的" },
+    { english: "nice", chinese: "nais adj.美好的令人愉快的漂亮的善意的" },
+    { english: "tropical", chinese: "'trɔpikəl adj.热带的炎热的热带植物的" },
+    { english: "unconscious", chinese: "ʌn'kɔnʃəs adj.不省人事的失去知觉的" },
+    { english: "court", chinese: "kɔ:t n.法院法庭庭院奉承球场v.献殷勤追求招致危险" },
+    { english: "honey", chinese: "'hʌnin.蜜(复数)蜂蜜甜甜蜜宝贝爱人adj.蜂蜜似的深爱的vt.加蜜使" },
+    { english: "amaze", chinese: "ə'meiz vt.使惊奇使惊愕" },
+    { english: "formula", chinese: "'fɔ:mjulə n.公式式配方规则代乳品adj.(赛车的)级的方程式的" },
+    { english: "rage", chinese: "reidʒ n.(一阵)狂怒盛怒愤怒情绪激动风行一时热量vi.震怒风行席卷" },
+    { english: "back", chinese: "bækadj.后面的偏远的过时的积欠的向后的adv.在后回原处回向后地" },
+    { english: "operation", chinese: ".ɔpə'reiʃən n.操作手术运算行动活动" },
+    { english: "economics", chinese: "i:kә’nɔmiks n.经济学；经济" },
+    { english: "interim", chinese: "‘intәrim a.中间的,暂时,间歇的,n.过渡时期" },
+    { english: "intense", chinese: "in'tens adj.强烈的紧张的剧烈的热情的激烈的" },
+    { english: "latter", chinese: "'lætə adj.(两者中)后者的后面的" },
+    { english: "grin", chinese: "grin vi.咧着嘴笑" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "property", chinese: "'prɔpəti n.财产资产性质道具" },
+    { english: "geometry", chinese: "dʒi'ɔmitri n.几何几何学" },
+    { english: "autumn", chinese: "'ɔ:təm n.秋秋季秋天" },
+    { english: "found", chinese: "faundvt.创立创办建立打地基铸造vbl.寻找(find的过去分词)adj.装" },
+    { english: "credit", chinese: "'kredit n.信用贷款信用荣誉学分v.归功于赞颂信任" },
+    { english: "far", chinese: "fɑ: adj.远的adv.远遥远n.远处" },
+    { english: "usually", chinese: "'ju:ʒuəli adv.通常" },
+    { english: "season", chinese: "'si:znn.季季节时节旺季上演期vt.加调味料调味使...适用于vi.使..." },
+    { english: "ago", chinese: "ə'gəu adv.以前" },
+    { english: "artistic", chinese: "ɑ:'tistik adj.艺术的艺术家的" },
+    { english: "plenty", chinese: "'plenti n.丰富充足大量繁荣adj.充足的adv.非常" },
+    { english: "ant", chinese: "ænt n.蚂蚁" },
+    { english: "widen", chinese: "'waidn vt.加宽使变宽vi.变宽" },
+    { english: "sob", chinese: "sɔb vi.啜泣呜咽n.空间轨道的轰炸机呜咽哭泣" },
+    { english: "risk", chinese: "risk n.风险危险冒险vt. 冒...的危险" },
+    { english: "controversial", chinese: "kɔntrә’vә:ʃәla.争论的,有争议的，被议论的" },
+    { english: "understanding", chinese: ".ʌndə'stændiŋn.理解理解力协定了解个人见解非正式协议谅解同情心洞察力" },
+    { english: "lesson", chinese: "'lesn n.功课课课程教训vt.给...上课教训" },
+    { english: "advice", chinese: "əd'vais n.劝告忠告意见建议" },
+    { english: "graph", chinese: "græf,grɑ:f n.(曲线)图图表vt.以(曲线)图表示" }
+];

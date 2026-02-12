@@ -1,0 +1,22 @@
+const words = [
+    { english: "vase", chinese: "veis n.瓶花瓶" },
+    { english: "reading", chinese: "ri:diŋ n.读阅读读书adj.阅读的" },
+    { english: "decorate", chinese: "'dekəreit vt.装饰装璜修饰授予某人奖章或其他奖状" },
+    { english: "project", chinese: "prə'dʒekt n.方案工程项目计划vi.伸出投射放映凸出vt.计划设计表达" },
+    { english: "attract", chinese: "ə'trækt vt.吸引引起诱惑有吸引力" },
+    { english: "worthwhile", chinese: "'wə:θ'wail adj.值得花时间(做)的" },
+    { english: "consumption", chinese: "kən'sʌmpʃən n.消耗量消耗消费" },
+    { english: "finding", chinese: "faindiŋn. 发现发现物调查(或研究)的结果[律]裁判裁决(复数）" },
+    { english: "choice", chinese: "tʃɔis n.选择挑选抉择adj.上等的精选的" },
+    { english: "provocative", chinese: "prә’vɔkәtiv a. 挑衅的,刺激的,挑逗的" },
+    { english: "Eve", chinese: "i:v 夏娃" },
+    { english: "pull", chinese: "pul vt.拉拖拔拉拉力vi.拔拉拖扳动n.拉拖拉绳影响" },
+    { english: "solemn", chinese: "'sɔləm adj.庄严的严肃的隆重的" },
+    { english: "negligible", chinese: "‘neglidʒ әbl a.微不足道的" },
+    { english: "format", chinese: "‘fɔ:mæt n. 格式 v. 格式化" },
+    { english: "participant", chinese: "pa:’tisip әnt n.参加者 a.有份的" },
+    { english: "selection", chinese: "si'lekʃən n.选择挑选精选物挑选出来的人或事" },
+    { english: "privilege", chinese: "'privilidʒ n.特权优惠特别恩典基本人权荣幸vt.给特权免除" },
+    { english: "measurable", chinese: "'meʒərəbəl adj.可测量的" },
+    { english: "plural", chinese: "'pluərəl adj.复数的n.复数" }
+];

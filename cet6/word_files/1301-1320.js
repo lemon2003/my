@@ -1,0 +1,22 @@
+const words = [
+    { english: "jar", chinese: "dʒɑ:n.罐子坛子广口瓶不和谐刺耳声震动震惊vi.发刺耳声不协调震" },
+    { english: "shutter", chinese: "‘ʃΛtә n.百叶窗；(相机)快门" },
+    { english: "movement", chinese: "'mu:vmənt n.动作活动移动运动变动趋势通便运转装置[音]乐章" },
+    { english: "parameter", chinese: "pә’ræmitә n.参(变)数；参量" },
+    { english: "touch", chinese: "tʌtʃvt.触摸触动吃喝触及感动vi.接触联系n.触触觉接触少许痕迹修" },
+    { english: "swallow", chinese: "'swɔləun.燕子吞咽一次吞咽的量vt.吞下咽下忍受不流露感情收回vi.咽" },
+    { english: "inferior", chinese: "in'fiəriə adj.下等的劣等的次等的较低的不如的" },
+    { english: "joy", chinese: "dʒɔi n.欢乐喜悦乐趣乐事vi.享受快乐" },
+    { english: "resemble", chinese: "ri'zembl vt.像类似相似" },
+    { english: "retain", chinese: "ri'tein vt.保持保留保有记住" },
+    { english: "pride", chinese: "praid n.骄傲自豪自尊一群狮子vt.自夸以...自豪" },
+    { english: "envisage", chinese: "in’vizidʒ vt. 面对,正视,想象" },
+    { english: "entitle", chinese: "in'taitl vt.给...权利(或资格)取名为使有权利" },
+    { english: "readily", chinese: "'redili adv.乐意地无困难地不迟疑地迅速地轻易地" },
+    { english: "submit", chinese: "səb'mit vt.使服从屈服呈送递交主张vi.服从屈从忍受" },
+    { english: "include", chinese: "in'klu:d vt.包括包含" },
+    { english: "numerous", chinese: "'nju:mərəs adj.为数众多的许多" },
+    { english: "sufficient", chinese: "sə'fiʃənt adj.足够的充分的" },
+    { english: "taste", chinese: "teist vt.尝尝到品尝尝试有...味道的n.味觉味道品味尝试" },
+    { english: "regard", chinese: "ri'gɑ:d vt.把...看作和...有关尊敬尊重视为注视" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "overhear", chinese: "әuvә’hiә vt.偶然听到；偷听" },
+    { english: "offensive", chinese: "ә’fensiv a.冒犯的；进攻的" },
+    { english: "cable", chinese: "'keibln.缆索电缆海底电报vt.打海底电报把...拧成缆用缆捆住vi.打" },
+    { english: "detect", chinese: "di'tekt vt.察觉发觉侦察发现探测信息vi.当侦探" },
+    { english: "plus", chinese: "plʌs prep.加加上另外adj.正的略高于n.加号正号优势conj.并且" },
+    { english: "settlement", chinese: "'setlmənt n.解决殖民殖民地安置协议结算住宅区" },
+    { english: "flood", chinese: "flʌd n.洪水水灾vt. &vi.灌溉淹没泛滥" },
+    { english: "regardless", chinese: "ri'gɑ:dlis adv.不顾一切地adj.不注意的粗心的" },
+    { english: "successive", chinese: "sək'sesiv adj.连续的接连的接二连三的" },
+    { english: "rotten", chinese: "'rɔtn adj.腐烂的腐朽的发臭的" },
+    { english: "arctic", chinese: "‘a:ktik a.北极的 n.北极" },
+    { english: "say", chinese: "sei vt.说说明比如说讲表达假设指示vi.说n.发言权adv.大约" },
+    { english: "flush", chinese: "flʌʃvi.奔流(脸)发红冲刷旺盛成长vt.用水冲洗惊起(一群鸟)抄..." },
+    { english: "specially", chinese: "'speʃəli adv.专门地特别地" },
+    { english: "upper", chinese: "'ʌpəadj.上面的地位较高的上部的较高的n.鞋帮上铺n.兴奋剂令人兴" },
+    { english: "pit", chinese: "pitn.坑地坑煤矿深坑核矿井陷阱英国剧场正厅后排凹陷疤痕vt." },
+    { english: "advanced", chinese: "əd'vɑ:nst adj.先进的高级的" },
+    { english: "weld", chinese: "weld vt.焊接熔接使结合n.焊接焊缝" },
+    { english: "gene", chinese: "dʒi:n n. 基因,因子" },
+    { english: "other", chinese: "'ʌðəadj.另外的别的其余的pron.另一个人(或事)n.其他人(或" }
+];

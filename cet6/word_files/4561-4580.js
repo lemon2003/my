@@ -1,0 +1,22 @@
+const words = [
+    { english: "truck", chinese: "trʌkn.卡车载重汽车对...进行交易来往实物工资v.以货易货交往以" },
+    { english: "smile", chinese: "smail vi.微笑赞许一笑而过vt.微笑微笑地表示以微笑完成n.微笑笑容" },
+    { english: "induce", chinese: "in’dju:s vt.劝诱；引起；感应" },
+    { english: "nursery", chinese: "'nə:səri n.托儿所苗圃" },
+    { english: "anyway", chinese: "'eniwei adv.无论如何不管怎样" },
+    { english: "extravagant", chinese: "iks’trævig әnta.奢侈的；过度的" },
+    { english: "pursue", chinese: "pə'sju: vt.追赶追踪追捕追求进行继续从事" },
+    { english: "stormy", chinese: "'stɔ:mi adj.有暴风雨的激烈的粗暴的" },
+    { english: "compose", chinese: "kəm'pəuz vt.组成构成创作写作作曲使镇静vi.创作" },
+    { english: "northeast", chinese: "'nɔ:θ'i:stn.东北adj.位于东北的东北的向东北的来自东北的adv.向东北来" },
+    { english: "marshal", chinese: "‘ma:ʃәl n.元帅；陆军元帅" },
+    { english: "attain", chinese: "ə'tein vt.达到获得完成" },
+    { english: "station", chinese: "'steiʃən n.站台所局车站位置地位vt.安置驻扎配置" },
+    { english: "pin", chinese: "pinn.针饰针大头针拴(有别针的)徽章小东西(复数)腿别住vt.将..." },
+    { english: "imperial", chinese: "im’piәriәl a. 帝王的,至尊的 n. 特等品" },
+    { english: "career", chinese: "kə'riə n.生涯职业事业经历vi.猛冲飞跑vt.在...中急行" },
+    { english: "bar", chinese: "bɑ: n.酒吧间条杆栅条棒横木vt.禁止阻挠" },
+    { english: "pot", chinese: "pɔt n.锅壶罐盆一大笔(钱)vt.把...装罐(台球)入袋" },
+    { english: "apply", chinese: "ə'plai vt.应用实施使用涂使专心从事vi.申请有关联" },
+    { english: "senate", chinese: "'senit n.参议院上院" }
+];

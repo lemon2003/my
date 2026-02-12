@@ -1,0 +1,22 @@
+const words = [
+    { english: "tail", chinese: "teiln.尾巴尾部后部辫子跟随者(复)tails：燕尾服(硬币的)反面vt." },
+    { english: "sculpture", chinese: "‘skΛlptʃә n. 雕刻,雕塑,雕刻(术)" },
+    { english: "intensive", chinese: "in'tensivadj.加强的精耕细作的强烈的密集的精细的强调的n.(语法)强调" },
+    { english: "fake", chinese: "feik n.假货，膺品 a.假的" },
+    { english: "objection", chinese: "əb'dʒekʃən n.反对异议不喜欢" },
+    { english: "zealous", chinese: "'zeləs adj.热心的热情的狂热的热衷的" },
+    { english: "apt", chinese: "æpt a.恰当的；聪明的" },
+    { english: "analysis", chinese: "ə'næləsis n.分析分解解析" },
+    { english: "spear", chinese: "spiə n.矛(正负电子对撞机)枪vt用矛刺" },
+    { english: "wrinkle", chinese: "‘riŋkl n.皱纹 vt.使起皱纹" },
+    { english: "mechanical", chinese: "mi'kænikəl a.机械的力学的呆板的n.(供制版用的)样书版面设计" },
+    { english: "depart", chinese: "di'pɑ:t vi.离开起程出发死亡脱轨vt.离开" },
+    { english: "thrill", chinese: "θril n.一阵激动震颤激动v.(使)震颤兴奋激动" },
+    { english: "spot", chinese: "spɔtn.点斑点污点地点场所斑点职位聚光灯插播节目少量adj.当场的" },
+    { english: "cruise", chinese: "kru:z vi.巡航 vt.巡航于…" },
+    { english: "attendant", chinese: "ә’tendәnt n.侍者；护理人员" },
+    { english: "emit", chinese: "i'mit vt.散发发射发表发出放射吐露" },
+    { english: "shake", chinese: "ʃeikvt.摇使震动挥拳摇晃去除动摇排掉(灰尘)握手vi.摇晃颤抖跌跌" },
+    { english: "week", chinese: "wi:k n.星期周" },
+    { english: "strip", chinese: "strip vt.剥夺剥去夺去脱衣n.条带长条条状脱衣舞" }
+];

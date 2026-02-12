@@ -1,0 +1,22 @@
+const words = [
+    { english: "thermometer", chinese: "θə'mɔmitə n.温度计寒暑表" },
+    { english: "dial", chinese: "'daiəln.钟面拨号盘刻度盘针面转盘vt.拨用仪表测量操作仪表vi.拨号" },
+    { english: "corporate", chinese: "‘kɔ:pәrit n. 组织" },
+    { english: "landscape", chinese: "‘lændskeip n.风景，景色，景致" },
+    { english: "globe", chinese: "gləub n.地球世界地界仪球体" },
+    { english: "sack", chinese: "sæk n.袋麻袋开除劫掠vt.解雇劫掠把...装入袋子" },
+    { english: "panic", chinese: "‘pænik n.恐慌，惊慌" },
+    { english: "whereby", chinese: "wɛә’bai ad.靠什么；靠那个" },
+    { english: "reservation", chinese: "rezә’veiʃәn n.保留；预定，预订" },
+    { english: "stripe", chinese: "straip n.条纹条子条纹布军士军阶种类鞭打抽打vt.使...带有条纹" },
+    { english: "seaport", chinese: "'si:pɔ:t n.海港港市" },
+    { english: "tank", chinese: "tæŋk n.坦克大容器槽箱罐贮水池vt.把...储于槽中" },
+    { english: "canon", chinese: "'kænənn. 教会法规标准、准则正典正式名单教堂里的教士佳能(财富" },
+    { english: "commission", chinese: "kə'miʃən n.委任(状)任官令委员会佣金犯罪行为vt.委任委托使服役" },
+    { english: "bound", chinese: "baundn.跳跃界限范围adj.一定的必定的有义务的受约束的装订的vt." },
+    { english: "baffle", chinese: "‘bæfl vt.使挫折 n.迷惑" },
+    { english: "lieutenant", chinese: "lu:'tenənt n.陆军中尉副职官员助理人员" },
+    { english: "slope", chinese: "sləup n.倾斜斜面斜坡斜线斜率vi.倾斜有坡度vt.使倾斜" },
+    { english: "precision", chinese: "pri'siʒən n.精确精密精密度adj.以精准的执行著称的经得起极精细测量的" },
+    { english: "subject", chinese: "'sʌbdʒikt,səb'dʒekn.题目学科,主语主题话题题材主观(君主国)国民实验对象adj." }
+];

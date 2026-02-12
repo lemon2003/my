@@ -1,0 +1,22 @@
+const words = [
+    { english: "Brazilian", chinese: "brə'ziljən n.巴西人adj.巴西的" },
+    { english: "secondly", chinese: "'sekəndli adv.第二(点)其次" },
+    { english: "economy", chinese: "i'kɔnəmi n.经济节约节省adj.经济型的" },
+    { english: "outer", chinese: "'autə adj.外部的外面的" },
+    { english: "recommend", chinese: ".rekə'mend vt.推荐介绍劝告建议使成为可取使受欢迎" },
+    { english: "subjective", chinese: "sΛb’dʒektiv a. 主观的,个人的" },
+    { english: "afflict", chinese: "ә’flikt vt. 使痛苦,折磨" },
+    { english: "survival", chinese: "sә’vaivәl n.幸存，残存；幸存者" },
+    { english: "engagement", chinese: "in’geidʒm әntn.婚约；约会，债务" },
+    { english: "corridor", chinese: "'kɔridɔ: n.走廊回廊通路" },
+    { english: "test", chinese: "test n.测试试验考验vt.测试试验接受测验adj.测试的" },
+    { english: "machine", chinese: "mə'ʃi:n n.机器机械机械装置机械般工作的人核心vt.以机器制造" },
+    { english: "unstable", chinese: "'ʌn'steibl adj.不稳固的不稳定的易变的" },
+    { english: "nuclear", chinese: "'nju:kliə adj.原子核的原子能的核心的" },
+    { english: "naval", chinese: "'neivəl adj.海军的军舰的<古>船舶的" },
+    { english: "live", chinese: "laiv,liv vi.居住活过着adj.活的生动的精力充沛的直播的" },
+    { english: "beast", chinese: "bi:st n.兽野兽牲畜凶残的人令人厌憎的人" },
+    { english: "constitution", chinese: ".kɔnsti'tju:ʃən n.章程体质构造组织宪法体格" },
+    { english: "intimidate", chinese: "in’timideit vt. 威胁,恐吓,胁迫" },
+    { english: "ultimate", chinese: "'ʌltimit adj.最后的最终的终极的根本的极限的n.终极根本精华" }
+];

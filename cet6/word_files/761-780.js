@@ -1,0 +1,22 @@
+const words = [
+    { english: "England", chinese: "'inglənd n.英格兰英国" },
+    { english: "skip", chinese: "skip vi.跳；跳绳；略过" },
+    { english: "street", chinese: "stri:t n.街街道行车道adj.街道的" },
+    { english: "rouse", chinese: "rauz vt.唤醒唤起惊起鼓舞激起n.觉醒奋起" },
+    { english: "ninth", chinese: "nainθ num.第九九分之一adj.第九的九分之一的" },
+    { english: "banana", chinese: "bə'nɑ:nə n.香蕉芭蕉属植物" },
+    { english: "hasten", chinese: "'heisn vt.催促赶快急忙vi.赶紧赶快急忙" },
+    { english: "sharpen", chinese: "'ʃɑ:pən vt.削尖使敏锐使...尖锐变为锐利加剧(苦痛等)" },
+    { english: "symposium", chinese: "sim’pәuzjәmn.酒会；座谈会" },
+    { english: "drive", chinese: "draivvt. &vi.驾驶驱驱使驾进力打入n.驾车快车道推进力驱使路街," },
+    { english: "original", chinese: "ə'ridʒənladj.最初的新颖的原始的有独创性的原版的n.原件原稿有独创性" },
+    { english: "journalist", chinese: "‘dʒә:nәlist n.记者，新闻工作者" },
+    { english: "boot", chinese: "bu:tn. 靴子长统靴(英)汽车行李箱猛踢锁扣vt. 踢穿靴子锁车vi." },
+    { english: "republic", chinese: "ri'pʌblik n.共和国共和政体" },
+    { english: "diameter", chinese: "dai'æmitə n.直径" },
+    { english: "outlook", chinese: "'autluk n.观点看法展望前景景色" },
+    { english: "fashion", chinese: "'fæʃən n.样子方式风尚流行时装vt.形成适合" },
+    { english: "product", chinese: "'prɔdəkt n.产品产物(乘)积" },
+    { english: "shipment", chinese: "‘ʃipmәnt n.装货；装载的货物" },
+    { english: "intricate", chinese: "‘intrikit a. 复杂的,错综的,缠结的,难懂的" }
+];

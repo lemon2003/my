@@ -1,0 +1,22 @@
+const words = [
+    { english: "jungle", chinese: "dʒʌŋgl n.丛林密林莽丛adj.丛林的蛮荒的" },
+    { english: "eccentric", chinese: "ik’sentrik n.怪人,偏心圆 a.古怪的,不同圆心的" },
+    { english: "beg", chinese: "beg vt.乞讨恳求合理需要vi.行乞乞求abbr.(begin)的缩写开始" },
+    { english: "surroundings", chinese: "sə'raundiŋz n.周围的事物环境名词surrounding的复数形式" },
+    { english: "success", chinese: "sək'ses n.成功成就胜利发财成功者成功的事物" },
+    { english: "structure", chinese: "'strʌktʃə n.结构构造建筑物vt.建造构造" },
+    { english: "important", chinese: "im'pɔ:tənt adj.重要的影响很大的有势力的" },
+    { english: "sketch", chinese: "sketʃ n.略图速写素描概略概述草图小品vt.描绘略图vi.写生" },
+    { english: "slum", chinese: "slʌm n.贫民窟贫民区vi.访问贫民区" },
+    { english: "repertoire", chinese: "‘repәtwa: n.全部,保留剧目,全部技能" },
+    { english: "yawn", chinese: "jɔ:n vi.打呵欠n.呵欠" },
+    { english: "seize", chinese: "si:z vt.抓住逮捕夺取攻占理解侵袭vi.抓住卡住终止" },
+    { english: "flare", chinese: "flɛə vi.闪耀闪光vt.使闪亮n.闪光闪耀[天]耀斑" },
+    { english: "bone", chinese: "bəunn.骨骨骼核心vt.除去骨头往衣服里加撑条磨光表面vi.努力学习" },
+    { english: "unsuitable", chinese: "'ʌn'sju:təbl adj.不合适的不适宜的" },
+    { english: "engage", chinese: "in'geidʒ vt.使从事于聘用答应预定使忙碌订婚" },
+    { english: "cupboard", chinese: "'kʌbəd n.碗柜碗碟橱食橱" },
+    { english: "contempt", chinese: "kәn’tempt n.轻蔑；藐视" },
+    { english: "correct", chinese: "kə'rekt adj.正确的vt. &vi.改正纠正" },
+    { english: "liar", chinese: "'laiə n.说谎的人" }
+];

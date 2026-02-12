@@ -1,0 +1,22 @@
+const words = [
+    { english: "speech", chinese: "spi:tʃ n.言语演说演讲语言能力方言" },
+    { english: "republican", chinese: "ri'pʌblikənadj.共和国的n.拥护共和政体的人Republican:共和党人共和党" },
+    { english: "lose", chinese: "lu:z vt.失去遗失迷失输掉失败损失摆脱vi.丢失失败" },
+    { english: "productivity", chinese: "prәdΛk’tiviti n.生产率；多产" },
+    { english: "shall", chinese: "ʃæl aux.v.将要必须应应该一定" },
+    { english: "area", chinese: "'eəriə n.面积地区区域领域方面" },
+    { english: "illustrate", chinese: "'iləstreit vt.(用图等)说明举例说明作图解vi.举例" },
+    { english: "angry", chinese: "æŋgri adj.愤怒的生气的伤口红肿的" },
+    { english: "presently", chinese: "'prezntli adv.一会儿目前不久现在<古> 当即立刻" },
+    { english: "gossip", chinese: "‘gɔsip n.闲谈；碎嘴子；漫笔" },
+    { english: "trivial", chinese: "‘triviәl a.琐碎的；平常的" },
+    { english: "dependent", chinese: "di'pendənt adj.依靠的依赖的附属的悬垂的n.受经济援助者" },
+    { english: "African", chinese: "'æfrikən adj.非洲的非洲人的n.非洲人" },
+    { english: "owe", chinese: "əu vt.欠(债等)应把...归功于vi.欠钱" },
+    { english: "manifest", chinese: "‘mænifest vt.表明 a.明白的" },
+    { english: "marvelous", chinese: "'mɑ:viləs adj.奇迹般的了不起的令人惊异的不平常的" },
+    { english: "stone", chinese: "stəunn.石石头石块石料(水果的)硬核宝石英石(重量单位合14磅)vt." },
+    { english: "radio", chinese: "'reidiəu n.无线电收音机v.用无线电通讯" },
+    { english: "copy", chinese: "'kɔpi n.抄件副本模仿一册稿件vt.抄写抄袭复制复印vi.复制抄写n." },
+    { english: "surely", chinese: "'ʃuəli adv.确实稳当地安全地" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "reluctant", chinese: "ri'lʌktənt adj.不愿的勉强的" },
+    { english: "stewardess", chinese: "'stju:ədis n.空中小姐女乘务员女管家" },
+    { english: "penalty", chinese: "‘penlti n.处罚，刑罚；罚款" },
+    { english: "consultant", chinese: "kәn’sΛltәnt n. 顾问,商议者" },
+    { english: "involve", chinese: "in'vɔlv vt.使卷入使陷入使忙于牵涉包含" },
+    { english: "normal", chinese: "'nɔ:məl adj.正常的正规的普通的n.常态标准" },
+    { english: "steep", chinese: "sti:p adj.险峻的陡峭的(价格)过高的n.陡坡n.浸泡浸泡液v.浸泡沉浸" },
+    { english: "ratio", chinese: "'reiʃiəu n.比比率" },
+    { english: "chaos", chinese: "‘keiɔs n. 大混乱,混沌" },
+    { english: "courtesy", chinese: "‘kә:tisi n.礼貌，谦恭，请安" },
+    { english: "once", chinese: "wʌns adv.一次曾经n.一次conj.一旦" },
+    { english: "hence", chinese: "hens ad.因此从此所以今后" },
+    { english: "old", chinese: "əulda.老的某年龄的以前的陈旧的熟悉的成熟的...岁的n.古时某年" },
+    { english: "adult", chinese: "ə'dʌlt,'ædʌlt n.成年人adj.成年的成人的成熟的" },
+    { english: "officer", chinese: "'ɔ:fisə n.官员干事军官vt.提供官员指挥" },
+    { english: "bargain", chinese: "'bɑ:gən n.交易买卖物美价廉的东西vi.议价成交vt.议价交易" },
+    { english: "prisoner", chinese: "'prizənə n.囚犯" },
+    { english: "scissors", chinese: "'sizəz n.剪刀剪子" },
+    { english: "safety", chinese: "'seifti n.安全保险安全打vt.保护" },
+    { english: "tenant", chinese: "'tenənt n.承担人房客佃户占用者vt.租借租赁" }
+];

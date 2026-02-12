@@ -1,0 +1,22 @@
+const words = [
+    { english: "immune", chinese: "i’mjun a. 免疫的,免除的,不受影响的" },
+    { english: "respectively", chinese: "ri'spektivli adv.各自地分别地" },
+    { english: "fuss", chinese: "fΛs n.忙乱；吹捧 vi.忙乱" },
+    { english: "abstract", chinese: "'æbstrækt adj.抽象的理论的n.摘要抽象的东西vt.移除摘要偷vi.做摘要" },
+    { english: "so-called", chinese: "'səu'kɔ:ld adj.所谓的号称的" },
+    { english: "necessity", chinese: "ni'sesiti n.必要性必然性需要必需品" },
+    { english: "activity", chinese: "æk'tiviti n.活动活跃活力行动vt.表演adj.厉害" },
+    { english: "specify", chinese: "'spesifai vi.指定详细说明阐述" },
+    { english: "reflect", chinese: "ri'flekt vt.反射反映思考归咎" },
+    { english: "contemplate", chinese: "‘kɔntempleit vt. 注视,沉思,打算 vi. 冥思苦想" },
+    { english: "weave", chinese: "wi:v vt.织编组合编排vi.纺织编织n.编法织法编织" },
+    { english: "porter", chinese: "'pɔ:tən.搬运工人门房(火车卧铺车厢或豪华车厢的)乘务员(医院商店" },
+    { english: "tour", chinese: "tuə n. &vi.旅行游历旅游周游观光巡回" },
+    { english: "clay", chinese: "klei n.粘土泥土肉体" },
+    { english: "necklace", chinese: "'neklis n.项链项圈" },
+    { english: "temperament", chinese: "‘tempәrәmәntn. 气质,性质,性情" },
+    { english: "indifferent", chinese: "in'difrənt adj.冷漠的不积极的漠不关心的无重要性的中立的" },
+    { english: "pastime", chinese: "‘pa:staim n.消遣，娱乐" },
+    { english: "expel", chinese: "iks’pel vt.驱逐，开除；排出" },
+    { english: "police", chinese: "pə'li:s n.警察警察当局警方vt.管辖维持治安" }
+];

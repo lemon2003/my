@@ -1,0 +1,22 @@
+const words = [
+    { english: "snake", chinese: "sneik n.蛇v.蜿蜒扭曲" },
+    { english: "nuisance", chinese: "'nju:sns n.讨厌的东西讨厌的人伤害" },
+    { english: "pillow", chinese: "'piləu n.枕头vt.枕搁垫" },
+    { english: "ultraviolet", chinese: "‘Λltrә’vaiәlit a.紫外的n.紫外线辐射" },
+    { english: "housewife", chinese: "'hauswaif n.家庭主妇针线盒" },
+    { english: "flutter", chinese: "‘flΛtә vi.(鸟)振翼；飘动" },
+    { english: "fearful", chinese: "'fiəfəl adj.害怕的可怕的担心的" },
+    { english: "melon", chinese: "'melən n.瓜甜瓜" },
+    { english: "conscientious", chinese: "kɔnʃi’enʃәs a. 本着良心的,负责的" },
+    { english: "grease", chinese: "gri:s, gri:z n.动物脂，脂肪" },
+    { english: "six", chinese: "siks num.六六个" },
+    { english: "broom", chinese: "bru:m n.扫帚灌木vt.扫" },
+    { english: "intuition", chinese: "intju’iʃәn n. 直觉,直觉的知识" },
+    { english: "postulate", chinese: "‘pɔstjuleit vt.要求，假定，假设" },
+    { english: "find", chinese: "faind vt. &vi.找到发觉找出感觉到认为n.发现物" },
+    { english: "branch", chinese: "brɑ:ntʃ n.分支树枝分部分科vt & vi.分支分岔" },
+    { english: "proceeding", chinese: "prә’si:diŋ n.程序，行动，事项" },
+    { english: "academy", chinese: "ə'kædəmi n.私立中学专科院校学院学术学会" },
+    { english: "absolute", chinese: "'æbsəlu:t adj.绝对的纯粹的完全的无限制的独立的专制的n.绝对的事物" },
+    { english: "unanimous", chinese: "ju(:)’nænim әsa.(全体)一致的" }
+];

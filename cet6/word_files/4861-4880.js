@@ -1,0 +1,22 @@
+const words = [
+    { english: "widely", chinese: "'waidli adv.广广泛地adj.广泛的" },
+    { english: "accommodate", chinese: "ə'kɔmədeit vt.容纳供应供给提供方便使一致和解顾及vi.使自己适应" },
+    { english: "attend", chinese: "ə'tend vt.出席照顾护理照料参加注意vi.专心留意待命" },
+    { english: "reside", chinese: "ri’zaid vi.居住，驻扎；属于" },
+    { english: "beggar", chinese: "'begə n.乞丐穷人<非正式>人家伙vt.使贫穷使不足使不能" },
+    { english: "productive", chinese: "prə'dʌktiv adj.生产的丰饶的有生产价值的多产的" },
+    { english: "sing", chinese: "siŋ vt.唱鸣唱用诗赞美叫响vi.唱歌n.合唱" },
+    { english: "shoulder", chinese: "'ʃəuldə n.肩肩膀挑起角度交接处" },
+    { english: "outwards", chinese: "'autwədz adv.向外在外外表上往海外=outward" },
+    { english: "father", chinese: "'fɑ:ðə n.父亲神父创始人鼻祖vt.作为父亲生育子女vi.像父亲般照顾" },
+    { english: "universe", chinese: "'ju:nivə:s n.宇宙世界万物" },
+    { english: "iron", chinese: "'aiənn.铁烙铁熨斗坚强(复数)铁制物vt.烫(衣)用铁装备vi.熨烫" },
+    { english: "gift", chinese: "gift n.礼物赠品天赋赋予vt.赠送赋予" },
+    { english: "competition", chinese: ".kɔmpi'tiʃən n.竞争比赛" },
+    { english: "Europe", chinese: "'juərəp n.欧洲" },
+    { english: "enrich", chinese: "in’ritʃ vt.使富裕；使丰富" },
+    { english: "derive", chinese: "di'raiv vt.取得得自起源引申于vi.起源" },
+    { english: "comprise", chinese: "kəm'praiz vt.包含包括构成" },
+    { english: "square", chinese: "skwɛən.正方形广场街区平方adj.正方形的正直的公正的结实的断然的" },
+    { english: "set", chinese: "setvt.放安置设定vi.(太阳)落下去n.组合集合设定一套一副一局比" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "frank", chinese: "fræŋk adj.坦白的直率的无误的vt.免费邮寄使自由出入n.免费邮寄" },
+    { english: "device", chinese: "di'vais n.器械装置设备设计策略" },
+    { english: "tractor", chinese: "'træktə n.拖拉机牵引车螺旋桨飞机" },
+    { english: "confusion", chinese: "kәn’fju:ʒәn n.混乱；骚乱；混淆" },
+    { english: "expensive", chinese: "iks'pensiv adj.昂贵的花钱多的豪华的" },
+    { english: "foul", chinese: "faul a.肮脏的；丑恶的" },
+    { english: "moreover", chinese: "mɔ:r'əuvə adv.再者加之此外而且" },
+    { english: "await", chinese: "ə'weit vt.等候期待准备...以待储存vi.等待" },
+    { english: "surplus", chinese: "‘sә:plәs n.过剩，剩余(物资)" },
+    { english: "urge", chinese: "ə:dʒ vt.推进催促驱策鼓励力陈催促vi.极力主张n.冲动" },
+    { english: "down", chinese: "daunadv.向下在下面下跌在南方adj.向下的降低的情绪低落停止运行" },
+    { english: "proficiency", chinese: "prә’fiʃәnsi n.熟练，精通" },
+    { english: "professional", chinese: "prə'feʃənəl adj.职业的专业的n.专业人员" },
+    { english: "lazy", chinese: "'leizi adj.懒惰的懒散的" },
+    { english: "relieve", chinese: "ri'li:v vt.减轻解除救济" },
+    { english: "standard", chinese: "'stændəd n.标准规格adj.标准的规范的普通的" },
+    { english: "grip", chinese: "grip vt.握紧抓牢吸引n.紧握了解手柄手提包" },
+    { english: "scene", chinese: "si:n n.发生地点道具场景情景" },
+    { english: "spelling", chinese: "speliŋ n.拼字拼法拼写法" },
+    { english: "array", chinese: "ә’rei vt.装扮 n.队列；排列" }
+];

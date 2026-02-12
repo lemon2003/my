@@ -1,0 +1,22 @@
+const words = [
+    { english: "grand", chinese: "grænd adj.宏伟的重大的豪华的壮丽的主要的n.大钢琴" },
+    { english: "hawk", chinese: "hɔ:kn.鹰隼掠夺别人的人鹰派人物清嗓v.用训好的鹰捕猎像鹰一般地" },
+    { english: "vocational", chinese: "vәu’keiʃәnl a. 职业的" },
+    { english: "century", chinese: "'sentʃuri n.世纪一百年成百的东西" },
+    { english: "dress", chinese: "dres n.女服童装服装vt. &vi.穿著adj.正式的(衣服)" },
+    { english: "direction", chinese: "di'rekʃən n.方向方位指导用法说明趋势" },
+    { english: "diet", chinese: "‘daiәt n.饮食，食物" },
+    { english: "show", chinese: "ʃəu vt.给...看表明表示显现展现指示n.显示表现表演事情" },
+    { english: "pollute", chinese: "pə'lu:t vt.弄脏污染沾污" },
+    { english: "colleague", chinese: "'kɔli:g n.同事同僚" },
+    { english: "operate", chinese: "'ɔpəreit vi.操作施行手术运转vt.起作用动手术" },
+    { english: "sturdy", chinese: "‘stә:di a.坚定的；牢固的" },
+    { english: "obligation", chinese: "ɔbli’geiʃәn n.义务，职责，责任" },
+    { english: "early", chinese: "'ə:li adv.早adj.早的早期的" },
+    { english: "hospital", chinese: "'hɔspitl n.医院" },
+    { english: "critical", chinese: "'kritikəl adj.决定性的批评的危险的挑剔的临界的" },
+    { english: "I", chinese: "ai pron.(主格)我" },
+    { english: "cousin", chinese: "'kʌzn n.堂(或表)兄弟(姐妹)" },
+    { english: "tolerate", chinese: "'tɔləreit vt.忍受容忍宽恕" },
+    { english: "residential", chinese: "rezi’denʃ әl a. 住宅的,与居住有关的" }
+];

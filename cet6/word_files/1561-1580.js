@@ -1,0 +1,22 @@
+const words = [
+    { english: "smash", chinese: "smæʃ vt.打碎，打破，粉碎" },
+    { english: "sister", chinese: "'sistə n.姐妹姐妹护士长" },
+    { english: "chart", chinese: "tʃɑ:t n.图图表海图vt.制成图表" },
+    { english: "jail", chinese: "dʒeil n.监狱 vi.监禁" },
+    { english: "award", chinese: "ə'wɔ:d n.奖奖品判定vi.授予给予vt.授予" },
+    { english: "distress", chinese: "di'stresn.忧虑悲伤不幸苦恼贫困忧郁恶化扣押财物vt.使...苦恼仿造" },
+    { english: "odor", chinese: "‘әudә n. 气味,名声,味" },
+    { english: "possibility", chinese: ".pɔsə'biliti n.可能可能的事可能性潜在的价值" },
+    { english: "commemorate", chinese: "kә’memәreit vt. 纪念" },
+    { english: "dynamic", chinese: "dai'næmik adj.有活力的动态的(有)动力的(有)力的n.动力力学" },
+    { english: "glory", chinese: "'glɔ:rin.光荣荣誉壮丽赞颂荣誉的事vi.为...而骄傲自豪interj.用于" },
+    { english: "alleviate", chinese: "ә’li:vieit vt. 减轻,使缓和" },
+    { english: "appearance", chinese: "ə'piərəns n.出现出场来到外观" },
+    { english: "stuff", chinese: "stʌf n.材料原料东西素质本质废物vt.装填塞填满塞满" },
+    { english: "Roman", chinese: "rɔmə n.古罗马人罗马天主教会罗马文字adj.罗马的罗马帝国的" },
+    { english: "expression", chinese: "iks'preʃən n.词句措辞表达表示表现表情" },
+    { english: "be", chinese: "bi: aux.v. &vi.是在做有" },
+    { english: "crystal", chinese: "'kristl n.水晶结晶体晶粒adj.清澈透明的晶体的" },
+    { english: "entity", chinese: "‘entiti n. 实体,实存物,存在" },
+    { english: "master", chinese: "'mɑ:stə n.主人能手硕士专家adj.主人的主要的精通的vt.征服控制精通" }
+];

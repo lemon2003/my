@@ -1,0 +1,22 @@
+const words = [
+    { english: "claim", chinese: "kleimvt.要求请求声称主张断言索取n.要求要求权主张断言声称要求" },
+    { english: "fear", chinese: "fiə n.害怕担心敬畏不安的原因vt.害怕敬畏" },
+    { english: "capsule", chinese: "‘kæpsju:l n. 胶囊,瓶帽,太空舱" },
+    { english: "staircase", chinese: "‘stɛәkeis n.楼梯，楼梯间" },
+    { english: "ethnic", chinese: "‘ɛθnik a.民族特有的" },
+    { english: "textile", chinese: "'tekstail n.纺织品adj.纺织的" },
+    { english: "urgent", chinese: "'ə:dʒənt adj.紧急的强求的坚持要求的急迫的" },
+    { english: "rat", chinese: "ræt n.老鼠耗子卑鄙的人变节者vi.背叛捕鼠vt.弄蓬松告发" },
+    { english: "articulate", chinese: "a:’tikjulit a. 发音清晰的，听得懂的" },
+    { english: "variation", chinese: ".vɛəri'eiʃən n.变化变动变异变种变奏曲" },
+    { english: "boast", chinese: "bəust n.吹牛vi.吹牛自夸vt.吹牛吹嘘" },
+    { english: "triple", chinese: "‘tripl a. 三倍的,三方的 vt. 使增至三倍" },
+    { english: "diminish", chinese: "di’miniʃ vt.减少，减小，递减" },
+    { english: "restrict", chinese: "ri'strikt vt限制限定约束" },
+    { english: "society", chinese: "sə'saiəti n.社会团体社交界阶层圈子" },
+    { english: "instantly", chinese: "'instəntli adv.立即即刻" },
+    { english: "feel", chinese: "fi:l vi.有知觉似乎同情vt.触摸感觉觉得n.感觉触觉直觉氛围" },
+    { english: "board", chinese: "bɔ:dn. 板木板甲板董事会伙食舞台演员的职业船舷vt.   上(飞机、" },
+    { english: "nonsense", chinese: "'nɔnsəns n.胡说废话荒唐" },
+    { english: "crop", chinese: "krɔpn.农作物庄稼收成一熟一群平头vt.割掉修剪剪短收割使谷物生" }
+];

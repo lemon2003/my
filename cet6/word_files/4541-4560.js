@@ -1,0 +1,22 @@
+const words = [
+    { english: "skillful", chinese: "'skilfəl adj.灵巧的娴熟的" },
+    { english: "candidate", chinese: "'kændidit n.候选人投考者求职者" },
+    { english: "magnetic", chinese: "mæg'netik adj.磁的有吸引力的催眠术的" },
+    { english: "remove", chinese: "ri'mu:v vt.移动搬开脱掉除去开除取下拿走vi.迁徙离开搬迁n.间距移动" },
+    { english: "vast", chinese: "vɑ:st adj.巨大的大量的广阔的n.浩瀚的太空" },
+    { english: "specifically", chinese: "spe’sifik әli ad. 特定的,明确的" },
+    { english: "expend", chinese: "iks’pend vt. 花费,消耗,支出" },
+    { english: "headache", chinese: "'hedeik n.头痛头痛的事" },
+    { english: "earthquake", chinese: "'ə:θkweik n.地震大震荡" },
+    { english: "prime", chinese: "praimadj. 首要的最初的最好的典型的n. 春青春壮年全盛时期n.质数" },
+    { english: "before", chinese: "bi'fɔ: adj. &adv.以前在...之前prep. &conj.在...以前向..." },
+    { english: "tick", chinese: "tikn.滴答声记号勾号虱类扁虱被套枕套褥套条纹厚棉布<英>赊账赊" },
+    { english: "frost", chinese: "frɔst n.冰冻严寒霜冷漠vt. &vi.覆着霜冻结结霜" },
+    { english: "tolerance", chinese: "'tɔlərəns n.忍受容忍忍耐力宽容公差" },
+    { english: "convenience", chinese: "kən'vi:njəns n.便利方便便利设施厕所适宜方便的时间舒适" },
+    { english: "diagram", chinese: "'daiəgræm n.图解图表简图vt.用图解法表示" },
+    { english: "militant", chinese: "‘militәnt a. 好战的" },
+    { english: "flatter", chinese: "‘flætә vt.奉承，阿谀，谄媚" },
+    { english: "suburb", chinese: "'sʌbə:b n.郊区郊外近郊" },
+    { english: "integral", chinese: "‘intigrәl a.组成的；整的" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "worthless", chinese: "'wə:θlis adj.无价值的无用的可鄙的" },
+    { english: "niece", chinese: "ni:s n.侄女外甥女教士的私生女" },
+    { english: "yesterday", chinese: "'jestədi n. &adv.昨天昨日近来" },
+    { english: "graceful", chinese: "'greisfəl adj.优美的优雅的" },
+    { english: "arithmetic", chinese: "ə'riθmətik n.算术四则运算" },
+    { english: "misery", chinese: "‘mizәri n.痛苦，悲惨，不幸" },
+    { english: "same", chinese: "seim adj.同一的相同的adv.同样地pron.同样的人或事" },
+    { english: "equipment", chinese: "i'kwipmənt n.装备设备配备" },
+    { english: "assimilate", chinese: "ә’simileit vt. 使同化,吸收,比较" },
+    { english: "purely", chinese: "'pjuəli adv.纯粹地完全地清洁地贞淑地" },
+    { english: "vegetable", chinese: "'vedʒitəbl n.植物蔬菜植物人adj.蔬菜的植物的" },
+    { english: "faint", chinese: "feint adj.微弱的虚弱的无力的模糊的v.昏倒n.昏厥昏倒" },
+    { english: "resultant", chinese: "ri’zΛltәnt a.作为结果而发生的" },
+    { english: "fate", chinese: "feit n.命运天数天意vt.注定" },
+    { english: "bypass", chinese: "‘bai-pa:s n.旁通管 vt.绕过" },
+    { english: "notify", chinese: "‘nәutifai vt.通知，告知；报告" },
+    { english: "chemical", chinese: "'kemikəl adj.化学的n.化学制品" },
+    { english: "hen", chinese: "hen n.母鸡雌禽" },
+    { english: "wild", chinese: "waildadj.野生的野蛮的未开发的失去控制地adv.失去控制地胡乱地n." },
+    { english: "membership", chinese: "‘membәʃip n.成员资格；会员人数" }
+];

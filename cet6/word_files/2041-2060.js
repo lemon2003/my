@@ -1,0 +1,22 @@
+const words = [
+    { english: "ceiling", chinese: "si:liŋ n.天花板顶蓬上限" },
+    { english: "hurricane", chinese: "‘hΛrikәn n.飓风，十二级风" },
+    { english: "orderly", chinese: "'ɔ:dəliadj.整洁的有秩序的一丝不苟的和平的adv.有秩序地有条理地依" },
+    { english: "bill", chinese: "biln.比尔(男名)账单钞票招贴票据清单议案法案广告鸟嘴喙vt.开" },
+    { english: "editorial", chinese: "edi’tɔ:riәl n.社论，期刊的社论" },
+    { english: "better", chinese: "'betə adj.较好的更好的adv.更好地v.使...更好超越n.更好的事物" },
+    { english: "excite", chinese: "ik'sait vt.使激动引起刺激激励" },
+    { english: "aggravate", chinese: "‘ægrәveit vt. 使恶化,使更加重" },
+    { english: "skilled", chinese: "skild adj.有技能的熟练的" },
+    { english: "snatch", chinese: "snætʃ n. 抢夺,攫取,片段 vt. 夺取,攫取" },
+    { english: "inhabitant", chinese: "in'hæbitənt n.居民住户" },
+    { english: "appoint", chinese: "ə'pɔint vt.任命委任约定指定预约装饰vi.行使任命权" },
+    { english: "deepen", chinese: "'di:pən vt.加深使...加深使...强烈vi.深化加深变浓" },
+    { english: "we", chinese: "wi pron.(主格)我们abbr.=Wednesday" },
+    { english: "spectator", chinese: "spek’teit ә n.参观者，观众" },
+    { english: "insure", chinese: "in'ʃuə vt.给...保险确保vi.买保险" },
+    { english: "Notation", chinese: "nou’teiʃ әn n. 记号法,表示法,注释" },
+    { english: "compound", chinese: "'kɔmpaund,kɔm'pan.化合物混合物复合词adj.复(混)合的合成的vt.混合调合妥协" },
+    { english: "who", chinese: "hu: pron.谁...的人" },
+    { english: "punish", chinese: "'pʌniʃ vt.罚惩罚处罚" }
+];

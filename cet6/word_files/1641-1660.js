@@ -1,0 +1,22 @@
+const words = [
+    { english: "rocket", chinese: "'rɔkit n.火箭火箭发动机烟火v.发射火箭猛涨" },
+    { english: "develop", chinese: "di'veləp vt.发展形成开发冲洗照片vi.进步" },
+    { english: "travel", chinese: "'trævl vt. &vi. &n.旅行传播移动" },
+    { english: "corn", chinese: "kɔ:nn.谷物谷粒陈词滥调鸡眼(英)小麦vt.使成颗粒状用盐水腌制用" },
+    { english: "blast", chinese: "blɑ:st n.爆炸冲击波气流一阵汽笛声vi.爆破突然发出声音vt.喷射炸掉" },
+    { english: "neglect", chinese: "ni'glekt vt.忽视忽略疏忽不顾n.疏忽忽略怠慢" },
+    { english: "weigh", chinese: "wei vt.称...的重量掂量衡量重达...n.重量道路" },
+    { english: "refusal", chinese: "ri'fju:zəl n.拒绝回绝" },
+    { english: "thunder", chinese: "'θʌndə n.雷雷声vi.打雷轰隆地响vt.吼出大声喊出" },
+    { english: "delta", chinese: "ˈdeltə n. 希腊字母表的第4个字母; 三角洲;" },
+    { english: "modify", chinese: "'mɔdifai vt.更改修改修饰调正缓和vi.修改" },
+    { english: "refer", chinese: "ri'fə: vt.使求助于把...提交把...归因归类为vi.谈到谈及咨询参考" },
+    { english: "muscle", chinese: "'mʌsl n.肌肉肌体力vt.用力挤vi.用力进行" },
+    { english: "chin", chinese: "tʃin n.颏下巴vt.做单杠vi.作引体向上聊天" },
+    { english: "annoy", chinese: "ə'nɔi vt.使恼怒使生气打搅骚扰使...苦恼" },
+    { english: "boundary", chinese: "'baundri n.分界线边界" },
+    { english: "sir", chinese: "sə: n.先生阁下...爵士" },
+    { english: "independence", chinese: ".indi'pendəns n.独立自主自立" },
+    { english: "advertise", chinese: "‘ædvәtaiz vt.通知 vi.登广告" },
+    { english: "commander", chinese: "kə'mɑ:ndə n.司令官指挥员" }
+];

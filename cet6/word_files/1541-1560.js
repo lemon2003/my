@@ -1,0 +1,22 @@
+const words = [
+    { english: "skim", chinese: "skimvt.掠过擦过滑过略读撇去浮沫vi.掠过覆盖了一层浮沫侵吞钱财" },
+    { english: "struggle", chinese: "'strʌgl n. &vi.斗争挣扎竞争奋斗" },
+    { english: "encourage", chinese: "in'kʌridʒ vt.鼓励支持助长激励支持" },
+    { english: "conversely", chinese: "kən'və:sli adv.相反地" },
+    { english: "sleeve", chinese: "sli:v n.袖子袖套套管" },
+    { english: "musician", chinese: "mju:'ziʃən n.音乐家作曲家" },
+    { english: "violet", chinese: "'vaiəlit n.紫罗兰紫色adj.紫色的" },
+    { english: "ad", chinese: "æd n.(缩)广告abbr.(advertisement[əd'və:tismənt]的缩写)广告" },
+    { english: "inclusive", chinese: "in’klu:siv a.包围住的；包括的" },
+    { english: "modest", chinese: "'mɔdist adj.有节制的谦虚的适度的端庄的" },
+    { english: "spoon", chinese: "spu:n n.匙调羹匙状物vt.以匙舀起vi.调情" },
+    { english: "vulnerable", chinese: "‘vΛlnәrәbl a. 易受伤害,攻击的,脆弱的" },
+    { english: "coffee", chinese: "'kɔfi n.咖啡咖啡茶" },
+    { english: "flame", chinese: "fleimn.火焰火舌鲜红色光辉恋人怀念辱骂信息热情vi.焚烧爆发面红" },
+    { english: "vivid", chinese: "'vivid adj.鲜艳的生动的栩栩如生的" },
+    { english: "crisp", chinese: "krisp a.脆的；卷曲的" },
+    { english: "intelligent", chinese: "in'telidʒənt adj.聪明的理智的" },
+    { english: "pulse", chinese: "pʌls n.脉搏脉冲脉动v.跳动脉跳" },
+    { english: "domain", chinese: "dә’mein n. 领域,领土,产业,范围" },
+    { english: "turkey", chinese: "'tə:ki n.火鸡火鸡肉笨蛋失败之作Turkey：土耳其" }
+];

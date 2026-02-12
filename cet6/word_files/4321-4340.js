@@ -1,0 +1,22 @@
+const words = [
+    { english: "calendar", chinese: "'kælində n.日历月历日程表历书历法vt.进入日历" },
+    { english: "consensus", chinese: "kәn’sensәs n. 一致" },
+    { english: "chemistry", chinese: "'kemistri n.化学化学性质相互作用" },
+    { english: "trouble", chinese: "'trʌbl n.烦恼困难烦恼vi.烦恼麻烦苦恼费神" },
+    { english: "fifteen", chinese: "'fif'ti:n num.十五十五个pron.十五(个只...)adj.十五的十五个的" },
+    { english: "sew", chinese: "səu vt.缝制缝合vi.缝纫" },
+    { english: "popular", chinese: "'pɔpjulə adj.民众的流行的有销路的" },
+    { english: "salesman", chinese: "'seilzmən n.售货员推销员" },
+    { english: "count", chinese: "kaunt vt.计算视为依赖vi.数计数n.计数" },
+    { english: "reason", chinese: "'ri:zn n.理由原因理智理性vi.推理规劝下判断vt.说服总结" },
+    { english: "darling", chinese: "dɑ:liŋ n.亲爱的人可爱的人可爱的物宠儿adj.可爱的亲爱的" },
+    { english: "madam", chinese: "'mædəm n.夫人女士太太老鸨" },
+    { english: "council", chinese: "'kaunsil n.理事会委员会商议" },
+    { english: "invite", chinese: "in'vait vt.邀请聘请招待要求n.邀请" },
+    { english: "knit", chinese: "nit vt.把...编结编织密接结合皱眉vi.编织变得紧凑愈合n.编织" },
+    { english: "kindness", chinese: "'kaindnis n.仁慈好意" },
+    { english: "protest", chinese: "'prəutest,prə'testn.抗议反对抗议书vi.反对抗议断言vt.坚持地表示对...提出异" },
+    { english: "equilibrium", chinese: "i:kwi’libriәm n.平衡，均衡；均衡论" },
+    { english: "boost", chinese: "bu:st vt. n. 推进,支援,吹捧" },
+    { english: "refuge", chinese: "'refju:dʒ n.避难(处)庇护(所)庇护者v.庇护避难(所)" }
+];

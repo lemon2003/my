@@ -1,0 +1,22 @@
+const words = [
+    { english: "fusion", chinese: "‘fjuʒәn n. 熔合物,结合,熔合" },
+    { english: "rail", chinese: "reil n.横条横杆铁轨栏杆扶手vt.以横木围栏铺铁轨vi.责骂抱怨" },
+    { english: "nephew", chinese: "'nefju: n.侄子外甥" },
+    { english: "city", chinese: "'siti n.城市都市" },
+    { english: "propose", chinese: "prə'pəuz vt.提议计划打算向...提议vi.求婚" },
+    { english: "effect", chinese: "i'fekt n.结果效果效力影响要旨vt.招致引起实现达到n.(pl.)财产动产" },
+    { english: "spectacle", chinese: "‘spektәkl n.场面；景象，奇观" },
+    { english: "manoeuvre", chinese: "mә’nu:vә n.vi. 调遣,演习vt. 调动,操纵" },
+    { english: "draw", chinese: "drɔ:vt.(drewdrawn) 拉拖挨近提取画绘制划拨出n.平局抽签拉拽吸" },
+    { english: "limp", chinese: "limp vi.蹒跚，跛行 n.跛行" },
+    { english: "up", chinese: "ʌpadv.向上起床起来往上上升prep.向上adj.向上的上行的n.上升" },
+    { english: "stove", chinese: "stəuv n.炉子火炉电炉火炉窑烘房【主英】温室" },
+    { english: "press", chinese: "pres vt.压按揿催促逼迫强迫服役征用n.新闻界压力强迫服役" },
+    { english: "technician", chinese: "tek'niʃən n.技术员技师" },
+    { english: "speaker", chinese: "'spi:kə n.说话者发言者说某种语言者扬声器" },
+    { english: "forth", chinese: "fɔ:θ adv.向前向外往外露出" },
+    { english: "roughly", chinese: "'rʌfli adv.粗糙地粗略地概略地粗鲁地" },
+    { english: "suicide", chinese: "‘sjuisaid n.&vi.&vt.自杀" },
+    { english: "interrupt", chinese: ".intə'rʌpt vt.打断打扰中止妨碍vi.插嘴n.中断" },
+    { english: "bike", chinese: "baik n.自行车vi.骑自行车" }
+];

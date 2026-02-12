@@ -1,0 +1,22 @@
+const words = [
+    { english: "stern", chinese: "stə:n adj.严厉的坚定的坚决的苛刻的n.尾部船尾" },
+    { english: "bleak", chinese: "bli:k a. 萧瑟的,苍白的,荒凉的" },
+    { english: "vibrate", chinese: "'vaibreit vt.使颤动(使)振动(使)摇摆vi.颤动回响" },
+    { english: "shoot", chinese: "ʃu:t vt.发射射中射击发出发芽vi.飞驰n.发芽射击芽发射" },
+    { english: "thickness", chinese: "'θiknis n.厚(度)密(度)一层含混不清" },
+    { english: "dumb", chinese: "dʌm adj.哑的无言的沉默的愚蠢的vt.使人沉默" },
+    { english: "inertia", chinese: "i’nә:ʃjә n.惯性，惯量；无力" },
+    { english: "lucky", chinese: "'lʌki adj.幸运的带来好运的吉祥的" },
+    { english: "gently", chinese: "'dʒentli ad.有礼貌地柔和地轻轻地温柔地" },
+    { english: "basically", chinese: "'beisikəli adv.基本上主要地" },
+    { english: "arch", chinese: "a:tʃ n.拱门 vt.用拱连接" },
+    { english: "honourable", chinese: "'ɔnərəbl adj.诚实的光荣的荣誉的可敬的体面的=honorable(美)" },
+    { english: "key", chinese: "ki:n.钥匙关键答案按键音调adj.主要的关键的vt.上锁调节提供解" },
+    { english: "problem", chinese: "'prɔbləm n.问题习题adj.成问题的难对付的" },
+    { english: "amends", chinese: "ә’mendz n. 赔偿" },
+    { english: "extend", chinese: "iks'tend vt.延长延伸伸展扩大扩充扩展致" },
+    { english: "competent", chinese: "'kɔmpitənt adj.有能力的胜任的足够的应该做的" },
+    { english: "indefinite", chinese: "in’definit a.不明确的；不定的" },
+    { english: "gear", chinese: "giә n.齿轮，传动装置" },
+    { english: "scatter", chinese: "'skætə vt.使消散撒散播驱散vi.分散消散n.散布零星少量" }
+];

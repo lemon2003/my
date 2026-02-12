@@ -1,0 +1,22 @@
+const words = [
+    { english: "lively", chinese: "'laivli adj.活泼的活跃的栩栩如生的真实的逼真的" },
+    { english: "crown", chinese: "kraunn.王冠冕王权顶点花冠vt.使...成王加冕居...之顶为牙齿镶上" },
+    { english: "return", chinese: "ri'tə:n n.返回归还报答报告vi.返回归还回来adj.返回的" },
+    { english: "neck", chinese: "nek n.颈脖子" },
+    { english: "regime", chinese: "rei’ʒi:m n.政体，政权；制度" },
+    { english: "powerful", chinese: "'pauəfəl adj.强有力的有权威的" },
+    { english: "sincere", chinese: "sin'siə adj.真诚的真挚的" },
+    { english: "request", chinese: "ri'kwest n. &vt.请求要求" },
+    { english: "category", chinese: "‘kætigәri n.种类，类目；范畴" },
+    { english: "vex", chinese: "veks vt.使烦恼使恼火恼怒" },
+    { english: "donate", chinese: "dәu’neit vt.vi. 捐赠" },
+    { english: "fault", chinese: "fɔ:lt n.缺点过失故障vt. &vi.挑剔指责发现错误断裂" },
+    { english: "frustrate", chinese: "frΛs’treit vt.挫败；使无效" },
+    { english: "itself", chinese: "it'self pron.它自己它本身自身" },
+    { english: "bronze", chinese: "brɔnzadj.青铜色的n.青铜青铜制品青铜色铜牌(第三名)vt.使成青铜" },
+    { english: "ship", chinese: "ʃipn.(大)船海船舰船员飞船vt.以船运送乘船运送进水在船上工作" },
+    { english: "publish", chinese: "'pʌbliʃ vt.公布发表出版发行vi.出版发行" },
+    { english: "amend", chinese: "ә’mend vt. 修正,改善,vi. 改过自新" },
+    { english: "champion", chinese: "'tʃæmpjən n.冠军得胜者拥护者勇士vt.保卫拥护" },
+    { english: "spacecraft", chinese: "'speiskrɑ:ft n.航天器宇宙飞船" }
+];

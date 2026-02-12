@@ -1,0 +1,22 @@
+const words = [
+    { english: "slam", chinese: "slæmvt.使劲关砰地放下猛然关上砰地关上猛烈抨击vi.砰地关上猛攻" },
+    { english: "voluntary", chinese: "'vɔləntəri adj.自愿的志愿的n.(教堂礼拜仪式前后或进行期间的)乐器独奏" },
+    { english: "cylinder", chinese: "‘silindә n.圆筒；柱(面)；汽缸" },
+    { english: "fool", chinese: "fu:l n.蠢人傻子受骗者vt.欺骗愚弄vi.干傻事开玩笑adj.愚蠢的" },
+    { english: "waken", chinese: "'weikən vi.醒来vt.弄醒动词wake的过去分词" },
+    { english: "attitude", chinese: "'ætitju:d n.态度看法姿势" },
+    { english: "act", chinese: "æktvi.行动表演表现充当见效vt.表演扮演n.行为行动法案（戏剧、" },
+    { english: "Marxist", chinese: "'mɑ:ksist adj.马克思主义的" },
+    { english: "among", chinese: "ə'mʌŋ prep.在...之中" },
+    { english: "sorrow", chinese: "'sɔrəu n.悲痛悲哀悲伤伤心事vi.悲伤惋惜悔恨" },
+    { english: "scratch", chinese: "skrætʃvt. &vi.搔抓搔痒抹掉n.搔抓抓痕抓的声音乱写adj.使皮肤发痒" },
+    { english: "method", chinese: "'meθəd n.方法办法教学法条理类函数类成员函数(计算机)" },
+    { english: "congratulation", chinese: "kən.grætju'leiʃən n.祝贺祝贺词" },
+    { english: "stereotype", chinese: "stiәriәtaip n.陈腔滥调,老套" },
+    { english: "owner", chinese: "'əunə n.物主所有人" },
+    { english: "fruit", chinese: "fru:t n.水果果实成果vt. &vi.结果实" },
+    { english: "vehicle", chinese: "'vi:ikl n.车辆机动车交通工具手段工具传播媒介" },
+    { english: "military", chinese: "'militəri adj.军事的军人的n.军队" },
+    { english: "symphony", chinese: "‘simfәni n.交响乐；交响乐团" },
+    { english: "escort", chinese: "‘eskɔ:t n.&vt.护卫，护送" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "shrink", chinese: "ʃriŋk vi.收缩缩小退缩萎缩vt.使收缩n.收缩萎缩" },
+    { english: "foundation", chinese: "faun'deiʃən n.基础根据建立地基基金" },
+    { english: "cent", chinese: "sent n.分分币百(分之)" },
+    { english: "left", chinese: "left adj.左边的ad.在左边n.左边p.p.of leave" },
+    { english: "assurance", chinese: "ә’ʃuәrәns n.保证；财产转让书" },
+    { english: "withstand", chinese: "wið'stænd vt.抵挡反抗对抗经得起承受" },
+    { english: "pitch", chinese: "pitʃn.沥青树脂松脂n.程度投掷球场音高vt.投掷颠簸扎牢搭帐篷定" },
+    { english: "climate", chinese: "'klaimit n.气候风土地带风气气氛" },
+    { english: "hill", chinese: "hil n.小山小堆斜坡山岗丘陵vt.堆起培土" },
+    { english: "idea", chinese: "ai'diə n.想法思想意见观念" },
+    { english: "robber", chinese: "'rɔbə n.强盗盗贼" },
+    { english: "dinner", chinese: "'dinə n.正餐主餐宴会晚宴" },
+    { english: "cushion", chinese: "'kuʃənn.垫子坐垫橡皮软垫缓冲vt.加垫褥放在垫子上保护减缓为...装" },
+    { english: "quit", chinese: "kwit vt.离开辞职退出停止" },
+    { english: "inherit", chinese: "in'herit vt.继承(传统等)遗传vi.继承" },
+    { english: "hover", chinese: "‘hɔvә vi.徘徊；傍徨；翱翔" },
+    { english: "stiff", chinese: "stifadj.硬的僵直的生硬的拘谨的不灵活的adv.僵硬地极其n.死尸过" },
+    { english: "magnificent", chinese: "mæg'nifisnt adj.壮丽的华丽的宏伟的极好的" },
+    { english: "bachelor", chinese: "‘bætʃәlә n.未婚男子；学士" },
+    { english: "cunning", chinese: "kʌniŋ adj.狡猾的狡诈的有眼光的精巧的可爱的n.狡诈灵巧" }
+];

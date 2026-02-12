@@ -1,0 +1,22 @@
+const words = [
+    { english: "trend", chinese: "trend vi.伸向倾向转向n.趋势倾向方位" },
+    { english: "uphold", chinese: "Λp’hәuld vt.举起；支撑；赞成" },
+    { english: "dollar", chinese: "'dɔlə n.美元(货币单位)" },
+    { english: "gallon", chinese: "'gælən n.加仑(容量单位)" },
+    { english: "roast", chinese: "rəust vt. &vi.烤炙烘焙adj.烘烤的烤过的n.烤肉烘烤" },
+    { english: "disaster", chinese: "di'zɑ:stə n.灾难灾祸天灾" },
+    { english: "drawing", chinese: "drɔ:iŋ n.图画素描绘图绘图技巧" },
+    { english: "help", chinese: "help vt. &vi.帮助援助改善n.帮手帮助援助" },
+    { english: "keyboard", chinese: "'ki:bɔ:d n.键盘vt.用键盘输入" },
+    { english: "underlying", chinese: "Λndә’laiiŋ a. 在下的,含蓄的,潜在的" },
+    { english: "June", chinese: "dʒu:n n.六月琼(女子名)" },
+    { english: "tactics", chinese: "‘tæktiks n.策略；战术，兵法" },
+    { english: "south", chinese: "sauθ n.南南方adj.南方的adv.在南方向南方自南方" },
+    { english: "humidity", chinese: "hju:’miditi n.湿气；湿度" },
+    { english: "recent", chinese: "'ri:snt adj.新近的最近的" },
+    { english: "astronomy", chinese: "әs’trɔnәmi n.天文学" },
+    { english: "restaurant", chinese: "'restərɔnt n.餐馆饭店菜馆" },
+    { english: "supplementary", chinese: "sΛpli’ment әria.补足,补充,追加的" },
+    { english: "anything", chinese: "eni.θiŋ pron.任何事物一切" },
+    { english: "contract", chinese: "'kɔntrækt,kən'træ n.契约合同书合同婚约v.缩短缩小vt.订约" }
+];

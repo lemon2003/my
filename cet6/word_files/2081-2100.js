@@ -1,0 +1,22 @@
+const words = [
+    { english: "qualification", chinese: "kwɔlifi’keiʃәn n.资格；限制条件" },
+    { english: "patriotic", chinese: "pætri’ɔtik a.爱国的" },
+    { english: "reckon", chinese: "‘rekәn vi.数，算帐 vt.认为" },
+    { english: "desk", chinese: "desk n.书桌办公桌" },
+    { english: "enthusiastic", chinese: "inθju:zi’æstik a.热情的，热心的" },
+    { english: "honest", chinese: "'ɔnist adj.诚实的可敬的正直的adv.老实说" },
+    { english: "decisive", chinese: "di’saisiv a.决定性的；果断的" },
+    { english: "temporary", chinese: "'tempərəri adj.暂时的n.临时工" },
+    { english: "terminate", chinese: "‘tә:mineit vt.&vi.停止，终止" },
+    { english: "nest", chinese: "nest n.巢窝穴vt.嵌入vi.筑巢" },
+    { english: "require", chinese: "ri'kwaiə vt.需要要求命令" },
+    { english: "universal", chinese: ".ju:ni'və:səl adj.宇宙的普遍的通用的全体的全世界的n.通用" },
+    { english: "instruct", chinese: "in'strʌkt vt.教指示通知命令指导" },
+    { english: "acquaintance", chinese: "ə'kweintəns n.认识了解熟人" },
+    { english: "justify", chinese: "'dʒʌstifai vt.证明...是正当的替...辩护n.对齐,调整" },
+    { english: "strongly", chinese: "strɔŋli adv.强壮地强烈地强有力地坚固地坚强地激烈地" },
+    { english: "validity", chinese: "vә’liditi n.有效，效力；正确" },
+    { english: "they", chinese: "ðei pron.(主格)他(她)们" },
+    { english: "cloudy", chinese: "'klaudi adj.多云的云一般的" },
+    { english: "revolutionary", chinese: ".revə'lu:ʃənəri adj.革命的n.革命者" }
+];

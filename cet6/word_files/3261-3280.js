@@ -1,0 +1,22 @@
+const words = [
+    { english: "matter", chinese: "'mætə n.事情物质原因vi.要紧有关系" },
+    { english: "supervise", chinese: "‘sju:pәvaiz vt.&vi.监督，监视" },
+    { english: "warm", chinese: "wɔ:m adj.温暖的暖和的热烈的热情的v.使暖和变暖adv.温暖地" },
+    { english: "red", chinese: "red adj.红色的n.红色" },
+    { english: "ever", chinese: "'evə adv.在任何时候曾经永远究竟" },
+    { english: "tone", chinese: "təunn.音腔调声调音调语气品质色调vt.使更健壮装腔作势地说定调" },
+    { english: "signature", chinese: "'signitʃə n.署名签字签名签署书帖有特征的符号" },
+    { english: "convert", chinese: "'kɔnvə:t,kən'və:t vt.使转变使改变倒置n.皈依者改宗者" },
+    { english: "insane", chinese: "in’sein a. 患精神病的,不理智的" },
+    { english: "overall", chinese: "əuvə'rɔ:ln.工装裤防护服罩衫adj.全面的全部的全体的一切在内的adv.总" },
+    { english: "subsequent", chinese: "'sʌbsikwənt adj.随后的后来的" },
+    { english: "suitcase", chinese: "‘sju:tkeis n.小提箱，衣箱" },
+    { english: "regulate", chinese: "'regju.leit,'regjule vt.管理控制调整" },
+    { english: "crust", chinese: "krʌst n.面包皮硬外皮外壳坚硬的外壳vt.盖以硬皮vi.结硬皮" },
+    { english: "cliff", chinese: "klif n.悬崖峭壁" },
+    { english: "historian", chinese: "his’tɔ:riәn n.历史学家；编史家" },
+    { english: "reciprocal", chinese: "ri’siprәkәl a.相互的；互利的" },
+    { english: "statistical", chinese: "stə'tistikəl adj.统计的统计学的" },
+    { english: "shortcoming", chinese: "ʃɔ:t.kʌmiŋ n.短处缺点" },
+    { english: "affair", chinese: "ə'fɛə n.事情事件事务绯闻" }
+];

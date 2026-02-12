@@ -1,0 +1,22 @@
+const words = [
+    { english: "embody", chinese: "im’bɔdi vt.体现；包含，收录" },
+    { english: "beside", chinese: "bi'said prep.在...旁边与…相比" },
+    { english: "loaf", chinese: "ləuf n.一条面包一个面包条块面包vi.游手好闲虚掷光阴" },
+    { english: "predecessor", chinese: "‘pri:disesә n.前辈，前任者" },
+    { english: "sickness", chinese: "'siknis n.疾病" },
+    { english: "laundry", chinese: "'lɔ:ndri n.洗衣房洗衣店要洗的衣服洗衣" },
+    { english: "steel", chinese: "sti:l n.钢钢铁钢制品vt.使...硬如钢使坚强使下定决心adj.钢的" },
+    { english: "damage", chinese: "'dæmidʒ vt.损害毁坏n.(pl.)赔偿损坏毁坏损害" },
+    { english: "harbour", chinese: "'hɑ:bə n.海港港口vt.庇护停泊" },
+    { english: "gasp", chinese: "gɑ:sp vi.气喘喘息v.喘气喘息渴望" },
+    { english: "bias", chinese: "‘baiәs n. 偏见,偏袒,斜线 vt.使有偏见" },
+    { english: "build", chinese: "bild vt. &vi.建筑建立创立建造创建开发逐渐增强n.体格身材" },
+    { english: "quick", chinese: "kwik adj.快的敏捷的迅速的机敏的adv.快迅速地n.活肉本质" },
+    { english: "treaty", chinese: "'tri:ti n.条约协议协定" },
+    { english: "compass", chinese: "'kʌmpəs n.罗盘指南针圆规vt.图谋包围达成" },
+    { english: "stick", chinese: "stik n.棍棒枝杆手杖vt.刺粘贴插于刺入竖起vi.钉住粘贴坚持" },
+    { english: "against", chinese: "ə'genst, ə'geinst prep.倚在倚靠逆对着反对违背防御相比相对" },
+    { english: "needless", chinese: "'ni:dlis adj.不需要的无用的" },
+    { english: "overcome", chinese: ".əuvə'kʌm vt.战胜克服(感情等)压倒使受不了vi.获胜赢" },
+    { english: "her", chinese: "hə: pron.(宾格)她她的adj.她的abbr.=heraldry" }
+];

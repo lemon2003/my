@@ -1,0 +1,22 @@
+const words = [
+    { english: "theft", chinese: "θeft n.盗窃，偷窃(行为)" },
+    { english: "concise", chinese: "kәn’sais a. 简洁的,简明的" },
+    { english: "poet", chinese: "'pəuit n.诗人" },
+    { english: "proposal", chinese: "prə'pəuzəl n.提议建议求婚" },
+    { english: "certainty", chinese: "‘sә:tnti n.确实性，确信，确实" },
+    { english: "sober", chinese: "'səubəadj.清醒的适度的沉着冷静的稳重的颜色暗淡的vt.使清醒使沉" },
+    { english: "log", chinese: "lɔgn.原木木料记录日志计程仪vt.伐木切记录航行度过(时间)vi.采" },
+    { english: "sprinkle", chinese: "spriŋkl n.洒撒散置小雨" },
+    { english: "unite", chinese: "ju(:)'nait vi.联合合并统一团结vt.使联合" },
+    { english: "source", chinese: "sɔ:s n.河的源头根源发源地来源原始资料" },
+    { english: "decay", chinese: "di'kei vi.腐烂衰败n.腐烂衰退" },
+    { english: "eternal", chinese: "i’tә:nl n.永久的；不朽的" },
+    { english: "hostess", chinese: "'həustis n.女主人空姐" },
+    { english: "brief", chinese: "bri:f n.摘要简报adj.简短的简洁的短暂的vt.作简报简单讨论" },
+    { english: "youth", chinese: "ju:θ n.青春青年人青年年轻初期" },
+    { english: "miserable", chinese: "'mizərəbl adj.痛苦的悲惨的贫乏的" },
+    { english: "gracious", chinese: "‘greiʃәs a.谦和的" },
+    { english: "grim", chinese: "grim a.冷酷无情的，严厉的" },
+    { english: "knee", chinese: "ni: n.膝膝盖膝关节像膝盖的东西护膝屈膝鞠躬vt.用膝盖顶" },
+    { english: "nor", chinese: "nɔ:conj. &adv.也不也没有不\"或非\"\"非或\"abbr.诺曼人" }
+];

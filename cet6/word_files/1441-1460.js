@@ -1,0 +1,22 @@
+const words = [
+    { english: "respond", chinese: "ri'spɔnd vi.作答响应回复反应应答n.拱柱" },
+    { english: "fireman", chinese: "'faiəmən n.消防队员司炉工" },
+    { english: "principle", chinese: "'prinsəpl n.原则原理主义信念" },
+    { english: "bureau", chinese: "'bjuərəu n.局司处社所办公处" },
+    { english: "connect", chinese: "kə'nekt vt.连接连结联通联系使有联系" },
+    { english: "industrialize", chinese: "in'dʌstriəlaiz vt.(使)工业化=industrialise(英)" },
+    { english: "reduction", chinese: "ri'dʌkʃən n.减少减小缩减(化学)还原反应(数学)约分" },
+    { english: "garbage", chinese: "‘ga:bidʒ n.垃圾，污物，废料" },
+    { english: "stack", chinese: "stæk n.堆堆叠垛vt.堆积堆放" },
+    { english: "silence", chinese: "'sailəns n.沉默寂静vt.使沉默使安静" },
+    { english: "beneficial", chinese: ".beni'fiʃəl adj.有利的有益的" },
+    { english: "kite", chinese: "kait n.风筝v.用空头支票骗人使上升" },
+    { english: "phrase", chinese: "freizn.短语习惯用语个人风格乐句vt.措词表达将(乐曲)分成乐句(来" },
+    { english: "indulge", chinese: "in’dΛldʒ vt.放纵(感情)vi.纵情" },
+    { english: "innovation", chinese: "inәu’veiʃәn n.创新，改革，新设施" },
+    { english: "starve", chinese: "stɑ:v vi.饿死挨饿受饿vt.使饿死使挨饿" },
+    { english: "incident", chinese: "'insidəntn.发生的事事件(常指)军事冲突插曲事变adj.难免的附带的(物" },
+    { english: "eager", chinese: "'i:gə adj.渴望的热切的" },
+    { english: "scarce", chinese: "skɛəs adj.缺乏的希有的不足的罕见的adv.勉强" },
+    { english: "umbrella", chinese: "ʌm'brelə n.伞雨伞adj.像伞状分布的vt.(用伞)遮住" }
+];

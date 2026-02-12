@@ -1,0 +1,22 @@
+const words = [
+    { english: "billion", chinese: "'biljən num.(英)万亿(美)十亿n.大量adj.大量的" },
+    { english: "conference", chinese: "'kɔnfərəns n.会议讨论会" },
+    { english: "missing", chinese: "misiŋ a.缺掉的失去的失踪的" },
+    { english: "input", chinese: "'input n.输入投入的资金" },
+    { english: "object", chinese: "'ɔbdʒikt n.物物体目的目标宾语v.反对提出...作为反对的理由抱反感" },
+    { english: "tract", chinese: "‘trækt n.传单,小册子,大片(土地或森林)" },
+    { english: "already", chinese: "ɔ:l'redi adv.早已已经" },
+    { english: "subordinate", chinese: "sә’bɔ:dәnit a.下级的，辅助的" },
+    { english: "perception", chinese: "pә’sepʃәn n.感觉；概念；理解力" },
+    { english: "prove", chinese: "pru:v vt.证明查验显示vi.结果是" },
+    { english: "engine", chinese: "'endʒin n.发动机引擎机车火车头vt.装引擎" },
+    { english: "mild", chinese: "maild adj.和缓的温柔的味淡的轻微的温和的适度的" },
+    { english: "correlate", chinese: "‘kɔrileit n.互相关联的事物" },
+    { english: "efficiency", chinese: "i'fiʃənsi n.效率功效效能" },
+    { english: "agitation", chinese: "ædʒi’teiʃәn n.鼓动，煸动；搅动" },
+    { english: "endurance", chinese: "in’djuәrәns n.耐久力，持久力" },
+    { english: "cabbage", chinese: "'kæbidʒ n.洋白菜卷心菜vt.偷窃" },
+    { english: "following", chinese: "fɔləuiŋadj.接着的下列的其次的prep.在(某事)以后n.下列各项部下党" },
+    { english: "real", chinese: "'ri:əl adj.真的现实的实际的真实的adv.非常n.真实的事真实" },
+    { english: "mysterious", chinese: "mis'tiəriəs adj.神秘的难以理解的不可思议的" }
+];

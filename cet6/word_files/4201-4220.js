@@ -1,0 +1,22 @@
+const words = [
+    { english: "judge", chinese: "dʒʌdʒ n.法官裁判员v.断定判断估计" },
+    { english: "its", chinese: "its pron.(it的所有格)它的" },
+    { english: "initiate", chinese: "i’niʃieit vt.开始，创始；启蒙" },
+    { english: "temptation", chinese: "temp'teiʃən n.诱惑引诱" },
+    { english: "occupation", chinese: ".ɔkju'peiʃən n.占领占据侵占职业居住" },
+    { english: "manage", chinese: "'mænidʒ vt.管理设法对付处理维持达成经营vi.管理达成" },
+    { english: "forbid", chinese: "fə'bid vt.禁止不许阻止妨碍" },
+    { english: "nitrogen", chinese: "'naitrədʒən n.氮" },
+    { english: "soul", chinese: "səuln.灵魂精神人心灵精髓鬼魂人黑人灵歌adj.美国黑人文化的黑人" },
+    { english: "mourn", chinese: "mɔ:n vi.哀痛，哀悼" },
+    { english: "federal", chinese: "'fedərəl adj.联邦(制)的联邦政府的联盟的同盟的n.联邦主义者同盟盟友" },
+    { english: "network", chinese: "'netwə:k n.网状物网络系统广播网vt.用网覆盖联网vi.加入网络" },
+    { english: "yes", chinese: "jes adv.是是的n.是(表示肯定)" },
+    { english: "cannon", chinese: "'kænən n.大炮火炮榴弹炮v.开炮" },
+    { english: "oh", chinese: "əu int.嗬哦唉呀" },
+    { english: "herd", chinese: "hə:d n.兽群牧群人群牧人vt.放牧群集使...成群vi.聚在一起" },
+    { english: "foil", chinese: "fɔil n. 箔,金属薄片 vt. 贴箔于, 衬托" },
+    { english: "trip", chinese: "tripvi.绊绊倒失足轻快地走失误结巴旅行vt.绊倒使跌倒使犯错使失" },
+    { english: "regret", chinese: "ri'gret vt.懊悔为...感到遗憾后悔惋惜抱歉n.懊悔遗憾后悔抱歉" },
+    { english: "head", chinese: "hedn.头头脑领袖冷静硬币正面顶端上端高潮vt. &vi.率领为首朝向" }
+];

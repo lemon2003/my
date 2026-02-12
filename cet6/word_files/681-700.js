@@ -1,0 +1,22 @@
+const words = [
+    { english: "simple", chinese: "'simpladj.简单的朴素的无辜的天真的基本的纯粹的n.平民精神病人草" },
+    { english: "fur", chinese: "fə:n.软毛毛皮裘皮毛皮服饰毛皮制品vt.用毛皮制作用毛皮盖于vi." },
+    { english: "convey", chinese: "kən'vei vt.传送运送传播转移" },
+    { english: "lest", chinese: "lest conj. &prep.惟恐以免" },
+    { english: "mutual", chinese: "'mju:tʃuəl adj.相互的共同的" },
+    { english: "compensate", chinese: "‘kɔmpenseit vt.&vi.补偿，赔偿" },
+    { english: "loss", chinese: "lɔs n.遗失损失失败丧失损耗亏损" },
+    { english: "tow", chinese: "tәu vt.&n.拖引，牵引" },
+    { english: "hamburger", chinese: "'hæmbə:gə n.汉堡包牛肉饼" },
+    { english: "waterproof", chinese: "'wɔ:təpru:f adj.不透水的防水的n.防水材料(英)雨衣vt.使...能防水" },
+    { english: "photograph", chinese: "'fəutəgrɑ:f n.照片相片vi.照相摄影vt.给...照相" },
+    { english: "mortgage", chinese: "‘mɔ:gidʒ n.抵押 vt.抵押" },
+    { english: "cage", chinese: "keidʒ n.笼鸟笼囚笼监狱笼状结构vt.关入笼中" },
+    { english: "disposition", chinese: "dispә’ziʃәn n. 性情,处置,处理,布置" },
+    { english: "charge", chinese: "tʃɑ:dʒvt. &vi.索价控告加罪于要价赊帐充电管理n.电荷指控费用照顾" },
+    { english: "concentrate", chinese: "'kɔnsentreit vt. &vi.集中专心聚集浓缩n.浓缩精选" },
+    { english: "trifle", chinese: "'traifl n.小事琐事少许少量v.浪费玩忽" },
+    { english: "tell", chinese: "tel vt.讲述吩咐辨别告诉vi.讲述告诉产生效果告发" },
+    { english: "speed", chinese: "spi:d n.快速率速度迅速vi.快行加速急行" },
+    { english: "cover", chinese: "'kʌvə vt.盖覆盖包括涉及包含n.盖子封面表面" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "loudspeaker", chinese: "'laud'spi:kə n.扬声器喇叭" },
+    { english: "combat", chinese: "‘kɔmbæt vt.跟…战斗 vi.格斗" },
+    { english: "last", chinese: "lɑ:stadj.最后的末尾的最近的晚了迟到了adv.最后最新n.最后来的人" },
+    { english: "reject", chinese: "ri'dʒekt vt.拒绝丢掉丢弃驳回排斥n.被拒之人不及格者" },
+    { english: "narrative", chinese: "‘nærәtiv n. 叙述,故事 a. 叙述的,叙事的" },
+    { english: "can", chinese: "kæn aux.v.能会可能n.罐头听头容器vt.罐装vt.炒某人鱿鱼" },
+    { english: "again", chinese: "ə'gein adv.又一次而且又再另一方面" },
+    { english: "rub", chinese: "rʌb vt.摩擦擦搓涂抹上使不愉快vi.摩擦n.摩擦困难障碍" },
+    { english: "tariff", chinese: "‘tærif n.关税,价格表,收费表 vt. 课以关税" },
+    { english: "break", chinese: "breik n.休息中断破裂vt.打破损坏弄破弄坏破坏" },
+    { english: "impossible", chinese: "im'pɔsəbl adj.不可能的办不到的" },
+    { english: "sure", chinese: "ʃuə adj.确信的确实的肯定的adv.当然确实地无疑地" },
+    { english: "refine", chinese: "ri'fain vt. &vi.精炼提纯净化使优雅vi.被提纯改进" },
+    { english: "being", chinese: "bi:iŋ n.存在生物生命人vi.存在处于举行去或来是adj.现在的目前的" },
+    { english: "elegant", chinese: "‘eligәnt a.(举止、服饰)雅致的" },
+    { english: "overtime", chinese: "'əuvətaimadj.超时的加班的adv.在规定时间之外(超出时间地)n.加班时间" },
+    { english: "couch", chinese: "kautʃ n.睡椅，长沙发椅" },
+    { english: "valve", chinese: "vælv n.阀，阀门；电子管" },
+    { english: "may", chinese: "mei, me v.aux.可能可以祝愿n.(May)五月青春" },
+    { english: "cream", chinese: "kri:m n.奶油乳酪乳脂奶油色面霜精华" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "associate", chinese: "ə'səuʃieitvt.联合联想vi.交往加入陪同n.伙伴同事合伙人准学士学位获得" },
+    { english: "visitor", chinese: "'vizitə n.访问者游客参观者" },
+    { english: "silly", chinese: "'sili adj.傻的愚蠢的淳朴的晕的" },
+    { english: "nevertheless", chinese: ".nevəðə'les conj.然而不过adv.仍然不过" },
+    { english: "morning", chinese: "mɔ:niŋ n.早晨上午开端" },
+    { english: "tram", chinese: "træmn.(有轨)电车矿车煤车缆车(复数)trams：有轨电车轨道vt.用缆" },
+    { english: "any", chinese: "'eni adj.什么一些任何的adv.稍一丁点pron.任何" },
+    { english: "precise", chinese: "pri'sais adj.精确的准确的认真的" },
+    { english: "collision", chinese: "kə'liʒən n.碰撞冲突" },
+    { english: "earth", chinese: "ə:θn.地球陆地地面泥土世间大地地球人vt.赶入洞中提取土壤vi.躲" },
+    { english: "British", chinese: "'britiʃ adj.不列颠的英国的英联邦的n.英国人英国英语" },
+    { english: "curiosity", chinese: ".kjuəri'ɔsiti n.好奇好奇心珍品" },
+    { english: "indication", chinese: ".indi'keiʃən n.指示表示象征表明" },
+    { english: "drama", chinese: "'drɑ:mə n.一出戏剧剧本戏剧戏剧性情节刺激" },
+    { english: "tackle", chinese: "‘tækl vt.解决，对付 n.用具" },
+    { english: "Fahrenheit", chinese: "'færənhait, 'f ɑ:r-n.华氏温度计adj.华氏的" },
+    { english: "draft", chinese: "dræft n.草稿草图汇票徵兵vt.起草征兵选秀adj.酝酿中的" },
+    { english: "transparent", chinese: "træns'perənt adj.透明的易识破的明显的清晰的" },
+    { english: "waste", chinese: "weist n.浪费垃圾荒地v.浪费滥用消耗adj.浪费的无用的荒芜的" },
+    { english: "slavery", chinese: "'sleivəri n.奴隶制度苦役奴役奴隶身份" }
+];

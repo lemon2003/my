@@ -1,0 +1,22 @@
+const words = [
+    { english: "grandson", chinese: "'grændsʌn n.孙子外孙子" },
+    { english: "stain", chinese: "stein vt.玷污弄脏给...着色n.污点瑕疵染料着色剂" },
+    { english: "use", chinese: "ju:svt.用使用利用耗费对待v.<口>吸(烟)服用(毒品)n.用运用用法" },
+    { english: "distort", chinese: "dis’tɔ:t vt.歪曲，曲解，扭曲" },
+    { english: "analyse", chinese: "'ænəlaiz vt.分析分解解析检讨细察" },
+    { english: "incline", chinese: "'inklain,in'klain n.倾斜斜坡斜面vt.使倾斜使...倾向爱好易于" },
+    { english: "sophisticated", chinese: "sə'fistikeitid adj.老于世故的高级的诡辩的精密的老练的尖端的" },
+    { english: "middle", chinese: "'midl n.中部中间腰中项adj.中部的中等的中间的中期的" },
+    { english: "lofty", chinese: "‘lɔfti a.高耸的；高尚的" },
+    { english: "every", chinese: "'evri adj.每一的每隔...的" },
+    { english: "removal", chinese: "ri'mu:vəl n.移动移居迁移除掉" },
+    { english: "turnip", chinese: "'tə:nip n.萝卜芜菁大头菜<俚>大怀表" },
+    { english: "vision", chinese: "'viʒən n.视力视觉眼力想象力梦幻幻觉vt.幻想设想" },
+    { english: "oriental", chinese: "ɔri’entl a.东方的；东方国家的" },
+    { english: "America", chinese: "ə'merikə n.美洲美国" },
+    { english: "enthusiasm", chinese: "in'θju:ziæzəm n.热情热心热忱热衷的事物" },
+    { english: "secret", chinese: "'si:krit adj.秘密的隐蔽的难懂的机密的n.秘密诀窍" },
+    { english: "present", chinese: "pri'zent vt.赠送介绍提出呈现" },
+    { english: "run", chinese: "rʌnvi.跑奔行驶流竞赛运转遭遇持续熔化褪色蔓延传播vt.跑放牧经" },
+    { english: "news", chinese: "nju:z n.新闻消息" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "quarter", chinese: "'kwɔ:tən.四分之一一刻钟季度25美分vt.四等分vi.住宿驻扎adj.四分之" },
+    { english: "sportsman", chinese: "'spɔ:tsmən n.运动员" },
+    { english: "concession", chinese: "kәn’seʃәn n.让步，迁就" },
+    { english: "childhood", chinese: "'tʃaildhud n.童年幼年早期" },
+    { english: "inspect", chinese: "in'spekt vt.检查审查调查检阅vi.调查" },
+    { english: "tramp", chinese: "træmp n.流浪者游民重步声v.践踏重步行走" },
+    { english: "bird", chinese: "bə:d n.鸟家禽陶土飞靶伙伴vi.观察或辨认鸟" },
+    { english: "embrace", chinese: "im'breis vt.拥抱包括包围信奉包含n.拥抱" },
+    { english: "nod", chinese: "nɔd vt.点(头)点头表示打盹摆动v.点头打盹使...摆动" },
+    { english: "allow", chinese: "ə'lau vi.(for)考虑到使可能vt.允许准许承认给予断定" },
+    { english: "cry", chinese: "kraivi.哭哭泣叫喊强烈要求vt.大声叫喊宣传哭得...n.叫哭喊口号" },
+    { english: "art", chinese: "ɑ:t adj.美术(品)的艺术(品)的n.艺术美术技术阴谋" },
+    { english: "swell", chinese: "swelvi.膨胀隆起增长vt.(使)膨胀(使)鼓起(使)增长n.膨胀肿胀增大" },
+    { english: "put", chinese: "put vt.放摆安置使处于vi.提交记下" },
+    { english: "helmet", chinese: "'helmit n.头盔钢盔遮阳帽甲" },
+    { english: "mark", chinese: "mɑ:kn.斑点污迹记号标记分数烙印纪录vt.标明做标记于留意打分数" },
+    { english: "glorious", chinese: "'glɔ:riəs adj.光荣的壮丽的辉煌的" },
+    { english: "size", chinese: "saizn.大小体积尺码尺寸vt.按大小排列(或分类)用... 填充(某" },
+    { english: "hand", chinese: "hænd n.手人手指针掌握协助vt.帮助给adv.手动地人工地" },
+    { english: "roller", chinese: "'rəulə n.滚柱滚筒滚轴滚转机" }
+];

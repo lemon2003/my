@@ -1,0 +1,22 @@
+const words = [
+    { english: "temple", chinese: "'templ n.圣堂神殿庙宇寺院" },
+    { english: "sly", chinese: "slai adj.狡猾的躲躲闪闪的诡密的偷偷摸摸的" },
+    { english: "determination", chinese: "di.tə:mi'neiʃən n.决心(正式)决定确定规定测定定位" },
+    { english: "closely", chinese: "'kləusli adv.紧密地接近地严密地" },
+    { english: "analytic", chinese: "ænә’litik a. 分析的,解析的" },
+    { english: "handful", chinese: "'hændfuln.一把少数一小撮棘手之事【非正式用语】难以控制的人或费劲" },
+    { english: "living", chinese: "liviŋ adj.活的生动的n.生活生计动词live的现在分词" },
+    { english: "erroneous", chinese: "i’rәunjәs a. 错误的,不正确的" },
+    { english: "specialize", chinese: "'speʃəlaiz vi.成为...专家专攻特殊化vt.专门研究专攻使...特殊化" },
+    { english: "inner", chinese: "'inə adj.内部的内心的里面的n.里面" },
+    { english: "deed", chinese: "di:d n.行为事迹功绩(尤指房产)契约证书vt.通过行为转化" },
+    { english: "hut", chinese: "hʌt n.小屋棚屋" },
+    { english: "costly", chinese: "'kɔstli adj.昂贵的价值高的代价高的" },
+    { english: "happiness", chinese: "'hæpinis n.幸福幸运快乐适当" },
+    { english: "rule", chinese: "ru:l n.统治规定规则习惯惯例标准vi.统治立法vt.裁决统治画直线" },
+    { english: "nominate", chinese: "‘nɔmineit vt.提名，推荐；任命" },
+    { english: "banner", chinese: "'bænən.旗旗帜横幅大标题adj.特别好的杰出的vt.用横幅装饰以大标" },
+    { english: "torrent", chinese: "'tɔrənt n.奔流激流洪流山洪adj.奔流的汹涌的" },
+    { english: "seminar", chinese: "‘semina: n. 研究会,讨论发表会" },
+    { english: "overflow", chinese: "әuvә’flәu vt.从…中溢出" }
+];

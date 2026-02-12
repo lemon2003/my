@@ -1,0 +1,22 @@
+const words = [
+    { english: "therefore", chinese: "'ðɛəfɔ: adv.因此所以" },
+    { english: "sour", chinese: "'sauə adj.酸的酸腐的刻薄的脾气坏的v.变酸n.酸物" },
+    { english: "lap", chinese: "læpn.膝部膝盖一圈一周下摆舐声vt.包围抱...在膝上重叠舔拍打泼" },
+    { english: "resistance", chinese: "ri'zistəns n.抵抗抵抗力抵制反抗反抗行动阻力电阻反对" },
+    { english: "shabby", chinese: "‘ʃæbi a.褴褛的；破旧的" },
+    { english: "toy", chinese: "tɔi n.玩具玩物adj.供玩耍的玩具的v.玩弄" },
+    { english: "storey", chinese: "'stɔ:ri n.(层)楼=story(美)" },
+    { english: "craft", chinese: "krɑ:ft n.工艺手艺行业航空器" },
+    { english: "likelihood", chinese: "‘laiklihud n.可能(性)" },
+    { english: "coat", chinese: "kəut n.外套上衣表皮动物皮毛一层vt.外面覆盖盖上毛衣" },
+    { english: "electronic", chinese: "ilekˈtrɔnɪk a.电子的" },
+    { english: "refuse", chinese: "'refju:s,ri'fju:z vt.拒绝adj.无用的n.废物垃圾" },
+    { english: "tourist", chinese: "'tuərist n.旅游者观光者" },
+    { english: "gaze", chinese: "geiz vi.凝视盯注视n.凝视" },
+    { english: "victorious", chinese: "vik'tɔ:riəs adj.胜利的得胜的" },
+    { english: "Australia", chinese: "ɔ'streiliə n.澳大利亚" },
+    { english: "although", chinese: "ɔ:l'ðəu conj.尽管虽然" },
+    { english: "ankle", chinese: "æŋkəl n.踝踝关节" },
+    { english: "thousand", chinese: "'θauzənd num.千千个n.无数千(复)thousands：成千上万许许多多" },
+    { english: "majority", chinese: "mə'dʒɔ:riti n.多数大多数" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "tedious", chinese: "'ti:diəs adj.冗长乏味的单调乏味的沉闷的" },
+    { english: "into", chinese: "'intu: prep.进入进入到到...里" },
+    { english: "purchase", chinese: "'pə:tʃəsn.买购买购买的物品支点紧握抓紧vt.买购买赢得(用设备)举起" },
+    { english: "character", chinese: "'kæriktə n.性格个性品质特性角色字符人物名誉地位adj." },
+    { english: "appointment", chinese: "ə'pɔintmənt n.任命约定约会预约委派官职设备" },
+    { english: "tempt", chinese: "tempt vt.引诱诱惑吸引勾引" },
+    { english: "tilt", chinese: "tilt vt.&vi.(使)倾斜" },
+    { english: "collar", chinese: "'kɔlə n.衣领项圈vt.抓住为...戴上项圈" },
+    { english: "epoch", chinese: "‘i:pɔk n.(新)时代；历元" },
+    { english: "thank", chinese: "θæŋk vt.谢谢感谢n.感谢谢意" },
+    { english: "firm", chinese: "fə:mn.商行商号公司vt.(使)变得坚实定案vi.变硬恢复adj.坚定的坚" },
+    { english: "life", chinese: "laifn.生命一生寿命生活人生生物灵魂无期(徒刑)adj.活的终身的生" },
+    { english: "automatic", chinese: ".ɔ:tə'mætik adj.自动的机械的半自动化的n.自动装置半自动武器" },
+    { english: "winner", chinese: "'winə n.获胜者优胜者" },
+    { english: "as", chinese: "æs adv.同样地像prep.当做conj.当...的时候像...一样因为" },
+    { english: "different", chinese: "'difərənt adj.差异的各种的不同的与众不同的" },
+    { english: "commonwealth", chinese: "‘kɔmәnwelθ n.共和国；联邦" },
+    { english: "entry", chinese: "'entri n.入口处登记进入入口项目" },
+    { english: "substitute", chinese: "'sʌbstitju:t n.代替人代用品vt.用...代替代以代替" },
+    { english: "recover", chinese: "ri'kʌvə vt.重新获得挽回找回vi.恢复复原补偿" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "remains", chinese: "ri'meinz n.残余(余物遗物化石)余额废墟" },
+    { english: "overcoat", chinese: "'əuvəkəut n.外衣大衣" },
+    { english: "properly", chinese: "'prɔpəli adv.适当地彻底地当然地" },
+    { english: "orient", chinese: "‘ɔ:riәnt n.东方；亚洲，远东" },
+    { english: "apartment", chinese: "ə'pɑ:tmənt n.一套公寓房间" },
+    { english: "relief", chinese: "ri'li:f n.减轻救济(品)援救解除安慰浮雕对比adj.提供救济的文本的" },
+    { english: "corrupt", chinese: "kә’rΛpt vt.贿赂 a.腐败的" },
+    { english: "mock", chinese: "mɔk n.嘲弄 vt.嘲弄，挖苦" },
+    { english: "diverse", chinese: "dai'və:s adj.不一样的相异的不同的多种多样的" },
+    { english: "misfortune", chinese: "mis’fɔ:tʃ әn n.不幸，灾祸，灾难" },
+    { english: "solution", chinese: "sə'lu:ʃən n.解决解答解决办法溶解溶液" },
+    { english: "enlarge", chinese: "in'lɑ:dʒ vt.扩大扩展增大放大" },
+    { english: "goodbye", chinese: ".gud'bai int.再见再会n.说再见" },
+    { english: "affection", chinese: "ə'fekʃən n.慈爱爱爱慕影响喜爱感情" },
+    { english: "stream", chinese: "stri:m n.河(人车气)流水流组vi. &vt.流流出飘动接踵而来" },
+    { english: "ruin", chinese: "'ruin n.(pl.)废墟毁灭vt.毁坏毁灭vi.(使)破产毁灭" },
+    { english: "deprive", chinese: "di’praiv vt.夺去；使(人)失去" },
+    { english: "item", chinese: "'aitəm n.条条款一条项目一件商品(或物品)adv.也" },
+    { english: "style", chinese: "stail n.风格文体式样时尚类型vt.称呼设计" },
+    { english: "govern", chinese: "'gʌvən vt.统治治理支配管理规定vi.统治执行" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "academic", chinese: ".ækə'demik adj.学院的理论的学术性的n.教学人员学术人员" },
+    { english: "commitment", chinese: "kә’mitmәnt n. 委托,承担义务,赞助" },
+    { english: "stale", chinese: "steiln.陈腐的走了气的(动物的)尿adj.不新鲜的陈腐的失效的vt.使" },
+    { english: "hammer", chinese: "'hæmə n.锤榔头vt.锤击锤打严厉批评vi.锤击反复敲打" },
+    { english: "casual", chinese: "'kæʒjuəl adj.偶然的随便的非正式漫不经心的" },
+    { english: "alliance", chinese: "ә’laiәns n. 联盟,联合" },
+    { english: "submerge", chinese: "səb'mə:dʒ vt.使浸没潜入水中覆盖vi.潜入水中浸没" },
+    { english: "bald", chinese: "bɔ:ld a.秃头的；无毛的" },
+    { english: "accidental", chinese: ".æksi'dentla.意外的偶然的附属的非本质的n.偶然不重要的东西<音>变调的" },
+    { english: "gas", chinese: "gæsn.煤气气体汽油空话能量vt.使吸入毒气死给...加汽油vi.空谈" },
+    { english: "undertake", chinese: ".ʌndə'teik vt.从事承担保证答应" },
+    { english: "anchor", chinese: "æŋkən.铁锚vi.抛锚停泊用锚系住担任（广播电视新闻节目）的主持" },
+    { english: "ministry", chinese: "'ministri n.(政府的)部(全体)牧师牧师工作" },
+    { english: "discount", chinese: "‘diskaunt n.折扣；打折扣卖" },
+    { english: "elsewhere", chinese: "'els'wɛə ad.在别处向别处" },
+    { english: "correspondence", chinese: "kɔris’pɔnd әnsn.通信；符合；对应" },
+    { english: "conductor", chinese: "kən'dʌktə n.售票员(乐队)指挥导体" },
+    { english: "shoe", chinese: "ʃu: n.鞋" },
+    { english: "plunge", chinese: "plʌndʒvt.使投入使陷入vi.投入骤降使...陷入全神贯注于n.突然跌落" },
+    { english: "socialist", chinese: "'səuʃəlist adj.社会主义的n.社会主义者" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "descendant", chinese: "di’sendәnt n.子孙，后裔；弟子" },
+    { english: "glimpse", chinese: "glimps vt. &vi.瞥见一瞥闪烁n.一瞥一看一闪" },
+    { english: "embed", chinese: "im’bed vt. 使插入,使嵌入" },
+    { english: "tent", chinese: "tent n.帐篷v.住帐篷宿营" },
+    { english: "attentive", chinese: "ə'tentiv adj.注意的留意的有礼貌的" },
+    { english: "sharp", chinese: "ʃɑ:padj.锋利的敏锐的刺耳的急剧的清晰的adv.时刻，正准n.升半音" },
+    { english: "survive", chinese: "sə'vaiv vt.幸免于比...活得长艰难度过vi.活下来活着继续存在" },
+    { english: "worth", chinese: "wə:θ adj.值...的值得的值钱的n.价值财富" },
+    { english: "deceit", chinese: "di'si:t n.欺骗欺诈诡计不诚实" },
+    { english: "jaw", chinese: "dʒɔ: n.颌颚说教流言蜚语v.喋喋不休教训" },
+    { english: "jewish", chinese: "'dʒu:iʃ adj.犹太人的" },
+    { english: "acquisition", chinese: "‘ækwi’ziʃ әnn. 获得,添加的物品" },
+    { english: "van", chinese: "væn n.大篷车运货车面包车vt.(用货车)运n.前卫前锋n.翼" },
+    { english: "irregular", chinese: "i'regjulə adj.不规则的不整齐的不合法的n.不合规格之物" },
+    { english: "summon", chinese: "‘sΛmәn vt.召唤；鼓起(勇气)" },
+    { english: "analogy", chinese: "ә’nælәdʒi n.相似，类似；比拟" },
+    { english: "year", chinese: "jə:, jiə n.年年年年度年龄学年" },
+    { english: "clip", chinese: "klip vt.剪；剪辑报刊" },
+    { english: "competence", chinese: "‘kɔmpitәns n. 胜任,资格,能力" },
+    { english: "leaflet", chinese: "‘li:flit n.传单，活页；广告" }
+];

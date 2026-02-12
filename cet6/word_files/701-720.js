@@ -1,0 +1,22 @@
+const words = [
+    { english: "dragon", chinese: "'drægən n.龙凶暴的人严厉的人" },
+    { english: "quartz", chinese: "kwɔ:ts n.石英" },
+    { english: "salary", chinese: "'sæləri n.薪金薪水vt.给...薪水" },
+    { english: "security", chinese: "si'kju:riti n.安全安全感防护措施保证(金)抵押(品)债券证券" },
+    { english: "luck", chinese: "lʌk n.运气好运幸运吉祥之物v.侥幸成功" },
+    { english: "competitive", chinese: "kәm’petitiv a.竞争的，比赛的" },
+    { english: "eve", chinese: "i:v n.前夜前夕前一刻" },
+    { english: "thereafter", chinese: "ðɛә’ra:ftә ad.此后，以后" },
+    { english: "bulletin", chinese: "‘bulitin 告示，公告，公报" },
+    { english: "store", chinese: "stɔ:n.贮藏贮存品商店仓库vt.储存贮藏供给保存(在计算机里)存贮" },
+    { english: "student", chinese: "'stju:dənt n.学生研究生学者" },
+    { english: "reflexion", chinese: "ri'flekʃən n.反射映象反映反射波折射考虑想法=reflection" },
+    { english: "July", chinese: "dʒu(:)'lai n.七月" },
+    { english: "handwriting", chinese: "hænd.raitiŋ n.笔迹手迹书法" },
+    { english: "meal", chinese: "mi:l n.膳食一餐谷物粗粉vi.进餐" },
+    { english: "adjoin", chinese: "ә’dʒɔin vt.贴近，毗连；靠近" },
+    { english: "classification", chinese: ".klæsifi'keiʃən n.分类分级分类法" },
+    { english: "cake", chinese: "keikn.饼糕蛋糕块状物小菜一碟(容易做成的事)vt.涂厚厚的一层覆" },
+    { english: "fit", chinese: "fit vt.适合安装vi.适合n.适宜发作adj.适宜的健壮的" },
+    { english: "progress", chinese: "prəu'gres n.前进进展进步vi.促进进步进行" }
+];

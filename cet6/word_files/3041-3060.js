@@ -1,0 +1,22 @@
+const words = [
+    { english: "tidy", chinese: "'taidiadj.整洁的整齐的<口>相当大的vt.使整洁整理vi.整理收拾" },
+    { english: "sow", chinese: "sau vt.播(种)散布vi.播种散布n.母猪, 大母熊, 铁水沟铁锭" },
+    { english: "manuscript", chinese: "‘mænjuskript n.手稿，底稿，原稿" },
+    { english: "accord", chinese: "ə'kɔ:d vt.使一致调解赠予给予n.一致调和协议自愿vi.(与)一致" },
+    { english: "October", chinese: "ɔk'təubə n.十月" },
+    { english: "postpone", chinese: "pəust'pəun vt.延迟推迟延缓" },
+    { english: "detail", chinese: "'di:teiln.细节详情部分分派枝节零件vt.详述选派用小元素装饰vi.画细" },
+    { english: "intrinsic", chinese: "in’trinsik a. 本质的,原有的,真正的" },
+    { english: "outskirt", chinese: "'aut.skə:t n.外边郊区" },
+    { english: "ignorant", chinese: "'ignərənt adj.不知道的无知的愚昧的" },
+    { english: "junior", chinese: "'dʒu:njəadj.年少的下级的后进的n.晚辈年少者地位较低者大学三年级学" },
+    { english: "apart", chinese: "ə'pɑ:t adv.相隔分开除去分别地有区别地adj.分开的分离的" },
+    { english: "assistant", chinese: "ə'sistənt n.助手助理助教adj.副的" },
+    { english: "useless", chinese: "'ju:slis adj.无用的无价值的无效的" },
+    { english: "ampere", chinese: "'æmpeə n.安培" },
+    { english: "recite", chinese: "ri’sait vt.&vi.背诵，朗诵" },
+    { english: "surprise", chinese: "sə'praiz vt.使惊奇使诧异奇袭突然袭击n.惊奇诧异惊讶突然袭击" },
+    { english: "seat", chinese: "si:t n.座座部位子所在地中心vt.使坐下可容纳vi.坐" },
+    { english: "reflection", chinese: "ri'flekʃən n.反射映象反映折射沉思影响" },
+    { english: "sell", chinese: "sel vi.卖销售促销vt.出让背叛出卖出售n.欺骗" }
+];

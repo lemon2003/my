@@ -1,0 +1,22 @@
+const words = [
+    { english: "here", chinese: "hiə adv.这里向这里adj.表示强调n.这里" },
+    { english: "Orthodox", chinese: "‘ɔ:θәdɔks a. 正统的,传统的,惯常的" },
+    { english: "married", chinese: "'mærid adj.已婚的婚姻的" },
+    { english: "erupt", chinese: "i’rΛpt vi. 爆发 vt. 喷出" },
+    { english: "grandmother", chinese: "'grænd.mʌðə n.祖母外祖母" },
+    { english: "fountain", chinese: "'fauntin n.泉水喷泉源泉储水容器vt. &vi.使像喷泉一样流" },
+    { english: "perish", chinese: "‘periʃ vi.死亡，夭折；枯萎" },
+    { english: "contribution", chinese: "kɔntri’bju:ʃәn n. 捐助,捐助之物,贡献" },
+    { english: "ambassador", chinese: "æm’bæsәd әn.大使，使节" },
+    { english: "even", chinese: "'i:vənadv.甚至甚至更还恰好正当adj.平坦的偶数的相等的均匀的v.使" },
+    { english: "worst", chinese: "wə:stadj.最坏的最差的最不利的形容词bad或ill的最高级adv.最坏地" },
+    { english: "mistress", chinese: "'mistris n.女主人夫人主妇情妇" },
+    { english: "invade", chinese: "in'veid vt.入侵侵略侵害侵袭拥入" },
+    { english: "number", chinese: "'nʌmbə n.数数字号码数量vi.总计编号vt.编号把...算作" },
+    { english: "reduce", chinese: "ri'dju:s vt.减少减小简化分解减低归约使...陷入某种状态vi.减少" },
+    { english: "leaf", chinese: "li:f n.叶叶子树叶页活动桌板花瓣vt.翻页vi.长叶子翻页浏览" },
+    { english: "trumpet", chinese: "'trʌmpitn.喇叭小号喇叭声喇叭手vt.宣扬鼓吹吹嘘vi.吹喇叭发出喇叭似" },
+    { english: "primary", chinese: "'praiməriadj.最初的基本的主要的根本的初等教育的n.最主要者初选原色" },
+    { english: "man", chinese: "mæn n.男人人人类vt.为...配备人手使...振奋" },
+    { english: "stupid", chinese: "'stju:pid adj.愚蠢的感觉迟钝的笨拙的n.傻瓜" }
+];

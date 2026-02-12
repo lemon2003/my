@@ -1,0 +1,22 @@
+const words = [
+    { english: "classical", chinese: "'klæsikəl adj.古典的经典的典雅的" },
+    { english: "timber", chinese: "‘timbә n.木材，木料" },
+    { english: "henceforth", chinese: "‘hens’fɔ:θ ad.今后，从今以后" },
+    { english: "might", chinese: "mait v.aux.可能会也许n.力量威力能力v.或许可以" },
+    { english: "chair", chinese: "tʃɛə n.椅子主席席位讲座要职vt.上任使担任(某事务)的主席主持" },
+    { english: "unable", chinese: "ʌn'eibl adj.不能的不会的" },
+    { english: "inhibit", chinese: "in’hibit vt. 禁止,抑制" },
+    { english: "formal", chinese: "'fɔ:məl adj.正式的礼仪上的形式的拘谨的n.正式(活动)" },
+    { english: "wheat", chinese: "wi:t n.小麦小麦色" },
+    { english: "bathroom", chinese: "'bɑ:θrum, -ru:m n.浴室盥洗室" },
+    { english: "metropolitan", chinese: "metrә’pɔlitәna.主要都市的n.大主教" },
+    { english: "devil", chinese: "'devl n.魔鬼恶魔坏人难对付的东西困难小尘暴vt.加料惹恼" },
+    { english: "push", chinese: "puʃ vt.推逼迫奋力决心vi.推挤逼迫" },
+    { english: "baggage", chinese: "'bægidʒ n.行李" },
+    { english: "twinkle", chinese: "twiŋkl vi.闪烁闪耀使...闪耀眨眼迅速移动n.闪烁闪耀眨眼瞬息" },
+    { english: "however", chinese: "hau'evə adv.然而不管怎样conj.然而可是不过" },
+    { english: "highway", chinese: "'haiwei n.公路大路(水陆空)直接航线或路线" },
+    { english: "bicycle", chinese: "'baisik(ə)l n.自行车脚踏车v.骑自行车" },
+    { english: "since", chinese: "sins conj.从...以来因为既然自从adv.后来prep.自从" },
+    { english: "scenery", chinese: "'si:nəri n.舞台布景风景布景背景" }
+];

@@ -1,0 +1,22 @@
+const words = [
+    { english: "transformation", chinese: ".trænsfə'meiʃən n.变化改造转变转型转化" },
+    { english: "rainy", chinese: "'reini adj.下雨的多雨的" },
+    { english: "ownership", chinese: "'əunəʃip n.所有(权)所有制" },
+    { english: "drag", chinese: "drægvt.拖拉拖曳拖累拖拉(动)vi.拖拉(动) 缓慢地行走n.用来拖拉" },
+    { english: "bind", chinese: "baind n.窘境vt.捆绑包扎装钉约束约束" },
+    { english: "imply", chinese: "im'plai vt.暗示意指" },
+    { english: "steady", chinese: "'stediadj.稳固的稳定的坚定的vt.使稳定使稳固(变得)稳固adv.平稳" },
+    { english: "veto", chinese: "‘vi:tәu n.否决，否决权，禁止" },
+    { english: "boy", chinese: "bɔi n.男孩儿子少年家伙" },
+    { english: "administration", chinese: "ədminis'treiʃən n.管理行政管理部门" },
+    { english: "tube", chinese: "'tju:b n.管管状物电子管显像管电视地铁气管" },
+    { english: "practically", chinese: "'præktikəli adv.实际上几乎简直adj.实际的几乎" },
+    { english: "arise", chinese: "ə'raiz vi.出现由...引起上升" },
+    { english: "westward", chinese: "'westwəd adj.向西的西方的adv.向西n.西方西部" },
+    { english: "grope", chinese: "grәup vi.(暗中)摸索，探索" },
+    { english: "money", chinese: "'mʌni n.货币金钱财富" },
+    { english: "augment", chinese: "ɔ:g’ment vt.vi.n. 增加,增大" },
+    { english: "sector", chinese: "‘sektә n.部门,部分,扇形" },
+    { english: "picnic", chinese: "'piknik n.郊游野餐愉快的时间猪脊肉vi.野餐" },
+    { english: "freely", chinese: "'fri:li adv.自由地免费地直率地大量地" }
+];

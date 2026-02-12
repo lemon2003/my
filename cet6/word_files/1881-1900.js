@@ -1,0 +1,22 @@
+const words = [
+    { english: "article", chinese: "'ɑ:tikəl n.文章条款物品冠词vt.定契约" },
+    { english: "error", chinese: "'erə n.错误谬误差错" },
+    { english: "goat", chinese: "gəut n.山羊好色之徒替罪羔羊" },
+    { english: "comedy", chinese: "‘kɔmidi n.喜剧；喜剧场面" },
+    { english: "while", chinese: "(h)wail conj.当...的时候然而虽然尽管n.一会儿一段时间vt.消磨" },
+    { english: "blade", chinese: "bleid n.刀刃刀片叶片刀锋" },
+    { english: "microcomputer", chinese: "'maikrəukəm'pju:t n.微型计算机微机" },
+    { english: "execution", chinese: "eksi’kju:ʃәn n.实行，执行；处死刑" },
+    { english: "contradict", chinese: "kɔntrә’dikt vt.反驳，否认" },
+    { english: "ridiculous", chinese: "ri'dikjuləs adj荒谬的可笑的" },
+    { english: "tumble", chinese: "'tʌmblvi.摔倒跌倒打滚下跌倒塌翻跟斗偶然发现理解vt.使摔倒使混乱" },
+    { english: "hate", chinese: "heit vt.恨憎恨不喜欢不愿vi.表示憎恨n.憎恨厌恶厌恶的人或事" },
+    { english: "explanation", chinese: ".eksplə'neiʃən n.解释说明辩解" },
+    { english: "jump", chinese: "dʒʌmp vi. &vt.跳跳过跳越惊跳暴涨突升n.跳跃跳动上涨" },
+    { english: "battle", chinese: "'bætl n.战役斗争争论vi.与...作战与...斗争" },
+    { english: "soup", chinese: "su:p n.汤羹n.困境" },
+    { english: "radius", chinese: "'reidiəs n.半径桡骨半径范围辐射区" },
+    { english: "optional", chinese: "'ɔpʃənl adj.可以任意选择的" },
+    { english: "lord", chinese: "lɔ:d n.贵族上帝基督主" },
+    { english: "elementary", chinese: ".elə'mentəri adj.基本的初级的元素的" }
+];
