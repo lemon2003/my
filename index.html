@@ -1,230 +1,174 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>项目网站总结</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>项目网站总结</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+        background: #f5f7fa;
+        color: #222;
+        min-height: 100vh;
+        padding: 30px 20px 50px;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #1f2937;
+        margin-bottom: 6px;
+    }
+
+    header p {
+        font-size: 14px;
+        color: #6b7280;
+    }
+
+    /* 多行多列网格 */
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+        gap: 16px;
+    }
+
+    .project-item {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 14px 18px;
+        text-decoration: none;
+        color: inherit;
+        border: 1px solid #eef1f5;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .project-item:hover {
+        transform: translateY(-2px);
+        border-color: #c7d2fe;
+        box-shadow: 0 8px 24px rgba(79, 70, 229, 0.12);
+    }
+
+    .project-no {
+        flex: 0 0 58px;
+        width: 58px;
+        height: 58px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 1px;
+    }
+
+    .project-name {
+        font-size: 16px;
+        font-weight: 500;
+        color: #111827;
+        line-height: 1.4;
+    }
+
+    footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 13px;
+        color: #9ca3af;
+    }
+
+    @media (max-width: 768px) {
+        .project-grid {
+            grid-template-columns: 1fr;
         }
-        
+    }
+
+    @media (max-width: 480px) {
         body {
-            background-color: #f8f9fa;
-            color: #333;
-            line-height: 1.6;
-            padding: 40px 20px;
-            min-height: 100vh;
+            padding: 20px 14px 40px;
         }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 4px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
+        header h1 {
+            font-size: 20px;
         }
-        
-        header {
-            padding: 40px 30px;
-            border-bottom: 1px solid #eaeaea;
-            text-align: center;
-        }
-        
-        h1 {
-            font-size: 28px;
-            font-weight: 500;
-            margin-bottom: 10px;
-            color: #2c3e50;
-        }
-        
-        .subtitle {
-            font-size: 16px;
-            color: #7f8c8d;
-            font-weight: 300;
-        }
-        
-        .content {
-            padding: 30px;
-        }
-        
-        .project-list {
-            list-style: none;
-        }
-        
         .project-item {
-            display: flex;
-            align-items: center;
-            padding: 20px 0;
-            border-bottom: 1px solid #f0f0f0;
-            transition: background-color 0.2s;
+            padding: 12px 14px;
+            gap: 12px;
         }
-        
-        .project-item:hover {
-            background-color: #f9f9f9;
-        }
-        
-        .project-item:last-child {
-            border-bottom: none;
-        }
-        
-        .project-number {
-            width: 60px;
-            font-size: 14px;
-            color: #95a5a6;
-            font-weight: 300;
-        }
-        
-        .project-info {
-            flex: 1;
-        }
-        
-        .project-name {
+        .project-no {
+            flex: 0 0 48px;
+            width: 48px;
+            height: 48px;
             font-size: 18px;
-            font-weight: 500;
-            margin-bottom: 5px;
-            color: #2c3e50;
         }
-        
-        .project-desc {
-            font-size: 14px;
-            color: #7f8c8d;
-        }
-        
-        .project-link {
-            display: inline-block;
-            padding: 8px 16px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 3px;
-            font-size: 14px;
-            transition: background-color 0.2s;
-        }
-        
-        .project-link:hover {
-            background-color: #2980b9;
-        }
-        
-        footer {
-            padding: 20px 30px;
-            text-align: center;
-            border-top: 1px solid #eaeaea;
-            color: #95a5a6;
+        .project-name {
             font-size: 14px;
         }
-        
-        @media (max-width: 600px) {
-            body {
-                padding: 20px 10px;
-            }
-            
-            .container {
-                border-radius: 0;
-            }
-            
-            header {
-                padding: 30px 20px;
-            }
-            
-            .content {
-                padding: 20px;
-            }
-            
-            .project-item {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 15px 0;
-            }
-            
-            .project-number {
-                width: 100%;
-                margin-bottom: 5px;
-            }
-            
-            .project-info {
-                margin-bottom: 10px;
-                width: 100%;
-            }
-            
-            .project-link {
-                align-self: flex-end;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>项目网站总结</h1>
-            <p class="subtitle">为方便访问，这里设置一个总访问网页</p>
+            <p>为方便访问，这里设置一个总访问网页</p>
         </header>
-        
-        <div class="content">
-            <ul class="project-list">
-                <li class="project-item">
-                    <div class="project-number">项目 01</div>
-                    <div class="project-info">
-                        <div class="project-name">CET6 单词学习系统</div>
-                        <div class="project-desc">英语六级大纲词汇乱序版</div>
-                    </div>
-                    <a href="cet6/index.html" class="project-link">访问</a>
-                </li>
-                <li class="project-item">
-                    <div class="project-number">项目 02</div>
-                    <div class="project-info">
-                        <div class="project-name">CET6词汇高频词汇</div>
-                        <div class="project-desc">英语六级大纲词汇高频词（百词斩）乱序版</div>
-                    </div>
-                    <a href="cet6h/index.html" class="project-link">访问</a>
-                </li>
-                <li class="project-item">
-                    <div class="project-number">项目 03</div>
-                    <div class="project-info">
-                        <div class="project-name">Day28颉斌斌老师英语考研词汇</div>
-                        <div class="project-desc">颉彬彬老师28天英语考研单词</div>
-                    </div>
-                    <a href="day28/index.html" class="project-link">访问</a>
-                </li>
-                 <li class="project-item">
-                    <div class="project-number">项目 04</div>
-                    <div class="project-info">
-                        <div class="project-name">CET6词汇高频词汇</div>
-                        <div class="project-desc">高频词汇升级版，加入了标记按钮，可以反复记忆不熟悉的词</div>
-                    </div>
-                    <a href="cet6hAD/index.html" class="project-link">访问</a>
-                </li>
-                 <li class="project-item">
-                    <div class="project-number">项目 05</div>
-                    <div class="project-info">
-                        <div class="project-name">Markdown编辑器</div>
-                        <div class="project-desc">markdown编辑器，可以实时查看markdown的编辑效果</div>
-                    </div>
-                    <a href="markdown.html" class="project-link">访问</a>
-                </li>
-                <li class="project-item">
-                    <div class="project-number">项目 06</div>
-                    <div class="project-info">
-                        <div class="project-name">计算机2级练习题</div>
-                        <div class="project-desc">计算机二级808题练习，实验版本，有题目加载不出来</div>
-                    </div>
-                    <a href="computer2/index.html" class="project-link">访问</a>
-                </li>
-                <li class="project-item">
-                    <div class="project-number">项目 07</div>
-                    <div class="project-info">
-                        <div class="project-name">英语考研词汇乱序版，每天50个</div>
-                        <div class="project-desc">这个项目是英语考研词汇乱序版，有标记</div>
-                    </div>
-                    <a href="EnglishKY/index.html" class="project-link">访问</a>
-                </li>
-            </ul>
+
+        <div class="project-grid">
+            <a href="liujishijuan/index.html" class="project-item">
+                <div class="project-no">01</div>
+                <div class="project-name">英语六级试卷</div>
+            </a>
+            <a href="cet6h/index.html" class="project-item">
+                <div class="project-no">02</div>
+                <div class="project-name">CET6优路高频词汇</div>
+            </a>
+			<a href="cet6/index.html" class="project-item">
+                <div class="project-no">03</div>
+                <div class="project-name">CET6百词斩乱序词汇</div>
+            </a>
+            <a href="day28/index.html" class="project-item">
+                <div class="project-no">04</div>
+                <div class="project-name">Day28颉斌斌老师英语考研词汇</div>
+            </a>
+            <a href="cet6hAD/index.html" class="project-item">
+                <div class="project-no">05</div>
+                <div class="project-name">CET6百词斩高频词汇</div>
+            </a>
+            <a href="markdown.html" class="project-item">
+                <div class="project-no">06</div>
+                <div class="project-name">Markdown编辑器</div>
+            </a>
+            <a href="computer2/index.html" class="project-item">
+                <div class="project-no">07</div>
+                <div class="project-name">计算机2级练习题</div>
+            </a>
+            <a href="EnglishKY/index.html" class="project-item">
+                <div class="project-no">08</div>
+                <div class="project-name">英语考研词汇乱序版</div>
+            </a>
+            
         </div>
-        
+
         <footer>
             <p>lemon项目网站（lemon仅为作者英文名字，无特殊含义）</p>
         </footer>

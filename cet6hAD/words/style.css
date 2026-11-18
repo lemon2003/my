@@ -1,37 +1,25 @@
-/* style.css - 英语单词学习系统样式 */
+/* style.css —— 单词卡片学习页
+ *
+ * 配色全部来自 theme.css 的 CSS 变量（糖果撞色），
+ * 本文件只写组件规则，不出现任何写死的颜色值。改配色只动 theme.css。
+ *
+ * 颜色分工：蓝 = 当前词，黄 = 标记词，白底黑边 = 未看，暖灰 = 已背过。
+ */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
-}
-
-.word-card {
-    /* 其他样式保持不变 */
-    transition: all 0.3s ease; /* 增加背景色过渡效果 */
-}
-
-#markBtn {
-    padding: 8px 20px;
-    font-size: 1rem;
-    background-color: #f48fb1;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-weight: 500;
-}
-
-#markBtn:hover {
-    background-color: #ec407a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft YaHei', sans-serif;
 }
 
 body {
-    background-color: #f8f9fa;
+    background-color: var(--bg);
+    color: var(--text);
     min-height: 100vh;
     overflow: hidden;
     position: relative;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .container {
@@ -39,25 +27,66 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    padding: 20px;
 }
+
+/* ---------- 单元水印 ---------- */
+/* 背景层的灰色单元编号：不参与交互（pointer-events: none）、
+ * 层级压在卡片（z-index: 5）之下，只在空白处透出来，不会挡住单词。 */
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-6deg);
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+    font-size: clamp(2.5rem, 14vw, 10.5rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    color: var(--watermark);
+}
+
+/* ---------- 单词卡片 ---------- */
 
 .word-card {
     position: absolute;
-    font-size: 1.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 2.1rem;
     font-weight: 600;
-    color: #333;
+    color: var(--text);
     cursor: pointer;
-    transition: all 0.2s ease;
-    padding: 10px 18px;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    padding: 14px 26px 15px;
+    border-radius: 12px;
+    background-color: var(--card-bg);
+    border: 2px solid var(--card-border);
     text-align: center;
+    line-height: 1.15;
     user-select: none;
     z-index: 5;
-    border: 1px solid #e0e0e0;
-    animation: fadeIn 0.5s ease-out;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease,
+        transform 0.2s ease;
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* 卡片上的音标：小一号、浅一点，不抢单词本身 */
+.word-card .card-phonetic {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--card-phonetic);
+    letter-spacing: 0.2px;
+}
+
+.word-card.current .card-phonetic {
+    color: var(--current-sub);
+}
+
+.word-card.marked .card-phonetic {
+    color: var(--mark-phonetic);
 }
 
 @keyframes fadeIn {
@@ -65,47 +94,96 @@ body {
     to { opacity: 1; transform: scale(1); }
 }
 
-.word-card:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
-    transform: translateY(-2px);
-    background-color: #f9f9f9;
+/* 状态色由 class 控制，避免内联样式盖住 :hover */
+/* 当前词：整张蓝底白字，全场最扎眼的一张 */
+.word-card.current {
+    background-color: var(--current-bg);
+    border-color: var(--current-bg);
+    color: var(--current-text);
 }
+
+/* 标记词：荧光黄底 + 黑描边，跟蓝的当前词完全不同的色相 */
+.word-card.marked {
+    background-color: var(--mark-bg);
+    border: 2px solid var(--mark-border);
+    color: var(--mark-text);
+}
+
+/* 未看的词：白底黑描边，鼠标划过变蓝边 */
+.word-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.word-card.current:hover {
+    border-color: var(--accent-hover);
+}
+
+.word-card.marked:hover {
+    border-color: var(--mark-border);
+}
+
+/* ---------- 底部按钮 ---------- */
 
 .nav-btn {
     position: fixed;
-    padding: 12px 24px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 6px;
+    padding: 14px 28px;
+    font-size: 1.15rem;
+    font-family: inherit;
+    border: 2px solid var(--btn-ghost-border);
+    border-radius: 10px;
     cursor: pointer;
-    background-color: #4a6fa5;
-    color: white;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    transition: all 0.2s ease;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease,
+        border-color 0.2s ease;
     z-index: 100;
     font-weight: 500;
 }
 
 .nav-btn:hover {
-    background-color: #3a5a8c;
+    background-color: var(--accent-hover);
     transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .nav-btn:active {
     transform: translateY(1px);
 }
 
-/* 修改按钮的CSS定位，将返回首页按钮放在左侧 */
+/* 返回首页是次要动作：白底黑字，不跟「下一个」抢蓝色 */
 #homeBtn {
     bottom: 20px;
     left: 20px;
+    background-color: var(--btn-ghost-bg);
+    color: var(--btn-ghost-text);
+}
+
+#homeBtn:hover {
+    background-color: var(--accent-soft);
 }
 
 #nextBtn {
     bottom: 20px;
     right: 20px;
 }
+
+/* ---------- 计数 ---------- */
+
+.counter {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: var(--surface);
+    border: 2px solid var(--border-strong);
+    color: var(--text);
+    padding: 7px 15px;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 1.05rem;
+    z-index: 50;
+}
+
+/* ---------- 释义弹层 ---------- */
 
 .modal {
     display: none;
@@ -114,86 +192,277 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: var(--overlay);
     z-index: 1000;
     justify-content: center;
     align-items: center;
 }
 
 .modal-content {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
+    background: var(--surface);
+    border: 2px solid var(--border-strong);
+    padding: 28px;
+    border-radius: 16px;
     text-align: center;
-    max-width: 320px;
+    max-width: 540px;
     width: 90%;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-height: 82vh;
+    overflow-y: auto;
 }
 
 .modal h2 {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 2.3rem;
+    color: var(--text);
+    margin-bottom: 6px;
     font-weight: 600;
 }
 
 .modal p {
-    font-size: 1.5rem;
-    color: #4a6fa5;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-2);
     margin-bottom: 20px;
     font-weight: 500;
 }
 
-#closeModal {
-    padding: 8px 20px;
-    font-size: 1rem;
-    background-color: #4a6fa5;
-    color: white;
-    border: none;
+/* 弹层里的音标：弱化处理，紧跟在单词下方 */
+.modal .modal-phonetic {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-3);
+    margin-bottom: 14px;
+}
+
+/* 释义左对齐，长释义更好读 */
+.modal #chineseTranslation {
+    text-align: left;
+    font-size: 1.3rem;
+    color: var(--text);
+    margin-bottom: 16px;
+}
+
+/* 释义按词性分行：左侧小标签 + 右侧释义 */
+.sense-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 3px 0;
+}
+
+.sense-pos {
+    flex: 0 0 auto;
+    min-width: 42px;
+    padding: 2px 8px;
     border-radius: 6px;
+    background: var(--accent-soft);
+    border: 1px solid var(--accent);
+    color: var(--accent-hover);
+    font-size: 0.92rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sense-def {
+    flex: 1 1 auto;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: var(--text);
+    word-break: break-word;
+}
+
+/* 搭配 / 记忆 分区 */
+.modal-section {
+    display: none;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-soft);
+}
+
+.modal-section h3 {
+    font-size: 0.98rem;
+    font-weight: 500;
+    color: var(--text-2);
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+/* 分区标题前的小黄块：跟标记色呼应，比纯文字更有点缀 */
+.modal-section h3::before {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 7px;
+    background: var(--mark-bg);
+    border: 1px solid var(--border-strong);
+    border-radius: 2px;
+    vertical-align: 1px;
+}
+
+.modal-section ul {
+    list-style: none;
+}
+
+.modal-section li {
+    position: relative;
+    padding-left: 16px;
+    font-size: 1.12rem;
+    line-height: 1.65;
+    color: var(--text-2);
+    margin-bottom: 4px;
+}
+
+.modal-section li::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 0.68em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+.modal #memoryText {
+    font-size: 1.12rem;
+    line-height: 1.65;
+    color: var(--text-2);
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#closeModal {
+    padding: 10px 24px;
+    font-size: 1.12rem;
+    font-family: inherit;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: 2px solid var(--btn-ghost-border);
+    border-radius: 10px;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: background-color 0.2s ease;
     font-weight: 500;
 }
 
 #closeModal:hover {
-    background-color: #3a5a8c;
+    background-color: var(--accent-hover);
 }
 
-.counter {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 8px 15px;
-    border-radius: 6px;
+/* 标记按钮：荧光黄，跟卡片上的标记色一致，一眼看出这条路的用途 */
+#markBtn {
+    padding: 10px 24px;
+    font-size: 1.12rem;
+    font-family: inherit;
+    background-color: var(--mark-bg);
+    color: var(--mark-text);
+    border: 2px solid var(--border-strong);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
     font-weight: 500;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
-    font-size: 0.9rem;
-    z-index: 50;
+}
+
+#markBtn:hover {
+    background-color: var(--mark-bg-hover);
+}
+
+/* 已经标记过：按钮回落成白底，避免误以为再点一次是新增标记 */
+#markBtn.is-marked {
+    background-color: var(--btn-ghost-bg);
+    color: var(--btn-ghost-text);
+}
+
+#markBtn.is-marked:hover {
+    background-color: var(--accent-soft);
+}
+
+/* ---------- 「屏幕已满」提示框 ---------- */
+/* 屏幕上 20 张卡片全部被标记时的提示。结构复用 .modal，
+ * 只把内容收窄一点、正文字号调大，让这句话成为唯一焦点。 */
+.modal-content.limit-content {
+    max-width: 460px;
+    padding: 32px 28px 24px;
+}
+
+.modal .limit-text {
+    font-size: 1.22rem;
+    line-height: 1.75;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+#limitOkBtn {
+    padding: 10px 32px;
+    font-size: 1.12rem;
+    font-family: inherit;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: 2px solid var(--btn-ghost-border);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+#limitOkBtn:hover {
+    background-color: var(--accent-hover);
+}
+
+/* ---------- 轻提示 ---------- */
+
+.toast {
+    position: fixed;
+    left: 50%;
+    bottom: 88px;
+    transform: translate(-50%, 12px);
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: var(--toast-bg);
+    color: var(--toast-text);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 86vw;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 1200;
+}
+
+.toast.toast-visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
 }
 
 @media (max-width: 768px) {
     .word-card {
-        font-size: 1.3rem;
-        padding: 8px 15px;
+        font-size: 1.55rem;
+        padding: 10px 18px;
     }
-    
+
     .nav-btn {
-        padding: 10px 20px;
-        font-size: 0.9rem;
+        padding: 11px 20px;
+        font-size: 1rem;
     }
-    
+
     .modal h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
-    
+
     .modal p {
-        font-size: 1.3rem;
+        font-size: 1.05rem;
     }
-    
+
     .counter {
-        font-size: 0.8rem;
+        font-size: 0.92rem;
         padding: 6px 12px;
     }
 }

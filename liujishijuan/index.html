@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>大学英语六级真题 | 在线真题</title>
+    <meta
+      name="description"
+      content="大学英语六级真题页面收录 76 套 2015 年至 2026 年真题试卷，支持按年份月份浏览，提供在线预览入口，方便从分类页进入具体试卷继续练习。"
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%230a0a0a'/%3E%3Cpath d='M6 7h12M6 12h12M6 17h8' stroke='white' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          var dark =
+            t === "dark" ||
+            (t === null &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="visual-root">
+      <div class="visual-layer" aria-hidden="true"></div>
+      <div class="layer-above">
+        <div class="scroll-area" id="scroller">
+          <div class="min-h-screen">
+            <!-- 右上角固定操作 -->
+            <div class="top-actions enter" style="animation-delay: 0ms">
+              <div style="position: relative">
+                <button
+                  class="icon-btn"
+                  id="yearBtn"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  data-tip="快速定位"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 2v4" /><path d="M16 2v4" />
+                    <rect width="18" height="18" x="3" y="4" rx="2" />
+                    <path d="M3 10h18" /><path d="M8 14h.01" /><path d="M12 14h.01" />
+                    <path d="M16 14h.01" /><path d="M8 18h.01" /><path d="M12 18h.01" /><path d="M16 18h.01" />
+                  </svg>
+                  <span class="year-dot" id="yearDot" hidden></span>
+                </button>
+                <div class="popover" id="yearPopover" role="dialog" aria-label="年份筛选">
+                  <div class="year-grid" id="yearGrid"></div>
+                </div>
+              </div>
+
+              <button class="icon-btn" id="themeBtn" type="button">
+                <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" />
+                  <path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" />
+                  <path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+              </button>
+
+              <button class="icon-btn" id="userBtn" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+              </button>
+            </div>
+
+            <!-- 滚动后浮出的居中标题 -->
+            <div class="page-title-wrap">
+              <h1 class="page-title" id="pageTitle">大学英语六级真题</h1>
+            </div>
+
+            <!-- 左上角返回 -->
+            <div class="top-back enter" style="animation-delay: 120ms">
+              <a class="icon-btn" href="contents.html" aria-label="返回目录">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 19-7-7 7-7" /><path d="M19 12H5" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="container">
+              <div id="groups"></div>
+              <div class="loader-row" id="loaderRow"></div>
+            </div>
+
+            <button class="icon-btn to-top is-hidden" id="toTop" type="button" aria-label="返回顶部">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m5 12 7-7 7 7" /><path d="M12 19V5" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 账户对话框 -->
+    <div class="dialog-mask" id="accountMask">
+      <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="accountTitle">
+        <h2 id="accountTitle">登录</h2>
+        <p class="sub">登录后可同步阅读进度（本地保存）</p>
+        <form id="accForm">
+          <label class="field"><span>邮箱</span><input type="email" id="accEmail" placeholder="you@example.com" autocomplete="email" /></label>
+          <label class="field"><span>密码</span><input type="password" id="accPwd" placeholder="至少 6 位" autocomplete="current-password" /></label>
+          <button class="btn-primary" type="submit">登录</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="toast-layer" id="toastLayer"></div>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

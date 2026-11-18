@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>六级全部单词 · 第 14 单元</title>
+    <link rel="stylesheet" href="../words/theme.css">
+    <link rel="stylesheet" href="../words/style.css">
+</head>
+<body>
+    <div class="watermark">第 14 单元</div>
+    <div class="container" id="wordContainer"></div>
+
+    <button id="homeBtn" class="nav-btn">返回首页</button>
+    <button id="nextBtn" class="nav-btn">下一个</button>
+
+    <div class="counter">单词: <span id="currentIndex">1</span>/<span id="totalWords">0</span></div>
+
+    <div id="translationModal" class="modal">
+        <div class="modal-content">
+            <h2 id="englishWord"></h2>
+            <p class="modal-phonetic" id="wordPhonetic"></p>
+            <div class="modal-senses" id="chineseTranslation"></div>
+            <div class="modal-section" id="collocationSection">
+                <h3>搭配</h3>
+                <ul id="collocationList"></ul>
+            </div>
+            <div class="modal-section" id="memorySection">
+                <h3>记忆</h3>
+                <p id="memoryText"></p>
+            </div>
+            <div class="modal-actions">
+                <button id="closeModal">知道了</button>
+                <button id="markBtn">标记</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="all14.js"></script>
+    <script>window.UNIT_ID = "x14";</script>
+    <script src="../words/progress.js"></script>
+    <script src="../words/wordLearner.js"></script>
+</body>
+</html>

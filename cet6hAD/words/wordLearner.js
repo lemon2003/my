@@ -1,411 +1,571 @@
-// wordLearner.js - 单词学习系统逻辑（修改版，支持智能单词显示管理）
+// wordLearner.js —— 单词卡片学习器
+// 交互：单词随机散落、点击查看释义、可标记。
+//
+// 同屏规则（2026-11-08 改版）：
+//   1. 屏幕上最多 20 张卡片，**标记卡片也占位置**（旧版只限制未标记卡片，标记卡会无限堆积把屏幕挤满）。
+//   2. 新词进来时从"消失队列"队首开始找：已标记的跳过，删掉第一张未标记的，新词补进去。
+//   3. 20 张全部被标记 → 不放入新词、计数不前进，弹框提示先背完当前这一屏。
+//   4. 取消标记 → 该卡片移到消失队列队尾，成为最后一个才会被淘汰的（不会立刻消失）。
+// 消失队列 queue 的顺序就是卡片出现的先后顺序，与几何位置无关。
 class WordLearner {
-    constructor(words) {
+    constructor(words, options) {
         this.words = words;
         this.currentWordIndex = 0;
-        this.history = [0];
-        this.historyIndex = 0;
-        this.placedWords = [];
-        this.displayQueue = []; // 用于跟踪当前显示的单词索引（按显示顺序）
-        this.markedWords = new Set(); // 存储被标记的单词索引
-        this.removalQueue = []; // 存储非标记单词的移除顺序
-        
-        // 页面元素
+
+        this.placedWords = [];      // 当前在屏上的卡片 { element, index, x, y, width, height }
+        this.queue = [];            // 消失队列：下标顺序 = 出现顺序，队首最先被淘汰
+        this.markedWords = new Set();
+        this.currentModalIndex = null;
+
+        this.MAX_ONSCREEN = 20;     // 同屏卡片硬上限，标记卡片同样占位
+
+        // 当前单元编号（由页面通过 window.UNIT_ID 传入）；缺失时只跳过进度记录
+        this.unitId = (options && options.unitId != null) ? options.unitId
+            : (typeof window !== 'undefined' && window.UNIT_ID != null ? window.UNIT_ID : null);
+        this.progress = (typeof window !== 'undefined') ? window.CET6Progress : undefined;
+        this.doneNotified = false;
+        this.toastTimer = null;
+
         this.wordContainer = document.getElementById('wordContainer');
         this.homeBtn = document.getElementById('homeBtn');
         this.nextBtn = document.getElementById('nextBtn');
         this.translationModal = document.getElementById('translationModal');
         this.englishWord = document.getElementById('englishWord');
         this.chineseTranslation = document.getElementById('chineseTranslation');
+        this.wordPhonetic = document.getElementById('wordPhonetic');
+        this.collocationSection = document.getElementById('collocationSection');
+        this.collocationList = document.getElementById('collocationList');
+        this.memorySection = document.getElementById('memorySection');
+        this.memoryText = document.getElementById('memoryText');
         this.closeModal = document.getElementById('closeModal');
         this.markBtn = document.getElementById('markBtn');
         this.currentIndex = document.getElementById('currentIndex');
         this.totalWords = document.getElementById('totalWords');
-        
-        // 当前显示的单词索引（用于标记功能）
-        this.currentModalIndex = null;
-        
-        // 初始化
+
+        this.resizeTimer = null;
         this.init();
     }
-    
-    // 初始化页面
+
     init() {
-        // 设置总单词数
         this.totalWords.textContent = this.words.length;
-        
-        // 显示第一个单词
         this.showWord(this.currentWordIndex);
-        
-        // 设置事件监听器
         this.setupEventListeners();
     }
-    
-    // 显示单词（智能管理显示数量）
+
+    /* ---------- 进度记录 ---------- */
+
+    // 记录"这个词被翻到过"。判定口径见 progress.js：
+    // 一个单元的所有词都翻到过，该单元即为已背过。
+    markSeen(index) {
+        if (!this.progress || this.unitId === null) return;
+        this.progress.markSeen(this.unitId, index, this.words.length);
+
+        if (!this.doneNotified && this.progress.isDone(this.unitId, this.words.length)) {
+            this.doneNotified = true;
+            this.showToast('这个 Word List 已背完，首页按钮会变成灰色，仍可点进来重背');
+        }
+    }
+
+    showToast(text) {
+        if (!document.body) return;
+        let el = document.getElementById('learnerToast');
+        if (!el) {
+            el = document.createElement('div');
+            el.id = 'learnerToast';
+            el.className = 'toast';
+            document.body.appendChild(el);
+        }
+        el.textContent = text;
+        el.classList.add('toast-visible');
+        window.clearTimeout(this.toastTimer);
+        this.toastTimer = window.setTimeout(() => el.classList.remove('toast-visible'), 3200);
+    }
+
+    /* ---------- 卡片放置 ---------- */
+
+    // 让 index 这张卡出现在屏幕上。返回 false 表示"没放进去"（屏幕 20 张全是标记卡）。
+    // 放新卡前先腾位置，腾不出来就直接拒绝，绝不出现第 21 张。
+    ensureOnScreen(index) {
+        if (this.placedWords.some(item => item.index === index)) return true;
+        if (!this.makeRoomForNewCard(index)) return false;
+
+        const card = this.createCard(index);
+        this.placeCard(card, index);
+        this.enqueue(index);
+        return true;
+    }
+
+    // 显示一个单词（新词或重新显示）：追加卡片 → 只测量一次尺寸 → 找一个不重叠的位置
     showWord(index) {
-        // 创建单词元素
-        const wordEl = document.createElement('div');
-        wordEl.className = 'word-card';
-        wordEl.textContent = this.words[index].english;
-        wordEl.dataset.index = index;
-        
-        // 如果是被标记的单词，设置粉色背景
-        if (this.markedWords.has(index)) {
-            wordEl.style.backgroundColor = '#f48fb1';
-            wordEl.style.border = '1px solid #f48fb1';
+        if (!this.ensureOnScreen(index)) {
+            // 满屏且全被标记：计数停在当前词，等用户处理完这一屏再来
+            return false;
         }
-        
-        // 设置随机位置（确保在视窗内且不重叠）
-        const position = this.getRandomPosition(wordEl);
-        
-        wordEl.style.left = `${position.x}px`;
-        wordEl.style.top = `${position.y}px`;
-        
-        // 添加到容器
-        this.wordContainer.appendChild(wordEl);
-        
-        // 保存已放置单词的位置信息
-        this.placedWords.push({
-            element: wordEl,
-            x: position.x,
-            y: position.y,
-            width: position.width,
-            height: position.height,
-            index: index
-        });
-        
-        // 将当前单词索引添加到显示队列
-        this.displayQueue.push(index);
-        
-        // 如果单词没有被标记，添加到移除队列
-        if (!this.markedWords.has(index)) {
-            this.removalQueue.push(index);
-        }
-        
-        // 检查是否需要移除单词
-        this.manageWordDisplay();
-        
-        // 更新所有单词卡片的背景色（高亮当前单词）
-        this.updateWordBackgrounds();
-        
-        // 更新计数器
+        this.currentWordIndex = index;
+
+        this.applyStates();
         this.currentIndex.textContent = index + 1;
+        this.markSeen(index);
+        return true;
     }
-    
-    // 管理单词显示数量
-    manageWordDisplay() {
-        // 计算当前非标记单词的数量
-        const nonMarkedCount = this.displayQueue.filter(index => !this.markedWords.has(index)).length;
-        const markedCount = this.markedWords.size;
-        const totalDisplayed = nonMarkedCount + markedCount;
-        
-        // 如果总显示单词数超过20个，需要移除单词
-        if (totalDisplayed > 20) {
-            this.removeOldestNonMarkedWord();
-        }
+
+    /* ---------- 消失队列 ---------- */
+
+    enqueue(index) {
+        if (this.queue.indexOf(index) === -1) this.queue.push(index);
     }
-    
-    // 移除最早的非标记单词
-    removeOldestNonMarkedWord() {
-        // 从移除队列中找到最早的可移除单词（非标记的）
-        let indexToRemove = -1;
-        let removalIndex = -1;
-        
-        for (let i = 0; i < this.removalQueue.length; i++) {
-            const candidateIndex = this.removalQueue[i];
-            
-            // 检查这个单词是否还在页面上且没有被标记
-            const wordExists = this.placedWords.some(item => item.index === candidateIndex);
-            if (wordExists && !this.markedWords.has(candidateIndex)) {
-                indexToRemove = candidateIndex;
-                removalIndex = i;
-                break;
+
+    // 取消标记时调用：排到队尾，也就是"最后一个才会被淘汰"
+    moveToQueueTail(index) {
+        const pos = this.queue.indexOf(index);
+        if (pos !== -1) this.queue.splice(pos, 1);
+        this.queue.push(index);
+    }
+
+    // 从队首往后找第一张"未标记"的卡片并删除，找不到返回 false。
+    // 标记卡一律跳过 —— 这正是"1 号被标记就删 2 号"的实现。
+    evictFirstUnmarked(keepIndex) {
+        for (let i = 0; i < this.queue.length; i++) {
+            const idx = this.queue[i];
+            if (idx === keepIndex) continue;
+            if (!this.markedWords.has(idx)) {
+                this.removeCard(idx);
+                return true;
             }
         }
-        
-        if (indexToRemove !== -1 && removalIndex !== -1) {
-            // 从移除队列中移除
-            this.removalQueue.splice(removalIndex, 1);
-            
-            // 从页面上移除对应的单词元素
-            const wordIndex = this.placedWords.findIndex(item => item.index === indexToRemove);
-            if (wordIndex !== -1) {
-                this.placedWords[wordIndex].element.remove();
-                this.placedWords.splice(wordIndex, 1);
-            }
-            
-            // 从显示队列中移除（但保留标记单词）
-            const displayIndex = this.displayQueue.indexOf(indexToRemove);
-            if (displayIndex !== -1) {
-                this.displayQueue.splice(displayIndex, 1);
+        return false;
+    }
+
+    // 兜底：连标记卡也删（只有窗口小到放不下 20 张时才会走到）
+    evictOldestAny(keepIndex) {
+        for (let i = 0; i < this.queue.length; i++) {
+            const idx = this.queue[i];
+            if (idx === keepIndex) continue;
+            this.removeCard(idx);
+            return true;
+        }
+        return false;
+    }
+
+    // 为新卡片腾位置：不足 20 张直接放行；满 20 张就淘汰队首那张未标记的。
+    // 20 张全被标记 → 弹框、返回 false。
+    makeRoomForNewCard(newIndex) {
+        while (this.placedWords.length >= this.MAX_ONSCREEN) {
+            if (!this.evictFirstUnmarked(newIndex)) {
+                this.showLimitDialog();
+                return false;
             }
         }
+        return true;
     }
-    
-    // 新增方法：更新所有单词卡片的背景色
-    updateWordBackgrounds() {
-        // 先将所有非标记单词背景色重置为白色
-        this.placedWords.forEach(item => {
-            if (!this.markedWords.has(item.index)) {
-                item.element.style.backgroundColor = 'white';
-                item.element.style.border = '1px solid #e0e0e0';
+
+    // "屏幕已满"提示框。只提示、不锁死操作：关掉后仍可点卡片取消标记。
+    showLimitDialog() {
+        const text = '目前屏幕上单词数量为20，请先背完当前20个单词后，再背新单词吧。';
+        let dlg = document.getElementById('limitModal');
+
+        if (!dlg) {
+            dlg = document.createElement('div');
+            dlg.id = 'limitModal';
+            dlg.className = 'modal';
+
+            const box = document.createElement('div');
+            box.className = 'modal-content limit-content';
+
+            const body = document.createElement('p');
+            body.className = 'limit-text';
+            body.textContent = text;
+            box.appendChild(body);
+
+            const actions = document.createElement('div');
+            actions.className = 'modal-actions';
+
+            const ok = document.createElement('button');
+            ok.id = 'limitOkBtn';
+            ok.type = 'button';
+            ok.textContent = '知道了';
+            ok.addEventListener('click', () => this.closeLimitDialog());
+            actions.appendChild(ok);
+
+            box.appendChild(actions);
+            dlg.appendChild(box);
+
+            // 点击遮罩也能关掉，和释义弹层保持一致
+            dlg.addEventListener('click', (e) => {
+                if (e.target === dlg) this.closeLimitDialog();
+            });
+
+            document.body.appendChild(dlg);
+        }
+
+        dlg.style.display = 'flex';
+    }
+
+    closeLimitDialog() {
+        const dlg = document.getElementById('limitModal');
+        if (dlg) dlg.style.display = 'none';
+    }
+
+    limitDialogOpen() {
+        const dlg = document.getElementById('limitModal');
+        return !!dlg && dlg.style.display === 'flex';
+    }
+
+    createCard(index) {
+        const word = this.words[index] || {};
+        const el = document.createElement('div');
+        el.className = 'word-card';
+        el.dataset.index = String(index);
+
+        const en = document.createElement('span');
+        en.className = 'card-word';
+        en.textContent = word.english || '';
+        el.appendChild(en);
+
+        // 卡片上带音标：字号更小、颜色更浅，不抢单词本身的视觉重心
+        if (word.phonetic) {
+            const ph = document.createElement('span');
+            ph.className = 'card-phonetic';
+            ph.textContent = word.phonetic;
+            el.appendChild(ph);
+        }
+
+        el.style.visibility = 'hidden';
+        this.wordContainer.appendChild(el);
+        return el;
+    }
+
+    // 直接把卡片放到容器内，尺寸只读取一次（旧版在 200 次循环里反复克隆+挂载，属性能浪费）
+    placeCard(el, index) {
+        const width = el.offsetWidth;
+        const height = el.offsetHeight;
+        let pos = this.findFreePosition(width, height);
+
+        // 没有空位（窗口太小、20 张排不开）：先淘汰队首的未标记卡片腾地方；
+        // 实在全是标记卡，才牺牲最早的那张，并提示一句。
+        // 总之宁可少一张旧卡，也不让两张卡叠在一起。
+        while (!pos) {
+            if (this.evictFirstUnmarked(index)) {
+                pos = this.findFreePosition(width, height);
+                continue;
             }
+            if (this.evictOldestAny(index)) {
+                pos = this.findFreePosition(width, height);
+                this.showToast('窗口偏小，最早标记的卡片已让位给新词（标记仍会保留）');
+                continue;
+            }
+            break;
+        }
+
+        if (!pos) {
+            // 视口小到放不下一张卡片：贴着左上角放，宁可挤在最前面也不能凭空消失
+            pos = { x: 10, y: 10, width: width, height: height };
+        }
+
+        el.style.left = pos.x + 'px';
+        el.style.top = pos.y + 'px';
+        el.style.visibility = '';
+
+        this.placedWords.push({
+            element: el,
+            index: index,
+            x: pos.x,
+            y: pos.y,
+            width: width,
+            height: height
         });
-        
-        // 将当前单词（最后一个显示的单词）背景色设置为浅橙色
-        if (this.placedWords.length > 0) {
-            const currentWord = this.placedWords[this.placedWords.length - 1];
-            if (!this.markedWords.has(currentWord.index)) {
-                currentWord.element.style.backgroundColor = '#ffb74d';
-                currentWord.element.style.border = '1px solid #ffb74d';
+    }
+
+    // 屏幕上被固定控件占住的区域：右上角计数、底部两个按钮。
+    // 卡片不去这些地方，避免被压在按钮下面看不见。
+    reservedRects() {
+        const boxW = this.wordContainer.clientWidth || window.innerWidth;
+        const boxH = this.wordContainer.clientHeight || window.innerHeight;
+        return [
+            { x: 0, y: 0, width: 130, height: 60 },            // 日间/夜间切换按钮
+            { x: boxW - 150, y: 0, width: 150, height: 60 },   // 计数
+            { x: 0, y: boxH - 88, width: 190, height: 88 },     // 返回首页
+            { x: boxW - 190, y: boxH - 88, width: 190, height: 88 } // 下一个
+        ];
+    }
+
+    // 找一个不与任何已放卡片、也不与固定控件重叠的位置。
+    // 1) 先随机试 80 次，命中即用 —— 保留"单词随机散落"的观感；
+    // 2) 随机失败（版面已经很满）时改按 6px 网格逐点扫描，只要还有一个空洞就一定能找到；
+    // 3) 全都放不下则返回 null，交给 placeCard 淘汰旧卡片。
+    // 关键点：绝不像旧版那样"试满次数就把重叠位置返回"，那样必然出现卡片叠在一起。
+    findFreePosition(width, height) {
+        const pad = 10;
+        const boxW = this.wordContainer.clientWidth || window.innerWidth;
+        const boxH = this.wordContainer.clientHeight || window.innerHeight;
+
+        // 容器小于卡片时退化为左上角，避免出现负的可用宽度
+        const maxX = Math.max(pad, boxW - width - pad);
+        const maxY = Math.max(pad, boxH - height - pad);
+        const spanX = Math.max(1, maxX - pad);
+        const spanY = Math.max(1, maxY - pad);
+        const reserved = this.reservedRects();
+
+        const fits = (x, y) => {
+            const trial = { x: x, y: y, width: width, height: height };
+            if (this.placedWords.some(item => this.checkOverlap(trial, item))) return false;
+            if (reserved.some(rect => this.checkOverlap(trial, rect, 0))) return false;
+            return true;
+        };
+
+        for (let attempt = 0; attempt < 80; attempt++) {
+            const x = pad + Math.floor(Math.random() * spanX);
+            const y = pad + Math.floor(Math.random() * spanY);
+            if (fits(x, y)) return { x: x, y: y, width: width, height: height };
+        }
+
+        const step = 6;
+        for (let y = pad; y <= maxY; y += step) {
+            for (let x = pad; x <= maxX; x += step) {
+                if (fits(x, y)) return { x: x, y: y, width: width, height: height };
             }
         }
+        return null;
     }
-    
-    // 标记/取消标记单词
-    toggleMarkWord(index) {
-        if (this.markedWords.has(index)) {
-            // 取消标记
-            this.markedWords.delete(index);
-            
-            // 如果单词还在页面上，更新样式
-            const wordElement = this.placedWords.find(item => item.index === index);
-            if (wordElement) {
-                wordElement.element.style.backgroundColor = 'white';
-                wordElement.element.style.border = '1px solid #e0e0e0';
-                
-                // 如果这个单词是当前显示的单词，设置为高亮
-                if (this.placedWords.length > 0 && index === this.placedWords[this.placedWords.length - 1].index) {
-                    wordElement.element.style.backgroundColor = '#ffb74d';
-                    wordElement.element.style.border = '1px solid #ffb74d';
-                }
-                
-                // 将这个单词添加到移除队列的末尾（最后被移除）
-                if (!this.removalQueue.includes(index)) {
-                    this.removalQueue.push(index);
-                }
-            } else {
-                // 如果单词不在页面上，重新显示它
-                this.showWord(index);
-            }
-        } else {
-            // 标记单词
-            this.markedWords.add(index);
-            
-            // 如果单词还在页面上，更新样式
-            const wordElement = this.placedWords.find(item => item.index === index);
-            if (wordElement) {
-                wordElement.element.style.backgroundColor = '#f48fb1';
-                wordElement.element.style.border = '1px solid #f48fb1';
-            }
-            
-            // 从移除队列中移除，使其不会被自动清理
-            const removalIndex = this.removalQueue.indexOf(index);
-            if (removalIndex !== -1) {
-                this.removalQueue.splice(removalIndex, 1);
-            }
-        }
-        
-        // 检查是否需要调整显示数量
-        this.manageWordDisplay();
-        
-        // 更新标记按钮文本
-        this.updateMarkButtonText();
-    }
-    
-    // 更新标记按钮文本
-    updateMarkButtonText() {
-        if (this.currentModalIndex !== null) {
-            if (this.markedWords.has(this.currentModalIndex)) {
-                this.markBtn.textContent = '取消标记';
-            } else {
-                this.markBtn.textContent = '标记';
-            }
-        }
-    }
-    
-    // 获取随机位置（确保不重叠）
-    getRandomPosition(element) {
-        const maxAttempts = 200;
-        let attempt = 0;
-        let position;
-        let overlap;
-        
-        do {
-            overlap = false;
-            
-            // 创建临时元素测量尺寸
-            const tempEl = element.cloneNode(true);
-            tempEl.style.visibility = 'hidden';
-            tempEl.style.position = 'absolute';
-            tempEl.style.left = '0';
-            tempEl.style.top = '0';
-            document.body.appendChild(tempEl);
-            
-            const width = tempEl.offsetWidth;
-            const height = tempEl.offsetHeight;
-            document.body.removeChild(tempEl);
-            
-            // 计算最大可放置位置
-            const maxX = window.innerWidth - width - 40;
-            const maxY = window.innerHeight - height - 80;
-            
-            // 生成随机位置
-            const x = Math.max(20, Math.floor(Math.random() * maxX));
-            const y = Math.max(60, Math.floor(Math.random() * maxY));
-            
-            position = { x, y, width, height };
-            
-            // 检查是否与已有单词重叠
-            for (const placed of this.placedWords) {
-                if (this.checkOverlap(position, placed)) {
-                    overlap = true;
-                    break;
-                }
-            }
-            
-            attempt++;
-        } while (overlap && attempt < maxAttempts);
-        
-        return position;
-    }
-    
-    // 检查两个矩形是否重叠
-    checkOverlap(rect1, rect2) {
-        const buffer = 15;
-        
+
+    checkOverlap(rect1, rect2, buffer) {
+        const gap = buffer === undefined ? 12 : buffer;
         return !(
-            rect1.x + rect1.width + buffer < rect2.x || 
-            rect1.y + rect1.height + buffer < rect2.y || 
-            rect2.x + rect2.width + buffer < rect1.x || 
-            rect2.y + rect2.height + buffer < rect1.y
+            rect1.x + rect1.width + gap < rect2.x ||
+            rect1.y + rect1.height + gap < rect2.y ||
+            rect2.x + rect2.width + gap < rect1.x ||
+            rect2.y + rect2.height + gap < rect1.y
         );
     }
-    
-    // 显示下一个单词
-    showNextWord() {
-        if (this.currentWordIndex < this.words.length - 1) {
-            this.currentWordIndex++;
-        } else {
-            return; // 已经是最后一个单词
+
+    // 删除一张卡片：DOM、位置表、消失队列三处同时移除，避免队列里留下"幽灵下标"
+    removeCard(index) {
+        const pos = this.placedWords.findIndex(item => item.index === index);
+        if (pos !== -1) {
+            const item = this.placedWords[pos];
+            if (item.element && item.element.parentNode) {
+                item.element.parentNode.removeChild(item.element);
+            }
+            this.placedWords.splice(pos, 1);
         }
-        
-        this.history.push(this.currentWordIndex);
-        this.historyIndex = this.history.length - 1;
-        this.showWord(this.currentWordIndex);
+
+        const q = this.queue.indexOf(index);
+        if (q !== -1) this.queue.splice(q, 1);
     }
-    
-    // 返回首页功能
+
+    /* ---------- 状态与样式 ---------- */
+
+    // 统一用 class 表达状态，避免 inline style 与 :hover 互相覆盖
+    applyStates() {
+        this.placedWords.forEach(item => {
+            item.element.classList.toggle('marked', this.markedWords.has(item.index));
+            item.element.classList.toggle('current', item.index === this.currentWordIndex);
+        });
+    }
+
+    toggleMarkWord(index) {
+        const wasMarked = this.markedWords.has(index);
+
+        if (wasMarked) {
+            this.markedWords.delete(index);
+            // 取消标记 = 已经背会、可以让位：排到消失队列队尾，
+            // 要等前面 19 张都淘汰完才轮到它（屏幕仍有其它未标记卡时即"再出现 20 个新词才消失"）。
+            this.moveToQueueTail(index);
+        } else {
+            this.markedWords.add(index);
+        }
+
+        // 若该词已不在页面上（例如窗口很小被挤掉），重新显示它；不改变"单词 x/75"的计数
+        if (!this.placedWords.some(item => item.index === index)) {
+            this.ensureOnScreen(index);
+        }
+        this.applyStates();
+        this.updateMarkButtonText();
+    }
+
+    updateMarkButtonText() {
+        if (this.currentModalIndex === null) return;
+        const isMarked = this.markedWords.has(this.currentModalIndex);
+        this.markBtn.textContent = isMarked ? '取消标记' : '标记';
+        // 已标记时按钮回落成白底（样式见 style.css #markBtn.is-marked）
+        this.markBtn.classList.toggle('is-marked', isMarked);
+    }
+
+    /* ---------- 翻页 ---------- */
+
+    showNextWord() {
+        if (this.currentWordIndex >= this.words.length - 1) {
+            return; // 已是最后一个
+        }
+        this.showWord(this.currentWordIndex + 1);
+    }
+
     goToHomePage() {
         window.location.href = '../index.html';
     }
-    
-    // 显示翻译弹窗
+
+    // 释义：有 senses 就按词性分行渲染（n. / v. / adj. 各一行），否则退回整段文本
+    renderSenses(word) {
+        const box = this.chineseTranslation;
+        if (!box) return;
+        box.innerHTML = '';
+
+        const senses = Array.isArray(word.senses) ? word.senses.filter(s => s && s.def) : [];
+        if (senses.length === 0) {
+            box.textContent = word.chinese || '';
+            return;
+        }
+
+        senses.forEach(sense => {
+            const row = document.createElement('div');
+            row.className = 'sense-row';
+
+            if (sense.pos) {
+                const pos = document.createElement('span');
+                pos.className = 'sense-pos';
+                pos.textContent = sense.pos;
+                row.appendChild(pos);
+            }
+
+            const def = document.createElement('span');
+            def.className = 'sense-def';
+            def.textContent = sense.def;
+            row.appendChild(def);
+
+            box.appendChild(row);
+        });
+    }
+
     showTranslation(index) {
-        this.englishWord.textContent = this.words[index].english;
-        this.chineseTranslation.textContent = this.words[index].chinese;
+        const word = this.words[index] || {};
+
+        this.englishWord.textContent = word.english || '';
+
+        if (this.wordPhonetic) {
+            this.wordPhonetic.textContent = word.phonetic || '';
+            this.wordPhonetic.style.display = word.phonetic ? 'block' : 'none';
+        }
+
+        this.renderSenses(word);
+
+        const collocations = Array.isArray(word.collocations) ? word.collocations : [];
+        if (this.collocationList) {
+            this.collocationList.innerHTML = '';
+            collocations.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = item;
+                this.collocationList.appendChild(li);
+            });
+        }
+        if (this.collocationSection) {
+            this.collocationSection.style.display = collocations.length ? 'block' : 'none';
+        }
+
+        if (this.memoryText) this.memoryText.textContent = word.memory || '';
+        if (this.memorySection) {
+            this.memorySection.style.display = word.memory ? 'block' : 'none';
+        }
+
         this.translationModal.style.display = 'flex';
         this.currentModalIndex = index;
-        
-        // 更新标记按钮文本
         this.updateMarkButtonText();
     }
-    
-    // 设置事件监听器
+
+    closeTranslation() {
+        this.translationModal.style.display = 'none';
+        this.currentModalIndex = null;
+    }
+
+    /* ---------- 事件 ---------- */
+
     setupEventListeners() {
-        // 单词点击事件
         this.wordContainer.addEventListener('click', (e) => {
-            if (e.target.classList.contains('word-card')) {
-                const index = parseInt(e.target.dataset.index);
-                this.showTranslation(index);
+            const card = e.target.closest('.word-card');
+            if (card) {
+                this.showTranslation(parseInt(card.dataset.index, 10));
             }
         });
-        
-        // 导航按钮
-        this.nextBtn.addEventListener('click', () => {
-            this.showNextWord();
-        });
-        
-        // 返回首页按钮
-        this.homeBtn.addEventListener('click', () => {
-            this.goToHomePage();
-        });
-        
-        // 关闭弹窗
-        this.closeModal.addEventListener('click', () => {
-            this.translationModal.style.display = 'none';
-            this.currentModalIndex = null;
-        });
-        
-        // 标记按钮
+
+        this.nextBtn.addEventListener('click', () => this.showNextWord());
+        this.homeBtn.addEventListener('click', () => this.goToHomePage());
+
+        this.closeModal.addEventListener('click', () => this.closeTranslation());
+
         this.markBtn.addEventListener('click', () => {
-            if (this.currentModalIndex !== null) {
-                this.toggleMarkWord(this.currentModalIndex);
-                this.translationModal.style.display = 'none';
-                this.currentModalIndex = null;
-            }
+            if (this.currentModalIndex === null) return;
+            this.toggleMarkWord(this.currentModalIndex);
+            this.closeTranslation();
         });
-        
-        // 点击模态框外部关闭
+
         this.translationModal.addEventListener('click', (e) => {
             if (e.target === this.translationModal) {
-                this.translationModal.style.display = 'none';
-                this.currentModalIndex = null;
+                this.closeTranslation();
             }
         });
-        
-        // 键盘导航
+
+        // 键盘：→ / 空格 / Enter 都等于「下一个」，← 返回首页
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowRight') {
+            // "屏幕已满"提示框开着时，任意翻页键都只关提示，不再叠加新提示
+            if (this.limitDialogOpen()) {
+                const dismissKey = e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar' ||
+                    e.key === 'Escape' || e.key === 'ArrowRight';
+                if (dismissKey) {
+                    if (typeof e.preventDefault === 'function') e.preventDefault();
+                    this.closeLimitDialog();
+                }
+                return;
+            }
+
+            const modalOpen = this.translationModal.style.display === 'flex';
+            const target = e.target || {};
+            const tag = String(target.tagName || '').toLowerCase();
+            // 光标在输入框里时不抢键；页面目前没有输入框，留这一层是为了以后加搜索不出错
+            const typing = tag === 'input' || tag === 'textarea' || tag === 'select' ||
+                target.isContentEditable === true;
+            const isNextKey = e.key === 'ArrowRight' || e.key === ' ' ||
+                e.key === 'Spacebar' || e.key === 'Enter';
+
+            if (isNextKey && !typing) {
+                // 空格默认滚页面、Enter 默认激活聚焦的按钮，都会和翻页打架，先拦掉默认行为
+                if (typeof e.preventDefault === 'function') {
+                    e.preventDefault();
+                }
                 this.showNextWord();
             } else if (e.key === 'ArrowLeft') {
                 this.goToHomePage();
-            } else if (e.key === 'Escape' && this.translationModal.style.display === 'flex') {
-                this.translationModal.style.display = 'none';
-                this.currentModalIndex = null;
-            } else if (e.key === 'm' && this.translationModal.style.display === 'flex') {
-                if (this.currentModalIndex !== null) {
-                    this.toggleMarkWord(this.currentModalIndex);
-                    this.translationModal.style.display = 'none';
-                    this.currentModalIndex = null;
-                }
+            } else if (e.key === 'Escape' && modalOpen) {
+                this.closeTranslation();
+            } else if ((e.key === 'm' || e.key === 'M') && modalOpen && this.currentModalIndex !== null) {
+                this.toggleMarkWord(this.currentModalIndex);
+                this.closeTranslation();
             }
         });
-        
-        // 窗口大小变化时重新布局
+
+        // 窗口尺寸变化：按现有卡片重新布局，不经过上限截断（旧版重建时会顺手删掉卡片）
         window.addEventListener('resize', () => {
-            // 保存当前状态
-            const currentDisplayQueue = [...this.displayQueue];
-            const currentMarkedWords = [...this.markedWords];
-            const currentRemovalQueue = [...this.removalQueue];
-            
-            // 清空所有状态
-            this.wordContainer.innerHTML = '';
-            this.placedWords = [];
-            this.displayQueue = [];
-            this.removalQueue = [];
-            
-            // 重新显示所有标记的单词
-            currentMarkedWords.forEach(index => {
-                this.showWord(index);
-            });
-            
-            // 重新显示其他单词
-            currentDisplayQueue.forEach(index => {
-                if (!currentMarkedWords.includes(index)) {
-                    this.showWord(index);
-                }
-            });
-            
-            // 恢复移除队列
-            this.removalQueue = currentRemovalQueue.filter(index => 
-                !currentMarkedWords.includes(index)
-            );
+            window.clearTimeout(this.resizeTimer);
+            this.resizeTimer = window.setTimeout(() => this.relayout(), 150);
         });
+    }
+
+    relayout() {
+        const indexes = this.placedWords.map(item => item.index);
+        this.placedWords.forEach(item => {
+            if (item.element && item.element.parentNode) {
+                item.element.parentNode.removeChild(item.element);
+            }
+        });
+        this.placedWords = [];
+
+        indexes.forEach(index => {
+            const card = this.createCard(index);
+            this.placeCard(card, index);
+        });
+
+        this.applyStates();
     }
 }
 
-// 页面加载完成后初始化单词学习系统
 document.addEventListener('DOMContentLoaded', () => {
-    new WordLearner(words);
+    new WordLearner(words, { unitId: window.UNIT_ID != null ? window.UNIT_ID : null });
 });

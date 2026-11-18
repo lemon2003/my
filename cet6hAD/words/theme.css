@@ -1,0 +1,75 @@
+/* theme.css —— 全站配色变量（唯一定义处）
+ *
+ * 主题：糖果撞色（单套，无明暗切换）
+ *
+ * 颜色分工是这套主题的核心，四种状态四种颜色，不许混用：
+ *   蓝   = 当前正在看的词 / 主要按钮
+ *   黄   = 已标记的词（荧光黄 + 黑描边）
+ *   白+黑边 = 还没看的词
+ *   暖灰 = 已背过的单元
+ *
+ * 所有页面（首页、words/、extra/）都引用本文件，页面样式只写组件规则，
+ * 颜色一律用 var(--xxx)，不要在别处再写死颜色。
+ */
+
+:root {
+    color-scheme: light;
+
+    /* ---------- 底 ---------- */
+    --bg: #FFF7E6;            /* 奶油黄，整页底色 */
+    --bg-soft: #FFEEC9;       /* 略深的奶油，卡片区 / 说明区背景 */
+    --surface: #FFFFFF;       /* 白块：卡片、弹层 */
+
+    /* ---------- 字 ---------- */
+    --text: #1A1A1A;
+    --text-2: #6B6252;
+    --text-3: #9E9380;
+
+    /* ---------- 线 ---------- */
+    --border: #E8DCC0;
+    --border-soft: #F1E7CE;
+    --border-strong: #1A1A1A;
+
+    /* ---------- 主色 · 亮蓝：当前词 / 主要按钮 ---------- */
+    --accent: #2563EB;
+    --accent-hover: #1D4ED8;
+    --accent-soft: #DCE8FF;
+    --accent-text: #FFFFFF;
+
+    --current-bg: #2563EB;
+    --current-text: #FFFFFF;
+    --current-sub: rgba(255, 255, 255, 0.78);
+
+    /* ---------- 标记 · 荧光黄 ---------- */
+    --mark-bg: #FFD400;
+    --mark-bg-hover: #FFC000;
+    --mark-text: #1A1A1A;
+    --mark-phonetic: #5F4E00;
+    --mark-border: #1A1A1A;
+
+    /* ---------- 未看的词：白底 + 黑描边 ---------- */
+    --card-bg: #FFFFFF;
+    --card-border: #1A1A1A;
+    --card-phonetic: #9E9380;
+
+    /* ---------- 已背过的单元：浅绿（完成 = 绿，跟蓝/黄拉开） ---------- */
+    --done-bg: #DFF5E6;
+    --done-text: #2F7D52;
+    --done-border: #7CC99C;
+
+    /* ---------- 按钮 ---------- */
+    --btn-bg: #2563EB;
+    --btn-text: #FFFFFF;
+    --btn-ghost-bg: #FFFFFF;
+    --btn-ghost-text: #1A1A1A;
+    --btn-ghost-border: #1A1A1A;
+
+    /* ---------- 弹层与提示 ---------- */
+    --overlay: rgba(22, 18, 6, 0.38);
+    --toast-bg: #1A1A1A;
+    --toast-text: #FFFFFF;
+    --danger: #D62828;
+
+    /* ---------- 单元水印（背景层的灰色单元编号） ---------- */
+    --watermark: rgba(74, 66, 52, 0.13);
+}

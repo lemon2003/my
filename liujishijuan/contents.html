@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>真题目录 | 在线真题</title>
+    <meta name="description" content="历年英语考试真题目录，包含考研英语、四六级、专四专八真题分类入口。" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          var dark =
+            t === "dark" ||
+            (t === null && window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="visual-root">
+      <div class="visual-layer" aria-hidden="true"></div>
+      <div class="layer-above">
+        <div class="scroll-area" id="scroller">
+          <div class="min-h-screen">
+            <div class="top-actions enter" style="animation-delay: 0ms">
+              <button class="icon-btn" id="themeBtn" type="button">
+                <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" />
+                  <path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" />
+                  <path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" />
+                  <path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+              </button>
+              <button class="icon-btn" id="userBtn" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="top-back enter" style="animation-delay: 120ms">
+              <a class="icon-btn" href="index.html" aria-label="返回">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 19-7-7 7-7" /><path d="M19 12H5" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="container" style="padding: 5rem 1rem">
+              <div class="contents-wrap" style="padding: 0">
+                <div class="contents-list" id="catList"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast-layer" id="toastLayer"></div>
+
+    <script>
+      (function () {
+        var cats = [
+          { name: "历年考研英语真题", range: "1998 ~ 2025", count: 44, href: null },
+          { name: "大学英语四级真题", range: "2015 ~ 2026", count: 76, href: null },
+          { name: "大学英语六级真题", range: "2015 ~ 2026", count: 76, href: "index.html" },
+          { name: "英语专业四级真题", range: "2009 ~ 2025", count: 21, href: null },
+          { name: "英语专业八级真题", range: "2009 ~ 2025", count: 21, href: null },
+        ];
+
+        var list = document.getElementById("catList");
+
+        cats.forEach(function (c, i) {
+          var a = document.createElement("a");
+          a.className = "cat-card enter";
+          a.style.animationDelay = i * 60 + 140 + "ms";
+          a.href = c.href || "javascript:void(0)";
+          a.innerHTML =
+            '<div class="cat-bar"></div>' +
+            '<div class="cat-row"><div style="flex:1">' +
+            '<h3 class="cat-title">' +
+            c.name +
+            "<span>(" +
+            c.range +
+            ")</span></h3>" +
+            '<p class="cat-count">共 ' +
+            c.count +
+            " 份试卷</p></div>" +
+            '<div class="cat-arrow">⟶</div></div>';
+
+          if (!c.href) {
+            a.addEventListener("click", function (e) {
+              e.preventDefault();
+              toast("当前复刻版仅完成六级分类");
+            });
+          }
+          list.appendChild(a);
+        });
+
+        function toast(msg) {
+          var layer = document.getElementById("toastLayer");
+          var box = document.createElement("div");
+          box.className = "toast";
+          box.textContent = msg;
+          layer.appendChild(box);
+          setTimeout(function () {
+            box.classList.add("out");
+            setTimeout(function () {
+              box.remove();
+            }, 200);
+          }, 2400);
+        }
+
+        /* 主题 */
+        var SUN =
+          '<circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>';
+        var MOON = '<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>';
+        var themeIcon = document.getElementById("themeIcon");
+        function syncIcon() {
+          themeIcon.innerHTML = document.documentElement.classList.contains("dark")
+            ? MOON
+            : SUN;
+        }
+        document.getElementById("themeBtn").addEventListener("click", function () {
+          var dark = document.documentElement.classList.toggle("dark");
+          try {
+            localStorage.setItem("theme", dark ? "dark" : "light");
+          } catch (e) {}
+          syncIcon();
+        });
+        syncIcon();
+
+        /* 提示气泡 */
+        var tipEl = null;
+        function hideTip() {
+          if (tipEl) {
+            tipEl.remove();
+            tipEl = null;
+          }
+        }
+        Array.prototype.forEach.call(document.querySelectorAll("[data-tip]"), function (n) {
+          n.addEventListener("mouseenter", function () {
+            var r = n.getBoundingClientRect();
+            var below = r.top < 56;
+            hideTip();
+            tipEl = document.createElement("div");
+            tipEl.className = "tooltip" + (below ? " below" : "");
+            tipEl.textContent = n.getAttribute("data-tip");
+            document.body.appendChild(tipEl);
+            tipEl.style.left = r.left + r.width / 2 + "px";
+            tipEl.style.top = below
+              ? r.bottom + 8 + "px"
+              : r.top - tipEl.offsetHeight - 8 + "px";
+            requestAnimationFrame(function () {
+              tipEl.classList.add("show");
+            });
+          });
+          n.addEventListener("mouseleave", hideTip);
+        });
+      })();
+    </script>
+  </body>
+</html>

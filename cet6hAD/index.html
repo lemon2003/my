@@ -3,233 +3,549 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>百词斩6级高频词2902个</title>
+    <title>六级高频词汇</title>
+    <link rel="stylesheet" href="words/theme.css">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft YaHei', sans-serif;
         }
-        
+
         body {
-            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            background: var(--bg);
             min-height: 100vh;
-            padding: 40px 20px;
-            color: #333;
+            padding: 68px 20px 40px;
+            color: var(--text);
+            transition: background-color 0.25s ease, color 0.25s ease;
         }
-        
+
         .container {
-            max-width: 1200px;
+            max-width: 1080px;
             margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
         }
-        
+
         header {
-            background: #4a6fa5;
-            color: white;
-            padding: 30px;
-            text-align: center;
+            padding: 6px 0 26px;
+            border-bottom: 2px solid var(--border-strong);
         }
-        
+
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.4rem;
             margin-bottom: 10px;
             font-weight: 600;
+            letter-spacing: -0.5px;
+            color: var(--text);
         }
-        
+
+        /* 标题前的小蓝块，跟「当前词」同色，给整页一个彩色锚点 */
+        h1::before {
+            content: '';
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 11px;
+            background: var(--accent);
+            border: 2px solid var(--border-strong);
+            border-radius: 4px;
+            vertical-align: 5px;
+        }
+
         .subtitle {
-            font-size: 1.2rem;
-            opacity: 0.9;
+            font-size: 1.1rem;
+            color: var(--text-2);
         }
-        
+
         .content {
-            padding: 30px;
+            padding-top: 26px;
         }
-        
+
         .page-list {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+            gap: 14px;
+            margin-top: 16px;
         }
-        
+
         .page-link {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 15px;
-            background: #f0f7ff;
-            border-radius: 8px;
+            gap: 4px;
+            padding: 16px;
+            background: var(--surface);
+            border: 1.5px solid var(--border-strong);
+            border-left: 6px solid var(--bar, var(--accent));
+            border-radius: 12px;
             text-align: center;
             text-decoration: none;
-            color: #2575fc;
+            color: var(--text);
             font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-            min-height: 60px;
-            font-size: 1.1rem;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            transition: background-color 0.18s ease, border-color 0.18s ease,
+                transform 0.18s ease, color 0.18s ease;
+            min-height: 84px;
+            font-size: 1.28rem;
         }
-        
+
+        .page-link small {
+            font-weight: 400;
+            font-size: 0.95rem;
+            color: var(--text-3);
+            transition: color 0.18s ease;
+        }
+
+        /* 划过直接翻成蓝底白字，和卡片上的「当前词」同一套语言 */
         .page-link:hover {
-            background: #dbe9ff;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            background: var(--accent);
+            border-top-color: var(--accent);
+            border-right-color: var(--accent);
+            border-bottom-color: var(--accent);
+            color: var(--accent-text);
+            transform: translateY(-2px);
         }
-        
+
+        .page-link:hover small {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* 已背过：整块转绿，一眼看出哪些单元已经过了一遍（仍可点进去重背） */
+        .page-link.is-done {
+            background: var(--done-bg);
+            color: var(--done-text);
+            border-color: var(--done-border);
+            border-left-color: var(--done-border);
+            font-weight: 500;
+        }
+
+        .page-link.is-done small {
+            color: var(--done-text);
+            opacity: 0.85;
+        }
+
+        .page-link.is-done:hover {
+            background: var(--done-bg);
+            border-color: var(--done-text);
+            border-left-color: var(--done-text);
+            color: var(--done-text);
+        }
+
+        .page-link.is-done:hover small {
+            color: var(--done-text);
+        }
+
+        .tick {
+            font-weight: 600;
+            margin-left: 2px;
+        }
+
+        /* 每个栏目的标题行：左边标题 + 右边「已背过 N/M + 一键重置」 */
+        .section-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin: 34px 0 4px;
+        }
+
+        .section-head:first-of-type {
+            margin-top: 4px;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-left: 12px;
+            border-left: 6px solid var(--accent);
+            font-size: 1.22rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        /* 三个栏目三种色带：蓝 / 黄 / 粉，跟首页单元卡的色条同一套 */
+        .section-title.tone-yolu { border-left-color: var(--accent); }
+        .section-title.tone-extra { border-left-color: var(--mark-bg); }
+        .section-title.tone-all { border-left-color: #FF5C8A; }
+
+        .section-meta {
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--text-3);
+        }
+
+        .section-side {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .section-progress {
+            font-size: 0.98rem;
+            font-weight: 500;
+            color: var(--accent-hover);
+        }
+
+        .reset-btn {
+            padding: 8px 18px;
+            font-size: 0.98rem;
+            font-family: inherit;
+            font-weight: 500;
+            border: 1.5px solid var(--danger);
+            border-radius: 999px;
+            background: var(--surface);
+            color: var(--danger);
+            cursor: pointer;
+            transition: background-color 0.2s ease, color 0.2s ease,
+                border-color 0.2s ease;
+        }
+
+        .reset-btn:hover:not(:disabled) {
+            background: var(--danger);
+            color: #FFFFFF;
+        }
+
+        .reset-btn:disabled {
+            color: var(--text-3);
+            border-color: var(--done-border);
+            background: transparent;
+            cursor: not-allowed;
+        }
+
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 36px;
+            transform: translate(-50%, 12px);
+            padding: 10px 18px;
+            border-radius: 10px;
+            background: var(--toast-bg);
+            color: var(--toast-text);
+            font-size: 1.02rem;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s ease, transform 0.25s ease;
+            z-index: 1200;
+            max-width: 86vw;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .toast.toast-visible {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+
+        .empty {
+            color: var(--text-3);
+            padding: 12px 0;
+        }
+
         .instructions {
-            margin-top: 30px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
+            margin-top: 36px;
+            padding: 20px 22px;
+            background: var(--bg-soft);
+            border: 1px solid var(--border);
+            border-left: 6px solid var(--mark-bg);
+            border-radius: 10px;
         }
-        
+
         .instructions h2 {
-            margin-bottom: 15px;
-            color: #4a6fa5;
-        }
-        
-        .instructions p {
+            font-size: 1.15rem;
+            font-weight: 600;
             margin-bottom: 10px;
-            line-height: 1.6;
+            color: var(--text);
         }
-        
+
+        .instructions p {
+            margin-bottom: 6px;
+            line-height: 1.75;
+            font-size: 1.02rem;
+            color: var(--text-2);
+        }
+
         footer {
             text-align: center;
-            padding: 20px;
-            color: #666;
-            font-size: 0.9rem;
-            border-top: 1px solid #eee;
+            padding: 28px 0 6px;
+            color: var(--text-3);
+            font-size: 0.98rem;
+            border-top: 1px solid var(--border);
+            margin-top: 36px;
         }
-        
-        .search-box {
-            margin: 20px 0;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        
-        .search-box input {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 1rem;
-        }
-        
+
         @media (max-width: 768px) {
-            .page-list {
-                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .subtitle {
-                font-size: 1rem;
-            }
-            
-            .page-link {
-                font-size: 1rem;
-                padding: 12px;
-            }
+            body { padding: 62px 14px 30px; }
+            h1 { font-size: 1.9rem; }
+            .page-list { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>百词斩英语6级高频词2902个</h1>
-            <p class="subtitle">选择单词单元开始学习</p>
+            <h1>六级词汇</h1>
+            <p class="subtitle" id="subtitle">选择一个词表开始学习</p>
         </header>
-        
+
         <div class="content">
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="搜索单词单元...">
-            </div>
-            
-            <div class="page-list" id="pageList">
-                <!-- 页面链接将在这里动态生成 -->
-            </div>
-            
+            <section class="series" id="seriesYolu">
+                <div class="section-head">
+                    <h2 class="section-title tone-yolu">
+                        优路六级
+                        <span class="section-meta" id="yoluMeta"></span>
+                    </h2>
+                    <div class="section-side">
+                        <span class="section-progress" id="yoluProgress"></span>
+                        <button type="button" class="reset-btn" id="yoluReset" disabled>一键重置</button>
+                    </div>
+                </div>
+                <div class="page-list" id="pageList"></div>
+            </section>
+
+            <section class="series" id="seriesExtra">
+                <div class="section-head">
+                    <h2 class="section-title tone-extra">
+                        百词斩
+                        <span class="section-meta" id="extraMeta"></span>
+                    </h2>
+                    <div class="section-side">
+                        <span class="section-progress" id="extraProgress"></span>
+                        <button type="button" class="reset-btn" id="extraReset" disabled>一键重置</button>
+                    </div>
+                </div>
+                <div class="page-list" id="extraList"></div>
+            </section>
+
+            <section class="series" id="seriesAll">
+                <div class="section-head">
+                    <h2 class="section-title tone-all">
+                        六级全部单词
+                        <span class="section-meta" id="allMeta"></span>
+                    </h2>
+                    <div class="section-side">
+                        <span class="section-progress" id="allProgress"></span>
+                        <button type="button" class="reset-btn" id="allReset" disabled>一键重置</button>
+                    </div>
+                </div>
+                <div class="page-list" id="allList"></div>
+            </section>
+
             <div class="instructions">
                 <h2>使用说明</h2>
-                <p>1. 点击上面的链接进入对应的单词学习页面</p>
-                <p>2. 在学习页面中，点击单词卡片查看中文翻译</p>
-                <p>3. 使用"返回首页"按钮可以回到本页面</p>
-                <p>4. 使用"下一个"按钮可以继续学习单词</p>
-                <p>5. 使用搜索框可以快速查找特定单元的单词</p>
+                <p>1. 点击上方任一词表进入学习页面，单词会随机散落在页面中。</p>
+                <p>2. 点击任意单词卡片可查看中文释义。</p>
+                <p>3. 在释义弹窗中点击"标记"，该词会变为荧光黄并常驻页面，方便反复记忆。</p>
+                <p>4. 页面最多同时保留 20 张未标记卡片，更早的卡片会自动淡出，标记的卡片不会被清理。</p>
+                <p>5. 底部"下一个"按钮，或键盘 → / 空格 / Enter 键可继续学习；"返回首页"或键盘 ← 键回到本页。</p>
+                <p>6. 一个单元的单词全部翻过一遍后，该按钮会转成浅绿并显示"✓ 已背过 · 可重背"，仍然可以点进去重背。</p>
+                <p>7. 每个栏目右上角各有一个"一键重置"，只清除本栏目的记录，不影响其他两个栏目。</p>
             </div>
         </div>
-        
+
         <footer>
-            <p>单词学习系统 &copy; 2023</p>
+            <p>共 <span id="totalWords">0</span> 词 / <span id="totalUnits">0</span> 个单元</p>
         </footer>
     </div>
-    
+
+    <script src="words/manifest.js"></script>
+    <script src="extra/manifest.js"></script>
+    <script src="all/manifest.js"></script>
+    <script src="words/progress.js"></script>
     <script>
-        // 生成所有Words页面链接（从1到29）
-        function generateAllWords() {
-            const words = [];
-            for (let i = 1; i <= 29; i++) {
-                words.push(`Words ${i}`);
+        const progress = window.CET6Progress;
+
+        /* ---------- 三个栏目：优路六级 / 百词斩 / 六级全部单词 ---------- */
+
+        // 三组单元 id 前缀不同（1..16、e1..e29、x1..x74），进度记录天然互不干扰
+        const series = [
+            {
+                key: 'yolu',
+                name: '优路六级',
+                sectionEl: 'seriesYolu',
+                listEl: 'pageList',
+                metaEl: 'yoluMeta',
+                progressEl: 'yoluProgress',
+                resetEl: 'yoluReset',
+                manifest: (typeof CET6_MANIFEST !== 'undefined') ? CET6_MANIFEST : null,
+                href: id => 'words/words' + id + '.html',
+                label: id => 'Word List ' + id
+            },
+            {
+                key: 'extra',
+                name: '百词斩',
+                sectionEl: 'seriesExtra',
+                listEl: 'extraList',
+                metaEl: 'extraMeta',
+                progressEl: 'extraProgress',
+                resetEl: 'extraReset',
+                manifest: (typeof EXTRA_MANIFEST !== 'undefined') ? EXTRA_MANIFEST : null,
+                href: id => 'extra/extra' + String(id).replace(/^e/, '') + '.html',
+                label: id => '第 ' + String(id).replace(/^e/, '') + ' 组'
+            },
+            {
+                key: 'all',
+                name: '六级全部单词',
+                sectionEl: 'seriesAll',
+                listEl: 'allList',
+                metaEl: 'allMeta',
+                progressEl: 'allProgress',
+                resetEl: 'allReset',
+                manifest: (typeof ALL_MANIFEST !== 'undefined') ? ALL_MANIFEST : null,
+                href: id => 'all/all' + String(id).replace(/^x/, '') + '.html',
+                label: id => '第 ' + String(id).replace(/^x/, '') + ' 单元'
             }
-            return words;
+        ];
+
+        series.forEach(s => {
+            s.units = (s.manifest && s.manifest.units) ? s.manifest.units : [];
+            s.sectionNode = document.getElementById(s.sectionEl);
+            s.list = document.getElementById(s.listEl);
+            s.metaNode = document.getElementById(s.metaEl);
+            s.progressNode = document.getElementById(s.progressEl);
+            s.resetNode = document.getElementById(s.resetEl);
+            s.active = s.units.length > 0;
+            // 某个词库没生成时整块隐藏，不留空标题
+            if (!s.active) s.sectionNode.style.display = 'none';
+        });
+
+        const activeSeries = series.filter(s => s.active);
+        const allUnits = activeSeries.reduce((acc, s) => acc.concat(s.units), []);
+
+        // 标题旁标出本栏目的规模：共 N 单元 · M 词
+        activeSeries.forEach(s => {
+            const words = s.units.reduce((n, u) => n + u.count, 0);
+            s.metaNode.textContent = '共 ' + s.units.length + ' 单元 · ' + words + ' 词';
+        });
+
+        const totalWords = allUnits.reduce((n, u) => n + u.count, 0);
+        document.getElementById('totalWords').textContent = totalWords;
+        document.getElementById('totalUnits').textContent = allUnits.length;
+        document.getElementById('subtitle').textContent =
+            '共 ' + allUnits.length + ' 个单元、' + totalWords + ' 个词';
+
+        /* ---------- 进度读取 ---------- */
+
+        function unitState(unit) {
+            if (!progress) return { seen: 0, done: false };
+            return {
+                seen: progress.seenCount(unit.id, unit.count),
+                done: progress.isDone(unit.id, unit.count)
+            };
         }
-        
-        // 所有Words页面
-        const allWords = generateAllWords();
-        let filteredWords = [...allWords];
-        
-        // 获取页面元素
-        const pageList = document.getElementById('pageList');
-        const searchInput = document.getElementById('searchInput');
-        
-        // 显示所有Words链接
-        function showWords() {
-            pageList.innerHTML = '';
-            
-            filteredWords.forEach(word => {
-                // 提取Words编号
-                const wordNumber = word.split(' ')[1];
+
+        function doneOf(item) {
+            return progress ? progress.doneCount(item.units) : 0;
+        }
+
+        // 每个栏目各自显示「已背过 N / M」，并把对应的重置按钮点亮
+        function renderProgress() {
+            activeSeries.forEach(s => {
+                const done = doneOf(s);
+                s.progressNode.textContent = done === 0
+                    ? '还没有背过'
+                    : '已背过 ' + done + ' / ' + s.units.length;
+                s.resetNode.disabled = done === 0;
+            });
+        }
+
+        /* ---------- 渲染 ---------- */
+
+        // 单元卡左侧色条按顺序循环，读起来有节奏，不至于一片白
+        const BAR_COLORS = ['#2563EB', '#FFD400', '#FF5C8A', '#22C55E', '#7C3AED'];
+
+        function renderSeries(item) {
+            item.list.innerHTML = '';
+            item.units.forEach((unit, i) => {
+                const state = unitState(unit);
+
                 const link = document.createElement('a');
-                link.className = 'page-link';
-                link.href = `words/words${wordNumber}.html`;
-                link.textContent = word;
-                
-                pageList.appendChild(link);
-            });
-        }
-        
-        // 初始化页面
-        function init() {
-            showWords();
-            
-            // 搜索功能
-            searchInput.addEventListener('input', () => {
-                const searchTerm = searchInput.value.toLowerCase();
-                
-                if (searchTerm === '') {
-                    filteredWords = [...allWords];
-                } else {
-                    filteredWords = allWords.filter(word => {
-                        return word.toLowerCase().includes(searchTerm);
-                    });
+                // 转绿只是样式，href 照旧保留，点进去就能重背
+                link.className = 'page-link' + (state.done ? ' is-done' : '');
+                link.href = item.href(unit.id);
+                link.style.setProperty('--bar', BAR_COLORS[i % BAR_COLORS.length]);
+
+                const title = document.createElement('span');
+                title.textContent = item.label(unit.id);
+                if (state.done) {
+                    const tick = document.createElement('span');
+                    tick.className = 'tick';
+                    tick.textContent = ' ✓';
+                    title.appendChild(tick);
                 }
-                
-                showWords();
+
+                const meta = document.createElement('small');
+                if (state.done) {
+                    meta.textContent = '已背过 · 可重背';
+                } else if (state.seen > 0) {
+                    meta.textContent = '已看 ' + state.seen + '/' + unit.count;
+                } else {
+                    meta.textContent = unit.count + ' 词';
+                }
+
+                link.appendChild(title);
+                link.appendChild(meta);
+                item.list.appendChild(link);
             });
         }
-        
-        // 页面加载完成后初始化
-        window.addEventListener('DOMContentLoaded', init);
+
+        function renderUnits() {
+            activeSeries.forEach(renderSeries);
+        }
+
+        // 重新渲染当前视图（单元列表 + 三个栏目的进度）
+        function refresh() {
+            renderUnits();
+            renderProgress();
+        }
+
+        /* ---------- 一键重置（每个栏目一个，只管本栏目） ---------- */
+
+        function showToast(text) {
+            let el = document.getElementById('pageToast');
+            if (!el) {
+                el = document.createElement('div');
+                el.id = 'pageToast';
+                el.className = 'toast';
+                document.body.appendChild(el);
+            }
+            el.textContent = text;
+            el.classList.add('toast-visible');
+            window.clearTimeout(showToast.timer);
+            showToast.timer = window.setTimeout(() => el.classList.remove('toast-visible'), 3000);
+        }
+
+        activeSeries.forEach(s => {
+            s.resetNode.addEventListener('click', () => {
+                const done = doneOf(s);
+                if (done === 0) return;
+                const ok = window.confirm(
+                    '确定要清除「' + s.name + '」的 ' + done + ' 个单元背词记录吗？\n' +
+                    '只影响本栏目，另外两个栏目的记录保持不变；清除后无法撤销。'
+                );
+                if (!ok) return;
+
+                progress.clearUnits(s.units.map(u => u.id));
+                refresh();
+                showToast('已重置「' + s.name + '」，其他栏目不受影响');
+            });
+        });
+
+        /* ---------- 回到本页时刷新进度 ---------- */
+
+        // 从学习页后退回来时，浏览器可能直接复用缓存页面（bfcache），
+        // 不重新执行脚本，所以要在 pageshow 里补一次渲染。
+        window.addEventListener('pageshow', () => refresh());
+
+        // 同一浏览器多标签页时，一个标签重置后另一个标签也跟着变
+        window.addEventListener('storage', (e) => {
+            if (!e.key || e.key === progress.KEY) refresh();
+        });
+
+        refresh();
     </script>
 </body>
 </html>
